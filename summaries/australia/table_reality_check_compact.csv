@@ -1,0 +1,13 @@
+phase,region,family,p_block_7,p_block_14,p_block_28
+validation,NSW1,four_processed_vs_raw,0.042495750425,0.041895810419,0.040495950405
+validation,QLD1,four_processed_vs_raw,0.017398260174,0.011098890111,0.00899910008999
+validation,SA1,four_processed_vs_raw,0.163683631637,0.159184081592,0.168083191681
+validation,TAS1,four_processed_vs_raw,9.99900009999e-05,9.99900009999e-05,9.99900009999e-05
+validation,VIC1,four_processed_vs_raw,9.99900009999e-05,9.99900009999e-05,9.99900009999e-05
+validation,five_assets_sum,all_3125_regional_rule_combinations,0.003899610039,0.002699730027,0.001799820018
+evaluation,NSW1,four_processed_vs_raw,0.003399660034,0.003899610039,0.004699530047
+evaluation,QLD1,four_processed_vs_raw,0.004399560044,0.00569943005699,0.00509949005099
+evaluation,SA1,four_processed_vs_raw,0.306469353065,0.287371262874,0.277172282772
+evaluation,TAS1,four_processed_vs_raw,0.00589941005899,0.00809919008099,0.00539946005399
+evaluation,VIC1,four_processed_vs_raw,0.028697130287,0.026897310269,0.029697030297
+evaluation,five_assets_sum,all_3125_regional_rule_combinations,9.99900009999e-05,0.000199980002,9.99900009999e-05

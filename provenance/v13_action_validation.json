@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-01T18:22:19.863191+00:00",
+  "scope": "fresh public entry all125 common states per history across5regions at3eps withallbinary MILPs; fullsaved7305/history thresholdrecount andoneSAphysicaloscillation case; originalsourcefull33monthlyrawreconstructionand20delayedreplays also included butnotfreshpublicgridvalidated",
+  "public_fresh_ranges": {
+    "receipt_relative_to_validation_root": "v13_action_ranges_1950/public_action_execution_receipt.json",
+    "receipt_sha256": "0bfd167c16197ab301e15fa9dc3e63ae3456b8b82059c9ebf5a6aabe2610677f",
+    "result": {
+      "status": "PASS",
+      "rows": 750,
+      "range_calculations": 1125,
+      "all_binary": true,
+      "max_primary_gap_aud": 5.684341886080802e-14,
+      "max_baseline_endpoint_difference_mw": 9.999999717180685e-10,
+      "nested_epsilon_violations_gt1e-6": 0,
+      "seconds": 24.236383299998124,
+      "fresh_scope": "125 common states per history; not all1461 per region"
+    },
+    "runtime": {
+      "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "numpy": "2.5.1",
+      "pandas": "3.0.5",
+      "scipy": "1.18.0",
+      "pyarrow": "25.0.0",
+      "solver": "SciPy bundled HiGHS via the preserved controller module"
+    }
+  },
+  "public_fresh_case": {
+    "receipt_relative_to_validation_root": "v13_action_case_1952/public_action_execution_receipt.json",
+    "receipt_sha256": "6fcfb1c36a52a901808c2c06a88057db80a373db85cd623b4dfe5540f5074081",
+    "status": "PASS"
+  },
+  "exact_reference_comparisons": [
+    {
+      "file": "material_threshold_full_sample.csv",
+      "same_values_and_order_exact": true,
+      "same_bytes": true
+    },
+    {
+      "file": "epsilon_material_subsample_counts.csv",
+      "same_values_and_order_exact": true,
+      "same_bytes": true
+    },
+    {
+      "file": "fixed_subsample_plan.csv",
+      "same_values_and_order_exact": true,
+      "same_bytes": true
+    },
+    {
+      "file": "epsilon_subsample_ranges.parquet",
+      "rows": 750,
+      "same_all_fields_exact": true,
+      "same_bytes": true
+    },
+    {
+      "file": "SA1_event178_oscillation_certificate.json",
+      "same_all_json_values_exact": true
+    }
+  ],
+  "source_delayed_fullgrid": {
+    "audit_sha256": "b53ca3ef34ddad0692784bd3f24f11d8a148342e4f92f357905f43cb4ee065a5",
+    "status": "PASS",
+    "replays": 20,
+    "origins_per_replay": 46741,
+    "public_fresh_full_grid_reexecuted": false
+  },
+  "core_scientific_manifest_unchanged_sha256": "e823b3ce48d50589cc80eaab6696a1de10837e00e50d962e226c07184fc0309d",
+  "v13_addition_manifest_sha256": "65d52eeb2305c499f540285a6c31b175a7f4ed3606c4cd3cdfae66809fba6638",
+  "scientific_action_script_sha256": "00f87a032ede7a7dd3605d298e82038f184e4c0c3fb0e9b086e2215fa6ab23a1",
+  "public_adapter_sha256": "d66d4c26843f7d940ab02dfe83bb25565cad69667da6f1dcc7aea4a057f2b509",
+  "linux_or_macos_executed": false,
+  "raw_zip_archives_uploaded": false,
+  "partial_monthly_logs_unpublished_writing_fragments_excluded": true,
+  "earlier_failed_attempt": {
+    "stage": "numerical ranges completed; receipt metadata import failed",
+    "cause": "unneeded highspy import; corrected to SciPy bundled HiGHS description without installation",
+    "final_corrected_adapter_rerun_in_fresh_directory": true
+  },
+  "public_copy_metadata_normalization": {
+    "fields_changed": 20,
+    "field": "trajectory_path",
+    "all_scientific_values_and_other_fields_exact": true,
+    "original_research_jsons_unmodified": true,
+    "updated_manifest_sha256": "65d52eeb2305c499f540285a6c31b175a7f4ed3606c4cd3cdfae66809fba6638",
+    "manifest_sha256_at_public_fresh_execution": "ee40ca4d4158f1522edd73a4c79603f01024ea0a045c3413117abe72c4ad6da1",
+    "fresh_run_inputs_and_scientific_modules_unchanged": true
+  }
+}

@@ -1,0 +1,7 @@
+accounting,block_days,sparse_absorption,percentile_ratio_lo,percentile_ratio_hi,nonpositive_denominator_share,interpretation
+interior_cash,7,0.763127122824,0.470084556012,1.43645594491,0,"joint conditional descriptive ratio, not a probability; non-rejection is not equivalence"
+marked_nominal,7,0.765076132452,0.471580653986,1.44132593509,0,"joint conditional descriptive ratio, not a probability; non-rejection is not equivalence"
+interior_cash,14,0.763127122824,0.466700737327,1.40234792706,0,"joint conditional descriptive ratio, not a probability; non-rejection is not equivalence"
+marked_nominal,14,0.765076132452,0.468147910654,1.40800960202,0,"joint conditional descriptive ratio, not a probability; non-rejection is not equivalence"
+interior_cash,28,0.763127122824,0.459828580466,1.48074532758,0,"joint conditional descriptive ratio, not a probability; non-rejection is not equivalence"
+marked_nominal,28,0.765076132452,0.461226121168,1.48607982086,0,"joint conditional descriptive ratio, not a probability; non-rejection is not equivalence"

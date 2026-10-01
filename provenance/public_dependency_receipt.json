@@ -1,0 +1,23 @@
+{
+  "status": "DEPENDENCIES_ACTUALLY_IMPORTED; SCOPED_PUBLIC_SMOKE_ORACLE_DIRECT_TESTS_PASS",
+  "utc": "2026-10-01T17:07:29.626436+00:00",
+  "numeric_runtime": {
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "pyarrow": "25.0.0",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "scientific_source_file_count": 27,
+  "frozen_dataset_file_count": 303,
+  "frozen_dataset_bytes": 1149951158,
+  "package_manifest_sha256": "e823b3ce48d50589cc80eaab6696a1de10837e00e50d962e226c07184fc0309d",
+  "data_manifest_sha256": "c380498bc586f05be20acd9c64618f3f48d5c175380d13ec4c858dde8032bcf5",
+  "dataset_selection_sha256": "3c6fc31581672e849235ddfdffc1324e835a10befac37839519e8af08840b1ee",
+  "script_changes_sha256": "53d86ed90869c587f0c8c6d01ae91da7cde55a9aac49b93e438cea5ad0c413f7",
+  "scope": "Dependency versions are actual imports, not proof of full task execution. Historical scientific code AST syntax checked; only requested fresh small numerical checks will be claimed after success.",
+  "validation_manifest": "provenance/public_validation.json",
+  "validation_sha256": "1f4fb9ce857d433ead6e694e7ec57c0d08eed9283aed59ede64d4ce8fcd1dea3"
+}

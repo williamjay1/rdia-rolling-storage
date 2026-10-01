@@ -1,0 +1,15 @@
+arm,policy,forecast_targets,available_forecast_targets,mae_cad_mwh,rmse_cad_mwh,scope
+operator_short,raw,13104,13077,10.808610537585073,28.477210676864782,descriptive prediction accuracy only; source vintages differ between arms
+operator_short,current_shrink_a025,13104,13077,10.72841247992659,27.49506132698244,descriptive prediction accuracy only; source vintages differ between arms
+operator_short,current_shrink_a050,13104,13077,10.734591776911115,26.85030518503429,descriptive prediction accuracy only; source vintages differ between arms
+operator_short,current_smooth_a025,13104,13077,10.751422758787692,27.77345758348123,descriptive prediction accuracy only; source vintages differ between arms
+operator_short,current_smooth_a050,13104,13077,10.743154074583876,27.261730516480014,descriptive prediction accuracy only; source vintages differ between arms
+operator_short,sparse_equal,13104,13094,10.398193574665243,25.96725743736308,descriptive prediction accuracy only; source vintages differ between arms
+operator_short,inverse_lead,13104,13094,10.497000017357013,26.478426342679693,descriptive prediction accuracy only; source vintages differ between arms
+researcher_12h,raw,52416,52416,14.619372444451342,23.67977950753044,descriptive prediction accuracy only; source vintages differ between arms
+researcher_12h,current_shrink_a025,52416,52416,14.040174648171941,23.312408902804048,descriptive prediction accuracy only; source vintages differ between arms
+researcher_12h,current_shrink_a050,52416,52416,13.745512483290504,23.186328931807143,descriptive prediction accuracy only; source vintages differ between arms
+researcher_12h,current_smooth_a025,52416,52416,14.559009561636254,23.635727744672625,descriptive prediction accuracy only; source vintages differ between arms
+researcher_12h,current_smooth_a050,52416,52416,14.506972429386943,23.599294687851827,descriptive prediction accuracy only; source vintages differ between arms
+researcher_12h,sparse_equal,52416,52416,14.741089174255894,23.728607247533287,descriptive prediction accuracy only; source vintages differ between arms
+researcher_12h,inverse_lead,52416,52416,14.724295089078208,23.71940216421863,descriptive prediction accuracy only; source vintages differ between arms

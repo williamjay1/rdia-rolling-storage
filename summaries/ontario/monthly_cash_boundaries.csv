@@ -1,0 +1,25 @@
+arm,history,month,days,history_minus_raw_cash_cad_per_day,history_minus_selected_cash_cad_per_day,current_minus_raw_cash_cad_per_day,scope
+operator_short,sparse_equal,2024-02,29.0,-1.1483066669580966,-3.0948033800496026,1.9464967130915076,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,sparse_equal,2024-03,31.0,-0.9963457454831456,-2.4536019402841487,1.4572561948010048,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,sparse_equal,2024-04,30.0,4.386731772469051,-2.1333878569427798,6.5201196294118295,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,sparse_equal,2024-05,31.0,-0.7038619658155947,2.556550799768151,-3.260412765583745,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,sparse_equal,2024-06,30.0,-0.062086609028924995,-2.865904422455007,2.803817813426082,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,sparse_equal,2024-07,31.0,0.9240028730939984,7.498877386095442,-6.5748745130014425,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,inverse_lead,2024-02,29.0,-0.7236485301078871,-2.6701452431993937,1.9464967130915076,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,inverse_lead,2024-03,31.0,-1.3095913015334506,-2.766847496334454,1.4572561948010048,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,inverse_lead,2024-04,30.0,2.8276658058996067,-3.6924538235122215,6.5201196294118295,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,inverse_lead,2024-05,31.0,1.0763618416132974,4.336774607197042,-3.260412765583745,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,inverse_lead,2024-06,30.0,4.197128082541781,1.393310269115698,2.803817813426082,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+operator_short,inverse_lead,2024-07,31.0,0.8614447505352795,7.436319263536718,-6.5748745130014425,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,sparse_equal,2024-02,29.0,-1.4203915141474295,-1.2951789246188425,-0.1252125895285877,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,sparse_equal,2024-03,31.0,0.3821954594966609,-1.6635861583823504,2.0457816178790105,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,sparse_equal,2024-04,30.0,2.059620973093121,-0.27996241123197485,2.3395833843250955,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,sparse_equal,2024-05,31.0,-0.4327437344665773,-0.4327176981077989,-2.6036358778680155e-05,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,sparse_equal,2024-06,30.0,-0.6256729026983251,-3.055096463791506,2.4294235610931807,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,sparse_equal,2024-07,31.0,0.9786618130303055,8.945889451313361,-7.967227638283055,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,inverse_lead,2024-02,29.0,-1.5043081364345807,-1.3790955469059931,-0.1252125895285877,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,inverse_lead,2024-03,31.0,-0.025197107908351286,-2.0709787257873624,2.0457816178790105,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,inverse_lead,2024-04,30.0,-1.5850248810021361,-3.9246082653272314,2.3395833843250955,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,inverse_lead,2024-05,31.0,0.6072739583891684,0.6072999947479482,-2.6036358778680155e-05,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,inverse_lead,2024-06,30.0,1.5737018094099475,-0.8557217516832335,2.4294235610931807,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset
+researcher_12h,inverse_lead,2024-07,31.0,-3.250030399317441,4.717197238965614,-7.967227638283055,cash contributions on same continuous trajectory; endpoint inventory marks excluded; no monthly SOC reset

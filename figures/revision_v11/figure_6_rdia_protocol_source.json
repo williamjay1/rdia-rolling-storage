@@ -1,0 +1,352 @@
+{
+  "name": "figure_6_rdia_protocol",
+  "width_mm": 160,
+  "height_mm": 90.0,
+  "raster_dpi": 1200,
+  "vector_formats": [
+    "pdf",
+    "svg"
+  ],
+  "inputs": [],
+  "source_data": {
+    "steps": [
+      {
+        "title": "Define the comparison",
+        "body": [
+          "Replaceable input blocks",
+          "Common feasible set and clock"
+        ]
+      },
+      {
+        "title": "Choose a comparator",
+        "body": [
+          "Attainable prior-selected rule",
+          "Fix controller and accounting"
+        ]
+      },
+      {
+        "title": "Layer A: input allocation",
+        "body": [
+          "Four chronological replays",
+          "T + C = D; each carries stock"
+        ]
+      },
+      {
+        "title": "Layer B: action response",
+        "body": [
+          "Common-state outer ranges",
+          "Tolerance; overlap inconclusive"
+        ]
+      },
+      {
+        "title": "Layer C: updating branches",
+        "body": [
+          "First-only versus sustained use",
+          "Failures; no summing windows"
+        ]
+      },
+      {
+        "title": "Report value and costs",
+        "body": [
+          "Comparator-specific value",
+          "Adoption needs measured costs"
+        ]
+      }
+    ]
+  },
+  "axes_rectangles_pt": [
+    [
+      0.0,
+      0.0,
+      453.5433070866142,
+      255.1181102362205
+    ]
+  ],
+  "alignment_groups": [],
+  "rendered_text_artists": [
+    {
+      "text": "1",
+      "font_pt": 10.0,
+      "bbox_pt": [
+        29.480314960629926,
+        219.811554195374,
+        35.00031496062992,
+        229.19631982037404
+      ]
+    },
+    {
+      "text": "Define the comparison",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        47.62204724409449,
+        220.267813960999,
+        146.0220472440945,
+        228.740060054749
+      ]
+    },
+    {
+      "text": "Replaceable input blocks",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        29.480314960629926,
+        204.45049112635334,
+        130.28031496062994,
+        212.92273722010336
+      ]
+    },
+    {
+      "text": "Common feasible set and clock",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        29.480314960629926,
+        192.21780035063975,
+        156.20031496062992,
+        200.66408941313975
+      ]
+    },
+    {
+      "text": "2",
+      "font_pt": 10.0,
+      "bbox_pt": [
+        260.7874015748032,
+        219.811554195374,
+        266.3074015748032,
+        229.19631982037404
+      ]
+    },
+    {
+      "text": "Choose a comparator",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        278.9291338582677,
+        220.267813960999,
+        372.5291338582677,
+        228.740060054749
+      ]
+    },
+    {
+      "text": "Attainable prior-selected rule",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        260.7874015748032,
+        204.45049112635334,
+        376.70740157480316,
+        212.92273722010336
+      ]
+    },
+    {
+      "text": "Fix controller and accounting",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        260.7874015748032,
+        192.20482183501477,
+        377.1874015748032,
+        200.67706792876476
+      ]
+    },
+    {
+      "text": "3",
+      "font_pt": 10.0,
+      "bbox_pt": [
+        260.7874015748032,
+        148.37848332923227,
+        266.3074015748032,
+        157.7632489542323
+      ]
+    },
+    {
+      "text": "Layer A: input allocation",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        278.9291338582677,
+        148.83474309485726,
+        385.3953838582677,
+        157.30698918860725
+      ]
+    },
+    {
+      "text": "Four chronological replays",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        260.7874015748032,
+        133.0174202602116,
+        367.3474015748032,
+        141.4896663539616
+      ]
+    },
+    {
+      "text": "T + C = D; each carries stock",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        260.7874015748032,
+        120.78472948449804,
+        379.1861515748032,
+        129.23101854699806
+      ]
+    },
+    {
+      "text": "4",
+      "font_pt": 10.0,
+      "bbox_pt": [
+        29.480314960629926,
+        148.37848332923227,
+        35.00031496062992,
+        157.7632489542323
+      ]
+    },
+    {
+      "text": "Layer B: action response",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        47.62204724409449,
+        148.83474309485726,
+        156.5820472440945,
+        157.30698918860725
+      ]
+    },
+    {
+      "text": "Common-state outer ranges",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        29.480314960629926,
+        133.0174202602116,
+        143.48031496062993,
+        141.4896663539616
+      ]
+    },
+    {
+      "text": "Tolerance; overlap inconclusive",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        29.480314960629926,
+        120.77175096887305,
+        155.68281496062994,
+        129.24399706262304
+      ]
+    },
+    {
+      "text": "5",
+      "font_pt": 10.0,
+      "bbox_pt": [
+        29.480314960629926,
+        76.94541246309056,
+        35.00031496062992,
+        86.33017808809055
+      ]
+    },
+    {
+      "text": "Layer C: updating branches",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        47.62204724409449,
+        77.40167222871555,
+        168.1020472440945,
+        85.87391832246556
+      ]
+    },
+    {
+      "text": "First-only versus sustained use",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        29.480314960629926,
+        61.58434939406988,
+        155.24031496062995,
+        70.05659548781988
+      ]
+    },
+    {
+      "text": "Failures; no summing windows",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        29.480314960629926,
+        49.3386801027313,
+        153.80031496062995,
+        57.810926196481304
+      ]
+    },
+    {
+      "text": "6",
+      "font_pt": 10.0,
+      "bbox_pt": [
+        260.7874015748032,
+        76.94541246309056,
+        266.3074015748032,
+        86.33017808809055
+      ]
+    },
+    {
+      "text": "Report value and costs",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        278.9291338582677,
+        77.40167222871555,
+        379.24913385826767,
+        85.87391832246556
+      ]
+    },
+    {
+      "text": "Comparator-specific value",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        260.7874015748032,
+        61.58434939406988,
+        366.6274015748032,
+        70.05659548781988
+      ]
+    },
+    {
+      "text": "Adoption needs measured costs",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        260.7874015748032,
+        49.3386801027313,
+        391.1074015748032,
+        57.810926196481304
+      ]
+    },
+    {
+      "text": "Static certificates anchor layer B.",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        160.1716535433071,
+        14.387499000369091,
+        293.3716535433071,
+        22.85974509411909
+      ]
+    },
+    {
+      "text": "Layer C measures consequences outside those bounds.",
+      "font_pt": 9.0,
+      "bbox_pt": [
+        112.89165354330709,
+        2.9071840397391733,
+        340.6516535433071,
+        11.379430133489173
+      ]
+    }
+  ],
+  "design": "Six-step schematic in a two-column serpentine sequence; connectors restricted to empty gutters.",
+  "status": "exported; fresh PDF geometry and visual QA required",
+  "exports": [
+    {
+      "path": "figures/revision_v11/figure_6_rdia_protocol.pdf",
+      "sha256": "f0607d949a60269941ae20c73b058b60d035eb59bafffe46ea61104c82482239",
+      "bytes": 46263
+    },
+    {
+      "path": "figures/revision_v11/figure_6_rdia_protocol.svg",
+      "sha256": "2215b170f2114223eda2fae42ee7484c4f0cb145b8a597bd2ab7a99512b18af8",
+      "bytes": 11342
+    },
+    {
+      "path": "figures/revision_v11/figure_6_rdia_protocol.png",
+      "sha256": "be149b41a0903c296d5c07d03b2f06d334575b8d3dcba0a2bc680b5ac5a9cd0c",
+      "bytes": 691628
+    },
+    {
+      "path": "figures/revision_v11/figure_6_rdia_protocol.tiff",
+      "sha256": "4abb140612305a7a5a00f534019235cd9886a46e083c94603614682dcfad8fdd",
+      "bytes": 1895470
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "status": "path-only public adaptations; mathematical algorithm unchanged",
+  "copied_from_snapshot_manifest_sha256": "98ba26114c0673579df17e18cd576a4f9ab7a740ec1e0e65ac2041a01673b9d7",
+  "scripts": [
+    {
+      "path": "scripts/nem_price_limits.py",
+      "original_sha256": "f5d9941fc8b6156819c0cd4a551419bc12a09ec0e6ad64324d12e8f29903d56f",
+      "published_sha256": "f5d9941fc8b6156819c0cd4a551419bc12a09ec0e6ad64324d12e8f29903d56f",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v4_forecast_models.py",
+      "original_sha256": "81f730dec1a05d72ca0efb9ac5808f7c98ae78daf81b772ae9b0568ba6cb52ef",
+      "published_sha256": "81f730dec1a05d72ca0efb9ac5808f7c98ae78daf81b772ae9b0568ba6cb52ef",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v5_control_aggregate.py",
+      "original_sha256": "b2fdae73e737c8ca0e2eda180efe7e876be57c7d2fbf6bbd0e9b21cdd9c4f5c8",
+      "published_sha256": "b2fdae73e737c8ca0e2eda180efe7e876be57c7d2fbf6bbd0e9b21cdd9c4f5c8",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v5_control_diagnostics.py",
+      "original_sha256": "5bc0d7812475dc4ef65b0b589f9a74f1c05b0ef2160c499dc348168281210e5c",
+      "published_sha256": "5bc0d7812475dc4ef65b0b589f9a74f1c05b0ef2160c499dc348168281210e5c",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v5_control_enumerated_policy.py",
+      "original_sha256": "f482b3d85e39a693537163df99c222f066c606c9ea172ae98d9421057d312fa9",
+      "published_sha256": "f482b3d85e39a693537163df99c222f066c606c9ea172ae98d9421057d312fa9",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v5_control_replays.py",
+      "original_sha256": "069637abbf0f01fe3a99f3af08c55b9096f156487e3b52e3de01fb6913551b47",
+      "published_sha256": "069637abbf0f01fe3a99f3af08c55b9096f156487e3b52e3de01fb6913551b47",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v5_control_safe_policy.py",
+      "original_sha256": "a268c084f5cd0b8125686ef1a6b631ac06f4887205f969298ab9ba9ac307ee23",
+      "published_sha256": "a268c084f5cd0b8125686ef1a6b631ac06f4887205f969298ab9ba9ac307ee23",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v5_control_scaled_policy.py",
+      "original_sha256": "5c10e7bcac01a6b024f08f75b29977ca7421fc3be8f761ab222b5d0d713d6399",
+      "published_sha256": "5c10e7bcac01a6b024f08f75b29977ca7421fc3be8f761ab222b5d0d713d6399",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v5_control_solver.py",
+      "original_sha256": "ddaa51a7ba42d41db14a1ffc389910e866ef88b4dc5e20977d58c8b85b130317",
+      "published_sha256": "ddaa51a7ba42d41db14a1ffc389910e866ef88b4dc5e20977d58c8b85b130317",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v5_event_rolling.py",
+      "original_sha256": "786196c1355ee77b87405420bcd309b86c629633321f1f843ad877e99d36ff02",
+      "published_sha256": "786196c1355ee77b87405420bcd309b86c629633321f1f843ad877e99d36ff02",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v6_attribution.py",
+      "original_sha256": "eab8f89e9f18c6c6ed26191be77fd0444d0d77580850fb7ef6097f0979402445",
+      "published_sha256": "eab8f89e9f18c6c6ed26191be77fd0444d0d77580850fb7ef6097f0979402445",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v6_compute.py",
+      "original_sha256": "4beaf40e48624632ac8072ef33c5394845899952d96f1092cb1ae0d4d15e633d",
+      "published_sha256": "4beaf40e48624632ac8072ef33c5394845899952d96f1092cb1ae0d4d15e633d",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v6_extra.py",
+      "original_sha256": "ee260539d93a88b73da8e1c952983f3aef799ff02e690c37299cd7fb66ce9226",
+      "published_sha256": "ee260539d93a88b73da8e1c952983f3aef799ff02e690c37299cd7fb66ce9226",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v6_portable_frozen_replay.py",
+      "original_sha256": "5f73c52f439188072de829f031048ab89026a543ef3d63c955a81d1b0f5420fd",
+      "published_sha256": "5f73c52f439188072de829f031048ab89026a543ef3d63c955a81d1b0f5420fd",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v6_walkforward_complete.py",
+      "original_sha256": "b5fc50882cd2a2ccf89d008c37c794b4855db0299085c5e607c9b829c6b7ba25",
+      "published_sha256": "b5fc50882cd2a2ccf89d008c37c794b4855db0299085c5e607c9b829c6b7ba25",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v7_statistics.py",
+      "original_sha256": "96be68681419bcb2d7882e669b85fc6f334c85b97f43fbe24305f20365379f7d",
+      "published_sha256": "96be68681419bcb2d7882e669b85fc6f334c85b97f43fbe24305f20365379f7d",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v7_synthetic.py",
+      "original_sha256": "93c6d5fd83ff84262126ff464743181cc3ed5e555b1eac2c916b63d505adc670",
+      "published_sha256": "93c6d5fd83ff84262126ff464743181cc3ed5e555b1eac2c916b63d505adc670",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v8_direct_tests.py",
+      "original_sha256": "dee8fd9916ccea9e814f7d259c169b6917f28364da04d32c5fa71f0238a14758",
+      "published_sha256": "dee8fd9916ccea9e814f7d259c169b6917f28364da04d32c5fa71f0238a14758",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v8_spo.py",
+      "original_sha256": "6aff0124428c4c024c478e3fcfc81e236470e6ed43b2a8c40cbbd23e034a5ea7",
+      "published_sha256": "0186ffed149bbfe5bff7d064847120a11353a6174381a7c928799a60f588bf08",
+      "modifications": [
+        "Only two path adaptations: explicit AOOR_DATA_ROOT locates the frozen feature parquet; free-space query follows fresh output path. Equations, controller, samples, seeds, training, selection, tolerances unchanged; D_free_bytes schema key retained."
+      ]
+    },
+    {
+      "path": "scripts/revision_v8_spo_audit.py",
+      "original_sha256": "b472a50a3542a951e154ba3e32e623c6142f51c29fc882993d1924e5788b8e73",
+      "published_sha256": "b472a50a3542a951e154ba3e32e623c6142f51c29fc882993d1924e5788b8e73",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v8_spo_reproduce.py",
+      "original_sha256": "870bfae01cd5f215f774c07253b67d63e63d38561384f102c8ef0c738a91b9f6",
+      "published_sha256": "870bfae01cd5f215f774c07253b67d63e63d38561384f102c8ef0c738a91b9f6",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    },
+    {
+      "path": "scripts/revision_v8_theory_checks_v2.py",
+      "original_sha256": "aaccc9dee6d9f981c91503f9eb5b2808206edce5472add74d8b13ad7f23e8bd5",
+      "published_sha256": "aaccc9dee6d9f981c91503f9eb5b2808206edce5472add74d8b13ad7f23e8bd5",
+      "modifications": [
+        "Copied byte-for-byte; portable entry configures paths at runtime."
+      ]
+    }
+  ],
+  "json_path_sanitization": [
+    {
+      "path": "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
+      "original_sha256": "b497bf9cdae054546517af5e61bc5883b4739b755cd7effcab0587d472352a44",
+      "published_sha256": "aa25c0f055f9870d1951e1fbfdf2801b07e0058a1ca54237e25bcaf5553309dd",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
+      "original_sha256": "6576a41314d3ac6d7f4306826e540dfcfe2c1c8c3cda3abaa607b60fcb5c928d",
+      "published_sha256": "e9a4611303b350a2f890c213462038e86c0a0ee1bb9b68a4dedfed7cb78b538c",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
+      "original_sha256": "f3a66f8b7659cf04607f943c54790a2100a8a0eb04b1aa1c30f1c04c72d54107",
+      "published_sha256": "d4a2719bbd5d1a3c3087f0cc7182eb4fe7a964d39af38d46fd6ec10d1e349e40",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
+      "original_sha256": "ea2c2c1d61ac4ae24fe186e6e150e14233671d35113db6748bdae4c55d47b881",
+      "published_sha256": "3f78c729ad72309a7774d10fa808f9e7258d42de8fcb94ef42df6aedc1138dbf",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
+      "original_sha256": "a5f75a0e5539a9e7365d50c343832361ccc887d10429361866bedcd2acfd3f13",
+      "published_sha256": "f3bb964cac21a79e4a2e800dcf7690ec6fdf17a10ad51e5f6d9b3c35e238c0d2",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
+      "original_sha256": "4fe536b669dfc1ab428e96a6fa7b2c85a132a394553fddce7fb70cce5db0e6f5",
+      "published_sha256": "69736c587bf3e899d823ef7178faa271cf870a319b58b7e5f17aa28da8006216",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
+      "original_sha256": "977a21f528c151673dd30f338bb3a8ddc0fc8c63faf1690102d623137b47a047",
+      "published_sha256": "ca04b62ef9f2ad7f2086437a8d46a10405f66daa375ca3af84e913780b925d81",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
+      "original_sha256": "090194927beea071a0d6e82c303019d182b8cea8f197706135762ea80619e155",
+      "published_sha256": "a5768b8dfd83c42313d30abc585c85c3865eb36b72c4c8ec621aacac2e8f9373",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
+      "original_sha256": "3a32990a07c7daad918f52b7408269991d0fe062c3aba13d9e89509b9fe7000b",
+      "published_sha256": "cd90d7f74fccfa6819573a9e4fe6144b3ea93f3818f44ef733612b1c3e3fcbe1",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
+      "original_sha256": "1cdae43e418277fbb08f074f2623e9cb99b545c00172e6d496f317762514f23b",
+      "published_sha256": "1a171be8e57db78450c3d1f35b09479751d0e8995bf920100aa52a6c36bc4a58",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
+      "original_sha256": "4a58941be0332302f1a3689989a101bd7ca276f2cdf309b6de21623498c7b6db",
+      "published_sha256": "508389455f90d4a4198078b51e9fc678c8f1011843bbf0decdef8bc24ded1ff4",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
+      "original_sha256": "2bc537f31c0cf87ccf6ea8c3d966e8c26f0264c89486b33c584a7a2448397e7b",
+      "published_sha256": "b0ac594633ff56648ed65ff2c9ce8b5ed4da9cacc531008cffa2f166c6b750e2",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
+      "original_sha256": "57b543643cbdd7f1e1d312b45cb094071b7889f6644736f06ee405be7db1bff1",
+      "published_sha256": "81cc31065adf3c95a67c74e8227ddb491f137f2fa36ccc27a6693a814860e33c",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
+      "original_sha256": "9850e0c21249e27dd891421e7495732e4184638a5cdd9178447bc9691791ed46",
+      "published_sha256": "5432071a823f7bdee7bfeaaabb4bff57a9a86226d077b9028934256a866b9268",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
+      "original_sha256": "36b54947d6e40f5e9561501916061e5baf38147a2533c7a9352fd70da24ae29e",
+      "published_sha256": "d5b3e71a81317df802770874847587e1accf5b239cd55593baf2e5d6be5c7a15",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
+      "original_sha256": "7a53df8ec7236d3c80e337dd0d179f705999b6a276e6fa236b6728b4a09e3a0c",
+      "published_sha256": "cbdf7cbb77ee024164e36bde8043fe3d490ee33e6cf2ae8a0a84251e9f8e233a",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
+      "original_sha256": "ed5c69382a87be1ed050a8ffc62c280ab787ef729fb5b33a4d31d22b88d27e39",
+      "published_sha256": "8ac4e8b06420a740d2b4159c4aa9f1b8ce5bc87c5d865557c204633718dbff0f",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
+      "original_sha256": "b0c617a267e525918f316402787d7eaec9884deed9cadcc6e4b595b75c28eb86",
+      "published_sha256": "a6dae786929bc3ee2c5c9d3ea9d5c1484137ce82b20bb314a016d7bb0e94fc1c",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
+      "original_sha256": "cf990b0c3e3c6c8bcf444f0897a6bbee644bc7e3b1a45a946e00a6f8da62331d",
+      "published_sha256": "909e937e68d1b6ebc377f93c868304c1b75a76c47cffcf3272d39efe5299f8f3",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
+      "original_sha256": "e8aa02f47ab8c17d0951ae4d00a434106a892e9b22a19f8729d51f79805ee54e",
+      "published_sha256": "26b0c9b5c1f1e52e622708e7d518e5a0f9177169fa5792bd7831279602ff2807",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_current_only_selection.json",
+      "original_sha256": "a2c4bdb48fdb75e815b65463665d84b961dd2a5632e5a2aa617939a7dd1b2939",
+      "published_sha256": "b168258c5db34cf960df3cac2d408af1b7e56b1eab0104bdf12ce4fe24a3a2de",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a025.json",
+      "original_sha256": "4c4573e3f438e9d7fce7d71118cdb4233ae30f2cdb098f6a9daf950a38ed0d24",
+      "published_sha256": "43d5e166de7a77d3e1efb915fd61ee9932acfd9a3c47caebf15e1516fc291b1a",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a050.json",
+      "original_sha256": "0c4f43f5e16001e8c4966eb0b68f0be27e4943891edb72aad91872404450f869",
+      "published_sha256": "f80491440a19828417d42b14ae7dd988f99001d8e8687c154538fa2b580789b9",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a025.json",
+      "original_sha256": "058126d986aef997df912e7e8cc0f18a73f2bc5a2f08a9343585cf41510862b9",
+      "published_sha256": "b406fc79b435408e3a08c362d8cfb4e21c5d9e2c09f0f02cbce6a7b8c110ca27",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a050.json",
+      "original_sha256": "c5eeb38e76c9f835ac2e949bc46efd01fd8ba18278cfd5c8c973243d2abd49d1",
+      "published_sha256": "8c58695f1e9229829d2901b84d28979b32044aa2573f0db0da8da5a2f327f242",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_walkforward_complete.json",
+      "original_sha256": "550aace8dc504143ae9962a6b338d086cfee49f5ad6c4196a83f7ea4a7c72084",
+      "published_sha256": "7e4515d0a774608db09c7ff7e272c7a0d47f53a39233f67d233b828c7d7efafa",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_inverse_lead.json",
+      "original_sha256": "096c9fa2c91d78c2007079553313c0e7029bb28401c26405ea1512ff1e697b34",
+      "published_sha256": "6c5d816e1ec84ae3ea0b8a565c56486c5bd2f76fcc6a55ef3b1d707e58ba0d6c",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_raw.json",
+      "original_sha256": "930bd31cc939c235da26eb54ce3b7c0c8f9cc24b4620aa31c9e3c750ad82f40d",
+      "published_sha256": "5a8457e85edaf3f6f7273867785b570e31aba6ef853eb18575bf9a31ddc14fb4",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_sparse_equal.json",
+      "original_sha256": "12a76676c286f0f0fd0347956b35d3fc329242ef5d5de02eea232ef49150bcec",
+      "published_sha256": "1ac92024fe2f4df44fed49d6e207e527885c2e45bf3afa5370782c1c7d3da637",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a025.json",
+      "original_sha256": "7dbe6c299a8f7f56125e5b58b63f2c21d034279174cafff53425d1be28660bd9",
+      "published_sha256": "0c3424217dd8de39f26eb845c1aa77e6116da4d9dbedd5da0e016bc41d498b69",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a050.json",
+      "original_sha256": "cc19b6a62cd368d39aa4d616d3e522adc6c28652a574bf0d68fe5c886dfda112",
+      "published_sha256": "d4f12356eabaf619af8e128230893ac41b35bc5f318d216e95d1e0f09b37d56f",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a025.json",
+      "original_sha256": "7527bf4b66d277fa1d199c1686f7d96b710af1bace3676c070abca5a34a2923b",
+      "published_sha256": "7d9fe7a210405a1dbbe7b371384c17d85e55ef2b5dfbf3273e143f76be0818df",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a050.json",
+      "original_sha256": "1f44874feade489588684d7fbd03c00a11eb456f1391d6e0e9a3d77280e25564",
+      "published_sha256": "be086bc8e2ec74c557660e47c77f1620462a4c65928e2933d462ccb3a2b0444d",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_raw.json",
+      "original_sha256": "2e6ff1b091c364b2541890634026f52cd6d018936c99f418268bbc936bb441f9",
+      "published_sha256": "876715867b7dc96a94cbc004ff7bff8111b02bd435837735d9b8f846f5431ae0",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_current_only_selection.json",
+      "original_sha256": "06e0f980f4ee41294a6a0e9835987a74f9ffb895a208745b85af240a938766e1",
+      "published_sha256": "9f0906f7ee70f816fe87bfc91e676fc3e26cf559c2845e22309bbaa19f5621dd",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a025.json",
+      "original_sha256": "8a3244acc9147090320d6f21e1cc28b768b7eddfd5b6ca2c7996cec63b982221",
+      "published_sha256": "55f4e18a7e8ebfd68c2d50762a3874d2e0a9e4ff8e45909416af761d53507503",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a050.json",
+      "original_sha256": "bd7703320c7c282989a9ca75f31b474951bdbf09198eb51076cfbd3fe388e6c4",
+      "published_sha256": "4af47012a9be6edc3794ae6f5857d6cc4853af075bd39819e0ede6c92620c868",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a025.json",
+      "original_sha256": "1cd71fe9f27b25faeca442dc2434d9c01ca0b81e82afecf9f4e72336ca180d14",
+      "published_sha256": "50180e4f9d7b45988289df964fdbdc21d9aa3374b8fb66fdb500820d9505e247",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a050.json",
+      "original_sha256": "819307e4ba03bf85f47e2502b67312c145a9d6485995f7a159409cc86e03919e",
+      "published_sha256": "7e140eb17d3df0ab09c5bef2bfacda95b35a00973b92bec2f7662602efcab7ca",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_walkforward_complete.json",
+      "original_sha256": "5e41ea07e346453571c161dfe4901b4db549aad06cd8703c1986c0e01d2fe6ba",
+      "published_sha256": "ff6ac44794dbc1efb9ad4bfe8a050ee80404fb71b4e8c770483d982adaaabcca",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_inverse_lead.json",
+      "original_sha256": "e261071d1fca28240c25242aecdcdcbcd3d6d8bd523201738fe85d8b887c2ef2",
+      "published_sha256": "766f850a3a0d413cf976e1972ced0d570979cbd37edd4b37c825d1f18b84548a",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_raw.json",
+      "original_sha256": "026d0b6f791e4a65f350b786e00cf1a2f616b24425b1829c0ab6bafc7bac12ac",
+      "published_sha256": "39f57d49324e79edebf412a834ca01ac97d55ab5829b1f938fd3267edd143b0b",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_sparse_equal.json",
+      "original_sha256": "936de80fe9912b261c696af33d90fd188ba6e156a4f789dae92cdf75de9cdce7",
+      "published_sha256": "703c794d60df36e6bcad310f044cbf7659f8c405e7939da70bfa5ee2b9afd6ce",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a025.json",
+      "original_sha256": "4d413359956e27bffbb0c5f512f9728f140541c832c6b99be8c054071f255e46",
+      "published_sha256": "ea63218bb07442bb296dcdd595aefabf79320ecc2d5e93023854fdade0921b66",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a050.json",
+      "original_sha256": "a508a944be113c7f6b0b8eb17a138d5659b3391ad383391eb9b015a2628b8f10",
+      "published_sha256": "4a6706e72423d8732fe757cae348d09b6f20f158f936d5058a34a55ca83939b5",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a025.json",
+      "original_sha256": "a7349a9d733af3d3e8909a66be3df7aa320a3d04743fe68df9ba834bdd95ef16",
+      "published_sha256": "64c1049ce5475c06b0a8cb802c06253e6f1b63c08a9de4ec355a61c3053cc4d1",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a050.json",
+      "original_sha256": "411246c69a87a35c51be0656dd44d551b70543f65c4fe1706882659594020337",
+      "published_sha256": "af34391f75d32cefe7cf0515001b0109fc5c3e13269aa716709f464c928ff96e",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_raw.json",
+      "original_sha256": "9d14ecb043511f7f89a62404f41d2c6a7e7b781a502b167d3cbcefe87ae8d452",
+      "published_sha256": "3d702b7f369d3e6c2abfc961bd4c68e88691868c14efc94ba656b15812520db1",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_current_only_selection.json",
+      "original_sha256": "a3485963224790c72fd0de3ab8d484a67b51ebbd482e9829bdb71fff9afcea0f",
+      "published_sha256": "db981f5e08e113c11bcfb75b227ca93b1a2f02a188570933185fcf2525b9e88b",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a025.json",
+      "original_sha256": "b315cb2b34e6cf0adf999cfea6847d4bcd3b3a5bc7c30f40c4b83ea029b3432e",
+      "published_sha256": "8b198837cdb4c2386ee8a6f86a9ee13fccffe1ed2ba19d945f6c2c14ca3d1036",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a050.json",
+      "original_sha256": "36bb6b0f756854ec07778ddc1d25493c73bfb311ef09757ff90a3eb10b280d51",
+      "published_sha256": "c0396a7aebce3df0a2341e8948f144b930c935b6864616aae4860573209d913f",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a025.json",
+      "original_sha256": "939a372c9f8c020c4895a9be75a8846bff79d80e948b7f9eee9c53aeb940c8d1",
+      "published_sha256": "bce39422050c3026ee6227a2ff16bddc55f9e56c47e7eda808fc1b6817414003",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a050.json",
+      "original_sha256": "ddfa2318c4ca3bfe0ea7b58828694da66e60bda1fcfbf4c0162cd6cc234c35fd",
+      "published_sha256": "0c81679d12f39e3701de3e099dc0f7805509186aefcb3a40b13d71fae151a8b5",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_walkforward_complete.json",
+      "original_sha256": "7b92a7cf09d03bad2b4d68f10dff4adff1aa2d45ebcfb9967619b8a3ad3acac3",
+      "published_sha256": "efdb6102a83074e66d1bc273709ce16360d130cc74eb446e31bda266b28908e6",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_inverse_lead.json",
+      "original_sha256": "b99bdcf8011971ad30b4a5dc9df10241040bd08007d20d60921cc33640a00ecb",
+      "published_sha256": "2a29c6d079a7dbd0be95d16bc7772a3208404c1edfc30e872c94a7c758259110",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_raw.json",
+      "original_sha256": "e667600aa644ac850a947120ed6012ebe4b35ca16b551f7082c940aa69eb39ab",
+      "published_sha256": "7acf73ba326b0b2573ca100f7d657f4f17fe4f05cecf882741a0132e2ef35b82",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_sparse_equal.json",
+      "original_sha256": "65d9d9ec5d3bb7680736b6a12bc8c092f5ef31be67e042186eb6ac60aa227e63",
+      "published_sha256": "3b46668cfbc51a9e0416b42fd7fa2c568e2a92b26edb1f80ce4d6fe7640c35fb",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a025.json",
+      "original_sha256": "7c81f1020fae502d991efb98ad3bc80795179ba9614c8b539fce942af90ff239",
+      "published_sha256": "ba0f5f8cfdba54ae19cb7bd6aaa3d4d1d90594e8eb58f6793265ebca7a493f60",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a050.json",
+      "original_sha256": "10bd92245f4d3d485b1a3bec78b38f07a54953cab581a72e047964beed64951a",
+      "published_sha256": "1d28ee7ee292d2416a2f3b68f546261ba9a37231d32820397c11baa485ed5d38",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a025.json",
+      "original_sha256": "782d82192f7c120f3882cea04850b08da201243f895a56492010e5c1dae46056",
+      "published_sha256": "c90fe916ad7c7563a5261ddd72180d6f6293ff64eb320890004829c14e49c628",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a050.json",
+      "original_sha256": "af0463e0848002164ac98fd444662d777f35e517633447b5f1cb559effd96d55",
+      "published_sha256": "6b3d9db5d52cd40ebcd8497ba4e7835301c0a808a74d9637e02a8ef458739a37",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_raw.json",
+      "original_sha256": "157ac6c01c0792152437b5e509a204117748ab1d72b546875097c02f3b7ef60e",
+      "published_sha256": "a4300879de8d77e8de519e006c9803cc4049f20c6461effdccf3a7624b554f82",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_current_only_selection.json",
+      "original_sha256": "31ef055291051d5d895a7141a4c94b2a9690a1578e459d092118b66a59ef1778",
+      "published_sha256": "b14dcebbb962aedb5f59a0fda4c79d3a5257221d1d36521eb1efc0cbc08a9b10",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a025.json",
+      "original_sha256": "c08a9306a865ff25f81fc498b0fc675be4afab458a8fb64da7b0005669262748",
+      "published_sha256": "3ff5f913bde80a8f90029eaeacd65fa83d2dbc61d3084b6d3a9b2c391a7cc726",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a050.json",
+      "original_sha256": "c28613ca8b1484560303ec8dc9737030de2efe8de7238e643ae7bc02ea4796c7",
+      "published_sha256": "43506418887e4e90820b1bd534ce98d2351ea597ab19c8b8739915af409969e0",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a025.json",
+      "original_sha256": "9f09af3e691362d16aed2119b06e71be04bd9eebddc203a6600b4f667f7948cf",
+      "published_sha256": "529cebff49337b43ab6325ace841af24eb8ea3479ab9acd9bdfefbb738a74fdd",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a050.json",
+      "original_sha256": "db28db382ae70ddd544cc0b345ed33c98af8b5b2f5c6d4099aae7c48fdb30c28",
+      "published_sha256": "bb8b915ebffdc5ca750c4d1b19338bffd3776b58b818dcadd5963a85ad5fb50a",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_walkforward_complete.json",
+      "original_sha256": "2475fbfb62d212c15a9a61fd3aa6e575200ecee8ca04aa3bfece9ffacee9a0a4",
+      "published_sha256": "9e93fba1a22d7b319afaa708a2f70887cedf0d5616c1663158ebb03c2bfbca71",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_inverse_lead.json",
+      "original_sha256": "9d436c44f3015c0de769771ad234e952006dc5069b76ae3d5f951061ea279118",
+      "published_sha256": "258cbe9237cc5f28268289be694cc208d50aab3722231bb9422fa6e0b520ce7e",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_raw.json",
+      "original_sha256": "0dc04366f37aa8b145c1fb65b5bc551ab8bbba880d9d7c8326b8cf906b4b13c5",
+      "published_sha256": "2c61eca71ca5755755c53eae0c4f3a8b6ff6b70ee6922beddf4e70939dbdbab0",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_sparse_equal.json",
+      "original_sha256": "5c35dd78fe57daa7141733f36c498ce1d16395dacad271280539c46ee5fdb251",
+      "published_sha256": "73b4b9837f0f1f59a6823bbf54b72dd3956034530dac3f0f0a8492ae90d557b8",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a025.json",
+      "original_sha256": "7447600a2a9705c82d15fbe282806cdd8637b153ae98faf09d166ce7b520960c",
+      "published_sha256": "07369538349c795c2594a2ffd592e174d5ca33fe62588688c480960a2180c7b7",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a050.json",
+      "original_sha256": "9982361551a670cba67d327e3d55e9f18238eb001505912e2879b409317bd37d",
+      "published_sha256": "892e1db2b7c9d3456139fd58d0c37dde48b31e44051e3b9461f69a12f8e0171e",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a025.json",
+      "original_sha256": "a367c02b15e6a35551d8824547ed216efbd88536e26754dbb13d8617dcce3695",
+      "published_sha256": "02c1ccd174be1240973ab67a9a5ba3cb1cec324b111e141e7b604b5ce683842c",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a050.json",
+      "original_sha256": "cc37fc4c264d715663c772c69892fa1d34aae853d837b5879b3591c48e355feb",
+      "published_sha256": "10522bf38564bd34d473f68d5691c9697429a5948f1f01b55ccdbf1a750e12ea",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_raw.json",
+      "original_sha256": "ff291741ed1fae592ea57dc5e64a1b2acbe2b1201c18a2c90673f601a5e8c7b1",
+      "published_sha256": "d4e65b6bd2966cad311e8df712456c9f43dd0ffe03e021697fef04b260d6c7c9",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_current_only_selection.json",
+      "original_sha256": "8810c71f61753f6db2a53470009db74ec0699da0aa66f9e3abf188c785371e69",
+      "published_sha256": "2e4387b624aee993d4785898aea92068a6573812addc0f6ebab7e036a8fd8039",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a025.json",
+      "original_sha256": "24254d82ab3f9c95de2d53fec8effade955b92b2283d875e8b7941db43354d7c",
+      "published_sha256": "a92cdbf4e6005dab04ee9e97470e57b82353f02d2923845ade8a0009bd9a8169",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a050.json",
+      "original_sha256": "223522fbed4b117bfcc32202a7726efce01f0751f83f139dab0e1a8f138b77af",
+      "published_sha256": "02943d546907169d03658a46e345d3206f86c93463367d6eb5c5e536ed9f4cb5",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a025.json",
+      "original_sha256": "f9c96b762fba9e66fc0409a5f9ceee28d1f2a5134f0381227338a0ec8ea79ddd",
+      "published_sha256": "a47f8ab3615b010990cf5f7840d725d8cb7d62038e1388b62de28d229d9346d6",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a050.json",
+      "original_sha256": "6ae80498dac23fc3300f3e6275871e46d4e8c4c8430a449dbbc08b40736b75f1",
+      "published_sha256": "de43d04872722c60d98af5ffe36eb88b608d451c3d63992a039018a686ba9ce1",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_walkforward_complete.json",
+      "original_sha256": "37d4aacbed559256447ba828adbbe416cfb9084b74bfd3369f28921f8f79c665",
+      "published_sha256": "c3139eb87a73fc6b9f711099418b09ae27d595087049235c51863e3c3b7b3e8b",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_inverse_lead.json",
+      "original_sha256": "e609d403fd655f45589ed03c27217cf59b28145f7cd422db9e425a7d4f653f73",
+      "published_sha256": "bf9d2b61c3b9b64b941451aabecb6eb1dda424f9f5f540b488a99f0222d12e56",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_raw.json",
+      "original_sha256": "99a6abe6568963cbf669f5a232fa4ee50313bff2b3da64264792b8df1abee1d1",
+      "published_sha256": "c813259ab8e680fb0bba4083fa6e8d1296bddceb3f2f85abf2fbfeeb337917bf",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_sparse_equal.json",
+      "original_sha256": "2da65f72d70f33cb49f1e3576bff182c3791c0531e1ef954cc2fe7818a2899a6",
+      "published_sha256": "3ee8883161b533cb110ba04b7a222b1a69500c402f818f97b9857c4767d106eb",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a025.json",
+      "original_sha256": "5117b76bbea50c0410b08ea969f6c51475a48dc46d37e7b1e5e6dcffcbae0819",
+      "published_sha256": "4e45b4984325c77c31831595543bf37689eaf6ad731f753c952eadc5708a3348",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a050.json",
+      "original_sha256": "53b37ad62493c7d79c71b840bac97ef7d64fcf0f269d25f6b214147d3042f1bf",
+      "published_sha256": "99c5a2fe906ce25053cafcb55039ef348d723c1d30d6e5b51f366762e2a12460",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a025.json",
+      "original_sha256": "5732fa84f2de673b5470e9a83f56c4fe76a7cc3a3b1d7693e6acbc398c351db2",
+      "published_sha256": "02bc8d512e2461e4106cff8f134ef61bdeb30acb328c37c4c779e07d65aacd6f",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a050.json",
+      "original_sha256": "29f19641139d825b92785433cc5dd5db5acd2e18bb38cd8e98894c3510595c31",
+      "published_sha256": "32fb6331857f37f72f83f106d2c8fba35a10b5bc8ca49a4c65501a4680952627",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_raw.json",
+      "original_sha256": "cae86c32658c3bfe5d3a76bc2fa6afc319794a5999eba95829f04789ced82c9f",
+      "published_sha256": "bddd3247fafa703d267ad8113ff23b2fc0f8c7e31a5f79cd7f4fde9d18702951",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/events/NSW1_event_definition.json",
+      "original_sha256": "11acfcec40b116ad4b3f7502def2abc618da350e58a1adc93207a976015f0e0d",
+      "published_sha256": "22d86ff402e85d37579728813567935f43a6e41aa47bd202bc49aa8c06008a5b",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/events/QLD1_event_definition.json",
+      "original_sha256": "cd11416a75beded9e935a21cb3ae68aebc3370d2ae45d7114ef6880ac18f0e09",
+      "published_sha256": "34e14aa844a26c244ef1d361949f735892f1d87a938ed79488b580aaeacbd935",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/events/SA1_event_definition.json",
+      "original_sha256": "fa1e5c9974e8c547faf301806b71cb92e8bab4b2d219e0b0deb7aa5bb9aa4a99",
+      "published_sha256": "f677d864416274437c3645f69e412e60a4ffb062dc54c0a3785b43f0bc9d04eb",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/events/TAS1_event_definition.json",
+      "original_sha256": "0ba9c0ee63862724939b6068d50463a5ae79671e27112fcb1e93003f0225b944",
+      "published_sha256": "baa445ff2cf29b3b12152b5f8351bc052bfaf67e03d5d46590cde5c8423bdb54",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v5/events/VIC1_event_definition.json",
+      "original_sha256": "25179e9c1337eadb2173e781a16f80474301d6cb440b976f19041cc01fd4614e",
+      "published_sha256": "05595256007d911980de0214aa7b8499a0c53337d6ec0233c92aee4dd192a407",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v7/statistics/source_manifest.json",
+      "original_sha256": "7167cad6262371c299e677e6754fe64437a552bbeb89f8e6d34e43869d0a8b08",
+      "published_sha256": "e8b9096912835122b10ccce53895ca209b3f6ff63f008caf741a6530616c21f2",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v8/spo/design_freeze.json",
+      "original_sha256": "72df2ce1a722264fadd51fe610a6612f58cbe28507fce67d2bbed7acd3a1eebf",
+      "published_sha256": "0f4825b77d298f4734f2e7211f338c6e0c54aa3e9d54c129a9c675fe060bd0b9",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    },
+    {
+      "path": "results/revision_v8/spo/evaluation_complete.json",
+      "original_sha256": "e366f34b8184adf9199273fac1a8246dc447f75ce7ccfeb5777ae18db89f75bb",
+      "published_sha256": "f9c6f9c9bd605745e6e213cea6afb94d3deb5bd3a9523d33328862dfce244f3a",
+      "reason": "local project paths normalized to relative; numerical content unchanged"
+    }
+  ],
+  "public_entrypoint": {
+    "path": "scripts/public_reproduce.py",
+    "sha256": "3ee305c09e8a67201b483c4a398f78a571b34c2a34e41e5c9314994a6de8356c",
+    "ownership": "new public path/task/manifest/smoke adapter; not a new scientific algorithm",
+    "runtime_adaptations": [
+      "Input/code root routing",
+      "Four numerical exception outputs redirected before optimization",
+      "Full walk-forward old-prefix reuse disabled",
+      "RDIA input event/reference copy into fresh output",
+      "Saved-path statistics source recording for separate code/data roots",
+      "No original producer main routines are recommended directly"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "RDIA: Research software and derived data for information representations in rolling storage optimization",
+  "upload_type": "software",
+  "description": "Versioned research software and derived-data reproduction materials by sole author Junjie Zhang, Shanghai International Studies University, for a rolling-decision information attribution protocol. Core v10 scientific outputs and v11 figure design are distinguished from supplementary diagnostics added during the v13 revision; the release manifest identifies supplied diagnostic files. Twenty complete extra 30-minute availability-delay replays each retain 46,741 origins and the original 2023 current-processing weights. Their pooled sparse-minus-processing point contrast reverses to -AUD3,944.46, while inverse-lead-minus-processing remains +AUD57,139.02 over 974 nominal days. No new confidence intervals are calculated for this clock sensitivity; these completed research runs are not a fresh public-adapter full-grid replication. Fresh public-adapter fixed-subsample action-range and SA-case checks passed with 750 comparison rows and 1,125 all-binary range calculations, as documented in provenance/v13_action_validation.json; this does not rerun all 7,305 saved states per history. Confidence intervals and tests are conditional on retained programs and observed history. Scoped internal fresh execution does not establish independent external replication of the complete raw-source pipeline. Ontario supplies partial comparator/replay checks, not replication of every Australian RDIA layer. OpenAI Codex assisted source review, research design, programming, numerical analysis, figure preparation, manuscript drafting and revision; the author is responsible for evidence, interpretation and the final manuscript. The manuscript targets Annals of Operations Research; journal acceptance is not claimed and unsubmitted manuscript or internal review files are excluded. Original software is MIT licensed. Third-party AEMO material retains the provider attribution and reuse conditions specified in DATA_LICENSE.md and THIRD_PARTY_NOTICES.md, so the complete mixed-content deposit is not uniformly MIT or CC licensed. IESO source data and price-containing inputs are excluded and require official-source reconstruction. Large GitHub Release attachments must be added explicitly for a complete manual deposit. No DOI is claimed before the author's Zenodo deposit.",
+  "creators": [
+    {
+      "name": "Zhang, Junjie",
+      "affiliation": "Shanghai Academy of Global Governance and Area Studies, Shanghai International Studies University; School of Economics and Finance, Shanghai International Studies University, Shanghai 201620, China",
+      "orcid": "0009-0004-8821-4018"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-10-02",
+  "access_right": "open",
+  "license": "other-open",
+  "keywords": [
+    "operations research",
+    "rolling optimization",
+    "RDIA",
+    "energy storage",
+    "decision-focused learning",
+    "reproducibility"
+  ],
+  "notes": "The author will create the Zenodo record personally. Contact: junjiezhang2024@shisu.edu.cn. Author identity, two affiliations and ORCID are author-supplied. Cite the deposited version DOI for the exact archived version after publication. Original code: MIT. Third-party source material: provider terms and attribution notices. No DOI has been invented."
+}

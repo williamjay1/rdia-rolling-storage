@@ -1,0 +1,7 @@
+phase,region,family,p_block_7,p_block_14,p_block_28
+evaluation,NSW1,four_processed_vs_raw,0.003399660034,0.003899610039,0.004699530047
+evaluation,QLD1,four_processed_vs_raw,0.004399560044,0.00569943005699,0.00509949005099
+evaluation,SA1,four_processed_vs_raw,0.306469353065,0.287371262874,0.277172282772
+evaluation,TAS1,four_processed_vs_raw,0.00589941005899,0.00809919008099,0.00539946005399
+evaluation,VIC1,four_processed_vs_raw,0.028697130287,0.026897310269,0.029697030297
+evaluation,five_assets_sum,all_3125_regional_rule_combinations,9.99900009999e-05,0.000199980002,9.99900009999e-05

@@ -1,0 +1,892 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-01T18:15:15.882787+00:00",
+  "scope": "additive v13 executable scientific code, original SA diagnostic reference, completed action and delay outputs; excludes raw ZIPs, partial data, monthly cache, logs and unpublished TeX writing fragments",
+  "frozen_scientific_core_manifest_unchanged_sha256": "e823b3ce48d50589cc80eaab6696a1de10837e00e50d962e226c07184fc0309d",
+  "original_scientific_modules_copied_byte_exact": true,
+  "files": [
+    {
+      "path": "scripts/public_action.py",
+      "bytes": 10094,
+      "sha256": "d66d4c26843f7d940ab02dfe83bb25565cad69667da6f1dcc7aea4a057f2b509"
+    },
+    {
+      "path": "scripts/revision_v13_action_diagnostics.py",
+      "bytes": 35369,
+      "sha256": "00f87a032ede7a7dd3605d298e82038f184e4c0c3fb0e9b086e2215fa6ab23a1"
+    },
+    {
+      "path": "scripts/revision_v5_history_inputs.py",
+      "bytes": 23694,
+      "sha256": "bce2876f18d35ed40dabd85d6362e0e8c0d26e497e0f6d69696af48dc5df2486"
+    },
+    {
+      "path": "scripts/build_vintage_training_panel_crossregime.py",
+      "bytes": 14543,
+      "sha256": "04ad225468e58732c8bc2265bc83b59859e1d74b730c5261aa43597208aecaa0"
+    },
+    {
+      "path": "results/revision_v5/control/diagnostics/SA1_posthoc_20240923_1900_common_soc.json",
+      "bytes": 3107,
+      "sha256": "13e095938e5ebdb93d847c8337d94dfa7fb39dbb9d5638f7464b362d0c25a039"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_cstar_fixed.json",
+      "bytes": 3308,
+      "sha256": "d71d89c3b7433e4a482575e9da0d62a427075dd049ec196c6daf6bf2c70443c8"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 3891821,
+      "sha256": "2deb6fd0addcf3d6e08fba12ecdac327d0234de00c0e0b0148a1e9c71c263a75"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_inverse_lead.json",
+      "bytes": 3310,
+      "sha256": "8484f8d8202077d176277a394ae9bcc6544fa12c1ae55518111f8870115aa998"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3900746,
+      "sha256": "343790e7616fa9196215dd379f91f5af236ca64d57d8639a27ad5d8c43bded03"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_raw.json",
+      "bytes": 3289,
+      "sha256": "20d4c21a24a6055e49d2ca19498ca2fc183d5861844fc9cb84228c88a635c5c0"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_raw.parquet",
+      "bytes": 3911932,
+      "sha256": "78f6d4cf556f5b8dc54cb09b4d875a25073565633b8a3e346669b27b53914d9b"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_sparse_equal.json",
+      "bytes": 3306,
+      "sha256": "3908e4e89b3fcdd41b6ddb94f7b669b344a79fcc187574599b2d8d9d5f34e2cf"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3904189,
+      "sha256": "93e815eb2f07c181401d19f72cece1601a710bbb2e61a60d7b0803f40d28e34f"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_cstar_fixed.json",
+      "bytes": 3307,
+      "sha256": "bbc1b20617c9a63a2f7cbd1c48c9283f8efda1ffb4bf515d921f73f76f9789cd"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 3864873,
+      "sha256": "54df8612872e68dcf8454bfcda51e79ecf4720f9b06c57f618f2d18377375ae7"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_inverse_lead.json",
+      "bytes": 3309,
+      "sha256": "72f2b807d39b31d8be01b93ef2a9e4e2883ce120c4c409bd5fbeba70d83ded21"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3871445,
+      "sha256": "f726f921f6f554573f808e1d60d427a2aab7e6b64a5d86d2284daab9f28d95af"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_raw.json",
+      "bytes": 3284,
+      "sha256": "c3ebffd7297b8188589d26ade1e63106ec1d224631b2352ce2e05fac2ca9006e"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_raw.parquet",
+      "bytes": 3878563,
+      "sha256": "e224200e41620313e2a4ad1591605397fb86cf5f2908773e8475e51126bb4d8a"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_sparse_equal.json",
+      "bytes": 3307,
+      "sha256": "5c777214b9ca3d19a0d7fc3ccbe4eeac2fb3b2864fd80a88c090db751789f2e2"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3877587,
+      "sha256": "f6fc4dcf1eaecd31264ddb7d90fc3281bc78303b5183cf1746256bc04a7dead1"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_cstar_fixed.json",
+      "bytes": 11518,
+      "sha256": "36f34fe7dd0e40ccb92591ffb0130494dfe13abbe33e85b0f8be47b0a2a0104d"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 3857801,
+      "sha256": "f3c79914d91158e5b9a0244eb24212082ab1dd8233a41a744038f4a20316eece"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_inverse_lead.json",
+      "bytes": 19691,
+      "sha256": "63b724a1f544948b8151b4547f29d32be43303851b5059fadb1e27054b3e2500"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3815894,
+      "sha256": "c27693da4850e460f136640d729af74f78a18a73d030d605ce4d5d9937ae424e"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_raw.json",
+      "bytes": 11426,
+      "sha256": "d9ae8bcc253d2d2f2257d26a767cec93c8c2844e03b91e5b5b97cade62b5f29e"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_raw.parquet",
+      "bytes": 3862286,
+      "sha256": "5ffbd7bf314f6a3741cd1cad2d1637a95a2a363126c9cc7bcd707eb84b7fe6dc"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_sparse_equal.json",
+      "bytes": 3290,
+      "sha256": "4a55cd4d0f069d730176b4c008953d082cd826f5525327082180f0fac14d9029"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3848766,
+      "sha256": "d1558a0ca43b6abfb5a2b97f6b15280bdde652494261cd726c169afa539f4b2c"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_cstar_fixed.json",
+      "bytes": 3308,
+      "sha256": "305638e9695007ce1f785916f4ca55c82e4fb330fd99b7c96333031967a00791"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 3727650,
+      "sha256": "0d95a7298b9a61e931ea38136205492f477b2fac76d294e89f6adbd46b3a0eca"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_inverse_lead.json",
+      "bytes": 3292,
+      "sha256": "e427d91f53a1b383f640e103d68cabaa102a2f510ecf3ca776efe389d6791116"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3797596,
+      "sha256": "cbae3f5369530e4cff515cf6d50f96b53de7ffc675660107d25d0197d32ac20b"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_raw.json",
+      "bytes": 3290,
+      "sha256": "8a4c2c2367a48b7b6e35ec274fd21bd6de52577ee7900ba48d0b613ff014a9ec"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_raw.parquet",
+      "bytes": 3745842,
+      "sha256": "6c282c2b4df3e279a75f66f4c591fc4a4d1e998b0f6de6c5111265486edf470e"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_sparse_equal.json",
+      "bytes": 3293,
+      "sha256": "70b8ed76a47c28953ca40886dbb0a9057b6e84ce361cb1cdc336433b79abc865"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3808522,
+      "sha256": "9c43c3ea2e42d61ff947bbe1d953bdaa1609d388e9b613bdc9298c72618cea17"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_cstar_fixed.json",
+      "bytes": 11478,
+      "sha256": "feb069af083cf6ae10d81e7846f34f2a6b3d9d88334e7ec3569cbb7b72e2f5d1"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 3850461,
+      "sha256": "929d043e2aab004be8068180d23a28ecb3187daab43bbc378fa0d3c00bff9610"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_inverse_lead.json",
+      "bytes": 28003,
+      "sha256": "df40e3584a97383d4ef308dbfd72817e2a663eb030716062bb9f3e442f673c78"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3839338,
+      "sha256": "745067a35491106e0be7ff500ef3d99bb890f1308e3a26093476bbda6c4a4c45"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_raw.json",
+      "bytes": 3290,
+      "sha256": "63857d64861e7289a8be6ea7dbf951fcdd7427c037abf980f2e9a6814ebdfa48"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_raw.parquet",
+      "bytes": 3855898,
+      "sha256": "11c76f9733e18c378dabd4b0bea6fa9d698f1f37e3aef6c7e476b2d47afe7452"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_sparse_equal.json",
+      "bytes": 11541,
+      "sha256": "51a80ea99a1c0afe681b20a50e417b364f259d48a28057cf8d4c1bcfaff8fbc5"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3845166,
+      "sha256": "50d686e5695bcea8d2b4f1d67469f9c4a02a6318d443f6557a0ff44f92dc3306"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_cstar_fixed.json",
+      "bytes": 2091,
+      "sha256": "9772f1cc41233e3ec2099984e9c4761c76a494d050eabbd2d0c23a1b4162ba7a"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 2949990,
+      "sha256": "01ba98eb6acb502796e81c02c250bc703823beb238e35d6de3de09a484e1eea2"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_inverse_lead.json",
+      "bytes": 2092,
+      "sha256": "ad522519627e5d640ee1ea458208b9e771ca45c9aae4cd91a43650d7cccd3524"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 2962111,
+      "sha256": "a76d0785ae208b8e73c8e3b1c0d176295e2777dec2b2c8525fe6472ebc07c7ee"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_raw.json",
+      "bytes": 2092,
+      "sha256": "94297649468c8830582baec30306b5820880d47d7bb6152ffa9695e8c124b740"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_raw.parquet",
+      "bytes": 2966376,
+      "sha256": "76e27b629dedc961eb3db81c172c8e891a253d2565ae63fc0c0548c1a7c15f42"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_sparse_equal.json",
+      "bytes": 2092,
+      "sha256": "898009e18e05003be0f28d8e592add039f850807c7542a63858a9e8da03c85ff"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 2963158,
+      "sha256": "f183a3d5615e332009475dccc280dab90f67a4cef488e85b5032ad12e9d9d66b"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_cstar_fixed.json",
+      "bytes": 2093,
+      "sha256": "644f9853e20b98e3b5575f52bec18c82599941360551db4c7fecc18afcc41151"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 2925124,
+      "sha256": "b8cd62dd350f6bbcbaa95c31b56299f9c8af5def33eb7b36606dabb7488ad9eb"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_inverse_lead.json",
+      "bytes": 2093,
+      "sha256": "7be1d8fce010719911abc797fc3f3397e67323aae600d380bc7e0d23b5d855ad"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 2933601,
+      "sha256": "de1ef11791a1e8e76745d9095732d16c010b562412230bea731c01b788e19674"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_raw.json",
+      "bytes": 2093,
+      "sha256": "5b8bde2060bf3ae5f848af916b6a8bf22a107c87f0d184b776dc009a4b104f20"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_raw.parquet",
+      "bytes": 2936524,
+      "sha256": "1370f5b28ab240f75b8da6718d318d7aa8db1fc45dab9bf4c12caa09952213e7"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_sparse_equal.json",
+      "bytes": 2093,
+      "sha256": "085d465cdac42f52c288ee893cb3aa3be439e0fc67f21dda2fbe694c049ee08a"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 2937180,
+      "sha256": "98ebac3bf456aa93f6043798e48c63733b9da5180bf694c0db91f55a3b1a3c38"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_cstar_fixed.json",
+      "bytes": 10320,
+      "sha256": "1e1398d1b9b362ca43f339405fa742b1dee56fde73eb99d9e80bcf05cb9b75b0"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 2916317,
+      "sha256": "c5e4245abe38448456d8ebce039d3c75bf48a4a16d62a23a8bdc24251bb06c0f"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_inverse_lead.json",
+      "bytes": 18491,
+      "sha256": "e690264b549de7395847e563dd8c1f57fd7de2015188361d6dce545a67effb4f"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 2882989,
+      "sha256": "042f205d5b1f52438f1450a9abe99b09dc051193676551907d09dcfbc3370393"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_raw.json",
+      "bytes": 10242,
+      "sha256": "c4c75c2cac33c1a767cd01007610c560f450bae43328e5b897109ccc47060bde"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_raw.parquet",
+      "bytes": 2925568,
+      "sha256": "6306d3ddfaec5a7378db00cd5e50ba19056322103d66e5419fe0c48543e5a8af"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_sparse_equal.json",
+      "bytes": 2092,
+      "sha256": "5cccbcc6d23522db2c2b8c951cdedddecee75bfc9715193cc10305c9d61f75e1"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 2911041,
+      "sha256": "4327af74a96e1584bff894a4c669577658b8c98fb1d1e4a6aa752c4589c177fa"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_cstar_fixed.json",
+      "bytes": 2077,
+      "sha256": "b61776a2be385d8a94d3672d8f945a19e97935c70928cf8ab84008eedb150ecd"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 2827198,
+      "sha256": "addf561b7403c7d62ed69735821dea9b0050e48af2aebe7978d0cd7fcca6fa31"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_inverse_lead.json",
+      "bytes": 2092,
+      "sha256": "89780388efaf44c1dbdc469e95c80914f59393593206d77e978948242befba20"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 2881782,
+      "sha256": "7809675cef70b11009d33ef44e44c16360d5ac8aa913ada959a8871d6fca4e9e"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_raw.json",
+      "bytes": 2077,
+      "sha256": "9eaf7ccab27a1f4bc12b587e2dea1579ce314c91e7d7b0f5aae5b100a778ca80"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_raw.parquet",
+      "bytes": 2833693,
+      "sha256": "890f42004b838cdb56d304b6f91071e8526463c0c536b30a5ba609a9e294a274"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_sparse_equal.json",
+      "bytes": 2092,
+      "sha256": "97413fd1bf02a0444f5e0cd5e43ad393fad65f6f62f6c83680941becce10b4d1"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 2887055,
+      "sha256": "84e8d650dc0c64b15c156a62a1f704526bf3c29959b1df3560b7da70ac637762"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_cstar_fixed.json",
+      "bytes": 10264,
+      "sha256": "46fcb7dd0a9c1928e778d2952acea421c89dd24ee2a6e5256cdd39875d038f31"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_cstar_fixed.parquet",
+      "bytes": 2908008,
+      "sha256": "7f928c07a092e4aaed45f97ea8561264a7c2412c22973fa178f45c1d0af432bc"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_inverse_lead.json",
+      "bytes": 26787,
+      "sha256": "b14723e4d243e2e196623627fa4e6fc4b8d9b214dc0fe93ceb7acf1d93399315"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 2904964,
+      "sha256": "f78918cd55f0506969b468d23415ffde48865cf00d8c4ef044a43f933e5546df"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_raw.json",
+      "bytes": 2093,
+      "sha256": "fc952b6265dcd5ed6b4d9d3556c47566ca6e4173bf520e095ab1cd1b433e6eea"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_raw.parquet",
+      "bytes": 2913049,
+      "sha256": "7a5d277c0178c958d015d6414a613f16c593a3bd5fb81ab828eed9c8cd36bc1b"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_sparse_equal.json",
+      "bytes": 10341,
+      "sha256": "f788d129e53d88a2e82dd298d14e2ef87c4e6b5f721960ddd619793003d335ca"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 2905984,
+      "sha256": "147b597d0f208408f5a0ede92da3f5fef8bae048de174ea85ac4b9ef98347d03"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/design.json",
+      "bytes": 1037,
+      "sha256": "ca067018b315555e6ad0ea11a8c0ee75e978d51c0ed6085e766f731b7980c3e5"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/full_replay_complete.json",
+      "bytes": 2252,
+      "sha256": "ed9628ef26a1259acdc3fb9c5f2c34b34a2cd721b0c40c958f741a8fb48a6bdb"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/independent_raw_value_checks.json",
+      "bytes": 12866,
+      "sha256": "bdb8e760b496a625a30bec8d65af2b40f32458074c16fb2eb3fdc2b31ca9e005"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/input_reconstruction_complete.json",
+      "bytes": 99714,
+      "sha256": "184d087ff5b28eb9b93f8e0e2c149ccd48c6da038f85d6024a995d10178fa885"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/marked_value_contrasts.csv",
+      "bytes": 1760,
+      "sha256": "8200323f8a2f9fc19281b5b74a88cddb615b918290a6590d3a682936a8c7bde2"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/NSW1_delayed_inputs.parquet",
+      "bytes": 18773909,
+      "sha256": "8233c09422220ae01bfea4064e236a8b8bf0f1d67214a43022bd4054ee584cd3"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/QLD1_delayed_inputs.parquet",
+      "bytes": 18818117,
+      "sha256": "60349555655dea24e35553069615820972abc049e66722c1307a1b85627d5057"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/SA1_delayed_inputs.parquet",
+      "bytes": 19680488,
+      "sha256": "921ad1c37768a0ed64467676486ae75987a495fbac5c8f13308860bbea7c6bee"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/TAS1_delayed_inputs.parquet",
+      "bytes": 18297432,
+      "sha256": "6c62f745988d9997367b0f82cd76c13f44f16fdcf74ceef806a79ae81739eb50"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/VIC1_delayed_inputs.parquet",
+      "bytes": 19015611,
+      "sha256": "bbd71d598814ae1cd42aa12acb9da325c729421d349f63fa2c34995d6ba3396f"
+    },
+    {
+      "path": "results/revision_v13/action/delay30_information_cutoff_feasibility.csv",
+      "bytes": 738,
+      "sha256": "7e1ab3c050fe5f05581d39e135b296d2a3e7da742b73dd10f90f061e75daefc3"
+    },
+    {
+      "path": "results/revision_v13/action/design.json",
+      "bytes": 925,
+      "sha256": "1acef4fd09c4fab3ece6b8407b046fb55552b2db249379c76af199658b591db7"
+    },
+    {
+      "path": "results/revision_v13/action/epsilon_material_subsample_counts.csv",
+      "bytes": 7891,
+      "sha256": "71aa308707a0c99b45c5abb729df9f3dc15ad45decbae80ef78eab0b809c405a"
+    },
+    {
+      "path": "results/revision_v13/action/epsilon_sensitivity_validation.json",
+      "bytes": 358,
+      "sha256": "967ec6c3e341824bf853b8690bc9baa7f9dc76094c42344bdb22bf90e98920a4"
+    },
+    {
+      "path": "results/revision_v13/action/epsilon_subsample_ranges.parquet",
+      "bytes": 62119,
+      "sha256": "68a5eb8f263667be3b5bbd779d7d380abd34dbc53edb0488495e0a5472e47f39"
+    },
+    {
+      "path": "results/revision_v13/action/final_execution_audit.json",
+      "bytes": 15154,
+      "sha256": "b53ca3ef34ddad0692784bd3f24f11d8a148342e4f92f357905f43cb4ee065a5"
+    },
+    {
+      "path": "results/revision_v13/action/fixed_subsample_plan.csv",
+      "bytes": 16219,
+      "sha256": "f96d74acbce06a1503aff4edcfecc26bea84fb67b374996c9894dd9353352c43"
+    },
+    {
+      "path": "results/revision_v13/action/input_manifest.json",
+      "bytes": 8183,
+      "sha256": "0c90fdc9d3588e6024521a7592b1771bc13f99b19987a1db0a22bb5a747384d1"
+    },
+    {
+      "path": "results/revision_v13/action/layerC_100_start_features.csv",
+      "bytes": 20430,
+      "sha256": "48e84adc3db908b5443ea6d25aad3485760440fe3e3cba0ba84325dac719ba8f"
+    },
+    {
+      "path": "results/revision_v13/action/layerC_selection_rule.json",
+      "bytes": 2607,
+      "sha256": "d650c8cdce4a1a9efd05b37c09e87d8b07f6b8097957a80097a9bec4ff89a582"
+    },
+    {
+      "path": "results/revision_v13/action/material_threshold_full_sample.csv",
+      "bytes": 3454,
+      "sha256": "3db57199f7295099eada528cae69eba1c3aaef279881d6f92a72fdbd1ea98277"
+    },
+    {
+      "path": "results/revision_v13/action/SA1_event178_oscillation_certificate.json",
+      "bytes": 6290,
+      "sha256": "4ef771fd9199bf4e295a2652e647914ec102a895d70b9c279929fb827157bebc"
+    }
+  ],
+  "excluded_from_public": [
+    "action_insertions.tex",
+    "delay30/logs/NSW1_cstar_fixed.log",
+    "delay30/logs/NSW1_inverse_lead.log",
+    "delay30/logs/NSW1_raw.log",
+    "delay30/logs/NSW1_sparse_equal.log",
+    "delay30/logs/QLD1_cstar_fixed.log",
+    "delay30/logs/QLD1_inverse_lead.log",
+    "delay30/logs/QLD1_raw.log",
+    "delay30/logs/QLD1_sparse_equal.log",
+    "delay30/logs/SA1_cstar_fixed.log",
+    "delay30/logs/SA1_inverse_lead.log",
+    "delay30/logs/SA1_raw.log",
+    "delay30/logs/SA1_sparse_equal.log",
+    "delay30/logs/TAS1_cstar_fixed.log",
+    "delay30/logs/TAS1_inverse_lead.log",
+    "delay30/logs/TAS1_raw.log",
+    "delay30/logs/TAS1_sparse_equal.log",
+    "delay30/logs/VIC1_cstar_fixed.log",
+    "delay30/logs/VIC1_inverse_lead.log",
+    "delay30/logs/VIC1_raw.log",
+    "delay30/logs/VIC1_sparse_equal.log",
+    "delay30/monthly/NSW1_202401_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202402_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202403_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202404_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202405_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202406_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202407_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202408_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202409_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202410_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202411_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202412_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202501_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202502_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202503_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202504_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202505_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202506_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202507_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202508_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202509_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202510_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202511_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202512_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202601_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202602_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202603_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202604_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202605_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202606_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202607_delayed_inputs.parquet",
+    "delay30/monthly/NSW1_202608_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202401_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202402_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202403_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202404_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202405_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202406_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202407_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202408_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202409_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202410_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202411_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202412_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202501_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202502_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202503_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202504_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202505_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202506_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202507_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202508_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202509_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202510_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202511_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202512_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202601_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202602_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202603_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202604_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202605_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202606_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202607_delayed_inputs.parquet",
+    "delay30/monthly/QLD1_202608_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202401_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202402_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202403_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202404_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202405_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202406_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202407_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202408_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202409_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202410_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202411_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202412_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202501_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202502_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202503_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202504_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202505_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202506_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202507_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202508_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202509_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202510_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202511_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202512_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202601_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202602_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202603_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202604_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202605_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202606_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202607_delayed_inputs.parquet",
+    "delay30/monthly/SA1_202608_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202401_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202402_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202403_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202404_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202405_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202406_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202407_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202408_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202409_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202410_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202411_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202412_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202501_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202502_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202503_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202504_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202505_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202506_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202507_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202508_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202509_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202510_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202511_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202512_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202601_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202602_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202603_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202604_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202605_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202606_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202607_delayed_inputs.parquet",
+    "delay30/monthly/TAS1_202608_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202401_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202402_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202403_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202404_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202405_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202406_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202407_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202408_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202409_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202410_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202411_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202412_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202501_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202502_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202503_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202504_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202505_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202506_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202507_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202508_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202509_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202510_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202511_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202512_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202601_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202602_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202603_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202604_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202605_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202606_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202607_delayed_inputs.parquet",
+    "delay30/monthly/VIC1_202608_delayed_inputs.parquet",
+    "delay30/queue_status.json",
+    "delay30_resource_plan.json",
+    "epsilon_subsample_ranges_partial.parquet"
+  ],
+  "public_report_metadata_only_changes": [
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_raw.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_raw.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "63f21915e1fa7ef9797ce8fceefe3bd8cc947f1ff956dedc8cab310114a430a9",
+      "public_json_sha256": "20d4c21a24a6055e49d2ca19498ca2fc183d5861844fc9cb84228c88a635c5c0"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_sparse_equal.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_sparse_equal.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "6ac8fabd048029d639612ddf958b5b359dfac40c2fa576fd99caa0624074bdad",
+      "public_json_sha256": "3908e4e89b3fcdd41b6ddb94f7b669b344a79fcc187574599b2d8d9d5f34e2cf"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_inverse_lead.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_inverse_lead.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "69aa8956b1e5e7201b5961a487bff60ef3b8cc7c906ab2723e85a30492d5c673",
+      "public_json_sha256": "8484f8d8202077d176277a394ae9bcc6544fa12c1ae55518111f8870115aa998"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_cstar_fixed.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_cstar_fixed.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "29ddcc4927f2376007f1760384a32ddc327fbdd327c310bc3afd53f134498607",
+      "public_json_sha256": "d71d89c3b7433e4a482575e9da0d62a427075dd049ec196c6daf6bf2c70443c8"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_raw.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_raw.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "88ba92f9caf6e691176e06d10ca192f06487da6d4e1772c410ccc48600cbed90",
+      "public_json_sha256": "c3ebffd7297b8188589d26ade1e63106ec1d224631b2352ce2e05fac2ca9006e"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_sparse_equal.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_sparse_equal.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "a0c64b49e96698878bfc0b6f127b532ad98871679965db3d64e6c63b71e6df55",
+      "public_json_sha256": "5c777214b9ca3d19a0d7fc3ccbe4eeac2fb3b2864fd80a88c090db751789f2e2"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_inverse_lead.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_inverse_lead.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "ca528744b92ff945e3cf30729e228d3b96003c8ffe41be5494b9ce090d8964e3",
+      "public_json_sha256": "72f2b807d39b31d8be01b93ef2a9e4e2883ce120c4c409bd5fbeba70d83ded21"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_cstar_fixed.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_cstar_fixed.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "849a539b2cdefd0cf6b5a49e7bf37f804773d73a1c19f50e7dc992f0fb9e8891",
+      "public_json_sha256": "bbc1b20617c9a63a2f7cbd1c48c9283f8efda1ffb4bf515d921f73f76f9789cd"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_raw.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_raw.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "ad3c175bc5c0695b947f8d711d4129f00907f86532ebfddec1a19bd6cb9ffc7e",
+      "public_json_sha256": "d9ae8bcc253d2d2f2257d26a767cec93c8c2844e03b91e5b5b97cade62b5f29e"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_sparse_equal.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_sparse_equal.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "e6622dfa5d3de29863ed980f908cb0bb9922468ffbc61e9694f578f4f4fea929",
+      "public_json_sha256": "4a55cd4d0f069d730176b4c008953d082cd826f5525327082180f0fac14d9029"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_inverse_lead.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_inverse_lead.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "be999aabdba0f6fc52175600e0eca25568c77165332df18cf5cbb73c885f37c5",
+      "public_json_sha256": "63b724a1f544948b8151b4547f29d32be43303851b5059fadb1e27054b3e2500"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_cstar_fixed.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_cstar_fixed.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "8d1905b02786264206620bd43058847ec95df109547ff4ba94347757b9467b84",
+      "public_json_sha256": "36f34fe7dd0e40ccb92591ffb0130494dfe13abbe33e85b0f8be47b0a2a0104d"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_raw.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_raw.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "9d305a450aab731f41d7a76a1fcaedd3718c0197c59425026ec69734ae6d1fd6",
+      "public_json_sha256": "8a4c2c2367a48b7b6e35ec274fd21bd6de52577ee7900ba48d0b613ff014a9ec"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_sparse_equal.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_sparse_equal.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "9267b8590b0ec0b65c8ae824cddb2d2abf91194fc8ac4428df453413e3956823",
+      "public_json_sha256": "70b8ed76a47c28953ca40886dbb0a9057b6e84ce361cb1cdc336433b79abc865"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_inverse_lead.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_inverse_lead.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "77f80941dc8c3ed35b9a0d9f1e988fc82b2f2abdb734bdfde7c5b03f8bd56af5",
+      "public_json_sha256": "e427d91f53a1b383f640e103d68cabaa102a2f510ecf3ca776efe389d6791116"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_cstar_fixed.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_cstar_fixed.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "64eba0616639c50618bb8b16541aae78f8b3bef68b50f3f383443068d4cf3641",
+      "public_json_sha256": "305638e9695007ce1f785916f4ca55c82e4fb330fd99b7c96333031967a00791"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_raw.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_raw.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "4b24837e9e34d698370505074b3b7080a8fcc7e2f0de4ea7e12f6bc6d350351a",
+      "public_json_sha256": "63857d64861e7289a8be6ea7dbf951fcdd7427c037abf980f2e9a6814ebdfa48"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_sparse_equal.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_sparse_equal.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "26dc43b2764b9f91ec184018ed53d06d903392fa17b879c7c1f2d102b9c57769",
+      "public_json_sha256": "51a80ea99a1c0afe681b20a50e417b364f259d48a28057cf8d4c1bcfaff8fbc5"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_inverse_lead.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_inverse_lead.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "275a5ad8c0b4b9c189c15e83f3a5c853796e11b7659573ed76987cf25161c237",
+      "public_json_sha256": "df40e3584a97383d4ef308dbfd72817e2a663eb030716062bb9f3e442f673c78"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_cstar_fixed.json",
+      "field": "trajectory_path",
+      "new_relative_path": "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_cstar_fixed.parquet",
+      "all_other_fields_exact_to_original": true,
+      "source_json_sha256": "b88df8733b2b48aec3c620699ad73c764adf20231013adb12ecd110712ea4b4b",
+      "public_json_sha256": "feb069af083cf6ae10d81e7846f34f2a6b3d9d88334e7ec3569cbb7b72e2f5d1"
+    }
+  ]
+}

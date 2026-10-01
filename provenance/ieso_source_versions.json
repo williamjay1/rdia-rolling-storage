@@ -1,0 +1,28 @@
+{
+  "provider": "IESO",
+  "terms_url": "https://www.ieso.ca/terms-of-use",
+  "raw_files_redistributed": false,
+  "files": [
+    {
+      "year": 2022,
+      "url": "https://reports-public.ieso.ca/public/PriceHOEPPredispOR/PUB_PriceHOEPPredispOR_2022_v396.csv",
+      "version": "2022_v396",
+      "sha256": "9e93a7ed03264f96040c6981736f14ca797b2fc526ce240cc42abe26464150aa",
+      "bytes": 465109
+    },
+    {
+      "year": 2023,
+      "url": "https://reports-public.ieso.ca/public/PriceHOEPPredispOR/PUB_PriceHOEPPredispOR_2023_v395.csv",
+      "version": "2023_v395",
+      "sha256": "ce30a3c8f604e74cffe947e74c28f622302ed6b63bc35bf58bbbb55235de95b0",
+      "bytes": 462814
+    },
+    {
+      "year": 2024,
+      "url": "https://reports-public.ieso.ca/public/PriceHOEPPredispOR/PUB_PriceHOEPPredispOR_2024_v395.csv",
+      "version": "2024_v395",
+      "sha256": "4eca43f20bc0ea2cba74f3be4259cec716a061e84559d15fe97c567d122fddf0",
+      "bytes": 464835
+    }
+  ]
+}

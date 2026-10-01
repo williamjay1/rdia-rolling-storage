@@ -1,0 +1,164 @@
+{
+  "status": "PASS_SCOPED_PUBLIC_EXECUTION",
+  "checks": {
+    "smoke": {
+      "status": "PASS",
+      "receipt_sha256": "602935f2ed70f3ddd212a67e5888fc910c3daaff566b5f5461a5e4b2b2e442fd",
+      "runtime": {
+        "python": "3.12.10",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "numpy": "2.5.1",
+        "pandas": "3.0.5",
+        "pyarrow": "25.0.0",
+        "scipy": "1.18.0",
+        "sklearn": "1.9.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "manifest_sha256": "e823b3ce48d50589cc80eaab6696a1de10837e00e50d962e226c07184fc0309d",
+      "input_verified_count": 330,
+      "input_missing_count": 0,
+      "created_utc": "2026-10-01T17:11:37.047423+00:00",
+      "scope": "fresh 128-origin NSW latest/raw prefix only",
+      "origins": 128,
+      "oracle_calls": null,
+      "cases": null,
+      "max_absolute_errors": {
+        "soc_start": 0.0,
+        "charge_mw": 0.0,
+        "discharge_mw": 0.0,
+        "soc_end": 0.0,
+        "cashflow_aud": 0.0,
+        "degradation_aud": 0.0,
+        "net_aud": 0.0
+      },
+      "public_adapter_sha256": "3ee305c09e8a67201b483c4a398f78a571b34c2a34e41e5c9314994a6de8356c"
+    },
+    "spo_oracle": {
+      "status": "PASS",
+      "receipt_sha256": "591e9645c3cdf530bea75e8b911aa69b9a6827c0a32bd27c41c03e7712b1f81c",
+      "runtime": {
+        "python": "3.12.10",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "numpy": "2.5.1",
+        "pandas": "3.0.5",
+        "pyarrow": "25.0.0",
+        "scipy": "1.18.0",
+        "sklearn": "1.9.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "manifest_sha256": "e823b3ce48d50589cc80eaab6696a1de10837e00e50d962e226c07184fc0309d",
+      "input_verified_count": 330,
+      "input_missing_count": 0,
+      "created_utc": "2026-10-01T17:26:08.482829+00:00",
+      "scope": "SPO oracle only",
+      "origins": null,
+      "oracle_calls": 361,
+      "cases": 30,
+      "max_absolute_errors": null,
+      "public_adapter_sha256": "3ee305c09e8a67201b483c4a398f78a571b34c2a34e41e5c9314994a6de8356c"
+    },
+    "direct_tests": {
+      "status": "PASS",
+      "receipt_sha256": "6fe90689bdaec5a5f248c0ef911f4517763e1cf7bde62793707bae4c4238a887",
+      "runtime": {
+        "python": "3.12.10",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "numpy": "2.5.1",
+        "pandas": "3.0.5",
+        "pyarrow": "25.0.0",
+        "scipy": "1.18.0",
+        "sklearn": "1.9.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "manifest_sha256": "e823b3ce48d50589cc80eaab6696a1de10837e00e50d962e226c07184fc0309d",
+      "input_verified_count": 330,
+      "input_missing_count": 0,
+      "created_utc": "2026-10-01T17:26:33.039206+00:00",
+      "scope": "direct paired tests on saved paths; no solver or refit",
+      "origins": null,
+      "oracle_calls": null,
+      "cases": null,
+      "max_absolute_errors": null,
+      "public_adapter_sha256": "3ee305c09e8a67201b483c4a398f78a571b34c2a34e41e5c9314994a6de8356c",
+      "csv_comparisons": [
+        {
+          "name": "absorption_ratio_uncertainty.csv",
+          "fresh_sha256": "2d97f65437a11257ddd4f7dc1b2f342202258ccd72eda3475467530ff9384f51",
+          "frozen_references": [
+            {
+              "path": "results/revision_v8/direct_tests/absorption_ratio_uncertainty.csv",
+              "sha256": "2d97f65437a11257ddd4f7dc1b2f342202258ccd72eda3475467530ff9384f51",
+              "byte_equal": true
+            }
+          ]
+        },
+        {
+          "name": "annual_context_compact.csv",
+          "fresh_sha256": "9f7118bbc7a27d859d4332edb072b806772364d3746aabbc01b6e44ec6f3ee09",
+          "frozen_references": [
+            {
+              "path": "results/revision_v8/direct_tests/annual_context_compact.csv",
+              "sha256": "9f7118bbc7a27d859d4332edb072b806772364d3746aabbc01b6e44ec6f3ee09",
+              "byte_equal": true
+            }
+          ]
+        },
+        {
+          "name": "annual_price_context.csv",
+          "fresh_sha256": "7a28971356deeef9c4e8e25ef26d0a03b73c1916e0bacc6262ed2ae95c659d51",
+          "frozen_references": [
+            {
+              "path": "results/revision_v8/direct_tests/annual_price_context.csv",
+              "sha256": "7a28971356deeef9c4e8e25ef26d0a03b73c1916e0bacc6262ed2ae95c659d51",
+              "byte_equal": true
+            }
+          ]
+        },
+        {
+          "name": "annual_regional_cash.csv",
+          "fresh_sha256": "e001cef280b9250f8835beb4865b3a58e098b16125c81ec56e3d02775d8baf3a",
+          "frozen_references": [
+            {
+              "path": "results/revision_v8/direct_tests/annual_regional_cash.csv",
+              "sha256": "e001cef280b9250f8835beb4865b3a58e098b16125c81ec56e3d02775d8baf3a",
+              "byte_equal": true
+            }
+          ]
+        },
+        {
+          "name": "direct_mean_tests.csv",
+          "fresh_sha256": "dbc43ec0f3b5276447b624a316f47efbfbaa9a6c692f74ca2d5d41aa7a93a6d1",
+          "frozen_references": [
+            {
+              "path": "results/revision_v8/direct_tests/direct_mean_tests.csv",
+              "sha256": "dbc43ec0f3b5276447b624a316f47efbfbaa9a6c692f74ca2d5d41aa7a93a6d1",
+              "byte_equal": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "supported_but_unexecuted_public_tasks": [
+    "il-mixed",
+    "current-eval",
+    "sensitivity",
+    "walkforward",
+    "statistics",
+    "theory",
+    "synthetic",
+    "branches",
+    "common-state",
+    "spo-fit"
+  ],
+  "full_task_grid_executed": false,
+  "linux_executed": false,
+  "raw_data_reconstructed": false,
+  "model_refitted": false,
+  "manifest_complete_sha_size_verification": {
+    "files": 330,
+    "missing": 0,
+    "sha256": "e823b3ce48d50589cc80eaab6696a1de10837e00e50d962e226c07184fc0309d"
+  },
+  "scope": "Internal fresh execution from staged public code/data on Windows; not an independent external replication. Direct test outputs compared with preserved frozen CSVs."
+}

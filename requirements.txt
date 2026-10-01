@@ -1,0 +1,9 @@
+# Numerical environment used for the reported Australian and learning runs.
+# Python 3.12; SciPy's bundled HiGHS API is used (no separate highspy dependency).
+numpy==2.5.1
+pandas==3.0.5
+scipy==1.18.0
+pyarrow==25.0.0
+scikit-learn==1.9.0
+joblib==1.5.3
+threadpoolctl==3.6.0

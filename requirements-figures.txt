@@ -1,0 +1,5 @@
+-r requirements.txt
+matplotlib==3.11.1
+pillow==12.3.0
+pymupdf==1.28.2
+PyYAML==6.0.3

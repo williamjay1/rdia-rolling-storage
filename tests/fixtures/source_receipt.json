@@ -1,0 +1,16 @@
+{
+  "status": "genuine frozen 128-origin prefix; not synthetic",
+  "region": "NSW1",
+  "rows": 128,
+  "initial_soc_mwh": 1.0,
+  "source_input_path": "results/revision_v5/history/NSW1_baseline_inputs.parquet",
+  "source_input_sha256": "e26786daaef29a7ac1cdfcbfcb6a7ea1f810fe44ae5196a8f9922047aab39e8c",
+  "source_reference_path": "results/revision_v5/control/main/NSW1_evaluation_c60_raw.parquet",
+  "source_reference_sha256": "94554975e4c4b8fc2b7da06ef2d8c4c60bf0c79a2d34776a8568f560720c390f",
+  "first_target": "2024-01-01 00:00:00",
+  "last_target": "2024-01-03 15:30:00",
+  "input_sha256": "21541fe2f7978ef96b97603a9aba4b6066558a8ce4303aaf136194723b1d8e42",
+  "reference_sha256": "4b8215e486563692ed19a13e035a32d0cdf3ac60bf3a6101716177ecae009ca2",
+  "source_fixture_replay": false,
+  "description": "Rows extracted without resampling/interpolation; fresh public replay validation has not yet been run when this receipt was created."
+}

@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "name": "paired_economic_comparisons.csv",
+      "original_location": "results/revision_v5/control/paired_economic_comparisons.csv"
+    },
+    {
+      "name": "v6_decomposition_inverse_lead.csv",
+      "original_location": "results/revision_v6/integrated/v6_decomposition_inverse_lead.csv"
+    },
+    {
+      "name": "v6_decomposition_sparse_equal.csv",
+      "original_location": "results/revision_v6/integrated/v6_decomposition_sparse_equal.csv"
+    },
+    {
+      "name": "table_heterogeneity_compact.csv",
+      "original_location": "results/revision_v7/statistics/table_heterogeneity_compact.csv"
+    },
+    {
+      "name": "table_reality_check_compact.csv",
+      "original_location": "results/revision_v7/statistics/table_reality_check_compact.csv"
+    },
+    {
+      "name": "table_selection_length_compact.csv",
+      "original_location": "results/revision_v7/statistics/table_selection_length_compact.csv"
+    },
+    {
+      "name": "table_reality_check_evaluation.csv",
+      "original_location": "results/revision_v7/statistics/table_reality_check_evaluation.csv"
+    },
+    {
+      "name": "absorption_ratio_uncertainty.csv",
+      "original_location": "fresh_direct_tests/absorption_ratio_uncertainty.csv"
+    },
+    {
+      "name": "annual_context_compact.csv",
+      "original_location": "fresh_direct_tests/annual_context_compact.csv"
+    },
+    {
+      "name": "annual_price_context.csv",
+      "original_location": "fresh_direct_tests/annual_price_context.csv"
+    },
+    {
+      "name": "annual_regional_cash.csv",
+      "original_location": "fresh_direct_tests/annual_regional_cash.csv"
+    },
+    {
+      "name": "direct_mean_tests.csv",
+      "original_location": "fresh_direct_tests/direct_mean_tests.csv"
+    }
+  ],
+  "source_terms": "AEMO attribution and original contribution terms in DATA_LICENSE.md"
+}

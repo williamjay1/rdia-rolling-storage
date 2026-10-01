@@ -1,0 +1,34 @@
+# Release history
+
+## 1.0.0 — 2 October 2026
+
+First curated release, prepared for publication as version 1.0.0. Sole author
+Junjie Zhang's two Shanghai International Studies University affiliations,
+institutional email and author-supplied ORCID are synchronized with the
+manuscript.
+
+Core scientific inputs and findings preserve the frozen v10 numerical study;
+v11 supplies the final figure design. The v13 revision adds separately
+identified supplementary diagnostics for numerical/material-action thresholds,
+branch-start selection, illustrative archive costs, conditional precision/MDE,
+exploratory equivalence, selected-window delayed-sale classification and a
+worked objective-oscillation certificate. Twenty completed extra 30-minute
+availability-delay replays preserve 46,741 origins per policy/region and the
+original 2023 C* weights. Their five-asset S-C* point contrast reverses to
+-A$3,944.46; IL-C* remains +A$57,139.02 over 974 nominal days. No new
+clock-sensitivity confidence intervals are claimed. These additions do not
+replace the core freeze or constitute a prospective study.
+The finalized release manifest records the diagnostic files actually supplied.
+Fresh public-adapter action-range and SA-case checks passed on their declared
+fixed subsample. The source-project 20-replay grid was not repeated through
+that public entry; Linux execution and complete raw-source reconstruction
+remain outside the packaging-time validation scope.
+
+Public copies exclude unsubmitted manuscript files, internal review and private
+author material, credentials and machine-specific configuration. Public
+checksums, fresh solver execution, statistical reconstruction and official
+Ontario-source preparation have their own recorded scopes. Confidence
+intervals and tests are conditional on retained programs and observed history.
+Neither preserving outputs nor passing small internal checks establishes
+independent external replication of the complete raw archive-to-results
+pipeline. No journal acceptance or Zenodo DOI is claimed.

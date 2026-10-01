@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "fresh_figure_exports": [
+    {
+      "figure": "figure_1_information_timing_source.json",
+      "source_data_identical": true
+    },
+    {
+      "figure": "figure_2_regional_economic_contrasts_source.json",
+      "source_data_identical": true
+    },
+    {
+      "figure": "figure_3_channel_allocation_source.json",
+      "source_data_identical": true
+    },
+    {
+      "figure": "figure_4_updating_branches_source.json",
+      "source_data_identical": true
+    },
+    {
+      "figure": "figure_5_decision_failure_source.json",
+      "source_data_identical": true
+    },
+    {
+      "figure": "figure_6_rdia_protocol_source.json",
+      "source_data_identical": true
+    },
+    {
+      "figure": "figure_S1_updated_rolling_illustrations_source.json",
+      "source_data_identical": true
+    }
+  ],
+  "official_ieso_source_reconstruction": [
+    {
+      "arm": "operator_short",
+      "input_file_byte_identical": true
+    },
+    {
+      "arm": "researcher_12h",
+      "input_file_byte_identical": true
+    }
+  ],
+  "ontario_full_policy_replay_executed": false,
+  "ontario_reconstructed_inputs_published": false
+}

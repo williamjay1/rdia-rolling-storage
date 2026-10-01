@@ -1,0 +1,67 @@
+{
+  "scientific_scope": "Frozen NEM/RDIA/SPO core only; excludes Ontario and figure rendering",
+  "tasks": {
+    "il-mixed": {
+      "new_controller_solve": true,
+      "requires_large_data_asset": true
+    },
+    "current-eval": {
+      "new_controller_solve": true,
+      "requires_large_data_asset": true
+    },
+    "sensitivity": {
+      "new_controller_solve": true,
+      "requires_large_data_asset": true
+    },
+    "walkforward": {
+      "new_controller_solve": true,
+      "requires_large_data_asset": true
+    },
+    "statistics": {
+      "new_controller_solve": false,
+      "requires_large_data_asset": true
+    },
+    "direct-tests": {
+      "new_controller_solve": false,
+      "requires_large_data_asset": true
+    },
+    "theory": {
+      "new_controller_solve": false,
+      "requires_large_data_asset": false
+    },
+    "synthetic": {
+      "new_controller_solve": false,
+      "requires_large_data_asset": false
+    },
+    "branches": {
+      "new_controller_solve": true,
+      "requires_large_data_asset": true
+    },
+    "common-state": {
+      "new_controller_solve": true,
+      "requires_large_data_asset": true
+    },
+    "spo-fit": {
+      "new_controller_solve": true,
+      "requires_large_data_asset": true
+    }
+  },
+  "smoke": {
+    "region": "NSW1",
+    "origins": 128,
+    "fixture_paths": [
+      "tests/fixtures/NSW1_raw_c60_inputs_128.parquet",
+      "tests/fixtures/NSW1_raw_c60_reference_128.parquet"
+    ],
+    "tolerance": 1e-06,
+    "full_task_grid": false
+  },
+  "spo_oracle": {
+    "cases": 30,
+    "model_refit": false,
+    "large_data_asset": false
+  },
+  "bootstrap_draws": 10000,
+  "stride_common_state": 32,
+  "global_scope": "exploratory controlled comparison under one controller; no external acceptance or replication guarantee"
+}

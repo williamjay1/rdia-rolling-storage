@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+results/
+cache/
+downloads/
+output/
+data_assets/*.zip
+*.log
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.token
+Thumbs.db
+.DS_Store

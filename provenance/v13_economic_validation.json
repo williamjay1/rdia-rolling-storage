@@ -1,0 +1,339 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-01T18:04:49.764822+00:00",
+  "actual_execution": true,
+  "public_command": "python scripts/revision_v13_economic_diagnostics.py --output-dir D:/MLWork/AOOR_Public_Validation_20261002/v13_economic",
+  "script_byte_identical_to_scientific_source": true,
+  "script_sha256": "cdbed22122950cb408f2536150f482977de177701440660a5ed1225d7814e16c",
+  "original_execution_receipt": {
+    "path": "results/revision_v13/economic/execution_receipt.json",
+    "sha256": "d9474b83d7f99fbf1bf1984a0424f77cb859b1f4ddaa461d5da89a97f6f7848b"
+  },
+  "fresh_execution_receipt_sha256": "c34e0f48361754c1f200fd70a508bdb659589d44b9b56ef7468f1b2b2c8a3f2f",
+  "fresh_execution_output_root_is_outside_public_repository": true,
+  "original_and_public_numeric_checks_exact": true,
+  "numeric_checks_passed": 354,
+  "source_count": 62,
+  "counts": {
+    "cost_rows": 168,
+    "inference_rows": 42,
+    "precision_rows": 42,
+    "selected_branch_starts": 100,
+    "error_band_rows": 16,
+    "regret_cash_band_rows": 16
+  },
+  "output_comparisons": [
+    {
+      "path": "annual_exploratory_multiplicity.csv",
+      "original_sha256": "fd27a03f8baa09303e7b3451d9f50e33a5ba68e503bce69a527cf64187dcead8",
+      "public_recomputed_sha256": "fd27a03f8baa09303e7b3451d9f50e33a5ba68e503bce69a527cf64187dcead8",
+      "byte_identical": true
+    },
+    {
+      "path": "block_length_inference.csv",
+      "original_sha256": "2849b038b7ec791ea1d511b8d45080f1690427e6ac9b1be02c906e6d70922bee",
+      "public_recomputed_sha256": "2849b038b7ec791ea1d511b8d45080f1690427e6ac9b1be02c906e6d70922bee",
+      "byte_identical": true
+    },
+    {
+      "path": "branch_start_features_100.csv",
+      "original_sha256": "3b135fb314c5e3ee5775d1f4b03023af45765dbaf877dfcb5eec59c771ab4f9e",
+      "public_recomputed_sha256": "3b135fb314c5e3ee5775d1f4b03023af45765dbaf877dfcb5eec59c771ab4f9e",
+      "byte_identical": true
+    },
+    {
+      "path": "break_even_costs.csv",
+      "original_sha256": "f3898ccd03f739b7082bfa588864615e38c8203089f7842dc5a9cda8794b847a",
+      "public_recomputed_sha256": "f3898ccd03f739b7082bfa588864615e38c8203089f7842dc5a9cda8794b847a",
+      "byte_identical": true
+    },
+    {
+      "path": "conditional_precision_and_mde.csv",
+      "original_sha256": "287ab4fbc49612d023fe8d8ee231550bb0ffd40e22c84ae1eadb7b83cb5be81a",
+      "public_recomputed_sha256": "287ab4fbc49612d023fe8d8ee231550bb0ffd40e22c84ae1eadb7b83cb5be81a",
+      "byte_identical": true
+    },
+    {
+      "path": "cost_sensitivity.csv",
+      "original_sha256": "09f4850490acbec58acf1a8d006e192a38af66337b17467d1d4199246cf04131",
+      "public_recomputed_sha256": "09f4850490acbec58acf1a8d006e192a38af66337b17467d1d4199246cf04131",
+      "byte_identical": true
+    },
+    {
+      "path": "delayed_sale_frequency_by_region.csv",
+      "original_sha256": "0690e1b16bae23d5dfbecc05ba1ceb8eb95d3e6f850ccc2f9106dd1bf924c186",
+      "public_recomputed_sha256": "0690e1b16bae23d5dfbecc05ba1ceb8eb95d3e6f850ccc2f9106dd1bf924c186",
+      "byte_identical": true
+    },
+    {
+      "path": "delayed_sale_operational_definition.json",
+      "original_sha256": "de05a5da0362a77d25c8b8a4c119ed4189ea10ff3e094a05d9e0c6e89fbd9cbe",
+      "public_recomputed_sha256": "de05a5da0362a77d25c8b8a4c119ed4189ea10ff3e094a05d9e0c6e89fbd9cbe",
+      "byte_identical": true
+    },
+    {
+      "path": "delayed_sale_opportunities_all.csv",
+      "original_sha256": "b05c2c42493ec4722127fad8efa7348344c850280af636999f33f14cf1cc27a6",
+      "public_recomputed_sha256": "b05c2c42493ec4722127fad8efa7348344c850280af636999f33f14cf1cc27a6",
+      "byte_identical": true
+    },
+    {
+      "path": "illustrative_cost_width_equivalence.csv",
+      "original_sha256": "f06f3b90a39cc603c04b22cec05247c6ba9aa1b09285f0d9efe1201713fdc336",
+      "public_recomputed_sha256": "f06f3b90a39cc603c04b22cec05247c6ba9aa1b09285f0d9efe1201713fdc336",
+      "byte_identical": true
+    },
+    {
+      "path": "methods_and_scope.json",
+      "original_sha256": "d6693d7580e1c19f7a0741120c2015507710522473c70fa4d966130473b626a5",
+      "public_recomputed_sha256": "d6693d7580e1c19f7a0741120c2015507710522473c70fa4d966130473b626a5",
+      "byte_identical": true
+    },
+    {
+      "path": "regional_branch_start_ranges.csv",
+      "original_sha256": "bcb095751f50bfde51ab7f960effe5413dd44956797351e874de045c22ba47f9",
+      "public_recomputed_sha256": "bcb095751f50bfde51ab7f960effe5413dd44956797351e874de045c22ba47f9",
+      "byte_identical": true
+    },
+    {
+      "path": "regional_daily_cash_descriptives.csv",
+      "original_sha256": "f302f0d32c69abfc4190fbe3cf13025e59c4bd09c68289da8da83a31a5e198a7",
+      "public_recomputed_sha256": "f302f0d32c69abfc4190fbe3cf13025e59c4bd09c68289da8da83a31a5e198a7",
+      "byte_identical": true
+    },
+    {
+      "path": "regional_daily_IL_minus_Cstar_pearson.csv",
+      "original_sha256": "17608989f2972876e875fca89fb8a8e8806ecaa31145ea02c956d3f4860af3b1",
+      "public_recomputed_sha256": "17608989f2972876e875fca89fb8a8e8806ecaa31145ea02c956d3f4860af3b1",
+      "byte_identical": true
+    },
+    {
+      "path": "regional_daily_S_minus_Cstar_pearson.csv",
+      "original_sha256": "0f714d919078f2ca2a8221ba2805e66b586b3a895d2e49e3c06af10528e2ac73",
+      "public_recomputed_sha256": "0f714d919078f2ca2a8221ba2805e66b586b3a895d2e49e3c06af10528e2ac73",
+      "byte_identical": true
+    },
+    {
+      "path": "regional_exploratory_multiplicity.csv",
+      "original_sha256": "24c9488884145aed888d4cf250cc99648ff3b6b28e4cbcd9a59aa15189c02d63",
+      "public_recomputed_sha256": "24c9488884145aed888d4cf250cc99648ff3b6b28e4cbcd9a59aa15189c02d63",
+      "byte_identical": true
+    },
+    {
+      "path": "regional_market_and_forecast_descriptives.csv",
+      "original_sha256": "d156dc0ae11682d54616809b01d867a6b0df573a013a00659088e10cf3fa0edb",
+      "public_recomputed_sha256": "d156dc0ae11682d54616809b01d867a6b0df573a013a00659088e10cf3fa0edb",
+      "byte_identical": true
+    },
+    {
+      "path": "regional_price_pearson.csv",
+      "original_sha256": "dd6a258e8c2356a56850894d030bdf5e198e195fb804e3a9e5402b0ee848cdb5",
+      "public_recomputed_sha256": "dd6a258e8c2356a56850894d030bdf5e198e195fb804e3a9e5402b0ee848cdb5",
+      "byte_identical": true
+    },
+    {
+      "path": "regional_price_spearman.csv",
+      "original_sha256": "12e3fbd735be0a262e79f6a1deef4336c049a5f5cd2923e82d3d6f640db6321d",
+      "public_recomputed_sha256": "12e3fbd735be0a262e79f6a1deef4336c049a5f5cd2923e82d3d6f640db6321d",
+      "byte_identical": true
+    },
+    {
+      "path": "SA_case_source_row_verification.json",
+      "original_sha256": "062f15ce705fe968f6b51bf2d9beed85f3523c46072e27dff1c60bf10bad4cbf",
+      "public_recomputed_sha256": "8e0ddf5131f544d52eab6b94bf71eaa011990ec174bb3e316efeeb4c9046225b",
+      "byte_identical": false,
+      "numerical_and_figure_values_exact": true,
+      "reason": "Input hashes differ only for the existing public sanitized Figure 5 source JSON; all prices, dispatches, inventories and whole-window contrasts identical."
+    },
+    {
+      "path": "spo_forecast_error_by_realized_price_band.csv",
+      "original_sha256": "400dcecb1e2b7b4544391d07a3426dac76af8f1812360a6951a3f24fa6569bd6",
+      "public_recomputed_sha256": "400dcecb1e2b7b4544391d07a3426dac76af8f1812360a6951a3f24fa6569bd6",
+      "byte_identical": true
+    },
+    {
+      "path": "spo_local_regret_and_cash_by_current_price_band.csv",
+      "original_sha256": "bd1ee0f7de8e64ac1a115c1298c3e7504f115d51f7b9d799b5ee912f4997c0ea",
+      "public_recomputed_sha256": "bd1ee0f7de8e64ac1a115c1298c3e7504f115d51f7b9d799b5ee912f4997c0ea",
+      "byte_identical": true
+    },
+    {
+      "path": "spo_price_band_definition.json",
+      "original_sha256": "942c586aed02fd8fea62186b9bfcbdacaa7da632a67dc79a025f021ddbbbce21",
+      "public_recomputed_sha256": "942c586aed02fd8fea62186b9bfcbdacaa7da632a67dc79a025f021ddbbbce21",
+      "byte_identical": true
+    }
+  ],
+  "inputs_manifest": "provenance/v13_economic_inputs_manifest.json",
+  "new_small_input_files_count": 2,
+  "new_small_input_bytes": 17150,
+  "scope": "All v13 exploratory costs, equivalence, precision, multiplicity, fixed selected-window and SPO forecast-price-band diagnostics rerun from the staged public frozen sources. No controller solve, predictor fitting or prospective-power study added. Original v10 scientific outcomes retained. Windows actually executed; Linux not executed.",
+  "inputs_manifest_sha256": "e75e1e509e7edb342e82bf5bad56074b2e117c6d521a7cd6116ec51a3ad963ef",
+  "published_frozen_outputs_validation": {
+    "status": "PASS",
+    "metadata_checked_utc": "2026-10-01T18:26:33.076832+00:00",
+    "actual_new_computation": false,
+    "file_count": 24,
+    "input_hashes_checked": 62,
+    "writing_tex_excluded_from_publication": true,
+    "all_existing_result_sha256_and_size_match": true,
+    "actual_result_file_set_equals_manifest": true,
+    "row_counts_match_actual_execution": true,
+    "actual_csv_row_counts": {
+      "cost_rows": 168,
+      "inference_rows": 42,
+      "precision_rows": 42,
+      "selected_branch_starts": 100,
+      "error_band_rows": 16,
+      "regret_cash_band_rows": 16
+    },
+    "numeric_checks_passed_in_prior_actual_execution": 354,
+    "files": [
+      {
+        "path": "results/revision_v13/economic/annual_exploratory_multiplicity.csv",
+        "bytes": 23315,
+        "sha256": "fd27a03f8baa09303e7b3451d9f50e33a5ba68e503bce69a527cf64187dcead8",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/block_length_inference.csv",
+        "bytes": 6034,
+        "sha256": "2849b038b7ec791ea1d511b8d45080f1690427e6ac9b1be02c906e6d70922bee",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/branch_start_features_100.csv",
+        "bytes": 28218,
+        "sha256": "3b135fb314c5e3ee5775d1f4b03023af45765dbaf877dfcb5eec59c771ab4f9e",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/break_even_costs.csv",
+        "bytes": 3325,
+        "sha256": "f3898ccd03f739b7082bfa588864615e38c8203089f7842dc5a9cda8794b847a",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/conditional_precision_and_mde.csv",
+        "bytes": 6867,
+        "sha256": "287ab4fbc49612d023fe8d8ee231550bb0ffd40e22c84ae1eadb7b83cb5be81a",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/cost_sensitivity.csv",
+        "bytes": 25381,
+        "sha256": "09f4850490acbec58acf1a8d006e192a38af66337b17467d1d4199246cf04131",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/delayed_sale_frequency_by_region.csv",
+        "bytes": 4341,
+        "sha256": "0690e1b16bae23d5dfbecc05ba1ceb8eb95d3e6f850ccc2f9106dd1bf924c186",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/delayed_sale_operational_definition.json",
+        "bytes": 1154,
+        "sha256": "de05a5da0362a77d25c8b8a4c119ed4189ea10ff3e094a05d9e0c6e89fbd9cbe",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/delayed_sale_opportunities_all.csv",
+        "bytes": 3547,
+        "sha256": "b05c2c42493ec4722127fad8efa7348344c850280af636999f33f14cf1cc27a6",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/execution_receipt.json",
+        "bytes": 72983,
+        "sha256": "d9474b83d7f99fbf1bf1984a0424f77cb859b1f4ddaa461d5da89a97f6f7848b",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/illustrative_cost_width_equivalence.csv",
+        "bytes": 32906,
+        "sha256": "f06f3b90a39cc603c04b22cec05247c6ba9aa1b09285f0d9efe1201713fdc336",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/methods_and_scope.json",
+        "bytes": 2054,
+        "sha256": "d6693d7580e1c19f7a0741120c2015507710522473c70fa4d966130473b626a5",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/regional_branch_start_ranges.csv",
+        "bytes": 677,
+        "sha256": "bcb095751f50bfde51ab7f960effe5413dd44956797351e874de045c22ba47f9",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/regional_daily_cash_descriptives.csv",
+        "bytes": 1339,
+        "sha256": "f302f0d32c69abfc4190fbe3cf13025e59c4bd09c68289da8da83a31a5e198a7",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/regional_daily_IL_minus_Cstar_pearson.csv",
+        "bytes": 369,
+        "sha256": "17608989f2972876e875fca89fb8a8e8806ecaa31145ea02c956d3f4860af3b1",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/regional_daily_S_minus_Cstar_pearson.csv",
+        "bytes": 369,
+        "sha256": "0f714d919078f2ca2a8221ba2805e66b586b3a895d2e49e3c06af10528e2ac73",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/regional_exploratory_multiplicity.csv",
+        "bytes": 5772,
+        "sha256": "24c9488884145aed888d4cf250cc99648ff3b6b28e4cbcd9a59aa15189c02d63",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/regional_market_and_forecast_descriptives.csv",
+        "bytes": 2124,
+        "sha256": "d156dc0ae11682d54616809b01d867a6b0df573a013a00659088e10cf3fa0edb",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/regional_price_pearson.csv",
+        "bytes": 365,
+        "sha256": "dd6a258e8c2356a56850894d030bdf5e198e195fb804e3a9e5402b0ee848cdb5",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/regional_price_spearman.csv",
+        "bytes": 363,
+        "sha256": "12e3fbd735be0a262e79f6a1deef4336c049a5f5cd2923e82d3d6f640db6321d",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/SA_case_source_row_verification.json",
+        "bytes": 1319,
+        "sha256": "062f15ce705fe968f6b51bf2d9beed85f3523c46072e27dff1c60bf10bad4cbf",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/spo_forecast_error_by_realized_price_band.csv",
+        "bytes": 4202,
+        "sha256": "400dcecb1e2b7b4544391d07a3426dac76af8f1812360a6951a3f24fa6569bd6",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/spo_local_regret_and_cash_by_current_price_band.csv",
+        "bytes": 4290,
+        "sha256": "bd1ee0f7de8e64ac1a115c1298c3e7504f115d51f7b9d799b5ee912f4997c0ea",
+        "PASS": true
+      },
+      {
+        "path": "results/revision_v13/economic/spo_price_band_definition.json",
+        "bytes": 432,
+        "sha256": "942c586aed02fd8fea62186b9bfcbdacaa7da632a67dc79a025f021ddbbbce21",
+        "PASS": true
+      }
+    ],
+    "scope": "Metadata and existing output validation only. Previously completed fresh public numerical execution remains the scientific evidence; no new computation or expanded scope is claimed."
+  }
+}
