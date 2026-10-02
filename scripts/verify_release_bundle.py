@@ -1,6 +1,6 @@
 """Verify a complete release, then optionally execute its bounded reproductions.
 
-The default is the complete 1.1.0 release, not a Git-only checkout. Checksum
+The default is the complete 1.1.1 release, not a Git-only checkout. Checksum
 verification, fresh solver execution, saved-path statistical reconstruction and
 frozen-input redrawing are reported as separate operations. No raw download,
 full policy grid, forecasting refit, or Zenodo deposit is performed.
@@ -22,7 +22,7 @@ import time
 from pathlib import Path, PurePosixPath
 
 sys.dont_write_bytecode = True
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 MANIFEST = "release_manifest.json"
 
 

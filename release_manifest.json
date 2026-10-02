@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "version": "1.1.0",
-  "created_utc": "2026-10-02T17:24:21.217813+00:00",
+  "version": "1.1.1",
+  "created_utc": "2026-10-02T17:49:35.587866+00:00",
   "scope": "Complete current software/derived-data support: unchanged frozen core and separately manifested v14/v15/v16 addenda; no manuscript, raw archives, IESO source prices or proprietary fonts",
   "raw_source_archives_included": false,
   "zenodo_doi": null,
@@ -449,8 +449,8 @@
     },
     {
       "path": ".github/workflows/reproducibility.yml",
-      "bytes": 2991,
-      "sha256": "c759583daa5d5b321c4392aaaca744250b52148583882b28adb6c6bd2ed98505"
+      "bytes": 3184,
+      "sha256": "bc6ac9d6447b902f5d36ac74c00018cffc677fd0427836df8404eb6eada2a92a"
     },
     {
       "path": ".gitignore",
@@ -460,22 +460,22 @@
     {
       "path": ".zenodo.json",
       "bytes": 3302,
-      "sha256": "1aa0f37028582de2a1d2042a29a1198addfb33078a265ca424deee8a4dc41274"
+      "sha256": "b79ae04ed5098052d38749e93747c5dc7777921f9432f1e535f27bf5c25889f5"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4523,
-      "sha256": "56ac1ea5317d7b6dee4a8dd165f939a636c0a8858e587b6d0d3df14c333f77e0"
+      "bytes": 5002,
+      "sha256": "859df609f4e20d9238a9fdd21268d991bb9eec51c519cc0ecdd95a6c2f25aeb0"
     },
     {
       "path": "CITATION.cff",
       "bytes": 1847,
-      "sha256": "82408a531748e76487fe244e0d099c2f1a4b7effc70789c01189fce913064759"
+      "sha256": "9b48ba4578df3776e3bee86126a94987b0787506ac8e34859dcb90c4e65b4b85"
     },
     {
       "path": "DATA_AVAILABILITY.md",
       "bytes": 6150,
-      "sha256": "a0ec6267d583e73543b3f6c02c41580e38ed8c6c45f4c33ff1d2a2683f953489"
+      "sha256": "05a4571afc8feb75ce20fd180ef170e31dabbfb6cf398c82523eefef9fbc629b"
     },
     {
       "path": "DATA_DICTIONARY.md",
@@ -484,8 +484,8 @@
     },
     {
       "path": "DATA_LICENSE.md",
-      "bytes": 5862,
-      "sha256": "93d6d65fd9b51546826dc6564e2ca1683014ae22f4c1366fd890f92b33562e7e"
+      "bytes": 5874,
+      "sha256": "a9c9f585a154d07f825a64b79ae2e8933b838fe1ba729e531125ca8daf414b8d"
     },
     {
       "path": "LICENSE",
@@ -494,13 +494,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 14108,
-      "sha256": "5a7a3190fa7241badcbd8fa0cbdfb7dfee9efc09cc838ebe2278b8ee09852935"
+      "bytes": 14342,
+      "sha256": "6b7dff220779bc509265ac4e335e6012f3bcb23771ffe0f4b5be476ba3d0b7e0"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 23492,
-      "sha256": "7930c2f2b3b67b6f9c5655086af17bd6af25f637163a05fe5eb19d9d41f9fdc0"
+      "bytes": 23498,
+      "sha256": "020f78ebb82113e75417edfda1ec9ac5eba4a15a60f99c8ce9e89fd05d3adf00"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -514,8 +514,8 @@
     },
     {
       "path": "ZENODO_GUIDE_zh.md",
-      "bytes": 8976,
-      "sha256": "0d857df208e3c01187ed578d0f5c356e26bdba6bba1793b1916d49dc3a595a9e"
+      "bytes": 9225,
+      "sha256": "c904babba9724a68849c618db0089d6c014de13228e4abc0cecd8d2233d0f61d"
     },
     {
       "path": "addenda/v14/COMPACT_PACKAGE_FRESH_VALIDATION.json",
@@ -4114,8 +4114,8 @@
     },
     {
       "path": "scripts/download_release.py",
-      "bytes": 4817,
-      "sha256": "bf4c7369d2a58774a1c3aa75bc87dcc371c2cd03aefac0a9dcb68f0e1b644ff0"
+      "bytes": 6570,
+      "sha256": "7903efc5f8a7523621f937bd981ae2ce8b905cac0faec69deb049e258803d6b3"
     },
     {
       "path": "scripts/nature_qa_v11/LICENSE",
@@ -4305,7 +4305,7 @@
     {
       "path": "scripts/verify_release_bundle.py",
       "bytes": 20614,
-      "sha256": "b09fa8e92ab940dfe342a9b07439c1b6f2595a48515767795870ff9387dc0675"
+      "sha256": "add118b80736aba3d00702bd9fdc189d65d0ccb67dcad2be1fed4126145ebb21"
     },
     {
       "path": "summaries/australia/absorption_ratio_uncertainty.csv",
@@ -4421,6 +4421,11 @@
       "path": "tests/fixtures/source_receipt.json",
       "bytes": 952,
       "sha256": "f584f17cc27d3e540ab40df94cecfa85ad71a58e45857302a144fa85fad1e6a9"
+    },
+    {
+      "path": "tests/test_download_release.py",
+      "bytes": 15763,
+      "sha256": "046f2fb4c969108ec2c98c7025f114a40988cb3551bb977d33f198116fb4f9a7"
     }
   ]
 }

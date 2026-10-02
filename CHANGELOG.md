@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.1 — 2026-10-03
+
+- Corrects the downloader checksum lookup from an undefined name to the requested archive name.
+- Tests the actual full local HTTP download, checksum, extraction and complete manifest verification, including corrupt-archive rejection.
+- Refreshes version metadata and the complete attachment; scientific inputs, algorithms, frozen outcomes and figure arrays are unchanged.
+- Preserves the earlier 1.1.0 assets and does not create a Zenodo DOI.
+
+
 ## 1.1.0 — 2026-10-03
 
 - Consolidates the unchanged core derived data and separately manifested v14,

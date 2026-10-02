@@ -1,13 +1,13 @@
 # 将完整公开版本上传 Zenodo，并取得 DOI
 
-## 当前推荐归档版本：v1.1.0
+## 当前推荐归档版本：v1.1.1
 
-请下载 https://github.com/williamjay1/rdia-rolling-storage/releases/tag/v1.1.0
-中的 **rdia-rolling-storage-v1.1.0.zip** 和 **SHA256SUMS**，由你本人上传
+请下载 https://github.com/williamjay1/rdia-rolling-storage/releases/tag/v1.1.1
+中的 **rdia-rolling-storage-v1.1.1.zip** 、**SHA256SUMS** 和 **FRESH_EXECUTION.json**，由你本人上传
 Zenodo。这个完整包已合并核心澳大利亚派生数据和 v14/v15/v16 增补；
 v1.0.1 只有绘图代码标签，不能替代完整数据包。不要选择 GitHub 自动生成的
 Source code ZIP 作为完整复现数据。包内 release_manifest.json 是当前文件
-清单，CITATION.cff 与 .zenodo.json 均对应软件 v1.1.0。软件标题与当前论文
+清单，CITATION.cff 与 .zenodo.json 均对应软件 v1.1.1。软件标题与当前论文
 主线一致，但软件 DOI 与论文 DOI 是不同对象。
 
 上传 ZIP 与校验文件，作者填 Junjie Zhang，核对下文的单位、ORCID、混合许可
@@ -46,3 +46,5 @@ GitHub 集成同时看到 `.zenodo.json` 和 `CITATION.cff` 时，**`.zenodo.jso
 新增30分钟可用性延迟已在研究项目中完成20次回放，每次46,741个origin，保留原2023年C*权重和共同时间顺序。五资产S−C*变为−A$3,944.46，IL−C*仍为+A$57,139.02，覆盖974个名义日。这是点敏感性结果，没有新增置信区间，也不是观测到的参与者接收时间。新增文件见 `provenance/v13_action_files.json`；不能把源项目完成的20次计算改称公共入口已经全网格重新运行。公共入口的固定子样本动作范围和SA证书已实际通过，包含750行比较、1,125次全二元范围计算及与原结果的精确比对，见 `provenance/v13_action_validation.json`；这不等于重新求解全部7,305个共同状态或全20次延迟网格。
 
 上述归档操作不会重算研究结果，也不证明期刊已接受论文。未投稿主文、内部审稿意见和作者私人文件不上传。归档范围、复现范围和第三方数据边界应与实际包内容一致。官方操作说明核验日期：**2026-10-02**。
+
+本次 v1.1.1 修复自动下载器校验阶段的变量名错误。早期 v1.1.0 附件保留原样；科学输入、实验代码与图表数值没有变化。请使用当前完整补丁包，不混用版本清单。

@@ -1,6 +1,6 @@
 # RDIA for rolling storage optimization
 
-Research software and reproducibility materials for **Action sufficiency and update risk in rolling storage optimization**. The current complete software/data version is **1.1.0**. The frozen v1.0 release accompanies the earlier title, **A protocol for evaluating information representations in rolling storage optimization**. Sole author: **Junjie Zhang**. The manuscript targets *Annals of Operations Research*; this repository does not claim journal acceptance or a DOI.
+Research software and reproducibility materials for **Action sufficiency and update risk in rolling storage optimization**. The current complete software/data version is **1.1.1**. The frozen v1.0 release accompanies the earlier title, **A protocol for evaluating information representations in rolling storage optimization**. Sole author: **Junjie Zhang**. The manuscript targets *Annals of Operations Research*; this repository does not claim journal acceptance or a DOI.
 
 Affiliations:
 
@@ -13,7 +13,7 @@ The frozen v1.0 study uses rolling-decision information attribution (RDIA) to co
 
 ## What is released
 
-The current complete release is **v1.1.0**: `rdia-rolling-storage-v1.1.0.zip` combines scientific code, the real-data fixture, large derived AEMO inputs/reference trajectories, result summaries and separately scoped v14–v16 addenda. It includes six current native vector figure exports; seven legacy exports are retained as earlier-version evidence. `release_manifest.json` covers every supplied file except itself, and `SHA256SUMS` identifies the ZIP. Download the full Release attachment for a complete manual Zenodo deposit; GitHub Source code ZIP omits release-only data. The earlier v1.0.0 full attachment and v1.0.1 figure-code tag remain unchanged.
+The current complete release is **v1.1.1**: `rdia-rolling-storage-v1.1.1.zip` combines scientific code, the real-data fixture, large derived AEMO inputs/reference trajectories, result summaries and separately scoped v14–v16 addenda. It includes six current native vector figure exports; seven legacy exports are retained as earlier-version evidence. `release_manifest.json` covers every supplied file except itself, and `SHA256SUMS` identifies the ZIP. Download the full Release attachment for a complete manual Zenodo deposit; GitHub Source code ZIP omits release-only data. The earlier v1.0.0 full attachment and v1.0.1 figure-code tag remain unchanged.
 
 The core Australian numerical inputs and outcomes preserve the v10 scientific freeze; v11 supplies the figure design. The v13 revision adds separately identified supplementary diagnostics on numerical/material-action thresholds, branch-start selection and a worked objective-oscillation certificate. These additions do not represent a new prospective evaluation or a rerun of the whole frozen study. The finalized release manifest identifies the diagnostic code and outputs actually included in this version. The additive action and delay selection is declared separately in `provenance/v13_action_files.json`, preserving the core scientific manifest.
 
@@ -33,7 +33,7 @@ The current revision examines action sufficiency and update risk in rolling stor
 
 The compact package was checked before this public copy: fresh IL and static9 replays each covered 1,488 origins at initial 0.2 MWh; seven trajectory fields and marked values matched exactly, and all 18 synthetic checks passed. The public preparation verifies copied scientific bytes; it does not claim a new checkout-wide replay. The floating-point gate concerns same-state, one-window objective regret and is not a rigorous cumulative-profit certificate. Native Ontario materials contain schema-probe code and version/source manifests without source-price data or an executed external-market replay.
 
-The original v1.0 Release attachment remains frozen under the earlier title. Its total manifest is also retained at `provenance/frozen_v1.0.0_release_manifest.json`. The new v1.1.0 total manifest includes this addendum while preserving its independent scientific manifest and the original 330-file core manifest. Root citation/Zenodo metadata now describe v1.1.0.
+The original v1.0 Release attachment remains frozen under the earlier title. Its total manifest is also retained at `provenance/frozen_v1.0.0_release_manifest.json`. The new v1.1.1 total manifest includes this addendum while preserving its independent scientific manifest and the original 330-file core manifest. Root citation/Zenodo metadata now describe v1.1.1.
 
 ## v15 computational addendum
 
@@ -45,9 +45,9 @@ The compact package was freshly extracted and executed before publication: both 
 
 [addenda/v16_figures](addenda/v16_figures/) provides a separately manifested, approximately 235 KiB plotting package for all six current figures. It contains the actual drawing code, minimal frozen processed inputs, source arrays, mixed-data terms and pinned third-party `nature-skills` QA utilities. Native PDF/SVG exports use 174 mm canvases; PNG/TIFF exports are drawn at 1200 dpi. It contains no manuscript, raw provider archive or Ontario/IESO input. Original aggregate results, synthetic controls and AEMO-derived processed values retain their distinct material-class permissions.
 
-The package was actually copied to a fresh Windows research directory and executed locally: all six scientific source arrays matched, and the rebuilt PDFs matched the original text geometry and vector paths exactly. These were frozen-data redraws, not new model, statistical or market experiments; recorded replay timings remain stored observations. Follow the addendum README to install its plotting dependencies and run `python scripts/reproduce_v16_figures.py` from a fresh writable copy with a licensed Arial font installed. Continuous integration verifies every supplied file's manifest hash and file set; it does not redraw figures on an environment without Arial. The original scientific files and frozen old Release remain unchanged. The v1.1.0 complete attachment includes this plotting addendum and its six current vector exports; root citation metadata identify v1.1.0 without a DOI.
+The package was actually copied to a fresh Windows research directory and executed locally: all six scientific source arrays matched, and the rebuilt PDFs matched the original text geometry and vector paths exactly. These were frozen-data redraws, not new model, statistical or market experiments; recorded replay timings remain stored observations. Follow the addendum README to install its plotting dependencies and run `python scripts/reproduce_v16_figures.py` from a fresh writable copy with a licensed Arial font installed. Continuous integration verifies every supplied file's manifest hash and file set; it does not redraw figures on an environment without Arial. The original scientific files and frozen old Release remain unchanged. The v1.1.1 complete attachment includes this plotting addendum and its six current vector exports; root citation metadata identify v1.1.1 without a DOI.
 
-## Complete v1.1.0 package verification
+## Complete v1.1.1 package verification
 
 Download the full attachment, extract into a fresh writable copy, then verify
 the complete inventory before execution:
@@ -96,3 +96,5 @@ Use [CITATION.cff](CITATION.cff) to cite the versioned research software. A DOI 
 OpenAI Codex assisted research design, literature and source review, programming, numerical analysis, figure preparation, manuscript drafting and revision. Reported results are checked against identified market records or labelled synthetic controls, executed code and mathematical arguments. Implemented checks and executed results are distinguished from proposals. The author remains responsible for source interpretation, claim accuracy, final human review and submission. This disclosure is not restricted to language editing.
 
 The study is exploratory and uses public market records rather than human participants. It does not establish universal gains from forecast history, a new forecast estimator, end-to-end rolling-policy training, economic causal identification or independent external replication. Provider clocks, selection rules, numerical tolerance ordering and unmeasured archive costs are documented with the results.
+
+Version 1.1.1 corrects an undefined checksum-key variable in the optional downloader. The v1.1.0 archive remains unchanged and retains the same scientific inputs and reference results. Use v1.1.1 for the complete current deposit.

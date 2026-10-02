@@ -6,8 +6,8 @@ Studies and School of Economics and Finance, Shanghai International Studies
 University, Shanghai 201620, China. Contact: <junjiezhang2024@shisu.edu.cn>;
 ORCID: <https://orcid.org/0009-0004-8821-4018>.
 
-The current complete version 1.1.0 code-plus-data package is distributed through the
-matching GitHub Release as **rdia-rolling-storage-v1.1.0.zip**, with **SHA256SUMS**.
+The current complete version 1.1.1 code-plus-data package is distributed through the
+matching GitHub Release as **rdia-rolling-storage-v1.1.1.zip**, with **SHA256SUMS**.
 The download requires that version's attachment to have been published.
 GitHub's automatically generated source-code archive is smaller and omits the
 large scientific data under `results/`.
@@ -84,7 +84,7 @@ The author will deposit the complete attachment personally in Zenodo.
 No Zenodo DOI is claimed in this release. See `ZENODO_GUIDE_zh.md` for accurate
 version citation and metadata updates after the record is published.
 
-## Current complete version 1.1.0
+## Current complete version 1.1.1
 
 The total `release_manifest.json` identifies the exact current payload: the
 unchanged core and v13 data, v14 pilot and controls, v15 statistical/theory/
@@ -94,7 +94,7 @@ attachment and v1.0.1 figure tag remain available; do not mix their manifests
 with the new package. Check complete inventory with
 `python -B scripts/verify_release_bundle.py --check-only`. Root scientific
 verification alone does not cover all later addenda. The current software
-citation and Zenodo metadata describe v1.1.0 and deliberately omit a DOI.
+citation and Zenodo metadata describe v1.1.1 and deliberately omit a DOI.
 Native Ontario source probes can be requested through
 `scripts/rebuild_native_ontario.py`, which supplies IESO notices and separate
 fresh source/output directories. No native economic replay is asserted.

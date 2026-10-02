@@ -1,7 +1,7 @@
 {
   "title": "Research software and derived data for action sufficiency and update risk in rolling storage optimization",
   "upload_type": "software",
-  "description": "Version 1.1.0 is the complete research-support package for Action sufficiency and update risk in rolling storage optimization, by sole author Junjie Zhang. It combines unchanged core Australian inputs and reference outputs from the frozen v1.0.0 package, the separately manifested v14 action-sufficiency pilot, v15 statistical/theory/parameter checks and v16 six-figure redrawing code. The complete ZIP attachment and release_manifest.json identify the exact supplied scientific version; GitHub source-only archives omit large derived data. Earlier executed receipts and newly executed package checks have separate scopes. A checksum is not a fresh solver replay; limited internal replays and saved-path reconstruction are not independent external replication, forecasting refit or full raw-source ingestion. The pilot stops the proposed compression algorithm because it retains full streaming inverse-lead moments and adds solves. Reported uncertainty remains conditional on saved programs, selection rules, clocks and exploratory historical development. Native Ontario supplies schema/clock probes rather than an executed economic replication. Original code is MIT licensed; copied Nature QA code is Apache-2.0; AEMO-derived inputs retain provider attribution and terms. The mixed-content package is not uniformly MIT or CC licensed. IESO source prices, raw records and recoverable period-level trajectories are excluded; official source/version manifests and reconstruction code are supplied. Proprietary Arial fonts, unpublished manuscripts and internal reviews are excluded. OpenAI Codex assisted research design, source review, programming, numerical analysis, figures and manuscript drafting/revision; the author is responsible for evidence, interpretation and human final review. No journal acceptance or Zenodo DOI is claimed. The author will personally upload the complete ZIP and SHA256SUMS to Zenodo and then add the actual version DOI.",
+  "description": "Version 1.1.1 is the complete research-support package for Action sufficiency and update risk in rolling storage optimization, by sole author Junjie Zhang. It combines unchanged core Australian inputs and reference outputs from the frozen v1.0.0 package, the separately manifested v14 action-sufficiency pilot, v15 statistical/theory/parameter checks and v16 six-figure redrawing code. The complete ZIP attachment and release_manifest.json identify the exact supplied scientific version; GitHub source-only archives omit large derived data. Earlier executed receipts and newly executed package checks have separate scopes. A checksum is not a fresh solver replay; limited internal replays and saved-path reconstruction are not independent external replication, forecasting refit or full raw-source ingestion. The pilot stops the proposed compression algorithm because it retains full streaming inverse-lead moments and adds solves. Reported uncertainty remains conditional on saved programs, selection rules, clocks and exploratory historical development. Native Ontario supplies schema/clock probes rather than an executed economic replication. Original code is MIT licensed; copied Nature QA code is Apache-2.0; AEMO-derived inputs retain provider attribution and terms. The mixed-content package is not uniformly MIT or CC licensed. IESO source prices, raw records and recoverable period-level trajectories are excluded; official source/version manifests and reconstruction code are supplied. Proprietary Arial fonts, unpublished manuscripts and internal reviews are excluded. OpenAI Codex assisted research design, source review, programming, numerical analysis, figures and manuscript drafting/revision; the author is responsible for evidence, interpretation and human final review. No journal acceptance or Zenodo DOI is claimed. The author will personally upload the complete ZIP and SHA256SUMS to Zenodo and then add the actual version DOI.",
   "creators": [
     {
       "name": "Zhang, Junjie",
@@ -9,7 +9,7 @@
       "orcid": "0009-0004-8821-4018"
     }
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publication_date": "2026-10-03",
   "access_right": "open",
   "license": "other-open",
@@ -24,7 +24,7 @@
   "notes": "Contact: junjiezhang2024@shisu.edu.cn. Author identity, affiliations and ORCID are author-supplied. Original software: MIT; third-party materials: the separate terms in DATA_LICENSE.md and THIRD_PARTY_NOTICES.md. The author must add the complete Release attachment explicitly to a manual Zenodo deposit; no DOI is invented.",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/williamjay1/rdia-rolling-storage/releases/tag/v1.1.0",
+      "identifier": "https://github.com/williamjay1/rdia-rolling-storage/releases/tag/v1.1.1",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

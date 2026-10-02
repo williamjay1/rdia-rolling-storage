@@ -271,7 +271,7 @@ checksums and exact comparisons. These checks are distinct from the complete
 
 ## Separately manifested v14 addendum
 
-The v14 research title is **Action sufficiency and update risk in rolling storage optimization**. Its compact numerical package is addenda/v14/computational, and resolves paths from its own scripts. It neither uses nor expands the v1.0 scientific manifest. The old total manifest is preserved at `provenance/frozen_v1.0.0_release_manifest.json`; the current root total manifest describes v1.1.0. Verify the old frozen attachment with its own manifest and this v14 subtree with the following independent commands.
+The v14 research title is **Action sufficiency and update risk in rolling storage optimization**. Its compact numerical package is addenda/v14/computational, and resolves paths from its own scripts. It neither uses nor expands the v1.0 scientific manifest. The old total manifest is preserved at `provenance/frozen_v1.0.0_release_manifest.json`; the current root total manifest describes v1.1.1. Verify the old frozen attachment with its own manifest and this v14 subtree with the following independent commands.
 
 ```text
 python -B addenda/v14/computational/scripts/verify_manifest.py addenda/v14/computational
@@ -298,16 +298,16 @@ python -B addenda/v15/reproduce_v15.py --output D:/MLWork/rdia-v15-fresh
 
 The manifest check validates the v15 payload only. The second command freshly reconstructs the defined 7/28-day statistics (10,000 draws each), the eleven finite theory groups, and one full January 2024 hourly-update inverse-lead trajectory (1,488 actions, 744 plans). Supplied fresh-verification receipts record exact numeric and clock agreement before public publication. Eighteen parameter paths are supplied, but only this one path is rerun by the default wrapper. Earlier 24 diagnostic CSVs are archived outputs rather than fresh v15 results. The derived daily fixtures condition on saved controller paths and endpoint accounting; the selection analysis resamples the declared current-program candidates without forecast refitting or new closed-loop paths. Raw-source ingestion, full five-region optimisation, an untouched holdout and native Ontario economic replication are outside this entry's scope.
 
-Do not write new outputs into any supplied inputs, manifests or addendum. The frozen v1.0 attachment retains its own metadata; root citation/Zenodo metadata now identify the complete v1.1.0 package, which includes the separately manifested v15 addendum. No DOI has been generated.
+Do not write new outputs into any supplied inputs, manifests or addendum. The frozen v1.0 attachment retains its own metadata; root citation/Zenodo metadata now identify the complete v1.1.1 package, which includes the separately manifested v15 addendum. No DOI has been generated.
 
-## Complete v1.1.0 release inventory and execution
+## Complete v1.1.1 release inventory and execution
 
 The new total manifest covers the complete attachment, including all v14–v16
 addenda. Original component scientific manifests and the old archive are not
 rewritten. Use the full attachment rather than a source-only GitHub archive.
 
 ```console
-python scripts/download_release.py --version 1.1.0 --output-root /absolute/new/download
+python scripts/download_release.py --version 1.1.1 --output-root /absolute/new/download
 python -B /absolute/new/download/package/scripts/verify_release_bundle.py --check-only
 python -B /absolute/new/download/package/scripts/verify_release_bundle.py --execute --figures --output-root /absolute/new/execution
 ```
