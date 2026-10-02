@@ -1,0 +1,6 @@
+region,origins,delayed_unavailable_at_original_T_minus60_count,delayed_unavailable_at_execution_T_minus30_count,scope
+NSW1,46741,46739,0,eligibility only; delayed raw/sparse/IL must be reconstructed against unchanged T-60 information cutoff
+QLD1,46741,46739,0,eligibility only; delayed raw/sparse/IL must be reconstructed against unchanged T-60 information cutoff
+SA1,46741,46739,0,eligibility only; delayed raw/sparse/IL must be reconstructed against unchanged T-60 information cutoff
+TAS1,46741,46739,0,eligibility only; delayed raw/sparse/IL must be reconstructed against unchanged T-60 information cutoff
+VIC1,46741,46739,0,eligibility only; delayed raw/sparse/IL must be reconstructed against unchanged T-60 information cutoff

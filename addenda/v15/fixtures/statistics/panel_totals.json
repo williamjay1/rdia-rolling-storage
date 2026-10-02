@@ -1,0 +1,861 @@
+{
+  "format": "v15_derived_daily_cash_fixture_v1",
+  "regions": [
+    "NSW1",
+    "QLD1",
+    "SA1",
+    "TAS1",
+    "VIC1"
+  ],
+  "current": [
+    "raw",
+    "current_shrink_a025",
+    "current_shrink_a050",
+    "current_smooth_a025",
+    "current_smooth_a050"
+  ],
+  "policies": [
+    "raw",
+    "current_shrink_a025",
+    "current_shrink_a050",
+    "current_smooth_a025",
+    "current_smooth_a050",
+    "sparse_equal",
+    "full_equal",
+    "inverse_lead"
+  ],
+  "totals": {
+    "validation": [
+      [
+        100829.80099909141,
+        102101.56405162443,
+        101287.81640068759,
+        109223.91813101654,
+        116339.94303224189
+      ],
+      [
+        145580.7296195584,
+        146725.74457013558,
+        145528.44065767815,
+        158965.71054837154,
+        160338.83019440528
+      ],
+      [
+        141510.33390509192,
+        143455.00261731562,
+        140579.04268450203,
+        146005.47677224936,
+        144715.4013702103
+      ],
+      [
+        14022.747964926666,
+        16190.796235203601,
+        17587.475364259877,
+        15716.487462490451,
+        16322.812441328548
+      ],
+      [
+        87209.38752511507,
+        88548.41114324475,
+        88119.69470407923,
+        90524.8982254579,
+        92607.06187549935
+      ]
+    ],
+    "evaluation": [
+      [
+        340198.4957034612,
+        346036.72124343994,
+        345531.32950371143,
+        362151.20011514745,
+        367576.33666030556,
+        385482.50301987556,
+        383521.9294627391,
+        380382.12406292773
+      ],
+      [
+        315429.8379624665,
+        319869.2478332253,
+        313267.14382715925,
+        335839.8740867326,
+        343514.24466533127,
+        357865.20520157815,
+        359155.6995655773,
+        355131.42254237435
+      ],
+      [
+        341929.0792522345,
+        348157.5003840684,
+        349694.3533286596,
+        342905.39795745694,
+        349591.05370463623,
+        364805.02494218195,
+        379058.073613567,
+        398043.44933173375
+      ],
+      [
+        53404.02778647855,
+        65343.29313502233,
+        72891.82357615787,
+        56968.883791503984,
+        63581.42666772034,
+        51587.6126189705,
+        46475.42039397379,
+        57316.563756178955
+      ],
+      [
+        239758.22644111776,
+        244656.52779872145,
+        247106.78979377387,
+        254318.1968581642,
+        259211.45912241467,
+        255646.12351561434,
+        260028.18127052294,
+        271274.81373497663
+      ]
+    ],
+    "evaluation_2024_2025": [
+      [
+        315599.26701411884,
+        320758.0282549142,
+        319291.8439950955,
+        336168.525959013,
+        341071.65674991056,
+        358425.7206201267,
+        360120.1402189557,
+        355892.88559962326
+      ],
+      [
+        295569.15202539664,
+        299699.35445568716,
+        293002.85708854266,
+        315207.9387484756,
+        322526.42441933363,
+        337013.43004018755,
+        337433.4079569553,
+        334142.3111434764
+      ],
+      [
+        279883.39780315646,
+        283246.62747034006,
+        287063.687286455,
+        284638.5658503612,
+        290192.2738778262,
+        300864.8361720632,
+        299892.7289103613,
+        315120.1520873162
+      ],
+      [
+        53350.674500230816,
+        64434.25550680914,
+        71164.81783941963,
+        56474.94374789553,
+        62552.958660872195,
+        46707.30631653024,
+        45842.89765871767,
+        55725.96708164841
+      ],
+      [
+        216957.888009246,
+        220937.11941220763,
+        222961.06623786467,
+        230741.7194215106,
+        234889.8840059335,
+        230803.508706519,
+        234976.8129223942,
+        245875.72851307935
+      ]
+    ]
+  },
+  "frozen_choice": [
+    4,
+    4,
+    3,
+    2,
+    4
+  ],
+  "daily_panel_sha256": "d73683496e241c102308c6b9c0fc89e299e4a63ce122a844aa0ed94c553e2bc3",
+  "phase_days": {
+    "validation": 364,
+    "evaluation": 973,
+    "evaluation_2024_2025": 731
+  },
+  "source_mode": "Derived operating net cash and exact realised boundary totals of frozen audited paths; no raw MMS or XML",
+  "original_source_manifest": [
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_raw.parquet",
+      "bytes": 1446837,
+      "sha256": "b0769d6f0b011387810d83c58f3384d513125bbec4c6eb7638a79f63623985ca"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_raw.json",
+      "bytes": 3518,
+      "sha256": "2e6ff1b091c364b2541890634026f52cd6d018936c99f418268bbc936bb441f9"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a025.parquet",
+      "bytes": 1457272,
+      "sha256": "066d1e4eca161cc4e16280b7ea19e86354546218e5ad0fdf7b62dd6a47791f17"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a025.json",
+      "bytes": 3552,
+      "sha256": "7dbe6c299a8f7f56125e5b58b63f2c21d034279174cafff53425d1be28660bd9"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a050.parquet",
+      "bytes": 1499858,
+      "sha256": "0a20b869b4a5f6447146dd687b6db5169cfd18a0ce194a531fbe55364be0e42b"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a050.json",
+      "bytes": 9160,
+      "sha256": "cc19b6a62cd368d39aa4d616d3e522adc6c28652a574bf0d68fe5c886dfda112"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a025.parquet",
+      "bytes": 1449741,
+      "sha256": "5b24b875d353e2dea07d17c2c180d03efad591d0893285b07fccbbf3dcbbe513"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a025.json",
+      "bytes": 11747,
+      "sha256": "7527bf4b66d277fa1d199c1686f7d96b710af1bace3676c070abca5a34a2923b"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a050.parquet",
+      "bytes": 1477938,
+      "sha256": "c01d6a31cab21401444bbe953936f69790d83f7c32e89df2cb3ac986de3ca5aa"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a050.json",
+      "bytes": 19725,
+      "sha256": "1f44874feade489588684d7fbd03c00a11eb456f1391d6e0e9a3d77280e25564"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_raw.parquet",
+      "bytes": 3829236,
+      "sha256": "94554975e4c4b8fc2b7da06ef2d8c4c60bf0c79a2d34776a8568f560720c390f"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_raw.json",
+      "bytes": 3678,
+      "sha256": "930bd31cc939c235da26eb54ce3b7c0c8f9cc24b4620aa31c9e3c750ad82f40d"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a025.parquet",
+      "bytes": 3905060,
+      "sha256": "968f340ad7945c8fe3bd9cb4be85a6bd105cdd188bcefb381531a4524a65907b"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a025.json",
+      "bytes": 3349,
+      "sha256": "4c4573e3f438e9d7fce7d71118cdb4233ae30f2cdb098f6a9daf950a38ed0d24"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a050.parquet",
+      "bytes": 3889362,
+      "sha256": "7e444602cc1579ba6a8f2bad1ec4cf1ffaf4dddee8dbaee32f5779850d89b7bc"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a050.json",
+      "bytes": 3351,
+      "sha256": "0c4f43f5e16001e8c4966eb0b68f0be27e4943891edb72aad91872404450f869"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a025.parquet",
+      "bytes": 3906837,
+      "sha256": "26f806a7b11bc50b81351666f1af278defb005adf0a3084872d746fd298ce0b8"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a025.json",
+      "bytes": 3351,
+      "sha256": "058126d986aef997df912e7e8cc0f18a73f2bc5a2f08a9343585cf41510862b9"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a050.parquet",
+      "bytes": 3899894,
+      "sha256": "22a7d5cdd26b66957301d5e2bbaf6f7648ac6fdf3d11d4908951526bdaa07f74"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a050.json",
+      "bytes": 3282,
+      "sha256": "c5eeb38e76c9f835ac2e949bc46efd01fd8ba18278cfd5c8c973243d2abd49d1"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3829908,
+      "sha256": "8231ee106ff1eed1a25a48d5a1745f20ecf238aa172a0bbb69ec9ad65cb7a6ec"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_sparse_equal.json",
+      "bytes": 2518,
+      "sha256": "12a76676c286f0f0fd0347956b35d3fc329242ef5d5de02eea232ef49150bcec"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_full_equal.parquet",
+      "bytes": 3894456,
+      "sha256": "5f19bb622f415c62b15f73b73ecb81c103236f8af8b5aa25862c48ce6d7235a1"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_full_equal.json",
+      "bytes": 14514,
+      "sha256": "c207351c96532566ca65111c0eb44e9aafc609b9e2488c2869287acf7fa43f53"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3898959,
+      "sha256": "f0c8170300b5cda7e4a74354c82848a9af750b532151c7854b42b666eac17f2f"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_evaluation_c60_inverse_lead.json",
+      "bytes": 11392,
+      "sha256": "096c9fa2c91d78c2007079553313c0e7029bb28401c26405ea1512ff1e697b34"
+    },
+    {
+      "path": "results/revision_v5/control/main/NSW1_current_only_selection.json",
+      "bytes": 55102,
+      "sha256": "a2c4bdb48fdb75e815b65463665d84b961dd2a5632e5a2aa617939a7dd1b2939"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_raw.parquet",
+      "bytes": 1474919,
+      "sha256": "92dae24f5c56845df09e2776dbc77767404a91881d2f3da9ebb96714f39b0560"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_raw.json",
+      "bytes": 3229,
+      "sha256": "9d14ecb043511f7f89a62404f41d2c6a7e7b781a502b167d3cbcefe87ae8d452"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a025.parquet",
+      "bytes": 1475424,
+      "sha256": "cd5b5f772f5222bd44f3926a7a0dc1008542341cd3805e88618751b726b81e14"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a025.json",
+      "bytes": 3278,
+      "sha256": "4d413359956e27bffbb0c5f512f9728f140541c832c6b99be8c054071f255e46"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a050.parquet",
+      "bytes": 1493420,
+      "sha256": "81b766b5ea3caa8c2d110490209abf4b6c3e6c4707244ab41308280b299b8216"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a050.json",
+      "bytes": 11448,
+      "sha256": "a508a944be113c7f6b0b8eb17a138d5659b3391ad383391eb9b015a2628b8f10"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a025.parquet",
+      "bytes": 1471470,
+      "sha256": "d1c1b657c3e1489067dfabe76b8d3af31bf8c1b6e309173bf0c9c5f1c18ba20f"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a025.json",
+      "bytes": 3263,
+      "sha256": "a7349a9d733af3d3e8909a66be3df7aa320a3d04743fe68df9ba834bdd95ef16"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a050.parquet",
+      "bytes": 1465635,
+      "sha256": "a42290652bee6fce93fa4969621c9e4100a366ac33b1c169e52ec79212a576b4"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a050.json",
+      "bytes": 3265,
+      "sha256": "411246c69a87a35c51be0656dd44d551b70543f65c4fe1706882659594020337"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_raw.parquet",
+      "bytes": 3811232,
+      "sha256": "f0f8a11a004ffd7eee001a7cd507b1eabf6999463e821c2b421d4163aad726e7"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_raw.json",
+      "bytes": 3382,
+      "sha256": "026d0b6f791e4a65f350b786e00cf1a2f616b24425b1829c0ab6bafc7bac12ac"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a025.parquet",
+      "bytes": 3892458,
+      "sha256": "baf2767e7aa333a508c7ebb04753693eaff9d69c0104b522098d51ace89193df"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a025.json",
+      "bytes": 3351,
+      "sha256": "8a3244acc9147090320d6f21e1cc28b768b7eddfd5b6ca2c7996cec63b982221"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a050.parquet",
+      "bytes": 3880323,
+      "sha256": "f611a7338d0341497037e06787c16855bb2d7bc0e2520afcc2eaf46d1368030f"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a050.json",
+      "bytes": 3347,
+      "sha256": "bd7703320c7c282989a9ca75f31b474951bdbf09198eb51076cfbd3fe388e6c4"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a025.parquet",
+      "bytes": 3885763,
+      "sha256": "ac649ad27aa2d09a51a998da0eb90ffe7215fb1d6894fd7de7692bb0587adf85"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a025.json",
+      "bytes": 3352,
+      "sha256": "1cd71fe9f27b25faeca442dc2434d9c01ca0b81e82afecf9f4e72336ca180d14"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a050.parquet",
+      "bytes": 3872926,
+      "sha256": "4f372bc2364f31fc3c75504b4e568091aedfb0e81d10931c5876caf2a279a36b"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a050.json",
+      "bytes": 3279,
+      "sha256": "819307e4ba03bf85f47e2502b67312c145a9d6485995f7a159409cc86e03919e"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3810740,
+      "sha256": "0b52116c734a4c448d884c8bf53f66e7a18af489f07597148ea032d282a0fbd8"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_sparse_equal.json",
+      "bytes": 2791,
+      "sha256": "936de80fe9912b261c696af33d90fd188ba6e156a4f789dae92cdf75de9cdce7"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_full_equal.parquet",
+      "bytes": 3867218,
+      "sha256": "88b5304d518fb4d69e4f0498f41a1bce6a86511b7ff7c15cf56ed6f3022c0ada"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_full_equal.json",
+      "bytes": 11452,
+      "sha256": "d234e613be77237d9f67d75b087816ee23b46fe48cdf4f3652f79b715cadd344"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3873095,
+      "sha256": "442626a8d55816231e74035aed77f05192695022c0e0102d861828ac637f41c5"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_evaluation_c60_inverse_lead.json",
+      "bytes": 3263,
+      "sha256": "e261071d1fca28240c25242aecdcdcbcd3d6d8bd523201738fe85d8b887c2ef2"
+    },
+    {
+      "path": "results/revision_v5/control/main/QLD1_current_only_selection.json",
+      "bytes": 27763,
+      "sha256": "06e0f980f4ee41294a6a0e9835987a74f9ffb895a208745b85af240a938766e1"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_raw.parquet",
+      "bytes": 1425431,
+      "sha256": "1aa4b522822fb945f97fd1d3271f57704f206c3d147e02ae41819b4f378ae7b5"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_raw.json",
+      "bytes": 11523,
+      "sha256": "157ac6c01c0792152437b5e509a204117748ab1d72b546875097c02f3b7ef60e"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a025.parquet",
+      "bytes": 1422343,
+      "sha256": "125b89c8ee1d0a08c130b03f141fb4d0d93a6de0b35826c70d030dceb84ccd75"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a025.json",
+      "bytes": 19823,
+      "sha256": "7c81f1020fae502d991efb98ad3bc80795179ba9614c8b539fce942af90ff239"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a050.parquet",
+      "bytes": 1425085,
+      "sha256": "c91b599c28151634ca3217d8de6a0cbf5f51ccddad1b138a8f4279dcab7c5497"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a050.json",
+      "bytes": 11666,
+      "sha256": "10bd92245f4d3d485b1a3bec78b38f07a54953cab581a72e047964beed64951a"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a025.parquet",
+      "bytes": 1415971,
+      "sha256": "54f3e4c8111190d4ffeb5280b39e6f2f9d0b07cef7257b592df279083e89972c"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a025.json",
+      "bytes": 3409,
+      "sha256": "782d82192f7c120f3882cea04850b08da201243f895a56492010e5c1dae46056"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a050.parquet",
+      "bytes": 1413973,
+      "sha256": "2dad91010a4ce57b240029dc29b5cff3d5cec7731fca5e09c2c5f522fa4842ac"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a050.json",
+      "bytes": 11456,
+      "sha256": "af0463e0848002164ac98fd444662d777f35e517633447b5f1cb559effd96d55"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_raw.parquet",
+      "bytes": 3774233,
+      "sha256": "6f6e75766b10fad304c8cd453ec01ff84b70ba5011081f85301cab633fd6064a"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_raw.json",
+      "bytes": 19868,
+      "sha256": "e667600aa644ac850a947120ed6012ebe4b35ca16b551f7082c940aa69eb39ab"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a025.parquet",
+      "bytes": 3849882,
+      "sha256": "e4c29ac78958f2b9beb1b99fcd9ebf4d9a1f7e17862bccab810ed6db0529aa8a"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a025.json",
+      "bytes": 3332,
+      "sha256": "b315cb2b34e6cf0adf999cfea6847d4bcd3b3a5bc7c30f40c4b83ea029b3432e"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a050.parquet",
+      "bytes": 3863491,
+      "sha256": "ffff0b7b1a1df18927aacbcc4698e412cef1c5ca1ef7929461de5d74dae3c928"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a050.json",
+      "bytes": 11620,
+      "sha256": "36bb6b0f756854ec07778ddc1d25493c73bfb311ef09757ff90a3eb10b280d51"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a025.parquet",
+      "bytes": 3772474,
+      "sha256": "60aff6bdc4f46091a6637362c582a8fed45aa980a28e0d4a266cc2c4c6e1f4f9"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a025.json",
+      "bytes": 11554,
+      "sha256": "939a372c9f8c020c4895a9be75a8846bff79d80e948b7f9eee9c53aeb940c8d1"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a050.parquet",
+      "bytes": 3839849,
+      "sha256": "8466854f07b2977ceaf29119d1837ba443e77e373641707e5ceac5669c400ba9"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a050.json",
+      "bytes": 11583,
+      "sha256": "ddfa2318c4ca3bfe0ea7b58828694da66e60bda1fcfbf4c0162cd6cc234c35fd"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3772586,
+      "sha256": "3ce5fb6770aba718d304931dd4362c72827a985e7b2355a4fd26872ceedc7a93"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_sparse_equal.json",
+      "bytes": 10644,
+      "sha256": "65d9d9ec5d3bb7680736b6a12bc8c092f5ef31be67e042186eb6ac60aa227e63"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_full_equal.parquet",
+      "bytes": 3810808,
+      "sha256": "bea531f60e772a5a9c12f16029e044f7f08a0737a4011c70662ab4e37038ab6b"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_full_equal.json",
+      "bytes": 60846,
+      "sha256": "44b44def813602437ca0163cc6a7bb20132ea0ca15256138cb50ad03baefe4cd"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3818241,
+      "sha256": "ffc3160945e7a7f746da393776a57cc29cc20bc4a4beb6e3361f63621ded43d6"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_evaluation_c60_inverse_lead.json",
+      "bytes": 19594,
+      "sha256": "b99bdcf8011971ad30b4a5dc9df10241040bd08007d20d60921cc33640a00ecb"
+    },
+    {
+      "path": "results/revision_v5/control/main/SA1_current_only_selection.json",
+      "bytes": 67328,
+      "sha256": "a3485963224790c72fd0de3ab8d484a67b51ebbd482e9829bdb71fff9afcea0f"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_raw.parquet",
+      "bytes": 1395876,
+      "sha256": "c52a19d323352de6feb7fb9c65b46fc8738d9cce04ae13565693e2f2bf34d47c"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_raw.json",
+      "bytes": 3368,
+      "sha256": "ff291741ed1fae592ea57dc5e64a1b2acbe2b1201c18a2c90673f601a5e8c7b1"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a025.parquet",
+      "bytes": 1406070,
+      "sha256": "68f863575bad7d1c8b41d3804243fb049b65263500f202bbcf5fd64daf201c46"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a025.json",
+      "bytes": 3382,
+      "sha256": "7447600a2a9705c82d15fbe282806cdd8637b153ae98faf09d166ce7b520960c"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a050.parquet",
+      "bytes": 1406231,
+      "sha256": "a9eb51bab9b0e07ee16d244908f3ce34b936f55065ad3c89b112034342bff3ff"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a050.json",
+      "bytes": 3378,
+      "sha256": "9982361551a670cba67d327e3d55e9f18238eb001505912e2879b409317bd37d"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a025.parquet",
+      "bytes": 1409601,
+      "sha256": "231ab01da5d9ad87cdad9b5cfae97e7a24c1919651574ebf256b6bbfc13941b2"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a025.json",
+      "bytes": 3382,
+      "sha256": "a367c02b15e6a35551d8824547ed216efbd88536e26754dbb13d8617dcce3695"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a050.parquet",
+      "bytes": 1399845,
+      "sha256": "89a3aa382215dd0a0aa383fc415ff194c1c27b16f41771325c47af295286e411"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a050.json",
+      "bytes": 3384,
+      "sha256": "cc37fc4c264d715663c772c69892fa1d34aae853d837b5879b3591c48e355feb"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_raw.parquet",
+      "bytes": 3634624,
+      "sha256": "e6c96ae052d843e4010af84e5b5a88f582f0441b46916a9a8af015ccf27de7ad"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_raw.json",
+      "bytes": 11404,
+      "sha256": "0dc04366f37aa8b145c1fb65b5bc551ab8bbba880d9d7c8326b8cf906b4b13c5"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a025.parquet",
+      "bytes": 3713986,
+      "sha256": "7a4af7746765086421398e00c90acf13cc3467f18baa698042707b8229db73a1"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a025.json",
+      "bytes": 3351,
+      "sha256": "c08a9306a865ff25f81fc498b0fc675be4afab458a8fb64da7b0005669262748"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a050.parquet",
+      "bytes": 3625354,
+      "sha256": "e8a1131692b38498cee69c77e84a542fdb6bdcdecfa51a09bd22267fca7f4c2e"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a050.json",
+      "bytes": 3413,
+      "sha256": "c28613ca8b1484560303ec8dc9737030de2efe8de7238e643ae7bc02ea4796c7"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a025.parquet",
+      "bytes": 3737851,
+      "sha256": "e79aa291b7099e98b28047f967b6b4f088d6578016af07806a9a694026562744"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a025.json",
+      "bytes": 3355,
+      "sha256": "9f09af3e691362d16aed2119b06e71be04bd9eebddc203a6600b4f667f7948cf"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a050.parquet",
+      "bytes": 3715984,
+      "sha256": "04338083912aea06ad605b41a3300ee4f113647f4e5109ec8f096f34f79e6f09"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a050.json",
+      "bytes": 3332,
+      "sha256": "db28db382ae70ddd544cc0b345ed33c98af8b5b2f5c6d4099aae7c48fdb30c28"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3715505,
+      "sha256": "d2038be446decfbbea36008d39709d8f16818bbc8dcdd542832aba0c50209ea9"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_sparse_equal.json",
+      "bytes": 2379,
+      "sha256": "5c35dd78fe57daa7141733f36c498ce1d16395dacad271280539c46ee5fdb251"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_full_equal.parquet",
+      "bytes": 3844679,
+      "sha256": "a96ffb9eccb134ac4a8dd6dbccb8f7bd0e69ccfabf57ae9ce33ca505b37bcf89"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_full_equal.json",
+      "bytes": 3241,
+      "sha256": "4464f5589b30ef6b9f8e4e7dd95f77854e53d6b11fddca1087f3cf13dcd38d66"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3786110,
+      "sha256": "1e1b7fdf90375138c26992e22ee09d7a837b718f52bee7ee0a7d270bb1e8901d"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_evaluation_c60_inverse_lead.json",
+      "bytes": 3248,
+      "sha256": "9d436c44f3015c0de769771ad234e952006dc5069b76ae3d5f951061ea279118"
+    },
+    {
+      "path": "results/revision_v5/control/main/TAS1_current_only_selection.json",
+      "bytes": 18630,
+      "sha256": "31ef055291051d5d895a7141a4c94b2a9690a1578e459d092118b66a59ef1778"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_raw.parquet",
+      "bytes": 1451555,
+      "sha256": "9046d233b9d211793a91dbbccfce5e0b4cf492694a6fccac136548e582cbc2db"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_raw.json",
+      "bytes": 35544,
+      "sha256": "cae86c32658c3bfe5d3a76bc2fa6afc319794a5999eba95829f04789ced82c9f"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a025.parquet",
+      "bytes": 1453173,
+      "sha256": "6f0bdd7a29659438b3084076bee789049c2ef6006da40c2f514bdf924fea7483"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a025.json",
+      "bytes": 54678,
+      "sha256": "5117b76bbea50c0410b08ea969f6c51475a48dc46d37e7b1e5e6dcffcbae0819"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a050.parquet",
+      "bytes": 1466477,
+      "sha256": "9e283bfa8115a02df8aa5f6ea75e3f65d8d74a65506367575c38fd0ea15647e9"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a050.json",
+      "bytes": 28070,
+      "sha256": "53b37ad62493c7d79c71b840bac97ef7d64fcf0f269d25f6b214147d3042f1bf"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a025.parquet",
+      "bytes": 1449261,
+      "sha256": "64a6a713441893dc349741b95e1c47280d3b4c37c547547742a84958c0e453a5"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a025.json",
+      "bytes": 27741,
+      "sha256": "5732fa84f2de673b5470e9a83f56c4fe76a7cc3a3b1d7693e6acbc398c351db2"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a050.parquet",
+      "bytes": 1449647,
+      "sha256": "358e6c30aee776f310872ba34bbc8ae10b4cdefdca33aa1a65b7f2dfac46627e"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a050.json",
+      "bytes": 19562,
+      "sha256": "29f19641139d825b92785433cc5dd5db5acd2e18bb38cd8e98894c3510595c31"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_raw.parquet",
+      "bytes": 3779286,
+      "sha256": "68dce5293fb549f2b4c003337689c1b0e644074482245ce458a0ea9fd65deb45"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_raw.json",
+      "bytes": 11581,
+      "sha256": "99a6abe6568963cbf669f5a232fa4ee50313bff2b3da64264792b8df1abee1d1"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a025.parquet",
+      "bytes": 3875482,
+      "sha256": "ddd2b387bb2b8106f2f57123db85bcbcb4447efcddcdb67834b9b0bf7d37bd00"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a025.json",
+      "bytes": 19743,
+      "sha256": "24254d82ab3f9c95de2d53fec8effade955b92b2283d875e8b7941db43354d7c"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a050.parquet",
+      "bytes": 3891398,
+      "sha256": "4bf9c8d6c3356499af1a3d91a4fb85e25debbce485638eaf07880a620db38876"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a050.json",
+      "bytes": 11542,
+      "sha256": "223522fbed4b117bfcc32202a7726efce01f0751f83f139dab0e1a8f138b77af"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a025.parquet",
+      "bytes": 3857450,
+      "sha256": "dd8a34557121eb3fce9c9d75217b3b2f90a6a6d045f4a702f35341f19b0ab343"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a025.json",
+      "bytes": 11603,
+      "sha256": "f9c96b762fba9e66fc0409a5f9ceee28d1f2a5134f0381227338a0ec8ea79ddd"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a050.parquet",
+      "bytes": 3852791,
+      "sha256": "cde336490a3e9874f08313a3a6499cd93b948cef0d19a92b4428060c30c5efd2"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a050.json",
+      "bytes": 11423,
+      "sha256": "6ae80498dac23fc3300f3e6275871e46d4e8c4c8430a449dbbc08b40736b75f1"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_sparse_equal.parquet",
+      "bytes": 3771384,
+      "sha256": "01be9d81b562a209959f69d3ac3dffa0fba285ce85619d4968457491b65efe08"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_sparse_equal.json",
+      "bytes": 11033,
+      "sha256": "2da65f72d70f33cb49f1e3576bff182c3791c0531e1ef954cc2fe7818a2899a6"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_full_equal.parquet",
+      "bytes": 3829690,
+      "sha256": "c503717a8c37b930b458db4a952011ec1bd6a7548e0d3efb9c243a7b8002381e"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_full_equal.json",
+      "bytes": 27851,
+      "sha256": "bd7c199a5c3703afa210c9318575b18ecbd312dc2fbb254944d6ca81892e356e"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_inverse_lead.parquet",
+      "bytes": 3833264,
+      "sha256": "bbb7dcb95f623946632407de718f85b701a0b6ae89954e60b580cddf161a593f"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_evaluation_c60_inverse_lead.json",
+      "bytes": 19746,
+      "sha256": "e609d403fd655f45589ed03c27217cf59b28145f7cd422db9e425a7d4f653f73"
+    },
+    {
+      "path": "results/revision_v5/control/main/VIC1_current_only_selection.json",
+      "bytes": 195331,
+      "sha256": "8810c71f61753f6db2a53470009db74ec0699da0aa66f9e3abf188c785371e69"
+    }
+  ]
+}

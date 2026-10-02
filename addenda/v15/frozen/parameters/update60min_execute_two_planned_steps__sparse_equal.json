@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "setting": "update60min_execute_two_planned_steps",
+  "policy": "sparse_equal",
+  "origins": 1488,
+  "solves": 744,
+  "net_operating_aud": 6265.943527440286,
+  "endpoint_mark_aud": -44.1358986367441,
+  "marked_value_aud": 6221.807628803542,
+  "initial_soc_mwh": 1.0,
+  "final_soc_mwh": 0.20000145422348786,
+  "seconds": 1.6585718999849632,
+  "controller": {
+    "h": 8,
+    "power_mw": 1.0,
+    "eta_c": 0.91,
+    "eta_d": 0.91,
+    "dt_hours": 0.5,
+    "kappa_aud_per_grid_mwh": 5.0,
+    "smin_mwh": 0.2,
+    "smax_mwh": 1.8,
+    "terminal_factor": 1.0,
+    "primary_tolerance_aud": 1e-05,
+    "throughput_tolerance_mwh": 1e-07,
+    "third_objective": "minimize first-period net discharge d0-c0",
+    "numerical_state": "clearSolver before every one of three stages",
+    "physical_modes": "each stage: LP accepted only when its optimum obeys modes, otherwise cold binary solve",
+    "claim": "tolerance-ordered policy, not exact lexicographic optimum",
+    "numerical_failure_fallback": "new cold all-binary model; presolve off; primal/dual/MIP feasibility1e-10; same objective bounds; every occurrence logged",
+    "equivalent_unit_failure_fallback": "delegate immutable Safe first; on failure cold allbinary/presolveoff/feas1e-10 SOC variables in kWh; primary row scales1,1000,0.001 in fixed order; original-unit audits; no changed policy margins",
+    "soc_elimination_failure_fallback": "delegate frozen ScaledSafe first; if all fail and h<=12 eliminate SOC columns into scaled cumulative inequalities and enumerate all2^h fixed modes independently at each of three stages; same scientific margins and original-unit audit"
+  },
+  "maximum_plan_successor_difference_mwh": 2.7755575615628914e-16,
+  "fallback_counts": {
+    "safe": 0,
+    "scaled": 0,
+    "enumerated": 0
+  },
+  "scope": "Exploratory one-region one-month point sensitivity; common endpoint actual marking; no inference, new selector or actual participant replication"
+}

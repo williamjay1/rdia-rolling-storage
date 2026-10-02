@@ -1,0 +1,814 @@
+{
+  "7": {
+    "spa": {
+      "statistic": 2.341601988032641,
+      "consistent_recenter_threshold": 1.964013480751175,
+      "t_statistics": [
+        0.9358790426084619,
+        1.2251071415934518,
+        2.341601988032641
+      ],
+      "standard_errors": [
+        32.12915342979789,
+        35.31522186860954,
+        33.344338731349055
+      ],
+      "mu_consistent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "long_run_sd": [
+        1002.2030096803617,
+        1101.585876564842,
+        1040.1082215059687
+      ],
+      "null": "All three population mean fixed-program marked-score increments relative to fixed Cstar are nonpositive",
+      "lower": {
+        "p_value": 0.028397160283971604,
+        "monte_carlo_se": 0.0016609636591900763,
+        "exceedances": 283
+      },
+      "consistent": {
+        "p_value": 0.028397160283971604,
+        "monte_carlo_se": 0.0016609636591900763,
+        "exceedances": 283
+      },
+      "upper": {
+        "p_value": 0.028397160283971604,
+        "monte_carlo_se": 0.0016609636591900763,
+        "exceedances": 283
+      }
+    },
+    "romano_wolf": [
+      {
+        "label": "IL",
+        "step_rank": 1,
+        "mean": 78.07916986296073,
+        "standard_error": 33.344338731349055,
+        "statistic": 2.341601988032641,
+        "individual_one_sided_p": 0.013998600139986002,
+        "step_p": 0.028397160283971604,
+        "adjusted_one_sided_p": 0.028397160283971604,
+        "step_monte_carlo_se": 0.0016609636591900763,
+        "step_exceedances": 283,
+        "remaining_labels": [
+          "IL",
+          "F",
+          "S"
+        ]
+      },
+      {
+        "label": "F",
+        "step_rank": 2,
+        "mean": 43.264930518190795,
+        "standard_error": 35.31522186860954,
+        "statistic": 1.2251071415934518,
+        "individual_one_sided_p": 0.11198880111988802,
+        "step_p": 0.17578242175782421,
+        "adjusted_one_sided_p": 0.17578242175782421,
+        "step_monte_carlo_se": 0.0038061591547289175,
+        "step_exceedances": 1757,
+        "remaining_labels": [
+          "F",
+          "S"
+        ]
+      },
+      {
+        "label": "S",
+        "step_rank": 3,
+        "mean": 30.069001351699626,
+        "standard_error": 32.12915342979789,
+        "statistic": 0.9358790426084619,
+        "individual_one_sided_p": 0.1738826117388261,
+        "step_p": 0.1738826117388261,
+        "adjusted_one_sided_p": 0.17578242175782421,
+        "step_monte_carlo_se": 0.0037898955891308437,
+        "step_exceedances": 1738,
+        "remaining_labels": [
+          "S"
+        ]
+      }
+    ],
+    "mcs": {
+      "method": "Tmax",
+      "models": [
+        "R",
+        "Cstar",
+        "S",
+        "F",
+        "IL"
+      ],
+      "model_p_values": [
+        9.999000099990002e-05,
+        0.18218178182181782,
+        0.3668633136686331,
+        0.3668633136686331,
+        1.0
+      ],
+      "retained_90": [
+        "Cstar",
+        "S",
+        "F",
+        "IL"
+      ],
+      "retained_95": [
+        "Cstar",
+        "S",
+        "F",
+        "IL"
+      ],
+      "elimination_trace": [
+        {
+          "active": [
+            "R",
+            "Cstar",
+            "S",
+            "F",
+            "IL"
+          ],
+          "eliminated": "R",
+          "statistic": 4.552882874713822,
+          "step_p": 9.999000099990002e-05,
+          "adjusted_elimination_p": 9.999000099990002e-05,
+          "monte_carlo_se": 9.998500187478128e-05,
+          "exceedances": 0,
+          "active_standard_errors": [
+            23.858103310585022,
+            18.91735451044839,
+            19.47868376873365,
+            19.657847480093672,
+            18.333310815341648
+          ]
+        },
+        {
+          "active": [
+            "Cstar",
+            "S",
+            "F",
+            "IL"
+          ],
+          "eliminated": "Cstar",
+          "statistic": 1.662468345140676,
+          "step_p": 0.18218178182181782,
+          "adjusted_elimination_p": 0.18218178182181782,
+          "monte_carlo_se": 0.003859749765539118,
+          "exceedances": 1821,
+          "active_standard_errors": [
+            22.76932101826568,
+            18.02894746356633,
+            16.108235073459866,
+            14.648011441335932
+          ]
+        },
+        {
+          "active": [
+            "S",
+            "F",
+            "IL"
+          ],
+          "eliminated": "S",
+          "statistic": 1.1410163599050926,
+          "step_p": 0.3668633136686331,
+          "adjusted_elimination_p": 0.3668633136686331,
+          "monte_carlo_se": 0.004819246804355862,
+          "exceedances": 3668,
+          "active_standard_errors": [
+            17.88057847036302,
+            12.67533071155712,
+            12.078465743557327
+          ]
+        },
+        {
+          "active": [
+            "F",
+            "IL"
+          ],
+          "eliminated": "F",
+          "statistic": 2.032511786498096,
+          "step_p": 0.042695730426957304,
+          "adjusted_elimination_p": 0.3668633136686331,
+          "monte_carlo_se": 0.0020216012999216748,
+          "exceedances": 426,
+          "active_standard_errors": [
+            8.564338857968727,
+            8.564338857968727
+          ]
+        }
+      ],
+      "null": "Equal expected negative portfolio marked scores among the current active set",
+      "interpretation": "Retained membership means failure to exclude by this equal-predictive-ability elimination procedure, not equivalence or noninferiority"
+    },
+    "literal_index_error": 6.59383658785373e-12,
+    "seed": 20261009,
+    "draws": 10000,
+    "pure_interior_cash_sensitivity": {
+      "spa": {
+        "statistic": 2.352822385831509,
+        "consistent_recenter_threshold": 1.964013480751175,
+        "t_statistics": [
+          0.9443985411040031,
+          1.2363735619293201,
+          2.352822385831509
+        ],
+        "standard_errors": [
+          32.162174142469816,
+          35.35151706066356,
+          33.378608349778034
+        ],
+        "mu_consistent": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "long_run_sd": [
+          1003.2330230510502,
+          1102.7180306003645,
+          1041.1771919288951
+        ],
+        "null": "All three population mean fixed-program marked-score increments relative to fixed Cstar are nonpositive",
+        "lower": {
+          "p_value": 0.027497250274972504,
+          "monte_carlo_se": 0.001635190437059934,
+          "exceedances": 274
+        },
+        "consistent": {
+          "p_value": 0.027497250274972504,
+          "monte_carlo_se": 0.001635190437059934,
+          "exceedances": 274
+        },
+        "upper": {
+          "p_value": 0.027497250274972504,
+          "monte_carlo_se": 0.001635190437059934,
+          "exceedances": 274
+        }
+      },
+      "romano_wolf": [
+        {
+          "label": "IL",
+          "step_rank": 1,
+          "mean": 78.53393693326029,
+          "standard_error": 33.378608349778034,
+          "statistic": 2.352822385831509,
+          "individual_one_sided_p": 0.013898610138986101,
+          "step_p": 0.027497250274972504,
+          "adjusted_one_sided_p": 0.027497250274972504,
+          "step_monte_carlo_se": 0.001635190437059934,
+          "step_exceedances": 274,
+          "remaining_labels": [
+            "IL",
+            "F",
+            "S"
+          ]
+        },
+        {
+          "label": "F",
+          "step_rank": 2,
+          "mean": 43.70768106789774,
+          "standard_error": 35.35151706066356,
+          "statistic": 1.2363735619293201,
+          "individual_one_sided_p": 0.11018898110188981,
+          "step_p": 0.1728827117288271,
+          "adjusted_one_sided_p": 0.1728827117288271,
+          "step_monte_carlo_se": 0.00378126938627682,
+          "step_exceedances": 1728,
+          "remaining_labels": [
+            "F",
+            "S"
+          ]
+        },
+        {
+          "label": "S",
+          "step_rank": 3,
+          "mean": 30.373910338881387,
+          "standard_error": 32.162174142469816,
+          "statistic": 0.9443985411040031,
+          "individual_one_sided_p": 0.17168283171682833,
+          "step_p": 0.17168283171682833,
+          "adjusted_one_sided_p": 0.1728827117288271,
+          "step_monte_carlo_se": 0.0037708569006096567,
+          "step_exceedances": 1716,
+          "remaining_labels": [
+            "S"
+          ]
+        }
+      ],
+      "mcs": {
+        "method": "Tmax",
+        "models": [
+          "R",
+          "Cstar",
+          "S",
+          "F",
+          "IL"
+        ],
+        "model_p_values": [
+          9.999000099990002e-05,
+          0.1770822917708229,
+          0.36406359364063595,
+          0.36406359364063595,
+          1.0
+        ],
+        "retained_90": [
+          "Cstar",
+          "S",
+          "F",
+          "IL"
+        ],
+        "retained_95": [
+          "Cstar",
+          "S",
+          "F",
+          "IL"
+        ],
+        "elimination_trace": [
+          {
+            "active": [
+              "R",
+              "Cstar",
+              "S",
+              "F",
+              "IL"
+            ],
+            "eliminated": "R",
+            "statistic": 4.5559052075209525,
+            "step_p": 9.999000099990002e-05,
+            "adjusted_elimination_p": 9.999000099990002e-05,
+            "monte_carlo_se": 9.998500187478128e-05,
+            "exceedances": 0,
+            "active_standard_errors": [
+              23.882623457872423,
+              18.93679680696471,
+              19.498702970962505,
+              19.678050817688877,
+              18.352152861400565
+            ]
+          },
+          {
+            "active": [
+              "Cstar",
+              "S",
+              "F",
+              "IL"
+            ],
+            "eliminated": "Cstar",
+            "statistic": 1.6739502109394098,
+            "step_p": 0.1770822917708229,
+            "adjusted_elimination_p": 0.1770822917708229,
+            "monte_carlo_se": 0.003817192459828829,
+            "exceedances": 1770,
+            "active_standard_errors": [
+              22.792722170391286,
+              18.047476700425044,
+              16.12479029964018,
+              14.6630659238039
+            ]
+          },
+          {
+            "active": [
+              "S",
+              "F",
+              "IL"
+            ],
+            "eliminated": "S",
+            "statistic": 1.1452027332279233,
+            "step_p": 0.36406359364063595,
+            "adjusted_elimination_p": 0.36406359364063595,
+            "monte_carlo_se": 0.004811425398068027,
+            "exceedances": 3640,
+            "active_standard_errors": [
+              17.89895522110334,
+              12.688357772925626,
+              12.09087937741505
+            ]
+          },
+          {
+            "active": [
+              "F",
+              "IL"
+            ],
+            "eliminated": "F",
+            "statistic": 2.0311258424507,
+            "step_p": 0.0430956904309569,
+            "adjusted_elimination_p": 0.36406359364063595,
+            "monte_carlo_se": 0.002030623757971663,
+            "exceedances": 430,
+            "active_standard_errors": [
+              8.573140850628533,
+              8.573140850628533
+            ]
+          }
+        ],
+        "null": "Equal expected negative portfolio marked scores among the current active set",
+        "interpretation": "Retained membership means failure to exclude by this equal-predictive-ability elimination procedure, not equivalence or noninferiority"
+      },
+      "literal_index_error": 5.4569682106375694e-12
+    }
+  },
+  "28": {
+    "spa": {
+      "statistic": 2.0835213365804472,
+      "consistent_recenter_threshold": 1.964013480751175,
+      "t_statistics": [
+        0.905458734396228,
+        1.1199888339853283,
+        2.0835213365804472
+      ],
+      "standard_errors": [
+        33.208582798364674,
+        38.629787374074446,
+        37.47461976612496
+      ],
+      "mu_consistent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "long_run_sd": [
+        1035.873593758425,
+        1204.976945757434,
+        1168.9438627226805
+      ],
+      "null": "All three population mean fixed-program marked-score increments relative to fixed Cstar are nonpositive",
+      "lower": {
+        "p_value": 0.0456954304569543,
+        "monte_carlo_se": 0.0020881330846602834,
+        "exceedances": 456
+      },
+      "consistent": {
+        "p_value": 0.0456954304569543,
+        "monte_carlo_se": 0.0020881330846602834,
+        "exceedances": 456
+      },
+      "upper": {
+        "p_value": 0.0456954304569543,
+        "monte_carlo_se": 0.0020881330846602834,
+        "exceedances": 456
+      }
+    },
+    "romano_wolf": [
+      {
+        "label": "IL",
+        "step_rank": 1,
+        "mean": 78.07916986296073,
+        "standard_error": 37.47461976612496,
+        "statistic": 2.0835213365804472,
+        "individual_one_sided_p": 0.024897510248975102,
+        "step_p": 0.0456954304569543,
+        "adjusted_one_sided_p": 0.0456954304569543,
+        "step_monte_carlo_se": 0.0020881330846602834,
+        "step_exceedances": 456,
+        "remaining_labels": [
+          "IL",
+          "F",
+          "S"
+        ]
+      },
+      {
+        "label": "F",
+        "step_rank": 2,
+        "mean": 43.264930518190795,
+        "standard_error": 38.629787374074446,
+        "statistic": 1.1199888339853283,
+        "individual_one_sided_p": 0.1381861813818618,
+        "step_p": 0.19508049195080493,
+        "adjusted_one_sided_p": 0.19508049195080493,
+        "step_monte_carlo_se": 0.003962428457041965,
+        "step_exceedances": 1950,
+        "remaining_labels": [
+          "F",
+          "S"
+        ]
+      },
+      {
+        "label": "S",
+        "step_rank": 3,
+        "mean": 30.069001351699626,
+        "standard_error": 33.208582798364674,
+        "statistic": 0.905458734396228,
+        "individual_one_sided_p": 0.18298170182981702,
+        "step_p": 0.18298170182981702,
+        "adjusted_one_sided_p": 0.19508049195080493,
+        "step_monte_carlo_se": 0.003866321897879986,
+        "step_exceedances": 1829,
+        "remaining_labels": [
+          "S"
+        ]
+      }
+    ],
+    "mcs": {
+      "method": "Tmax",
+      "models": [
+        "R",
+        "Cstar",
+        "S",
+        "F",
+        "IL"
+      ],
+      "model_p_values": [
+        0.0004999500049995,
+        0.24927507249275072,
+        0.29077092290770923,
+        0.29077092290770923,
+        1.0
+      ],
+      "retained_90": [
+        "Cstar",
+        "S",
+        "F",
+        "IL"
+      ],
+      "retained_95": [
+        "Cstar",
+        "S",
+        "F",
+        "IL"
+      ],
+      "elimination_trace": [
+        {
+          "active": [
+            "R",
+            "Cstar",
+            "S",
+            "F",
+            "IL"
+          ],
+          "eliminated": "R",
+          "statistic": 3.974715857207949,
+          "step_p": 0.0004999500049995,
+          "adjusted_elimination_p": 0.0004999500049995,
+          "monte_carlo_se": 0.00022352854179791062,
+          "exceedances": 4,
+          "active_standard_errors": [
+            27.32853212360653,
+            20.832632926238947,
+            17.82387002554672,
+            20.600402681661734,
+            20.32393648007006
+          ]
+        },
+        {
+          "active": [
+            "Cstar",
+            "S",
+            "F",
+            "IL"
+          ],
+          "eliminated": "Cstar",
+          "statistic": 1.485584412350604,
+          "step_p": 0.24927507249275072,
+          "adjusted_elimination_p": 0.24927507249275072,
+          "monte_carlo_se": 0.004325717268807509,
+          "exceedances": 2492,
+          "active_standard_errors": [
+            25.480393519556824,
+            15.65110098234829,
+            16.263355545250448,
+            15.611265341074143
+          ]
+        },
+        {
+          "active": [
+            "S",
+            "F",
+            "IL"
+          ],
+          "eliminated": "S",
+          "statistic": 1.296676661110034,
+          "step_p": 0.29077092290770923,
+          "adjusted_elimination_p": 0.29077092290770923,
+          "monte_carlo_se": 0.004540953347500986,
+          "exceedances": 2907,
+          "active_standard_errors": [
+            15.734094066122548,
+            11.991576678105886,
+            12.057730127239452
+          ]
+        },
+        {
+          "active": [
+            "F",
+            "IL"
+          ],
+          "eliminated": "F",
+          "statistic": 1.9141078427715548,
+          "step_p": 0.04999500049995,
+          "adjusted_elimination_p": 0.29077092290770923,
+          "monte_carlo_se": 0.002179237282854371,
+          "exceedances": 499,
+          "active_standard_errors": [
+            9.094116477355966,
+            9.094116477355966
+          ]
+        }
+      ],
+      "null": "Equal expected negative portfolio marked scores among the current active set",
+      "interpretation": "Retained membership means failure to exclude by this equal-predictive-ability elimination procedure, not equivalence or noninferiority"
+    },
+    "literal_index_error": 3.865352482534945e-12,
+    "seed": 20261030,
+    "draws": 10000,
+    "pure_interior_cash_sensitivity": {
+      "spa": {
+        "statistic": 2.0935050735000194,
+        "consistent_recenter_threshold": 1.964013480751175,
+        "t_statistics": [
+          0.9137013105992039,
+          1.1302885576150088,
+          2.0935050735000194
+        ],
+        "standard_errors": [
+          33.24271289373792,
+          38.669489108271726,
+          37.513134277703756
+        ],
+        "mu_consistent": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "long_run_sd": [
+          1036.93821204594,
+          1206.2153598846216,
+          1170.1452438765593
+        ],
+        "null": "All three population mean fixed-program marked-score increments relative to fixed Cstar are nonpositive",
+        "lower": {
+          "p_value": 0.0446955304469553,
+          "monte_carlo_se": 0.0020662422570443136,
+          "exceedances": 446
+        },
+        "consistent": {
+          "p_value": 0.0446955304469553,
+          "monte_carlo_se": 0.0020662422570443136,
+          "exceedances": 446
+        },
+        "upper": {
+          "p_value": 0.0446955304469553,
+          "monte_carlo_se": 0.0020662422570443136,
+          "exceedances": 446
+        }
+      },
+      "romano_wolf": [
+        {
+          "label": "IL",
+          "step_rank": 1,
+          "mean": 78.53393693326029,
+          "standard_error": 37.513134277703756,
+          "statistic": 2.0935050735000194,
+          "individual_one_sided_p": 0.0245975402459754,
+          "step_p": 0.0446955304469553,
+          "adjusted_one_sided_p": 0.0446955304469553,
+          "step_monte_carlo_se": 0.0020662422570443136,
+          "step_exceedances": 446,
+          "remaining_labels": [
+            "IL",
+            "F",
+            "S"
+          ]
+        },
+        {
+          "label": "F",
+          "step_rank": 2,
+          "mean": 43.70768106789774,
+          "standard_error": 38.669489108271726,
+          "statistic": 1.1302885576150088,
+          "individual_one_sided_p": 0.1356864313568643,
+          "step_p": 0.19188081191880813,
+          "adjusted_one_sided_p": 0.19188081191880813,
+          "step_monte_carlo_se": 0.003937601569865393,
+          "step_exceedances": 1918,
+          "remaining_labels": [
+            "F",
+            "S"
+          ]
+        },
+        {
+          "label": "S",
+          "step_rank": 3,
+          "mean": 30.373910338881387,
+          "standard_error": 33.24271289373792,
+          "statistic": 0.9137013105992039,
+          "individual_one_sided_p": 0.18118188181181882,
+          "step_p": 0.18118188181181882,
+          "adjusted_one_sided_p": 0.19188081191880813,
+          "step_monte_carlo_se": 0.003851495469263818,
+          "step_exceedances": 1811,
+          "remaining_labels": [
+            "S"
+          ]
+        }
+      ],
+      "mcs": {
+        "method": "Tmax",
+        "models": [
+          "R",
+          "Cstar",
+          "S",
+          "F",
+          "IL"
+        ],
+        "model_p_values": [
+          0.0004999500049995,
+          0.24537546245375463,
+          0.28717128287171284,
+          0.28717128287171284,
+          1.0
+        ],
+        "retained_90": [
+          "Cstar",
+          "S",
+          "F",
+          "IL"
+        ],
+        "retained_95": [
+          "Cstar",
+          "S",
+          "F",
+          "IL"
+        ],
+        "elimination_trace": [
+          {
+            "active": [
+              "R",
+              "Cstar",
+              "S",
+              "F",
+              "IL"
+            ],
+            "eliminated": "R",
+            "statistic": 3.977354386347612,
+            "step_p": 0.0004999500049995,
+            "adjusted_elimination_p": 0.0004999500049995,
+            "monte_carlo_se": 0.00022352854179791062,
+            "exceedances": 4,
+            "active_standard_errors": [
+              27.356619001431255,
+              20.854043648670817,
+              17.84218849422638,
+              20.621574729638603,
+              20.34482439012149
+            ]
+          },
+          {
+            "active": [
+              "Cstar",
+              "S",
+              "F",
+              "IL"
+            ],
+            "eliminated": "Cstar",
+            "statistic": 1.4958446262699583,
+            "step_p": 0.24537546245375463,
+            "adjusted_elimination_p": 0.24537546245375463,
+            "monte_carlo_se": 0.004302880780318589,
+            "exceedances": 2453,
+            "active_standard_errors": [
+              25.506580974355916,
+              15.667186389318633,
+              16.280070196375792,
+              15.62730980699514
+            ]
+          },
+          {
+            "active": [
+              "S",
+              "F",
+              "IL"
+            ],
+            "eliminated": "S",
+            "statistic": 1.3014341499359414,
+            "step_p": 0.28717128287171284,
+            "adjusted_elimination_p": 0.28717128287171284,
+            "monte_carlo_se": 0.004524195716573783,
+            "exceedances": 2871,
+            "active_standard_errors": [
+              15.750264769170757,
+              12.003901011793213,
+              12.070122450083538
+            ]
+          },
+          {
+            "active": [
+              "F",
+              "IL"
+            ],
+            "eliminated": "F",
+            "statistic": 1.9128026368739386,
+            "step_p": 0.05019498050194981,
+            "adjusted_elimination_p": 0.28717128287171284,
+            "monte_carlo_se": 0.0021833615680097976,
+            "exceedances": 501,
+            "active_standard_errors": [
+              9.10346294855562,
+              9.10346294855562
+            ]
+          }
+        ],
+        "null": "Equal expected negative portfolio marked scores among the current active set",
+        "interpretation": "Retained membership means failure to exclude by this equal-predictive-ability elimination procedure, not equivalence or noninferiority"
+      },
+      "literal_index_error": 3.183231456205249e-12
+    }
+  }
+}

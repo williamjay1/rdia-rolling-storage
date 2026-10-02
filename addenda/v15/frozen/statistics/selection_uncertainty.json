@@ -1,0 +1,43 @@
+{
+  "blocks": {
+    "7": {
+      "draws": 10000,
+      "training_block_seed": 20261209,
+      "evaluation_block_seed": 20261409,
+      "training_literal_error": 1.0800249583553523e-12,
+      "evaluation_literal_error": 1.8758328224066645e-12,
+      "all_five_original_choices_count": 4880,
+      "all_five_original_choices_probability": 0.488,
+      "actual_frozen_current_2024_2025_marked_total_aud": 1254291.3488649584,
+      "actual_raw_2024_2025_marked_total_aud": 1161360.3793521489,
+      "actual_history_2024_2025_totals_aud": [
+        1273814.8018554267,
+        1278265.987667384,
+        1306757.0444251434
+      ]
+    },
+    "28": {
+      "draws": 10000,
+      "training_block_seed": 20261230,
+      "evaluation_block_seed": 20261430,
+      "training_literal_error": 9.663381206337363e-13,
+      "evaluation_literal_error": 1.1937117960769683e-12,
+      "all_five_original_choices_count": 5060,
+      "all_five_original_choices_probability": 0.506,
+      "actual_frozen_current_2024_2025_marked_total_aud": 1254291.3488649584,
+      "actual_raw_2024_2025_marked_total_aud": 1161360.3793521489,
+      "actual_history_2024_2025_totals_aud": [
+        1273814.8018554267,
+        1278265.987667384,
+        1306757.0444251434
+      ]
+    }
+  },
+  "train_days": 364,
+  "evaluation_days": 731,
+  "training": "Strict purged 2023 saved current-program daily paths; shared date resampling and region-specific selection",
+  "evaluation": "Saved 2024-2025 state subpaths, candidate programs run unchanged; realized boundary marks held fixed",
+  "selection_only": "Reselection across saved validation scores, then evaluate saved candidate 2024-2025 total values without resampling evaluation",
+  "combined": "Independent phase-specific block draws across train and evaluation; within each phase all regions and programs share sampled dates",
+  "exclusions": "No model or preprocessing refit, no closed-loop replay after resampling, no correction for earlier research choices, no claimed independent cross-year or unconditional selection inference"
+}

@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "seed": 20261002,
+  "scope": "Executed finite synthetic algebra checks; no empirical guarantee or runtime q_t/b_t certificate.",
+  "checks": [
+    {
+      "name": "separate-path residual identity",
+      "cases": 400,
+      "maximum_error": 4.263256414560601e-14,
+      "status": "PASS",
+      "details": {
+        "different_stock_origin_pairs": 1763
+      }
+    },
+    {
+      "name": "reference-policy value oracle identity",
+      "cases": 400,
+      "maximum_error": 2.842170943040401e-14,
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "window-to-realized bridge inequality",
+      "cases": 2400,
+      "maximum_error": 2.842170943040401e-14,
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "joint-cover cumulative upper bound",
+      "cases": 400,
+      "maximum_error": 0.0,
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "asymmetric-efficiency clipping budget",
+      "cases": 1500,
+      "maximum_error": 1.3322676295501878e-15,
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "clipped plan reward bound including negative prices",
+      "cases": 1500,
+      "maximum_error": 1.1368683772161603e-13,
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "mode-preserving clipped feasibility",
+      "cases": 1500,
+      "maximum_error": 0.0,
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "enumerated optimal-value continuity",
+      "cases": 3000,
+      "maximum_error": 7.105427357601002e-15,
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "enumerated clipped first-action 2Lh bound",
+      "cases": 3000,
+      "maximum_error": 0.0,
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "successor closure includes all clock successors and fallback",
+      "cases": 156,
+      "maximum_error": 0.0,
+      "status": "PASS",
+      "details": {
+        "negative_case": "Cover {1} closes under idle but fails under admitted discharge fallback."
+      }
+    },
+    {
+      "name": "zero local window regret has no unconditional cash guarantee",
+      "cases": 1,
+      "maximum_error": 0.0,
+      "status": "PASS",
+      "details": {
+        "window_regret": 0.0,
+        "realized_loss": 50.0,
+        "reference_curve": [
+          0,
+          0
+        ],
+        "candidate_curve": [
+          -1,
+          0
+        ],
+        "reference_increment": 0,
+        "candidate_increment": 1,
+        "shared_tie_rule": true
+      }
+    }
+  ],
+  "script_sha256": "0e8d004a6ca3143dff49ca7faa1cf0efd160f83ba289e18d25b10d593c5d22b0"
+}

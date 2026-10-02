@@ -1,0 +1,333 @@
+{
+  "source_adaptations": [
+    {
+      "source": "scripts/revision_v15_statistics.py",
+      "destination": "revision_v15_statistics.py",
+      "original_sha256": "51255656c6514f891125f41833b5d6366b14fd46ed647edb70189074c763e409",
+      "portable_sha256": "4277d8e73f61a4144b50b055a8b7caf0a9f300a19f973dd7cd1fcadceb88d42f",
+      "transformations": [
+        "Omitted manuscript-fragment rendering function and its call; statistical functions and definitions unchanged"
+      ],
+      "omitted_manuscript_text_included_in_provenance": false,
+      "scientific_source_checks": [
+        {
+          "name": "studentizer",
+          "source_block_sha256": "2915ed31ca213b819d7fef673889b2976aa64bbacde5ada10a7034b4ad05f6be",
+          "exact_source_match": true
+        },
+        {
+          "name": "spa",
+          "source_block_sha256": "8a478ea595238b5b6052cae2e0fc0a072954c4c13e3ef29b7533d4dd976ac0d2",
+          "exact_source_match": true
+        },
+        {
+          "name": "romano_wolf",
+          "source_block_sha256": "c19784460bab595304c4364fa79e929bb1bea15a32a817daafd2011fdfe9889f",
+          "exact_source_match": true
+        },
+        {
+          "name": "model_confidence_set",
+          "source_block_sha256": "c601d7bb40e72a7a66fa2bce3d660a3d50079f779e524327cd9f10c79b4d8eaa",
+          "exact_source_match": true
+        },
+        {
+          "name": "choose_current",
+          "source_block_sha256": "ae45f296de3a58b3363bb2ae09b5aac9810d872bab3ff9016b40ff2ec03c434f",
+          "exact_source_match": true
+        },
+        {
+          "name": "implementation_checks",
+          "source_block_sha256": "6c6b068c6c0c20c0af990f2e0d93321765e2ddfce9fa351b31e7ade234d8c763",
+          "exact_source_match": true
+        },
+        {
+          "name": "daily_cube",
+          "source_block_sha256": "5eadf73a02fc131430bf61cbdb4764c3856989df4230630d63bbfe832c8cf0f8",
+          "exact_source_match": true
+        },
+        {
+          "name": "load_panels",
+          "source_block_sha256": "c690f400938e8e588bc8cd311e624176ceb3227ba1ee01d322d5f0121208198d",
+          "exact_source_match": true
+        },
+        {
+          "name": "load_daily_fixture",
+          "source_block_sha256": "c58715ac16b0474e1140807d62e2d92cfd431fc2a0a6318ff6f3b4fd107e9db1",
+          "exact_source_match": true
+        },
+        {
+          "name": "gather_model",
+          "source_block_sha256": "dc14affe796dfbc3af5a846d6140d7f6058cb0174d7c12f5693884929a94462b",
+          "exact_source_match": true
+        },
+        {
+          "name": "inference",
+          "source_block_sha256": "15a76f64546febaaf0c357baaa205f5fcb749132bbd8b95f5d6b0d0ce1e7aac5",
+          "exact_source_match": true
+        },
+        {
+          "name": "selection_uncertainty",
+          "source_block_sha256": "a1f1b4aab01245c568d41a0d633801985eac4611eb9938b5fe3cdc405add00bd",
+          "exact_source_match": true
+        }
+      ]
+    },
+    {
+      "source": "scripts/revision_v15_parameter_pilot.py",
+      "destination": "revision_v15_parameter_pilot.py",
+      "original_sha256": "a7848e7bafcfac4ea00f1ecce7542b28e4aa9ba0fb3aadb3d7e5cb51a06056d2",
+      "portable_sha256": "a52ea0455ca6226becdbfe0d2c2ddcfb06dc9b3fc2418517674fb21cdd3906ba",
+      "transformations": [
+        "January fixture constants use explicit fixtures/parameters paths inside this package; cached curve values unchanged",
+        "Omitted manuscript renderer, its optional CLI mode and calls; controller, input, clock, action and accounting definitions unchanged"
+      ],
+      "omitted_manuscript_text_included_in_provenance": false,
+      "scientific_source_checks": [
+        {
+          "name": "load",
+          "source_block_sha256": "9b9012ebc6a00418459180f641ba93aeca70ea2c220575c91e9590e2f7564307",
+          "exact_source_match": true
+        },
+        {
+          "name": "model_for",
+          "source_block_sha256": "4bc113c7ffa41c751528cd6d9f9790b9ac53a31cfae5f1682956375eedc549df",
+          "exact_source_match": true
+        },
+        {
+          "name": "lock",
+          "source_block_sha256": "9abe123d622749a41ceb2fd1e420fdadbdb7cf3d4ef3bf7e6a03acbcfab72d14",
+          "exact_source_match": true
+        },
+        {
+          "name": "benchmark",
+          "source_block_sha256": "1c017574c1871f8675d3a1227794c97b8777e65b210ccbb519fe51c2a650c9e6",
+          "exact_source_match": true
+        },
+        {
+          "name": "replay",
+          "source_block_sha256": "11bfd8b606a797a960850f3ed558cf8e77de8c5c8fc812799da0710cfe70e0c5",
+          "exact_source_match": true
+        }
+      ]
+    },
+    {
+      "source": "scripts/revision_v7_statistics.py",
+      "destination": "revision_v7_statistics.py",
+      "original_sha256": "96be68681419bcb2d7882e669b85fc6f334c85b97f43fbe24305f20365379f7d",
+      "portable_sha256": "76816abac5f19fc5aaaf8b6348ab3b38f7a6bc65ccec6d656f676fe91cec86a1",
+      "transformations": [],
+      "omitted_manuscript_text_included_in_provenance": false,
+      "scientific_source_checks": [
+        {
+          "name": "sha",
+          "source_block_sha256": "1cc28c3ff9406c9c817894ad138e7a89b54428d21d411fbbd85868b2d83ea61f",
+          "exact_source_match": true
+        },
+        {
+          "name": "record",
+          "source_block_sha256": "1665dd66ee34c65b93498d26a4b732dbe25509c307c8c1e7afe57ec8ac7ec07c",
+          "exact_source_match": true
+        },
+        {
+          "name": "write_json",
+          "source_block_sha256": "c4c6243f2098f1a8bca8abf37d71fd9a57cf238b699bc9a51cf37fa587ecb6f8",
+          "exact_source_match": true
+        },
+        {
+          "name": "write_csv",
+          "source_block_sha256": "c69c8a50d885437bc36d40e8a06052ad6786335d2cf1c99da95018c7b8c3c4e7",
+          "exact_source_match": true
+        },
+        {
+          "name": "load",
+          "source_block_sha256": "e8f3a86397b1d4ed89138a253d1b59a218a51c02759179f6ad82d5d8346d38d3",
+          "exact_source_match": true
+        },
+        {
+          "name": "bootstrap_means",
+          "source_block_sha256": "ce48f26187cc88abd7cf5f64281ac31a252a4c0c89153b044987991a2c17a599",
+          "exact_source_match": true
+        },
+        {
+          "name": "pvalue",
+          "source_block_sha256": "db9d1abf1c2437e4d5e31d10221768b6b249eeb9d079193d03b406f68a68577e",
+          "exact_source_match": true
+        },
+        {
+          "name": "reality_checks",
+          "source_block_sha256": "ae49098d5818e690c1ca5a45004bb04b01c38f576e0e5b3a45c3a8932fafca43",
+          "exact_source_match": true
+        },
+        {
+          "name": "marked_value",
+          "source_block_sha256": "e7fbd65960205178a5b61eac1d8599d5e82cca17e6919a29d2d3be10cdf01e4b",
+          "exact_source_match": true
+        },
+        {
+          "name": "select_prefix",
+          "source_block_sha256": "38c74ac73eef86f1419dd2e624dec1c7b2e71998aaa57a18a52de0800e149fcd",
+          "exact_source_match": true
+        },
+        {
+          "name": "selected_daily",
+          "source_block_sha256": "271deb7385a59b4a99c50775247ce47b9a38d8300f78dc85c5509551653fbfb4",
+          "exact_source_match": true
+        },
+        {
+          "name": "selected_boot",
+          "source_block_sha256": "0e3e6975aa1b471d886bc2240415bbf88a3920fd5f70315539a1792e365f9018",
+          "exact_source_match": true
+        },
+        {
+          "name": "conditional_full_draws",
+          "source_block_sha256": "9b5bbbc60337a22555f2ca4f44840db11ba4ef0331fe491fc619d25e1335d0fc",
+          "exact_source_match": true
+        },
+        {
+          "name": "sensitivity_rows",
+          "source_block_sha256": "7948f76d116e7df582c19157a1da1599e3874fbf915363fbe2809d7c8598e119",
+          "exact_source_match": true
+        },
+        {
+          "name": "heterogeneity",
+          "source_block_sha256": "c4c45827970d086964503fd005f04b79d64c60d1546ad5f91c8446467789bd4e",
+          "exact_source_match": true
+        },
+        {
+          "name": "market_context",
+          "source_block_sha256": "85b7ed60e3afae79763261e743daf161ef2b264cb2496914c3d25da802706244",
+          "exact_source_match": true
+        },
+        {
+          "name": "regime_diagnostics",
+          "source_block_sha256": "9ab2e11cb1371dd75990d7bef565a848ccaaeffaf14e5bdbf1c5d753da8d11ca",
+          "exact_source_match": true
+        },
+        {
+          "name": "run",
+          "source_block_sha256": "e6c738615744a53280b4bd677f1fb423f5dff5f537167887096e11e38d289e30",
+          "exact_source_match": true
+        }
+      ]
+    },
+    {
+      "source": "scripts/revision_v5_control_solver.py",
+      "destination": "revision_v5_control_solver.py",
+      "original_sha256": "ddaa51a7ba42d41db14a1ffc389910e866ef88b4dc5e20977d58c8b85b130317",
+      "portable_sha256": "7c9cc8c7aa67865099f5750426798e899b2712078391137f7c2346ed3bfa10f3",
+      "transformations": [
+        "One machine-specific ROOT assignment replaced by __file__.parents[1]"
+      ],
+      "omitted_manuscript_text_included_in_provenance": false,
+      "scientific_source_checks": [
+        {
+          "name": "LexMPC",
+          "source_block_sha256": "ea85db937f5c34b57c2a50782eb61142bdd71c1a2354566a93cbba5a83d6ee02",
+          "exact_source_match": true
+        },
+        {
+          "name": "benchmark",
+          "source_block_sha256": "d1e9a00a6c39ae3451b58da13b3aabc322bb5285b25755a9cec484d9f68393cd",
+          "exact_source_match": true
+        },
+        {
+          "name": "actual_extreme_audit",
+          "source_block_sha256": "507afd5a7e47ef07b38653b9cc456c38e1fc035cb3fb843ed37f7a0e70842c9e",
+          "exact_source_match": true
+        }
+      ]
+    },
+    {
+      "source": "scripts/revision_v5_control_safe_policy.py",
+      "destination": "revision_v5_control_safe_policy.py",
+      "original_sha256": "a268c084f5cd0b8125686ef1a6b631ac06f4887205f969298ab9ba9ac307ee23",
+      "portable_sha256": "29a3a1d00743c13b72fae479afd0bee851159f04896e4948bd8281d21422c8f1",
+      "transformations": [],
+      "omitted_manuscript_text_included_in_provenance": false,
+      "scientific_source_checks": [
+        {
+          "name": "SafeLexMPC",
+          "source_block_sha256": "c5be9923a2f734c79362e63bfcbb484c1f61820bc8fa882e90a8ba947041be15",
+          "exact_source_match": true
+        }
+      ]
+    },
+    {
+      "source": "scripts/revision_v5_control_scaled_policy.py",
+      "destination": "revision_v5_control_scaled_policy.py",
+      "original_sha256": "5c10e7bcac01a6b024f08f75b29977ca7421fc3be8f761ab222b5d0d713d6399",
+      "portable_sha256": "dea6e337f5749c47781690e49f271ae2fd0ec03c115319bf2f4ff519284a9365",
+      "transformations": [],
+      "omitted_manuscript_text_included_in_provenance": false,
+      "scientific_source_checks": [
+        {
+          "name": "UnitScaledLexMPC",
+          "source_block_sha256": "0eba00eb9ad557b0878bb19b8308dbf1b85ccad13295d6d3ca3249ace0d08eed",
+          "exact_source_match": true
+        },
+        {
+          "name": "ScaledSafeLexMPC",
+          "source_block_sha256": "d899ecc59dd70ad75fd2b3548f4aacdbd69cb8d0bb2f74f84216faa1dfd3aee9",
+          "exact_source_match": true
+        },
+        {
+          "name": "encode_stages",
+          "source_block_sha256": "d71c83059cd6a1fb5393b46ee6683aa5075d6620aae123d67bcfe48500df7c1a",
+          "exact_source_match": true
+        }
+      ]
+    },
+    {
+      "source": "scripts/revision_v5_control_enumerated_policy.py",
+      "destination": "revision_v5_control_enumerated_policy.py",
+      "original_sha256": "f482b3d85e39a693537163df99c222f066c606c9ea172ae98d9421057d312fa9",
+      "portable_sha256": "5c7c42e2a509d764b5f17d7b27ae1fd8c308897e696ad241c65ec58183578e71",
+      "transformations": [],
+      "omitted_manuscript_text_included_in_provenance": false,
+      "scientific_source_checks": [
+        {
+          "name": "EnumeratedReducedLP",
+          "source_block_sha256": "366d65554cf75c6811a3fadea55ce3c3fc64e6adb5fae87b9d31cdd4d361b1c0",
+          "exact_source_match": true
+        },
+        {
+          "name": "EnumeratedSafeLexMPC",
+          "source_block_sha256": "ea820e23637e3800ba055a90471425d467679afab902c3dcb2dbc3ff5bcfc162",
+          "exact_source_match": true
+        }
+      ]
+    }
+  ],
+  "input_subsets": [
+    {
+      "source": "results/revision_v14/repro/20261002T043205_906881Z/package/results/revision_v5/history/NSW1_inputs_aligned.parquet",
+      "source_sha256": "ee2dc23af3935049fdbe2e58312286e888a04c4531d2573cfe6ceffde096d6f5",
+      "destination": "fixtures/parameters/NSW1_inputs_aligned.parquet",
+      "rows": 4464,
+      "sha256": "a87d237f007ae82fb89300246132c6ad74d9e80cb4d7d8457e44b2844c0fe137",
+      "selection": "Only original NSW January2024 evaluation at cutoff60 for fixed Cstar/sparse/IL; no coefficient transformations"
+    },
+    {
+      "source": "results/revision_v14/repro/20261002T043205_906881Z/package/results/revision_v5/history/NSW1_baseline_inputs.parquet",
+      "source_sha256": "f026761edebb6767339f22ff5a5e0cb8404b71e62c4159fb00aadd09d82fa399",
+      "destination": "fixtures/parameters/NSW1_baseline_inputs.parquet",
+      "rows": 2976,
+      "sha256": "3c78d4e264216744309bf39ee791e0905b1b60660255ad1b567b1748b550b9f8",
+      "selection": "Only original NSW January2024 evaluation at cutoff60 for fixed Cstar/sparse/IL; no coefficient transformations"
+    }
+  ],
+  "source_statistics_script_sha256": "51255656c6514f891125f41833b5d6366b14fd46ed647edb70189074c763e409",
+  "source_parameter_script_sha256": "a7848e7bafcfac4ea00f1ecce7542b28e4aa9ba0fb3aadb3d7e5cb51a06056d2",
+  "source_theory_script_sha256": "0e8d004a6ca3143dff49ca7faa1cf0efd160f83ba289e18d25b10d593c5d22b0",
+  "original_statistics_receipt_sha256": "c56ab2e6499c092421057d8f89699a9a4ae65c87488b3e6bc8faa43d94b00408",
+  "original_parameter_receipt_sha256": "cd5f06f74e9365dc5dd46347c6058d8c47ffc52e3852bad173f3a111b99c6d90",
+  "permissions": "Original code MIT; AEMO-derived data retain provider attribution/source terms; no IESO data",
+  "excluded": [
+    "manuscripts and TeX fragments",
+    "internal reviewer reports",
+    "raw MMS archives",
+    "IESO XML and Ontario prices",
+    "machine-specific absolute paths",
+    "earlier release modifications"
+  ]
+}

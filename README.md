@@ -35,6 +35,12 @@ The compact package was checked before this public copy: fresh IL and static9 re
 
 The root v1.0 citation/Zenodo metadata, scientific inputs, and manifests are retained. Its versioned Release attachment remains frozen under the earlier manuscript title. Root explanatory documents are updated to identify the separately scoped v14 work; the old full-release manifest still describes the original v1.0 attachment rather than those subsequently updated documentation bytes. The addendum has its own manifests and is excluded from the v1.0 verification scope.
 
+## v15 computational addendum
+
+[addenda/v15](addenda/v15/) adds conditional Hansen SPA, Romano–Wolf stepdown and model-confidence-set calculations, current-program reselection sensitivity, signed cost-budget intervals, eleven finite theory checks and eighteen saved parameter paths. Seven- and twenty-eight-day blocks resample dates synchronously across all regions. Model-confidence-set membership is not equivalence; combined selection/evaluation ranges still include zero for inverse lead and do not remove all prior research-search uncertainty. Costs were not observed.
+
+The compact package was freshly extracted and executed before publication: both block lengths used 10,000 statistical draws, six reconstructed CSVs and formal JSON matched exactly, eleven synthetic groups passed, and one full 1,488-action hourly-update IL replay matched cash, inventory and clocks exactly. The wrapper does not reconstruct raw MMS archives, refit forecasting models, rerun the full five-region study or provide independent confirmation. Twenty-four earlier diagnostic CSVs are retained byte for byte with provenance. The original v1.0 release and the v14 addendum remain unchanged; v15 has its own manifest. Unsubmitted manuscript and review files and IESO source prices are excluded.
+
 ## Start here
 
 Use Python 3.12 in a virtual environment. The numerical dependency versions in `requirements.txt` were used in the original numerical work. Figure and metadata tools have separate optional dependencies. All new output must go to a fresh directory outside the supplied read-only inputs.

@@ -1,0 +1,75 @@
+{
+  "status": "PASS_FRESH_EXTRACTED_V15_COMPUTATION",
+  "manifest_files": 95,
+  "statistical_draws_per_block": 10000,
+  "block_lengths_days": [
+    7,
+    28
+  ],
+  "statistics_csv_comparisons": [
+    {
+      "file": "family_inference.csv",
+      "rows": 6,
+      "maximum_numeric_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "mcs_membership.csv",
+      "rows": 10,
+      "maximum_numeric_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "break_even_incremental_budget.csv",
+      "rows": 6,
+      "maximum_numeric_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "pure_interior_cash_sensitivity.csv",
+      "rows": 6,
+      "maximum_numeric_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "current_selection_probabilities.csv",
+      "rows": 50,
+      "maximum_numeric_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "selection_sensitivity_distributions.csv",
+      "rows": 24,
+      "maximum_numeric_error": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "exact_formal_inference_json_match": true,
+  "theory_groups": 11,
+  "exact_theory_json_match": true,
+  "parameter_setting": "update60min_execute_two_planned_steps",
+  "parameter_policy": "inverse_lead",
+  "parameter_origins": 1488,
+  "parameter_solves": 744,
+  "parameter_numeric_field_errors": {
+    "soc_start_mwh": 0.0,
+    "soc_end_mwh": 0.0,
+    "charge_mw": 0.0,
+    "discharge_mw": 0.0,
+    "actual_price": 0.0,
+    "net_aud": 0.0
+  },
+  "parameter_clock_identity_exact": true,
+  "parameter_marked_value_aud": 12207.899650552718,
+  "source_script_sha256": {
+    "revision_v15_parameter_pilot.py": "a52ea0455ca6226becdbfe0d2c2ddcfb06dc9b3fc2418517674fb21cdd3906ba",
+    "revision_v15_statistics.py": "4277d8e73f61a4144b50b055a8b7caf0a9f300a19f973dd7cd1fcadceb88d42f",
+    "revision_v5_control_enumerated_policy.py": "5c7c42e2a509d764b5f17d7b27ae1fd8c308897e696ad241c65ec58183578e71",
+    "revision_v5_control_safe_policy.py": "29a3a1d00743c13b72fae479afd0bee851159f04896e4948bd8281d21422c8f1",
+    "revision_v5_control_scaled_policy.py": "dea6e337f5749c47781690e49f271ae2fd0ec03c115319bf2f4ff519284a9365",
+    "revision_v5_control_solver.py": "7c9cc8c7aa67865099f5750426798e899b2712078391137f7c2346ed3bfa10f3",
+    "revision_v7_statistics.py": "76816abac5f19fc5aaaf8b6348ab3b38f7a6bc65ccec6d656f676fe91cec86a1",
+    "verify_theory_v15.py": "0e8d004a6ca3143dff49ca7faa1cf0efd160f83ba289e18d25b10d593c5d22b0"
+  },
+  "scope": "Recomputed conditional statistics from exact derived daily fixture; finite synthetic algebra; one1488-action parameter replay. No original raw archive ingestion, full five-region optimisation or prospective confirmation."
+}

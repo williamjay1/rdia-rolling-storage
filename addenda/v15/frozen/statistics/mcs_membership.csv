@@ -1,0 +1,11 @@
+block_days,model,mcs_adjusted_elimination_p,retained90,retained95
+7,R,9.99900009999e-05,False,False
+7,Cstar,0.182181781822,True,True
+7,S,0.366863313669,True,True
+7,F,0.366863313669,True,True
+7,IL,1,True,True
+28,R,0.000499950005,False,False
+28,Cstar,0.249275072493,True,True
+28,S,0.290770922908,True,True
+28,F,0.290770922908,True,True
+28,IL,1,True,True

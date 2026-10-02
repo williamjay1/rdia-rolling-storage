@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "regions": [
+    "NSW1",
+    "QLD1",
+    "SA1",
+    "TAS1",
+    "VIC1"
+  ],
+  "candidates": [
+    "raw",
+    "current_shrink_a025",
+    "current_shrink_a050",
+    "current_smooth_a025",
+    "current_smooth_a050"
+  ],
+  "evaluation_policies": [
+    "raw",
+    "current_shrink_a025",
+    "current_shrink_a050",
+    "current_smooth_a025",
+    "current_smooth_a050",
+    "sparse_equal",
+    "full_equal",
+    "inverse_lead"
+  ],
+  "frozen_Cstar": {
+    "NSW1": "current_smooth_a050",
+    "QLD1": "current_smooth_a050",
+    "SA1": "current_smooth_a025",
+    "TAS1": "current_shrink_a050",
+    "VIC1": "current_smooth_a050"
+  },
+  "train_days": 364,
+  "full_evaluation_interior_days": 973,
+  "evaluation_2024_2025_days": 731,
+  "maximum_direct_aggregation_errors": {
+    "validation": 5.4569682106375694e-12,
+    "evaluation": 1.0913936421275139e-11,
+    "evaluation_2024_2025": 1.0913936421275139e-11
+  },
+  "training_full_label_purge": "target + 330min < 2024-01-01 -60min",
+  "first_last_days": {
+    "validation": [
+      "2023-01-01 00:00:00",
+      "2023-12-30 00:00:00"
+    ],
+    "evaluation": [
+      "2024-01-01 00:00:00",
+      "2026-08-30 00:00:00"
+    ],
+    "evaluation_2024_2025": [
+      "2024-01-01 00:00:00",
+      "2025-12-31 00:00:00"
+    ]
+  },
+  "daily_counts": "Validation364 dates all48 actions; evaluation973 and2024-2025 subset731 observed execution dates each include2024-09-05 with47 synchronized saved actions, all other interior dates48; no imputation",
+  "evaluation_subpath": "Execution-day 2024-01-01 through 2025-12-31 of previously saved state paths; no 2024/2025 restart or forecast refit"
+}

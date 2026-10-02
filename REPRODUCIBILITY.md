@@ -285,3 +285,17 @@ The copied evidence covers 18 exploratory NSW1 January 2024 trajectories: nine p
 The recorded decision is STOP_NEW_COMPRESSION_ALGORITHM. The gate needs full inverse-lead streaming moments and additional solves; the pilot does not establish a live-storage gain. Its reported bound uses floating-point solver incumbents/bounds and concerns a common-state one-window action. It is not interval/rational arithmetic, not a rigorous cumulative-profit certificate, and not evidence of prospective noninferiority or an independent holdout. Resource cost, fallbacks, and failure boundaries retain their exploratory scope.
 
 addenda/v14/native_ontario contains schema-reading code, official source/version metadata, and a price-free scope summary. The four-report schema probe was executed before public preparation; public path adapters were not rerun. No IESO source reports, price-containing parsed files, forecast arrays or Ontario trajectories are supplied. Native clock/horizon and source-retention checks do not establish a completed external optimization test. Explicit external raw/output directories are required to run the optional source probe, and generated price-containing outputs must remain separate from this public tree.
+
+
+## Separately manifested v15 addendum
+
+Run with the pinned requirements in `addenda/v15/requirements.txt`, Python 3.12 and a new output folder outside the repository:
+
+```text
+python -B addenda/v15/reproduce_v15.py --check-only
+python -B addenda/v15/reproduce_v15.py --output D:/MLWork/rdia-v15-fresh
+```
+
+The manifest check validates the v15 payload only. The second command freshly reconstructs the defined 7/28-day statistics (10,000 draws each), the eleven finite theory groups, and one full January 2024 hourly-update inverse-lead trajectory (1,488 actions, 744 plans). Supplied fresh-verification receipts record exact numeric and clock agreement before public publication. Eighteen parameter paths are supplied, but only this one path is rerun by the default wrapper. Earlier 24 diagnostic CSVs are archived outputs rather than fresh v15 results. The derived daily fixtures condition on saved controller paths and endpoint accounting; the selection analysis resamples the declared current-program candidates without forecast refitting or new closed-loop paths. Raw-source ingestion, full five-region optimisation, an untouched holdout and native Ontario economic replication are outside this entry's scope.
+
+Do not write new outputs into any supplied inputs, manifests or addendum. The frozen version 1.0 citation/Zenodo metadata remain the citation for that release; v15 is separately manifested, and no new DOI has been generated.

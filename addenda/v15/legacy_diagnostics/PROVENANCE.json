@@ -1,0 +1,149 @@
+{
+  "scope": "Retained historical diagnostics omitted from condensed v15 supplement; byte-preserved scientific CSVs, not new experiments",
+  "files": [
+    {
+      "source": "results/revision_v13/economic/annual_exploratory_multiplicity.csv",
+      "output": "economic__annual_exploratory_multiplicity.csv",
+      "bytes": 23315,
+      "sha256": "fd27a03f8baa09303e7b3451d9f50e33a5ba68e503bce69a527cf64187dcead8"
+    },
+    {
+      "source": "results/revision_v13/economic/block_length_inference.csv",
+      "output": "economic__block_length_inference.csv",
+      "bytes": 6034,
+      "sha256": "2849b038b7ec791ea1d511b8d45080f1690427e6ac9b1be02c906e6d70922bee"
+    },
+    {
+      "source": "results/revision_v13/economic/branch_start_features_100.csv",
+      "output": "economic__branch_start_features_100.csv",
+      "bytes": 28218,
+      "sha256": "3b135fb314c5e3ee5775d1f4b03023af45765dbaf877dfcb5eec59c771ab4f9e"
+    },
+    {
+      "source": "results/revision_v13/economic/break_even_costs.csv",
+      "output": "economic__break_even_costs.csv",
+      "bytes": 3325,
+      "sha256": "f3898ccd03f739b7082bfa588864615e38c8203089f7842dc5a9cda8794b847a"
+    },
+    {
+      "source": "results/revision_v13/economic/conditional_precision_and_mde.csv",
+      "output": "economic__conditional_precision_and_mde.csv",
+      "bytes": 6867,
+      "sha256": "287ab4fbc49612d023fe8d8ee231550bb0ffd40e22c84ae1eadb7b83cb5be81a"
+    },
+    {
+      "source": "results/revision_v13/economic/cost_sensitivity.csv",
+      "output": "economic__cost_sensitivity.csv",
+      "bytes": 25381,
+      "sha256": "09f4850490acbec58acf1a8d006e192a38af66337b17467d1d4199246cf04131"
+    },
+    {
+      "source": "results/revision_v13/economic/delayed_sale_frequency_by_region.csv",
+      "output": "economic__delayed_sale_frequency_by_region.csv",
+      "bytes": 4341,
+      "sha256": "0690e1b16bae23d5dfbecc05ba1ceb8eb95d3e6f850ccc2f9106dd1bf924c186"
+    },
+    {
+      "source": "results/revision_v13/economic/delayed_sale_opportunities_all.csv",
+      "output": "economic__delayed_sale_opportunities_all.csv",
+      "bytes": 3547,
+      "sha256": "b05c2c42493ec4722127fad8efa7348344c850280af636999f33f14cf1cc27a6"
+    },
+    {
+      "source": "results/revision_v13/economic/illustrative_cost_width_equivalence.csv",
+      "output": "economic__illustrative_cost_width_equivalence.csv",
+      "bytes": 32906,
+      "sha256": "f06f3b90a39cc603c04b22cec05247c6ba9aa1b09285f0d9efe1201713fdc336"
+    },
+    {
+      "source": "results/revision_v13/economic/regional_branch_start_ranges.csv",
+      "output": "economic__regional_branch_start_ranges.csv",
+      "bytes": 677,
+      "sha256": "bcb095751f50bfde51ab7f960effe5413dd44956797351e874de045c22ba47f9"
+    },
+    {
+      "source": "results/revision_v13/economic/regional_daily_cash_descriptives.csv",
+      "output": "economic__regional_daily_cash_descriptives.csv",
+      "bytes": 1339,
+      "sha256": "f302f0d32c69abfc4190fbe3cf13025e59c4bd09c68289da8da83a31a5e198a7"
+    },
+    {
+      "source": "results/revision_v13/economic/regional_daily_IL_minus_Cstar_pearson.csv",
+      "output": "economic__regional_daily_IL_minus_Cstar_pearson.csv",
+      "bytes": 369,
+      "sha256": "17608989f2972876e875fca89fb8a8e8806ecaa31145ea02c956d3f4860af3b1"
+    },
+    {
+      "source": "results/revision_v13/economic/regional_daily_S_minus_Cstar_pearson.csv",
+      "output": "economic__regional_daily_S_minus_Cstar_pearson.csv",
+      "bytes": 369,
+      "sha256": "0f714d919078f2ca2a8221ba2805e66b586b3a895d2e49e3c06af10528e2ac73"
+    },
+    {
+      "source": "results/revision_v13/economic/regional_exploratory_multiplicity.csv",
+      "output": "economic__regional_exploratory_multiplicity.csv",
+      "bytes": 5772,
+      "sha256": "24c9488884145aed888d4cf250cc99648ff3b6b28e4cbcd9a59aa15189c02d63"
+    },
+    {
+      "source": "results/revision_v13/economic/regional_market_and_forecast_descriptives.csv",
+      "output": "economic__regional_market_and_forecast_descriptives.csv",
+      "bytes": 2124,
+      "sha256": "d156dc0ae11682d54616809b01d867a6b0df573a013a00659088e10cf3fa0edb"
+    },
+    {
+      "source": "results/revision_v13/economic/regional_price_pearson.csv",
+      "output": "economic__regional_price_pearson.csv",
+      "bytes": 365,
+      "sha256": "dd6a258e8c2356a56850894d030bdf5e198e195fb804e3a9e5402b0ee848cdb5"
+    },
+    {
+      "source": "results/revision_v13/economic/regional_price_spearman.csv",
+      "output": "economic__regional_price_spearman.csv",
+      "bytes": 363,
+      "sha256": "12e3fbd735be0a262e79f6a1deef4336c049a5f5cd2923e82d3d6f640db6321d"
+    },
+    {
+      "source": "results/revision_v13/economic/spo_forecast_error_by_realized_price_band.csv",
+      "output": "economic__spo_forecast_error_by_realized_price_band.csv",
+      "bytes": 4202,
+      "sha256": "400dcecb1e2b7b4544391d07a3426dac76af8f1812360a6951a3f24fa6569bd6"
+    },
+    {
+      "source": "results/revision_v13/economic/spo_local_regret_and_cash_by_current_price_band.csv",
+      "output": "economic__spo_local_regret_and_cash_by_current_price_band.csv",
+      "bytes": 4290,
+      "sha256": "bd1ee0f7de8e64ac1a115c1298c3e7504f115d51f7b9d799b5ee912f4997c0ea"
+    },
+    {
+      "source": "results/revision_v13/action/delay30_information_cutoff_feasibility.csv",
+      "output": "action__delay30_information_cutoff_feasibility.csv",
+      "bytes": 738,
+      "sha256": "7e1ab3c050fe5f05581d39e135b296d2a3e7da742b73dd10f90f061e75daefc3"
+    },
+    {
+      "source": "results/revision_v13/action/epsilon_material_subsample_counts.csv",
+      "output": "action__epsilon_material_subsample_counts.csv",
+      "bytes": 7891,
+      "sha256": "71aa308707a0c99b45c5abb729df9f3dc15ad45decbae80ef78eab0b809c405a"
+    },
+    {
+      "source": "results/revision_v13/action/fixed_subsample_plan.csv",
+      "output": "action__fixed_subsample_plan.csv",
+      "bytes": 16219,
+      "sha256": "f96d74acbce06a1503aff4edcfecc26bea84fb67b374996c9894dd9353352c43"
+    },
+    {
+      "source": "results/revision_v13/action/layerC_100_start_features.csv",
+      "output": "action__layerC_100_start_features.csv",
+      "bytes": 20430,
+      "sha256": "48e84adc3db908b5443ea6d25aad3485760440fe3e3cba0ba84325dac719ba8f"
+    },
+    {
+      "source": "results/revision_v13/action/material_threshold_full_sample.csv",
+      "output": "action__material_threshold_full_sample.csv",
+      "bytes": 3454,
+      "sha256": "3db57199f7295099eada528cae69eba1c3aaef279881d6f92a72fdbd1ea98277"
+    }
+  ]
+}

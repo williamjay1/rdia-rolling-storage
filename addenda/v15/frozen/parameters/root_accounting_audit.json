@@ -1,0 +1,162 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_ACCOUNTING_CLOCK_AUDIT",
+  "trajectories": 18,
+  "origins": 26784,
+  "audited": [
+    "cash",
+    "endpoint",
+    "mode",
+    "bounds",
+    "transition",
+    "target/clock",
+    "hold-two timing",
+    "same-setting C* contrast"
+  ],
+  "scope": "Independent arithmetic audit of saved trajectories; no fresh solver optimality claim.",
+  "records": [
+    {
+      "file": "baseline__current_smooth_a050.parquet",
+      "rows": 1488,
+      "marked_value_aud": 7394.322013053616,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "ad23d2cb32ce4e658127c94fe56415ea0d9d6b518460dbe64fd52a998cb70c9b"
+    },
+    {
+      "file": "baseline__inverse_lead.parquet",
+      "rows": 1488,
+      "marked_value_aud": 12332.261637738808,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "95e333529a5373bbbdadda04b1ccc1c2c2f0bbd78671005720e7a28076d696de"
+    },
+    {
+      "file": "baseline__sparse_equal.parquet",
+      "rows": 1488,
+      "marked_value_aud": 6206.820436982339,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "8b6e7e66f8735a8668ca5490f7a23118cb2d698795537943441fc5c7a138af2e"
+    },
+    {
+      "file": "native_prefix4h_trade2h__current_smooth_a050.parquet",
+      "rows": 1488,
+      "marked_value_aud": 7335.297441719805,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "cea52ea7e492023475bd6d9fb2614bb878a39329747c5d76d115bc05c76edcfb"
+    },
+    {
+      "file": "native_prefix4h_trade2h__inverse_lead.parquet",
+      "rows": 1488,
+      "marked_value_aud": 12195.347771465686,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "38d4454655b141b5dcb1773cfeb262e6a41944b19f2ea28de8b2d0cbc3c7fe4d"
+    },
+    {
+      "file": "native_prefix4h_trade2h__sparse_equal.parquet",
+      "rows": 1488,
+      "marked_value_aud": 6075.0394573677095,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "d8769f4c96b36ca480380fb85f9af445bbe2e7ee046b41e687f04a63a0821e65"
+    },
+    {
+      "file": "power0.5__current_smooth_a050.parquet",
+      "rows": 1488,
+      "marked_value_aud": 4914.141829266126,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "47e986e8d665b31c93458711d00c9d48ccbecc006f305d72e508db1d1aed6624"
+    },
+    {
+      "file": "power0.5__inverse_lead.parquet",
+      "rows": 1488,
+      "marked_value_aud": 7382.4213992108525,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "7103e02610749e7982a343d6aaf1841e5652e284a74a340d3f7e9b2ca6056834"
+    },
+    {
+      "file": "power0.5__sparse_equal.parquet",
+      "rows": 1488,
+      "marked_value_aud": 4628.3180211036,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "31b82fd11c9a48c0de2c4d0d3e830ecdb83f89b47d82177ecf36ddc5f82ba8e4"
+    },
+    {
+      "file": "power2.0__current_smooth_a050.parquet",
+      "rows": 1488,
+      "marked_value_aud": 8989.803635504051,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "e53a27e522dd70ecaa67c28c28e7f966a067a5a7e50219270c1d19a0618bc725"
+    },
+    {
+      "file": "power2.0__inverse_lead.parquet",
+      "rows": 1488,
+      "marked_value_aud": 16046.480536660705,
+      "maximum_balance_error_mwh": 2.220446049250313e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "238a2f5cefb48a3e3f500459e8f83a67a4d475863e2b6f52893aff7ae670da6a"
+    },
+    {
+      "file": "power2.0__sparse_equal.parquet",
+      "rows": 1488,
+      "marked_value_aud": 6343.184582376489,
+      "maximum_balance_error_mwh": 2.220446049250313e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "16b01c1f8d6f0a7f2493a3ef9c754258efad369fc9d892c5f897a04086ae27c7"
+    },
+    {
+      "file": "terminal2.0__current_smooth_a050.parquet",
+      "rows": 1488,
+      "marked_value_aud": 6828.885722850818,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "20d60970c1289a6d27bc6a7b0df8856ca13a2e0d2f08227c2a2ca37cf016b64e"
+    },
+    {
+      "file": "terminal2.0__inverse_lead.parquet",
+      "rows": 1488,
+      "marked_value_aud": 12241.57392848699,
+      "maximum_balance_error_mwh": 2.220446049250313e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "61cbddd6b51c8f99db9c30dc0572f078f8e7847c10d4eb03ebcf784a2bc0d466"
+    },
+    {
+      "file": "terminal2.0__sparse_equal.parquet",
+      "rows": 1488,
+      "marked_value_aud": 5806.211324910213,
+      "maximum_balance_error_mwh": 2.220446049250313e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "a9d36b0e0286b28d2799460658129fc5de103d4fc7c549fd8a3abe2a94ef021d"
+    },
+    {
+      "file": "update60min_execute_two_planned_steps__current_smooth_a050.parquet",
+      "rows": 1488,
+      "marked_value_aud": 7593.52716960739,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "d5a59115b9a76329f4a7216d770bd6dbb7d0b6c7fef6ac3c9e5f847ef84dfa8d"
+    },
+    {
+      "file": "update60min_execute_two_planned_steps__inverse_lead.parquet",
+      "rows": 1488,
+      "marked_value_aud": 12207.899650552718,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "46fad197578c210a3ac802a8681480ceafe5065f2f69c55e262ca0f3ee804a9e"
+    },
+    {
+      "file": "update60min_execute_two_planned_steps__sparse_equal.parquet",
+      "rows": 1488,
+      "marked_value_aud": 6221.807628803542,
+      "maximum_balance_error_mwh": 1.1102230246251565e-16,
+      "maximum_cash_error_aud": 0.0,
+      "sha256": "dcd1489348dda83a9a01e53de9e6f5dcb3c19d292e443a3fe2f39224d76184df"
+    }
+  ]
+}

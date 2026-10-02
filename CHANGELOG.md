@@ -1,5 +1,10 @@
 # Release history
 
+## Unreleased: v15 computational addendum
+
+Added separately manifested conditional multiple-comparison and selection/cost checks, eleven finite theory controls, eighteen exploratory parameter paths and preserved earlier diagnostics. Fresh extracted execution reproduces six statistical CSVs and formal inference JSON, theory controls, and the full hourly-update IL cash/SOC/clock path exactly. Scope remains historical reanalysis, with no compression resource advantage or cumulative runtime cash guarantee. The manuscript and internal review are not published here. Original v1.0 and v14 scientific files are preserved; the author will perform any Zenodo deposit.
+
+
 ## Unreleased: v14 computational addendum
 
 Current research title: **Action sufficiency and update risk in rolling storage optimization**. Added a separate small package under addenda/v14, without revising v1.0 scientific data, manifests, citation metadata, or Zenodo metadata. It preserves 18 exploratory January 2024 trajectories and shared-state/synthetic diagnostics. Fresh validation performed before this public copy ran two 1,488-origin IL/static9 replays and 18 synthetic checks; the preparation step checks copied bytes and does not claim another solver run.

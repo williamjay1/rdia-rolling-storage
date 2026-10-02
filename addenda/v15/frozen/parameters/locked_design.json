@@ -1,0 +1,86 @@
+{
+  "locked_utc": "2026-10-02T07:08:57.462548+00:00",
+  "stage": "EXPLORATORY_REANALYSIS_NOT_INDEPENDENT_CONFIRMATION",
+  "region": "NSW1",
+  "chronological_choice": "Earliest evaluation month, January 2024; not chosen by observed payoff",
+  "period": [
+    "2024-01-01",
+    "2024-02-01"
+  ],
+  "origins": 1488,
+  "initial_soc_mwh": 1.0,
+  "nominal_capacity_mwh": 2.0,
+  "soc_bounds_mwh": [
+    0.2,
+    1.8
+  ],
+  "policies": [
+    "current_smooth_a050",
+    "inverse_lead",
+    "sparse_equal"
+  ],
+  "fixed_Cstar": "current_smooth_a050; original strict-2023 selector retained, no parameter-specific reselection",
+  "settings": {
+    "baseline": {},
+    "power0.5": {
+      "power": 0.5
+    },
+    "power2.0": {
+      "power": 2.0
+    },
+    "terminal2.0": {
+      "terminal_factor": 2.0
+    },
+    "native_prefix4h_trade2h": {
+      "h": 4,
+      "curve_columns": 8
+    },
+    "update60min_execute_two_planned_steps": {
+      "hold_steps": 2
+    }
+  },
+  "baseline_controller": {
+    "h": 8,
+    "power_mw": 1.0,
+    "eta_c": 0.91,
+    "eta_d": 0.91,
+    "dt_hours": 0.5,
+    "kappa_aud_per_grid_mwh": 5.0,
+    "smin_mwh": 0.2,
+    "smax_mwh": 1.8,
+    "terminal_factor": 1.0,
+    "primary_tolerance_aud": 1e-05,
+    "throughput_tolerance_mwh": 1e-07,
+    "third_objective": "minimize first-period net discharge d0-c0",
+    "numerical_state": "clearSolver before every one of three stages",
+    "physical_modes": "each stage: LP accepted only when its optimum obeys modes, otherwise cold binary solve",
+    "claim": "tolerance-ordered policy, not exact lexicographic optimum",
+    "numerical_failure_fallback": "new cold all-binary model; presolve off; primal/dual/MIP feasibility1e-10; same objective bounds; every occurrence logged",
+    "equivalent_unit_failure_fallback": "delegate immutable Safe first; on failure cold allbinary/presolveoff/feas1e-10 SOC variables in kWh; primary row scales1,1000,0.001 in fixed order; original-unit audits; no changed policy margins",
+    "soc_elimination_failure_fallback": "delegate frozen ScaledSafe first; if all fail and h<=12 eliminate SOC columns into scaled cumulative inequalities and enumerate all2^h fixed modes independently at each of three stages; same scientific margins and original-unit audit"
+  },
+  "realized_accounting": "dt*actual*(discharge-charge)-dt*kappa*(charge+discharge); endpoint actual-price marking common with factor1, even when planning terminal_factor changes",
+  "native_prefix_semantics": "First8 existing half-hour forecast coefficients (4h), h4 trading steps (2h), mean of4 remaining terminal steps (2h); no generated leads",
+  "hourly_update_semantics": "Replan at every second existing half-hour origin using only that origin's T-60 eligible curve. Execute its first two planned actions; do not use the skipped origin's new curve. Audit every half-hour successor inventory and both mode/power bounds.",
+  "clock": "Original cutoff target-60min, execution target-30min. Predictions retain their native half-hour targets.",
+  "unchanged_efficiency_and_wear": {
+    "eta_each_direction": 0.91,
+    "wear_aud_per_grid_mwh": 5.0
+  },
+  "comparison": "S and IL minus same-setting fixed current processor; baseline-relative changes reported for all policies, no winning setting selected",
+  "old_results": "Previously completed efficiency/wear, energy-size/power, terminal-zero, annual and 30-minute availability-delay evidence is referenced, not repeated",
+  "primary_endpoint": "January marked cash contrasts; descriptive only, no new p-value or equivalence claim",
+  "resource_ceiling": "18 runs x1488 origins; abort after unresolved numerical failure or estimated sequential month grid exceeding1800s; no automatic large matrix",
+  "sources": {
+    "results/revision_v5/history/NSW1_inputs_aligned.parquet": {
+      "bytes": 93449886,
+      "sha256": "4a0dff010858e5aec8192e11ee410d8b1d296d2e41e523d1fad54e7c69f334e5"
+    },
+    "results/revision_v5/history/NSW1_baseline_inputs.parquet": {
+      "bytes": 35096957,
+      "sha256": "e26786daaef29a7ac1cdfcbfcb6a7ea1f810fe44ae5196a8f9922047aab39e8c"
+    }
+  },
+  "first_target": "2024-01-01 00:00:00",
+  "last_target": "2024-01-31 23:30:00"
+}
