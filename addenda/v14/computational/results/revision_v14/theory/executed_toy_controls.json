@@ -1,0 +1,1343 @@
+{
+  "status": "PASS_EXECUTED_SYNTHETIC_CONTROLS",
+  "seed": 20261002,
+  "empirical_market_result": false,
+  "trained_compressor": false,
+  "runtime_profit_certificate": false,
+  "controller_definition": {
+    "h": 8,
+    "power_mw": 1.0,
+    "eta_c": 0.91,
+    "eta_d": 0.91,
+    "dt_hours": 0.5,
+    "kappa_aud_per_grid_mwh": 5.0,
+    "smin_mwh": 0.2,
+    "smax_mwh": 1.8,
+    "terminal_factor": 1.0,
+    "primary_tolerance_aud": 1e-05,
+    "throughput_tolerance_mwh": 1e-07,
+    "third_objective": "minimize first-period net discharge d0-c0",
+    "numerical_state": "clearSolver before every one of three stages",
+    "physical_modes": "each stage: LP accepted only when its optimum obeys modes, otherwise cold binary solve",
+    "claim": "tolerance-ordered policy, not exact lexicographic optimum",
+    "numerical_failure_fallback": "new cold all-binary model; presolve off; primal/dual/MIP feasibility1e-10; same objective bounds; every occurrence logged",
+    "equivalent_unit_failure_fallback": "delegate immutable Safe first; on failure cold allbinary/presolveoff/feas1e-10 SOC variables in kWh; primary row scales1,1000,0.001 in fixed order; original-unit audits; no changed policy margins",
+    "soc_elimination_failure_fallback": "delegate frozen ScaledSafe first; if all fail and h<=12 eliminate SOC columns into scaled cumulative inequalities and enumerate all2^h fixed modes independently at each of three stages; same scientific margins and original-unit audit"
+  },
+  "two_step_counterexample": {
+    "full": {
+      "stages": [
+        {
+          "stage": 1,
+          "soc_start_mwh": 1.0,
+          "curve_aud_per_mwh": [
+            10.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "realized_price_aud_per_mwh": 10.0,
+          "net_cash_aud": -7.499998939538442,
+          "c": 0.9999998586051256,
+          "d": 0.0,
+          "u": -0.9999998586051256,
+          "soc": 1.4549999356653323,
+          "value": 100.99474000000001,
+          "primary_optimum_incumbent_aud": 100.99475000000001,
+          "policy_optimum_loss_upper_aud": 1.0000000003174137e-05
+        },
+        {
+          "stage": 2,
+          "soc_start_mwh": 1.4549999356653323,
+          "curve_aud_per_mwh": [
+            100.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "realized_price_aud_per_mwh": 100.0,
+          "net_cash_aud": 47.49999,
+          "c": 0.0,
+          "d": 0.9999997894736842,
+          "u": 0.9999997894736842,
+          "soc": 0.9055495018885827,
+          "value": 47.49999,
+          "primary_optimum_incumbent_aud": 47.5,
+          "policy_optimum_loss_upper_aud": 1.0000000003174137e-05
+        }
+      ],
+      "total_net_cash_aud": 39.999991060461554,
+      "marked_value_aud": 39.999991060461554,
+      "final_soc_mwh": 0.9055495018885827
+    },
+    "compressed": {
+      "stages": [
+        {
+          "stage": 1,
+          "soc_start_mwh": 1.0,
+          "curve_aud_per_mwh": [
+            10.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            -10.0,
+            0.0,
+            0.0,
+            10.0
+          ],
+          "realized_price_aud_per_mwh": 10.0,
+          "net_cash_aud": -7.499998939538442,
+          "c": 0.9999998586051256,
+          "d": 0.0,
+          "u": -0.9999998586051256,
+          "soc": 1.4549999356653323,
+          "value": 100.99474000000001,
+          "primary_optimum_incumbent_aud": 100.99475000000001,
+          "policy_optimum_loss_upper_aud": 1.0000000003174137e-05
+        },
+        {
+          "stage": 2,
+          "soc_start_mwh": 1.4549999356653323,
+          "curve_aud_per_mwh": [
+            100.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "realized_price_aud_per_mwh": 100.0,
+          "net_cash_aud": -39.807699730923204,
+          "c": 0.7582418996366325,
+          "d": 0.0,
+          "u": -0.7582418996366325,
+          "soc": 1.8,
+          "value": 680.1923002690768,
+          "primary_optimum_incumbent_aud": 680.1923002690768,
+          "policy_optimum_loss_upper_aud": 0.0
+        }
+      ],
+      "total_net_cash_aud": -47.30769867046165,
+      "marked_value_aud": -47.30769867046165,
+      "final_soc_mwh": 1.8
+    }
+  },
+  "state_only_sufficiency_counterexample": {
+    "full": {
+      "curve_aud_per_mwh": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "soc_start_mwh": 1.4,
+          "net_cash_aud": 22.49999,
+          "c": 0.0,
+          "d": 0.9999995555555555,
+          "u": 0.9999995555555555,
+          "soc": 0.8505496947496947,
+          "value": 22.49999,
+          "primary_optimum_incumbent_aud": 22.5,
+          "policy_optimum_loss_upper_aud": 9.999999999621423e-06
+        },
+        {
+          "stage": 2,
+          "soc_start_mwh": 0.8505496947496947,
+          "net_cash_aud": 22.49999,
+          "c": 0.0,
+          "d": 0.9999995555555555,
+          "u": 0.9999995555555555,
+          "soc": 0.3010993894993894,
+          "value": 22.49999,
+          "primary_optimum_incumbent_aud": 22.5,
+          "policy_optimum_loss_upper_aud": 9.999999999621423e-06
+        }
+      ],
+      "marked_value_aud": 44.99998,
+      "terminal_mark": 0.0
+    },
+    "compressed": {
+      "curve_aud_per_mwh": [
+        50.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "soc_start_mwh": 1.4,
+          "net_cash_aud": 22.499989999999997,
+          "c": 0.0,
+          "d": 0.9999995555555554,
+          "u": 0.9999995555555554,
+          "soc": 0.8505496947496948,
+          "value": 69.99999,
+          "primary_optimum_incumbent_aud": 70.0,
+          "policy_optimum_loss_upper_aud": 1.0000000003174137e-05
+        },
+        {
+          "stage": 2,
+          "soc_start_mwh": 0.8505496947496948,
+          "net_cash_aud": 4.140000000000001,
+          "c": 0.0,
+          "d": 0.18400000000000002,
+          "u": 0.18400000000000002,
+          "soc": 0.7494507936507937,
+          "value": 51.64,
+          "primary_optimum_incumbent_aud": 51.640010000000004,
+          "policy_optimum_loss_upper_aud": 1.0000000003174137e-05
+        }
+      ],
+      "marked_value_aud": 26.639989999999997,
+      "terminal_mark": 0.0
+    },
+    "ideal_exact_primary": {
+      "first_discharge_mw": 1.0,
+      "common_next_soc_mwh": 0.8505494505494505,
+      "second_reference_discharge_mw": 1.0,
+      "second_compressed_discharge_mw": 0.18399999999999994,
+      "full_minus_compressed_marked_aud": 18.360000000000003,
+      "analytical_reason": "Both initial stocks can fund first full discharge plus one future full discharge; at next stock the higher forecast future price reserves inventory."
+    },
+    "action_preserving_cover": {
+      "lower_soc_mwh": 1.2989010989010987,
+      "upper_soc_mwh": 1.8,
+      "image_lower_soc_mwh": 0.7494505494505493,
+      "image_upper_soc_mwh": 1.2505494505494505,
+      "image_is_disjoint_from_cover": true,
+      "compression_future_high_price_step": 2,
+      "zero_price_steps_after_peak_never_improve_reward_by_charging_when_terminal_zero": true
+    },
+    "executed_first_action_difference_mw": 1.1102230246251565e-16,
+    "executed_full_minus_compressed_marked_aud": 18.359990000000003
+  },
+  "full_minus_compressed_marked_aud": 87.3076897309232,
+  "window_lipschitz_solver_checks": [
+    {
+      "initial_soc_1": 1.2153584067613168,
+      "initial_soc_2": 1.451582353402969,
+      "L_aud_per_mwh": 512.5305366916826,
+      "window_value_1": 813.7906488824301,
+      "window_value_2": 818.4119441409987,
+      "bound_aud": 121.07198615167343,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.7195509283848416,
+      "initial_soc_2": 1.010113457929106,
+      "L_aud_per_mwh": 431.89783380997295,
+      "window_value_1": 661.2339827727322,
+      "window_value_2": 721.336750139893,
+      "bound_aud": 125.49332709651408,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.4221540760508684,
+      "initial_soc_2": 1.7387417428207177,
+      "L_aud_per_mwh": 316.78297436010945,
+      "window_value_1": 464.29590288711205,
+      "window_value_2": 511.8918350391631,
+      "bound_aud": 100.28958272508004,
+      "certified_numerical_allowance_aud": 2.0000000006348273e-05
+    },
+    {
+      "initial_soc_1": 1.7962720483862904,
+      "initial_soc_2": 1.7303891797547049,
+      "L_aud_per_mwh": 500.41895601459925,
+      "window_value_1": 682.9859463056172,
+      "window_value_2": 666.3154312779067,
+      "bound_aud": 32.96903633986503,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.9573412942227895,
+      "initial_soc_2": 1.3206572606520175,
+      "L_aud_per_mwh": 492.1904806745604,
+      "window_value_1": 704.331930544015,
+      "window_value_2": 783.839607162796,
+      "bound_aud": 178.8206601535442,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 1.60361951505988,
+      "initial_soc_2": 1.3767572249685027,
+      "L_aud_per_mwh": 547.9578871667211,
+      "window_value_1": 636.7821940782829,
+      "window_value_2": 618.0872737680494,
+      "bound_aud": 124.31098115627485,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.7206271049878099,
+      "initial_soc_2": 1.5969450957392826,
+      "L_aud_per_mwh": 554.0670127616414,
+      "window_value_1": 433.5953586946742,
+      "window_value_2": 709.1057131384869,
+      "bound_aud": 485.5388913649522,
+      "certified_numerical_allowance_aud": 1.9999999778974598e-05
+    },
+    {
+      "initial_soc_1": 1.478037845907467,
+      "initial_soc_2": 1.7871318605311117,
+      "L_aud_per_mwh": 518.7610902641349,
+      "window_value_1": 923.9322585449453,
+      "window_value_2": 983.0793932498012,
+      "bound_aud": 160.3459480202804,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.6573951560944475,
+      "initial_soc_2": 1.2303828127525793,
+      "L_aud_per_mwh": 538.1628803173372,
+      "window_value_1": 690.6515156074474,
+      "window_value_2": 596.1377667556781,
+      "bound_aud": 229.80219262391554,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 1.0926897885588642,
+      "initial_soc_2": 1.5002480877134154,
+      "L_aud_per_mwh": 476.86364717640504,
+      "window_value_1": 779.781986664263,
+      "window_value_2": 788.9261875049747,
+      "bound_aud": 194.34973697185166,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.801537913819832,
+      "initial_soc_2": 0.8331636261295197,
+      "L_aud_per_mwh": 461.6157081803167,
+      "window_value_1": 611.4578735538483,
+      "window_value_2": 619.3311930743165,
+      "bound_aud": 14.598925584543442,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.9216906812335242,
+      "initial_soc_2": 0.8123637108749104,
+      "L_aud_per_mwh": 483.1595717773355,
+      "window_value_1": 1020.1168048111194,
+      "window_value_2": 1003.2157970143967,
+      "bound_aud": 52.822372182181255,
+      "certified_numerical_allowance_aud": 1.999999972213118e-05
+    },
+    {
+      "initial_soc_1": 1.0848862872139977,
+      "initial_soc_2": 1.3902799607896879,
+      "L_aud_per_mwh": 499.5412262026575,
+      "window_value_1": 759.5288305754189,
+      "window_value_2": 810.1508369620094,
+      "bound_aud": 152.55673017253437,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.3989749932140278,
+      "initial_soc_2": 1.4141617888191724,
+      "L_aud_per_mwh": 529.3597883303098,
+      "window_value_1": 633.9836771645148,
+      "window_value_2": 932.7840243169702,
+      "bound_aud": 537.3990672372648,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 1.2979720062800364,
+      "initial_soc_2": 0.2839197665133279,
+      "L_aud_per_mwh": 529.5391148867848,
+      "window_value_1": 629.4842309737697,
+      "window_value_2": 346.1032350948519,
+      "bound_aud": 536.9803254950244,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.2314568477966379,
+      "initial_soc_2": 1.4361784596133582,
+      "L_aud_per_mwh": 488.2708947873771,
+      "window_value_1": 388.0734986615091,
+      "window_value_2": 789.6982826585482,
+      "bound_aud": 588.2304993714412,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 0.8766560564823225,
+      "initial_soc_2": 0.9331748898111509,
+      "L_aud_per_mwh": 529.4684713742662,
+      "window_value_1": 727.3541011268453,
+      "window_value_2": 750.503828118689,
+      "bound_aud": 29.92494028647173,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.3050425315181238,
+      "initial_soc_2": 1.1043986683776448,
+      "L_aud_per_mwh": 375.40972481573414,
+      "window_value_1": 450.76366434116693,
+      "window_value_2": 587.1803140899538,
+      "bound_aud": 300.0860673682011,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 0.43822393826787603,
+      "initial_soc_2": 1.0790917133371012,
+      "L_aud_per_mwh": 525.3375499934485,
+      "window_value_1": 845.7516467590485,
+      "window_value_2": 901.9388710117909,
+      "bound_aud": 336.67190682461916,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.8359528780809791,
+      "initial_soc_2": 1.0189354102517478,
+      "L_aud_per_mwh": 466.4711145391188,
+      "window_value_1": 632.9395688404154,
+      "window_value_2": 681.7987231675367,
+      "bound_aud": 85.35606572288866,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.258809893434913,
+      "initial_soc_2": 1.794386276101682,
+      "L_aud_per_mwh": 487.7217839954138,
+      "window_value_1": 381.8790303795962,
+      "window_value_2": 957.9568613004711,
+      "bound_aud": 748.9340528154607,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.6628924894446144,
+      "initial_soc_2": 0.6659377989101702,
+      "L_aud_per_mwh": 447.63108851964824,
+      "window_value_1": 450.53778577581465,
+      "window_value_2": 451.07704375561013,
+      "bound_aud": 1.3631751909459364,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.2520098320704567,
+      "initial_soc_2": 0.6450220182407653,
+      "L_aud_per_mwh": 352.5458302872223,
+      "window_value_1": 845.1518039862211,
+      "window_value_2": 706.4165374420697,
+      "bound_aud": 213.99102280081448,
+      "certified_numerical_allowance_aud": 1.999999972213118e-05
+    },
+    {
+      "initial_soc_1": 1.5574925485879783,
+      "initial_soc_2": 0.8841792583857218,
+      "L_aud_per_mwh": 392.8937951831497,
+      "window_value_1": 583.6661375617382,
+      "window_value_2": 465.10945783493173,
+      "bound_aud": 264.540613934818,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.4129679263978985,
+      "initial_soc_2": 0.3810833518236644,
+      "L_aud_per_mwh": 511.82049728176173,
+      "window_value_1": 722.1871772381885,
+      "window_value_2": 371.0424474887908,
+      "bound_aud": 528.1396760959638,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.5391890062438225,
+      "initial_soc_2": 0.7923110942142904,
+      "L_aud_per_mwh": 526.181586736087,
+      "window_value_1": 553.9711463450502,
+      "window_value_2": 636.247768629297,
+      "bound_aud": 133.18818188625218,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.2696878420903648,
+      "initial_soc_2": 0.7142850651009032,
+      "L_aud_per_mwh": 460.249473605392,
+      "window_value_1": 574.404378118119,
+      "window_value_2": 658.5073092033358,
+      "bound_aud": 204.62563785701937,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.14864216132321,
+      "initial_soc_2": 1.1177726752899952,
+      "L_aud_per_mwh": 530.4817476963631,
+      "window_value_1": 780.1406244961856,
+      "window_value_2": 771.4710850678995,
+      "bound_aud": 16.37569890138827,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 1.3235568082612734,
+      "initial_soc_2": 0.8412485050911565,
+      "L_aud_per_mwh": 468.1928924883951,
+      "window_value_1": 705.5075221970366,
+      "window_value_2": 701.8797828978999,
+      "bound_aud": 225.81331953238686,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.6690787847681798,
+      "initial_soc_2": 1.5612927306029707,
+      "L_aud_per_mwh": 449.78442289421645,
+      "window_value_1": 485.3712722142297,
+      "window_value_2": 739.1801273779097,
+      "bound_aud": 401.3039347254731,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 1.334621882281644,
+      "initial_soc_2": 1.3883172071520598,
+      "L_aud_per_mwh": 547.8483423006842,
+      "window_value_1": 728.67616965432,
+      "window_value_2": 736.1547099087545,
+      "bound_aud": 29.416894719553955,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 0.6723993372801798,
+      "initial_soc_2": 0.5705967559852176,
+      "L_aud_per_mwh": 514.7831637437308,
+      "window_value_1": 426.77952929851097,
+      "window_value_2": 397.1231862195227,
+      "bound_aud": 52.40625487629895,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 1.7932164644738906,
+      "initial_soc_2": 1.5505035681664883,
+      "L_aud_per_mwh": 462.58849597508583,
+      "window_value_1": 642.7400528120871,
+      "window_value_2": 590.8386286054786,
+      "bound_aud": 112.27619365659821,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.6355685287313162,
+      "initial_soc_2": 0.8160660847725982,
+      "L_aud_per_mwh": 548.1639258642115,
+      "window_value_1": 583.4781423699969,
+      "window_value_2": 600.4528961710726,
+      "bound_aud": 98.94224892848469,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.21122277206380816,
+      "initial_soc_2": 1.1405726321488603,
+      "L_aud_per_mwh": 428.14660473874784,
+      "window_value_1": 405.45377479844353,
+      "window_value_2": 626.7832120959088,
+      "bound_aud": 397.89798720984544,
+      "certified_numerical_allowance_aud": 2.0000000006348273e-05
+    },
+    {
+      "initial_soc_1": 0.4473250706351813,
+      "initial_soc_2": 1.716715535536819,
+      "L_aud_per_mwh": 471.6349533366012,
+      "window_value_1": 620.3968565542158,
+      "window_value_2": 689.4861223381444,
+      "bound_aud": 598.6889126798105,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.9728656203671744,
+      "initial_soc_2": 1.591258778570763,
+      "L_aud_per_mwh": 532.8711743847861,
+      "window_value_1": 806.1446236890674,
+      "window_value_2": 894.3260568932911,
+      "bound_aud": 329.5238884434631,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.2084322850857767,
+      "initial_soc_2": 0.2210675279353616,
+      "L_aud_per_mwh": 344.1366543675936,
+      "window_value_1": 644.9311023297828,
+      "window_value_2": 647.5309856927054,
+      "bound_aud": 4.348250201378215,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.9907785949711998,
+      "initial_soc_2": 1.200067063462344,
+      "L_aud_per_mwh": 541.8848474981774,
+      "window_value_1": 719.3112198086768,
+      "window_value_2": 777.6862858888488,
+      "bound_aud": 113.4102498314508,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 1.1478701664973106,
+      "initial_soc_2": 0.3296699289779328,
+      "L_aud_per_mwh": 511.13326587507504,
+      "window_value_1": 851.6170029747573,
+      "window_value_2": 574.372349655784,
+      "bound_aud": 418.20935954304167,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.3326968179101635,
+      "initial_soc_2": 0.5105066959698072,
+      "L_aud_per_mwh": 482.7441758654706,
+      "window_value_1": 773.8869214222692,
+      "window_value_2": 556.9653194726873,
+      "bound_aud": 396.90749282082805,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.8926258240391236,
+      "initial_soc_2": 0.8556837132573116,
+      "L_aud_per_mwh": 541.7418773952454,
+      "window_value_1": 503.1908416789463,
+      "window_value_2": 495.96953919123115,
+      "bound_aud": 20.01308844988196,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.7252894686416116,
+      "initial_soc_2": 0.9364433345064545,
+      "L_aud_per_mwh": 474.9959478318566,
+      "window_value_1": 476.5604257413876,
+      "window_value_2": 499.892369142447,
+      "bound_aud": 100.29723065483175,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.5835318325628451,
+      "initial_soc_2": 1.7794353413070692,
+      "L_aud_per_mwh": 545.3530870643727,
+      "window_value_1": 878.3796699775426,
+      "window_value_2": 913.037293962266,
+      "bound_aud": 106.83658326040491,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.9877609788983797,
+      "initial_soc_2": 1.6058115739718837,
+      "L_aud_per_mwh": 519.1901350273399,
+      "window_value_1": 764.9208390937569,
+      "window_value_2": 840.1694449254195,
+      "bound_aud": 320.88577190994033,
+      "certified_numerical_allowance_aud": 1.999999972213118e-05
+    },
+    {
+      "initial_soc_1": 0.9471458312543806,
+      "initial_soc_2": 0.8237472614222614,
+      "L_aud_per_mwh": 525.3660280076468,
+      "window_value_1": 587.4690782457428,
+      "window_value_2": 536.3291114119169,
+      "bound_aud": 64.82941649452468,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.752649388602864,
+      "initial_soc_2": 1.1766375148606603,
+      "L_aud_per_mwh": 542.1274291388062,
+      "window_value_1": 604.2391455432811,
+      "window_value_2": 741.1910975321053,
+      "bound_aud": 229.85559287351865,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 1.6048135141171027,
+      "initial_soc_2": 0.41177929488465975,
+      "L_aud_per_mwh": 472.19800397024187,
+      "window_value_1": 652.5791389322269,
+      "window_value_2": 345.2996647087372,
+      "bound_aud": 563.3483769897556,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 0.705497069928883,
+      "initial_soc_2": 1.6971364125281596,
+      "L_aud_per_mwh": 543.5483523319552,
+      "window_value_1": 713.2955772104203,
+      "window_value_2": 711.6723092354845,
+      "bound_aud": 539.0039307773801,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.6092333397792209,
+      "initial_soc_2": 1.7274390394171764,
+      "L_aud_per_mwh": 505.86124828611855,
+      "window_value_1": 448.34974346858394,
+      "window_value_2": 789.4416563481592,
+      "bound_aud": 565.6569310595087,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.7712695658069335,
+      "initial_soc_2": 0.2464819495483427,
+      "L_aud_per_mwh": 482.90528971438044,
+      "window_value_1": 557.811165644828,
+      "window_value_2": 448.1178736321029,
+      "bound_aud": 253.4227158678739,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 1.777832503932365,
+      "initial_soc_2": 0.7050445298796226,
+      "L_aud_per_mwh": 542.7064879468078,
+      "window_value_1": 974.5799216957626,
+      "window_value_2": 703.9703000723537,
+      "bound_aud": 582.208993709735,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.6231831546520681,
+      "initial_soc_2": 1.6182507411083615,
+      "L_aud_per_mwh": 549.8583226613956,
+      "window_value_1": 704.6466892570116,
+      "window_value_2": 717.1974513745619,
+      "bound_aud": 547.1461940235807,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.599165744290549,
+      "initial_soc_2": 1.1843252861533518,
+      "L_aud_per_mwh": 527.4692470767102,
+      "window_value_1": 645.1570124577053,
+      "window_value_2": 866.3812444775116,
+      "bound_aud": 308.65366296612524,
+      "certified_numerical_allowance_aud": 1.999999972213118e-05
+    },
+    {
+      "initial_soc_1": 0.9688612439048767,
+      "initial_soc_2": 1.473641349464941,
+      "L_aud_per_mwh": 528.68715951631,
+      "window_value_1": 598.6339123650442,
+      "window_value_2": 643.3326656844408,
+      "bound_aud": 266.8707601888935,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.26769877338383685,
+      "initial_soc_2": 0.3281386727131295,
+      "L_aud_per_mwh": 400.57416816603285,
+      "window_value_1": 603.2908654270923,
+      "window_value_2": 613.0467900560689,
+      "bound_aud": 24.210662397870177,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.7753616703944262,
+      "initial_soc_2": 0.2586669163711724,
+      "L_aud_per_mwh": 548.2017242126865,
+      "window_value_1": 787.4345493496801,
+      "window_value_2": 265.2287937159182,
+      "bound_aud": 831.4546792598842,
+      "certified_numerical_allowance_aud": 2.000000012003511e-05
+    },
+    {
+      "initial_soc_1": 0.4822464146330777,
+      "initial_soc_2": 1.5495112307600885,
+      "L_aud_per_mwh": 396.95979593683467,
+      "window_value_1": 501.8983856890784,
+      "window_value_2": 612.5045234949782,
+      "bound_aud": 423.6612236203415,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 0.20743089257359149,
+      "initial_soc_2": 0.3571600186601277,
+      "L_aud_per_mwh": 457.2519640552723,
+      "window_value_1": 276.10513937778006,
+      "window_value_2": 331.43759054299085,
+      "bound_aud": 68.46393697934819,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 0.3789795315153221,
+      "initial_soc_2": 0.9853405339929571,
+      "L_aud_per_mwh": 494.0512736744456,
+      "window_value_1": 394.7946833673772,
+      "window_value_2": 561.111937861782,
+      "bound_aud": 299.5734255805892,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 1.2286400377835345,
+      "initial_soc_2": 0.707375659600967,
+      "L_aud_per_mwh": 478.0364589702143,
+      "window_value_1": 664.0324728908453,
+      "window_value_2": 576.8243189760165,
+      "bound_aud": 249.18337753370517,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.9544929954629537,
+      "initial_soc_2": 0.960293786540878,
+      "L_aud_per_mwh": 548.1572373877245,
+      "window_value_1": 849.0466577566469,
+      "window_value_2": 850.3424504859892,
+      "bound_aud": 3.179745611938348,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 1.2528522297749212,
+      "initial_soc_2": 1.2460376335754326,
+      "L_aud_per_mwh": 531.6406343676267,
+      "window_value_1": 819.1022363487062,
+      "window_value_2": 817.7686797286034,
+      "bound_aud": 3.622916246455307,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.3177333001792878,
+      "initial_soc_2": 0.6235008930450738,
+      "L_aud_per_mwh": 503.97345489668635,
+      "window_value_1": 342.98316401905606,
+      "window_value_2": 445.9483731040509,
+      "bound_aud": 154.09875017201358,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.2975625236406876,
+      "initial_soc_2": 0.9267354110393349,
+      "L_aud_per_mwh": 520.2167378230874,
+      "window_value_1": 645.2290551255901,
+      "window_value_2": 860.4339822450966,
+      "bound_aud": 327.306267009257,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.520518985462772,
+      "initial_soc_2": 0.5854591602475399,
+      "L_aud_per_mwh": 520.9345648559064,
+      "window_value_1": 826.7957384808553,
+      "window_value_2": 511.0130521879728,
+      "bound_aud": 487.1049831627369,
+      "certified_numerical_allowance_aud": 1.9999999778974598e-05
+    },
+    {
+      "initial_soc_1": 1.4900382679481212,
+      "initial_soc_2": 0.6008995302864544,
+      "L_aud_per_mwh": 363.5856606896675,
+      "window_value_1": 625.2378184886379,
+      "window_value_2": 425.98045346748705,
+      "bound_aud": 323.2780953774941,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 0.44643787355725756,
+      "initial_soc_2": 0.2846847317993376,
+      "L_aud_per_mwh": 478.5249972065173,
+      "window_value_1": 681.4951740080226,
+      "window_value_2": 664.6594691465942,
+      "bound_aud": 77.40292170785403,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.0291164155461032,
+      "initial_soc_2": 1.4427927322123073,
+      "L_aud_per_mwh": 458.14375371641654,
+      "window_value_1": 727.2112858626845,
+      "window_value_2": 806.6039104145391,
+      "bound_aud": 189.52322054103576,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.7088540861423234,
+      "initial_soc_2": 1.7658158118999359,
+      "L_aud_per_mwh": 466.1689941328492,
+      "window_value_1": 659.1149338571315,
+      "window_value_2": 985.658522679467,
+      "bound_aud": 492.7227845333466,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.32870085223523804,
+      "initial_soc_2": 0.4644539605550357,
+      "L_aud_per_mwh": 440.9263857917377,
+      "window_value_1": 363.4963691506123,
+      "window_value_2": 406.7256848609056,
+      "bound_aud": 59.857127411442654,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.3013700749345456,
+      "initial_soc_2": 0.906950958892734,
+      "L_aud_per_mwh": 512.5445291892883,
+      "window_value_1": 899.8776104636287,
+      "window_value_2": 854.6156726455855,
+      "bound_aud": 202.15736013490556,
+      "certified_numerical_allowance_aud": 1.999999972213118e-05
+    },
+    {
+      "initial_soc_1": 1.1247951204693587,
+      "initial_soc_2": 1.1329203165809651,
+      "L_aud_per_mwh": 394.58655612818217,
+      "window_value_1": 556.429878953148,
+      "window_value_2": 557.8718586520313,
+      "bound_aud": 3.206093151544885,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.6122110794941384,
+      "initial_soc_2": 0.7451819637711528,
+      "L_aud_per_mwh": 522.6407281035193,
+      "window_value_1": 871.5279331775612,
+      "window_value_2": 699.1592970393442,
+      "bound_aud": 453.14472832841176,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.1250927385421934,
+      "initial_soc_2": 1.0286527681867885,
+      "L_aud_per_mwh": 549.2446628564711,
+      "window_value_1": 618.962371597814,
+      "window_value_2": 583.1974061645201,
+      "bound_aud": 52.96913900374241,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 1.5498982327466808,
+      "initial_soc_2": 0.8602282876819487,
+      "L_aud_per_mwh": 541.4994130237887,
+      "window_value_1": 726.0501440023369,
+      "window_value_2": 695.139200450273,
+      "bound_aud": 373.4558704327011,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.5390914159080638,
+      "initial_soc_2": 0.5485072487362825,
+      "L_aud_per_mwh": 417.8915677022715,
+      "window_value_1": 455.03091490911544,
+      "window_value_2": 457.6152959594071,
+      "bound_aud": 3.9347971418068606,
+      "certified_numerical_allowance_aud": 1.9999999835818016e-05
+    },
+    {
+      "initial_soc_1": 0.2689242570099222,
+      "initial_soc_2": 0.7104385004900935,
+      "L_aud_per_mwh": 549.6400680343394,
+      "window_value_1": 702.4579051666053,
+      "window_value_2": 857.9720290139745,
+      "bound_aud": 242.67391882457125,
+      "certified_numerical_allowance_aud": 2.000000017687853e-05
+    },
+    {
+      "initial_soc_1": 1.3366517244648084,
+      "initial_soc_2": 0.720171993855268,
+      "L_aud_per_mwh": 531.0087464889839,
+      "window_value_1": 995.4556609965856,
+      "window_value_2": 820.52132135173,
+      "bound_aud": 327.35612898683854,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.0419234981244443,
+      "initial_soc_2": 0.7429188901093828,
+      "L_aud_per_mwh": 495.21147401175506,
+      "window_value_1": 623.0532191934659,
+      "window_value_2": 528.3516766457612,
+      "bound_aud": 148.0705126714456,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.1453645186799635,
+      "initial_soc_2": 1.6570622018507781,
+      "L_aud_per_mwh": 527.5188325211669,
+      "window_value_1": 816.3152000769959,
+      "window_value_2": 968.1432885702162,
+      "bound_aud": 269.9301644300541,
+      "certified_numerical_allowance_aud": 1.9999999494757503e-05
+    },
+    {
+      "initial_soc_1": 0.5622219165029835,
+      "initial_soc_2": 0.8417714772253895,
+      "L_aud_per_mwh": 530.2446878711658,
+      "window_value_1": 269.6653717191407,
+      "window_value_2": 381.2317985068893,
+      "bound_aud": 148.22966956977368,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.8352045949457578,
+      "initial_soc_2": 1.7983624656761366,
+      "L_aud_per_mwh": 491.48094417133433,
+      "window_value_1": 955.0162433341951,
+      "window_value_2": 1052.462991459074,
+      "bound_aud": 473.3737396926185,
+      "certified_numerical_allowance_aud": 1.999999972213118e-05
+    },
+    {
+      "initial_soc_1": 0.515389069034892,
+      "initial_soc_2": 1.7364259630945902,
+      "L_aud_per_mwh": 537.4165405060281,
+      "window_value_1": 565.139560202564,
+      "window_value_2": 993.5359242423042,
+      "bound_aud": 656.2054234357885,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.47665057891552254,
+      "initial_soc_2": 1.325146360883815,
+      "L_aud_per_mwh": 543.0424337324034,
+      "window_value_1": 797.0042714580165,
+      "window_value_2": 900.0754899912613,
+      "bound_aud": 460.76921445174025,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 1.1768168350784316,
+      "initial_soc_2": 0.33422243979771005,
+      "L_aud_per_mwh": 512.9768422356199,
+      "window_value_1": 617.505797511377,
+      "window_value_2": 441.22769317968056,
+      "bound_aud": 432.23141217653625,
+      "certified_numerical_allowance_aud": 2.0000000006348273e-05
+    },
+    {
+      "initial_soc_1": 0.3416861100235409,
+      "initial_soc_2": 1.6965720134200097,
+      "L_aud_per_mwh": 548.6159906111653,
+      "window_value_1": 356.6923049135608,
+      "window_value_2": 739.3649234914963,
+      "bound_aud": 743.3120720569574,
+      "certified_numerical_allowance_aud": 2.0000000006348273e-05
+    },
+    {
+      "initial_soc_1": 1.3721533148376455,
+      "initial_soc_2": 1.3628762448721194,
+      "L_aud_per_mwh": 534.8381433271512,
+      "window_value_1": 952.9091950750137,
+      "window_value_2": 950.6784336535956,
+      "bound_aud": 4.961730875878015,
+      "certified_numerical_allowance_aud": 1.999999972213118e-05
+    },
+    {
+      "initial_soc_1": 0.45799470359890704,
+      "initial_soc_2": 0.8261737894522947,
+      "L_aud_per_mwh": 401.5461664895154,
+      "window_value_1": 489.5666551313212,
+      "window_value_2": 541.6624426241938,
+      "bound_aud": 147.84090050604198,
+      "certified_numerical_allowance_aud": 2.0000000006348273e-05
+    },
+    {
+      "initial_soc_1": 0.9833123507539068,
+      "initial_soc_2": 0.9759714999192772,
+      "L_aud_per_mwh": 436.7027385421234,
+      "window_value_1": 508.30675879573766,
+      "window_value_2": 506.55088558184343,
+      "bound_aud": 3.2057696627119534,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 1.0148905355051352,
+      "initial_soc_2": 1.0158474661363672,
+      "L_aud_per_mwh": 545.393978430764,
+      "window_value_1": 725.0092821976534,
+      "window_value_2": 725.2459386055506,
+      "bound_aud": 0.5219042040499011,
+      "certified_numerical_allowance_aud": 2.000000017687853e-05
+    },
+    {
+      "initial_soc_1": 1.7743058067332715,
+      "initial_soc_2": 0.9390067960494981,
+      "L_aud_per_mwh": 447.07913130744265,
+      "window_value_1": 770.2481381210945,
+      "window_value_2": 715.278994886049,
+      "bound_aud": 373.44475607846766,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 0.7585915073834273,
+      "initial_soc_2": 1.4024117916490382,
+      "L_aud_per_mwh": 541.4205868755079,
+      "window_value_1": 824.7224608241243,
+      "window_value_2": 1016.9929343372356,
+      "bound_aud": 348.57755614944335,
+      "certified_numerical_allowance_aud": 2.0000000063191692e-05
+    },
+    {
+      "initial_soc_1": 1.602385525822443,
+      "initial_soc_2": 1.256613376598136,
+      "L_aud_per_mwh": 489.37424566442166,
+      "window_value_1": 841.0947762596556,
+      "window_value_2": 753.8640866920493,
+      "bound_aud": 169.21198469841113,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.47394170036045385,
+      "initial_soc_2": 1.2482275676224563,
+      "L_aud_per_mwh": 496.3493135546705,
+      "window_value_1": 344.0442322623893,
+      "window_value_2": 592.4953140994469,
+      "bound_aud": 384.3162587105777,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 0.9666281889171229,
+      "initial_soc_2": 0.6627551941998746,
+      "L_aud_per_mwh": 445.0286100250837,
+      "window_value_1": 693.4536942717957,
+      "window_value_2": 628.2139399335052,
+      "bound_aud": 135.23217646317661,
+      "certified_numerical_allowance_aud": 2.0000000290565367e-05
+    },
+    {
+      "initial_soc_1": 1.717097318312489,
+      "initial_soc_2": 1.6484637305176937,
+      "L_aud_per_mwh": 528.1764820971744,
+      "window_value_1": 1044.672556869823,
+      "window_value_2": 1029.0280566862755,
+      "bound_aud": 36.2506469551625,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.21627675484407602,
+      "initial_soc_2": 1.054456058621369,
+      "L_aud_per_mwh": 505.46644746754026,
+      "window_value_1": 667.1548865964272,
+      "window_value_2": 681.3730683895249,
+      "bound_aud": 423.6715150211245,
+      "certified_numerical_allowance_aud": 1.9999999949504854e-05
+    },
+    {
+      "initial_soc_1": 0.5552330845824769,
+      "initial_soc_2": 0.633647091754003,
+      "L_aud_per_mwh": 499.1980007654963,
+      "window_value_1": 395.9622477171195,
+      "window_value_2": 418.0816537332858,
+      "bound_aud": 39.14411561203714,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    },
+    {
+      "initial_soc_1": 1.1406089834549331,
+      "initial_soc_2": 0.4444945246738808,
+      "L_aud_per_mwh": 501.47879024488094,
+      "window_value_1": 606.0660681365335,
+      "window_value_2": 368.3238772030061,
+      "bound_aud": 349.0866366614922,
+      "certified_numerical_allowance_aud": 1.9999999892661435e-05
+    }
+  ],
+  "performance_difference": {
+    "reference_value": 25.0,
+    "candidate_value": -30.0,
+    "candidate_state_advantages": [
+      {
+        "t": 0,
+        "soc": 0.5,
+        "action_discharge_mwh": 0.0,
+        "next_soc": 0.5,
+        "advantage_aud": 0.0
+      },
+      {
+        "t": 1,
+        "soc": 0.5,
+        "action_discharge_mwh": -0.25,
+        "next_soc": 0.75,
+        "advantage_aud": 5.0
+      },
+      {
+        "t": 2,
+        "soc": 0.75,
+        "action_discharge_mwh": -0.25,
+        "next_soc": 1.0,
+        "advantage_aud": 50.0
+      }
+    ]
+  },
+  "policy_value_discontinuity_control": {
+    "left_soc": 0.499999999,
+    "right_soc": 0.500000001,
+    "value_left": 0.0,
+    "value_right": 50.000000099999994,
+    "finite_difference_slope": 25000000063.158894,
+    "scope": "arbitrary threshold reference policy; not asserted to equal Cstar"
+  },
+  "checks": [
+    {
+      "name": "same_first_action_exact",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "same_state_after_same_first_action_exact",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "different_second_action",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "different_state_only_after_second_action",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "nonzero_realized_two_step_loss",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "state_only_initial_actions_agree_within_one_ulp",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "state_only_second_actions_separate_materially",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "state_only_ideal_loss_is_18_36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "state_only_default_controller_matches_ideal_with_numerical_budget",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "entire_high_stock_action_compatibility_cover_is_not_forward_closed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "ten_thousand_clipped_plan_couplings",
+      "pass": true,
+      "details": {
+        "max_energy_budget_identity_error_mwh": 1.3322676295501878e-15,
+        "max_reward_bound_excess_aud": 1.7053025658242404e-13
+      }
+    },
+    {
+      "name": "one_hundred_actual_controller_window_value_pairs",
+      "pass": true,
+      "details": {
+        "max_bound_excess_aud": -0.2852677961529202
+      }
+    },
+    {
+      "name": "performance_difference_identity_on_candidate_states",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "update_residual_difference_identity",
+      "pass": true,
+      "details": {
+        "actual_loss": 55.0,
+        "same_state_surrogate_advantages": [
+          0.0,
+          2.0,
+          50.0
+        ],
+        "candidate_residual_sum": -20.5,
+        "reference_residual_sum": -23.5
+      }
+    },
+    {
+      "name": "observable_ex_post_action_coupling_bound",
+      "pass": true,
+      "details": {
+        "actual_loss": 55.0,
+        "bound_aud": 55.0,
+        "scope": "eta=1 finite-state synthetic accounting control"
+      }
+    },
+    {
+      "name": "window_value_lipschitz_does_not_imply_policy_value_lipschitz",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "fixed_version_inverse_lead_exact_streaming",
+      "pass": true,
+      "details": {
+        "vintages": 1000,
+        "batch": 80.45716752715964,
+        "stream": 80.45716752715975,
+        "numerical_difference": 1.1368683772161603e-13,
+        "persistent_floats_per_active_target": 2,
+        "excludes_version_id_dedup_buffer": true
+      }
+    },
+    {
+      "name": "clock_omitted_weight_mean_shift_identity",
+      "pass": true,
+      "details": {
+        "omitted_weight_fraction": 0.47654749637153376,
+        "all_minus_old": -6.8692605586789455,
+        "formula": -6.869260558678955
+      }
+    }
+  ],
+  "check_count": 18,
+  "elapsed_seconds": 0.5787770999886561,
+  "sources": [
+    {
+      "file": "scripts/revision_v14_toy_theory.py",
+      "sha256": "ff0c6502702b88b8d58d09609a7fada74cc07d6f1a7ef25efec6f5bfc752f2b8"
+    },
+    {
+      "file": "scripts/revision_v5_control_solver.py",
+      "sha256": "ddaa51a7ba42d41db14a1ffc389910e866ef88b4dc5e20977d58c8b85b130317"
+    },
+    {
+      "file": "scripts/revision_v5_control_safe_policy.py",
+      "sha256": "a268c084f5cd0b8125686ef1a6b631ac06f4887205f969298ab9ba9ac307ee23"
+    },
+    {
+      "file": "scripts/revision_v5_control_scaled_policy.py",
+      "sha256": "5c10e7bcac01a6b024f08f75b29977ca7421fc3be8f761ab222b5d0d713d6399"
+    },
+    {
+      "file": "scripts/revision_v5_control_enumerated_policy.py",
+      "sha256": "f482b3d85e39a693537163df99c222f066c606c9ea172ae98d9421057d312fa9"
+    }
+  ]
+}

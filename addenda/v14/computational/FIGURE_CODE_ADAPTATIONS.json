@@ -1,0 +1,58 @@
+{
+  "source_file": "scripts/revision_v14_figure7.py",
+  "source_sha256": "127e7b7b15dddd23c9e19c90b389410fa8ff71472f018c581ade8dd0ec3aaf5d",
+  "public_file": "scripts/portable_figure7.py",
+  "public_sha256": "d2388bf687baed82956ac2f243cfb4cf789effe4e726d7699360c35d4ca45fc5",
+  "unified_diff": "diff/figure7_path_adaptations.patch",
+  "unified_diff_sha256": "5dd0b61fa735cb465fd3a7551e41a79f38820a199d6547d0ad3bfe72676cf1e3",
+  "changes": [
+    "ROOT resolves from the portable script's parent package",
+    "OUT requires a CLI-selected new directory outside the package",
+    "MPLCONFIGDIR lives inside that fresh output",
+    "Bytecode writing disabled to preserve the package"
+  ],
+  "all_original_numeric_plot_and_validation_function_ASTs_equal": true,
+  "original_figure_and_scientific_script_modified": false,
+  "four_source_files_byte_equal_to_research_sources": [
+    {
+      "path": "results/revision_v14/theory/executed_toy_controls.json",
+      "sha256": "99b339f05ba28e83414e7aa349221911e2d7cffafe511885c1ab598f5f3385ca",
+      "bytes": 47334
+    },
+    {
+      "path": "results/revision_v14/pilot/shared_state_resource_curve.parquet",
+      "sha256": "2f5a2aef04bb11665142f3dc633bfef0d6682d0b1ea4842cecdeda17932acde3",
+      "bytes": 57581
+    },
+    {
+      "path": "results/revision_v14/pilot/closed_loop_summary.csv",
+      "sha256": "5d0ae4cb73b4f80c0db203722fc45ff4b26662d6169d19aa2ccbd9bdd39b5106",
+      "bytes": 6167
+    },
+    {
+      "path": "results/revision_v14/pilot/pilot_summary.json",
+      "sha256": "3f39d528003c031a27c2dcd1d98a86d14c23e5b6593ee3651bec0baedcccd9f8",
+      "bytes": 19781
+    }
+  ],
+  "fonts_dpi_canvas_and_numeric_plot_parameters_changed": false,
+  "CLI_checks": [
+    {
+      "case": "help",
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "case": "reject_package_overlap",
+      "expected_exit": 2,
+      "actual_exit": 2
+    },
+    {
+      "case": "reject_existing_external_output",
+      "expected_exit": 2,
+      "actual_exit": 2
+    }
+  ],
+  "fresh_1200dpi_render_during_public_preparation": false,
+  "note": "The path-only public adapter was AST/CLI/source-byte checked; original rendering receipt is not a fresh execution of this adapter."
+}

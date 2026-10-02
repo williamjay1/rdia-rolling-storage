@@ -1,0 +1,92 @@
+{
+  "status": "NATIVE_ONTARIO_SCHEMA_PROBE_VERIFIED_FULL_ARCHIVE_PENDING",
+  "written_utc": "2026-10-02T04:21:51.426148+00:00",
+  "scope": {
+    "official_files_downloaded": 16,
+    "total_bytes": 5044403,
+    "xml_samples": 4,
+    "xml_schema_validations_passed": 4,
+    "full_september_values_parsed": false,
+    "optimization_run": false,
+    "native_holdout_claim": false,
+    "public_redistribution": false
+  },
+  "schema": {
+    "namespace": "http://www.ieso.ca/schema",
+    "root": "Document",
+    "shared_schema": "Document_r1.xsd",
+    "predispatch_schema": "PredispHourlyOntarioZonalPrice_r1.xsd",
+    "realtime_schema": "RealtimeOntarioZonalPrice_r2.xsd",
+    "doc_revision_is_file_vintage": false,
+    "file_version_must_come_from_filename": true,
+    "realtime_schema_transition_source": "IESO_release_55_final_plan_2026.pdf, pages2-3; planned March4,2026 real-time build, sample r2 actually verified"
+  },
+  "clock": {
+    "created_at_semantics": "official help: date and time report was created; participant receipt unobserved",
+    "xml_datetime_has_timezone_offset": false,
+    "created_at_timezone_explicitly_documented_in_report_help_or_xsd": false,
+    "operational_pd_clock": "Official May1,2025 training section5.2: PD starts20:00 EST, hourly shrinking look-ahead until next20:00 cycle",
+    "delivery_clock": "Hour-ending1..24 in native market EST; keep CreatedAt raw and clock-convention field separately",
+    "created_at_to_EST_mapping": "Operating-clock-consistent interpretation, not explicit timezone encoding in XML. Require a disclosed convention and sensitivity; do not call it verified participant availability."
+  },
+  "horizon": {
+    "predispatch": "Native hourly, varying remaining-current-day/next-day look-ahead. Each probed date report has24 hourly slots, including already delivered slots in late versions; filter by information cutoff and delivery interval start.",
+    "realtime": "12 five-minute interval nodes in current dispatch hour, nullable values and administrative flags; completed interval prices are labels, never forecast inputs.",
+    "fixed_12_lead_created": false,
+    "old_HOEP_concatenated": false
+  },
+  "archive": [
+    {
+      "family": "PredispHourlyOntarioZonalPrice",
+      "september_units": 30,
+      "september_numbered_versions": 808,
+      "september_aliases": 30,
+      "september_counts_by_unit": {
+        "26": 2,
+        "27": 28
+      },
+      "september_units_with_gaps": [],
+      "oldest_date_with_multiple_numbered_versions": "20260831",
+      "september_all_units_have_alias": true
+    },
+    {
+      "family": "RealtimeOntarioZonalPrice",
+      "september_units": 720,
+      "september_numbered_versions": 8641,
+      "september_aliases": 720,
+      "september_counts_by_unit": {
+        "12": 713,
+        "13": 3,
+        "11": 2,
+        "14": 1,
+        "10": 1
+      },
+      "september_units_with_gaps": [],
+      "oldest_date_with_multiple_numbered_versions": "20260831",
+      "september_all_units_have_alias": true
+    }
+  ],
+  "retention_policy": {
+    "official_current_data_directory": "Predispatch report range30days; realtime report range90days",
+    "official_April2025_quicktake": "General report-data retention90days, archived retrieval subject availability/privacy",
+    "observed_multiple_vintage_oldest_date": "20260831",
+    "interpretation": "Current report-specific range and observed revision support take precedence over assuming all90days retain every vintage."
+  },
+  "reproduction_terms": {
+    "source": "https://ieso.ca/Terms-of-Use",
+    "last_updated": "2022-07-25",
+    "verified": "Limited nonexclusive, nonsublicensable, nontransferable use/reproduction licence requiring full stated attribution; separate/supplemental terms can supersede",
+    "CC_or_unconditional_open_licence": false,
+    "bulk_relicensing_or_redistribution_authorization_claim": false,
+    "publication_scope": "Publish original processing code and official source/download manifest only; raw price reports not automatically redistributed/relicensed"
+  },
+  "pending_before_external_evaluation": [
+    "Lock candidate/archive manifest and design before payoff evaluation; label all probe inspection",
+    "Download immutable complete selected-period forecast numbered versions and completed realtime reports",
+    "Validate per-target timestamps, native horizon support, missing/nullable prices, flags and revisions; preserve outage/coverage failures",
+    "Use report CreatedAt as documented availability proxy with delay sensitivity, never actual participant receipt",
+    "Construct hourly outcomes from complete12 actual five-minute values or documented native average; no artificial lead expansion",
+    "Check resource cost and preselect endpoint/initial state/primary family without using Ontario payoffs"
+  ],
+  "public_copy_contains_no_source_files_or_price_values": true
+}

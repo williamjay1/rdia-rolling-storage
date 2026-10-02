@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "policy": "current_smooth_a050",
+  "initial_soc_mwh": 1.8,
+  "origins": 1488,
+  "net_operating_aud": 7475.666699904883,
+  "endpoint_mark_aud": -90.51993665454611,
+  "marked_value_aud": 7385.146763250337,
+  "final_soc_mwh": 0.20000089970149584,
+  "gate_count": 0,
+  "fallback_count": 0,
+  "fallback_share": null,
+  "seconds": 4.830309800017858,
+  "summed_origin_seconds": 4.707753799506463,
+  "max_primary_loss_upper_aud": 1.0000000656873453e-05,
+  "max_primary_gap_aud": 0.0,
+  "maximum_physical_balance_error_mwh": 3.3306690738754696e-16,
+  "source": "previously evaluated chronological exploratory month; no significance/noninferiority inference"
+}

@@ -1,0 +1,11 @@
+# Native Ontario schema and source probe
+
+This directory contains schema-reading source code, official source/version URLs and hashes, and a price-free execution-scope summary. No IESO XML/PDF/source bytes, Ontario price values, processed forecasts, or trajectories are included or relicensed.
+
+The executed research probe validated four source XML reports against official prediction r1/realtime r2 XSDs. The September 2026 listing contained 30 prediction days (808 numbered versions) and 720 realtime hours (8,641 numbered versions), but the full month of prices and ex-ante input support was not parsed. This is an archived candidate, not an independently certified holdout or an executed external optimization experiment.
+
+CreatedAt is a report-creation proxy, not participant receipt. The native PD look-ahead shrinks between 20:00 EST cycles; late reports can retain already delivered targets. XML datetimes omit an offset, and the report-specific help/schema do not explicitly encode their timezone. Code and method must retain these distinctions. The current official report range is 30 days for prediction and 90 days for realtime; multiple-vintage support is shorter than the generic report retention window. No old HOEP/new-zonal concatenation or artificial 12 lead construction is supplied.
+
+The original probe and XSD validation were executed on Windows. Public copies only make raw/output roots explicit; they were not rerun during public preparation. They retain the original bounded download scope and Windows drive-space checks. To use the code, set RDIA_NATIVE_RAW_ROOT and RDIA_NATIVE_OUTPUT_ROOT to explicit new directories outside this checkout, with raw and work storage appropriate to the host, and run probe_native_ontario.py followed by validate_native_ontario.py. Generated private outputs can contain source prices and must not be added to this repository automatically.
+
+IESO [Terms of Use](https://ieso.ca/Terms-of-Use) provide a limited use/reproduction licence subject to attribution and possible supplemental terms, not a CC or unconditional open-data licence. Obtain reports directly from IESO under those terms. The source manifest supplies traceable versions; its presence does not authorize bulk price redistribution. Original probe code retains the repository's MIT licence, which does not relicense third-party material.

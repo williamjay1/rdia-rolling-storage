@@ -1,0 +1,365 @@
+{
+  "status": "PASS",
+  "selection": {
+    "global": [
+      {
+        "budget": 1,
+        "retained_coordinates": [
+          4
+        ],
+        "training_mse_by_stock": [
+          0.022650442086680694,
+          0.09392241361418525,
+          0.07056183938876572
+        ],
+        "selection_loss": 0.062378231696543884
+      },
+      {
+        "budget": 2,
+        "retained_coordinates": [
+          3,
+          4
+        ],
+        "training_mse_by_stock": [
+          0.05858804885368235,
+          0.03196712143534253,
+          0.06322841622372925
+        ],
+        "selection_loss": 0.05126119550425138
+      },
+      {
+        "budget": 3,
+        "retained_coordinates": [
+          3,
+          4,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.09307197680633002,
+          0.03196632322611162,
+          0.028572867553456133
+        ],
+        "selection_loss": 0.051203722528632596
+      },
+      {
+        "budget": 4,
+        "retained_coordinates": [
+          3,
+          4,
+          7,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.0930720578610847,
+          0.03196604643803596,
+          0.028572867553456133
+        ],
+        "selection_loss": 0.05120365728419227
+      },
+      {
+        "budget": 5,
+        "retained_coordinates": [
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.0930720578610832,
+          0.03196604643804427,
+          0.028572867553544202
+        ],
+        "selection_loss": 0.0512036572842239
+      },
+      {
+        "budget": 6,
+        "retained_coordinates": [
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.08333110696136707,
+          0.04359065653480012,
+          0.02857286755328177
+        ],
+        "selection_loss": 0.05183154368314965
+      }
+    ],
+    "bin0": [
+      {
+        "budget": 1,
+        "retained_coordinates": [
+          4
+        ],
+        "training_mse_by_stock": [
+          0.022650442086680694,
+          0.09392241361418525,
+          0.07056183938876572
+        ],
+        "selection_loss": 0.022650442086680694
+      },
+      {
+        "budget": 2,
+        "retained_coordinates": [
+          4,
+          7
+        ],
+        "training_mse_by_stock": [
+          0.022650065094251718,
+          0.09392240445594306,
+          0.07056183938876572
+        ],
+        "selection_loss": 0.022650065094251718
+      },
+      {
+        "budget": 3,
+        "retained_coordinates": [
+          4,
+          5,
+          7
+        ],
+        "training_mse_by_stock": [
+          0.03376487849125233,
+          0.06996670975949357,
+          0.07056183938877486
+        ],
+        "selection_loss": 0.03376487849125233
+      },
+      {
+        "budget": 4,
+        "retained_coordinates": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "training_mse_by_stock": [
+          0.035560283981076815,
+          0.06996644125099512,
+          0.07056183938889465
+        ],
+        "selection_loss": 0.035560283981076815
+      },
+      {
+        "budget": 5,
+        "retained_coordinates": [
+          0,
+          4,
+          5,
+          6,
+          7
+        ],
+        "training_mse_by_stock": [
+          0.05140760724763036,
+          0.23176312174472838,
+          0.07179320962413335
+        ],
+        "selection_loss": 0.05140760724763036
+      },
+      {
+        "budget": 6,
+        "retained_coordinates": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "training_mse_by_stock": [
+          0.05140760724746445,
+          0.06934381045834569,
+          0.04322050448397998
+        ],
+        "selection_loss": 0.05140760724746445
+      }
+    ],
+    "bin1": [
+      {
+        "budget": 1,
+        "retained_coordinates": [
+          3
+        ],
+        "training_mse_by_stock": [
+          0.05320162222767174,
+          0.064586276904269,
+          0.07023916003101466
+        ],
+        "selection_loss": 0.064586276904269
+      },
+      {
+        "budget": 2,
+        "retained_coordinates": [
+          3,
+          4
+        ],
+        "training_mse_by_stock": [
+          0.05858804885368235,
+          0.03196712143534253,
+          0.06322841622372925
+        ],
+        "selection_loss": 0.03196712143534253
+      },
+      {
+        "budget": 3,
+        "retained_coordinates": [
+          3,
+          4,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.09307197680633002,
+          0.03196632322611162,
+          0.028572867553456133
+        ],
+        "selection_loss": 0.03196632322611162
+      },
+      {
+        "budget": 4,
+        "retained_coordinates": [
+          3,
+          4,
+          7,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.0930720578610847,
+          0.03196604643803596,
+          0.028572867553456133
+        ],
+        "selection_loss": 0.03196604643803596
+      },
+      {
+        "budget": 5,
+        "retained_coordinates": [
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.0930720578610832,
+          0.03196604643804427,
+          0.028572867553544202
+        ],
+        "selection_loss": 0.03196604643804427
+      },
+      {
+        "budget": 6,
+        "retained_coordinates": [
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.08333110696136707,
+          0.04359065653480012,
+          0.02857286755328177
+        ],
+        "selection_loss": 0.04359065653480012
+      }
+    ],
+    "bin2": [
+      {
+        "budget": 1,
+        "retained_coordinates": [
+          8
+        ],
+        "training_mse_by_stock": [
+          0.10418680957332388,
+          0.10296857904781938,
+          0.028895552047870237
+        ],
+        "selection_loss": 0.028895552047870237
+      },
+      {
+        "budget": 2,
+        "retained_coordinates": [
+          3,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.09486747903563843,
+          0.05592170518796959,
+          0.028572867553524967
+        ],
+        "selection_loss": 0.028572867553524967
+      },
+      {
+        "budget": 3,
+        "retained_coordinates": [
+          2,
+          3,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.09307205786069188,
+          0.04359093712575187,
+          0.028572867553357296
+        ],
+        "selection_loss": 0.028572867553357296
+      },
+      {
+        "budget": 4,
+        "retained_coordinates": [
+          2,
+          3,
+          4,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.08333110696137029,
+          0.043590844188106354,
+          0.02857286755328148
+        ],
+        "selection_loss": 0.02857286755328148
+      },
+      {
+        "budget": 5,
+        "retained_coordinates": [
+          2,
+          3,
+          4,
+          7,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.08333110696136707,
+          0.04359065653480048,
+          0.02857286755328148
+        ],
+        "selection_loss": 0.02857286755328148
+      },
+      {
+        "budget": 6,
+        "retained_coordinates": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          8
+        ],
+        "training_mse_by_stock": [
+          0.09444066665534818,
+          0.06754571576646178,
+          0.028572867553281516
+        ],
+        "selection_loss": 0.028572867553281516
+      }
+    ]
+  },
+  "seconds": 36.67951489999541,
+  "unique_masks_evaluated": 91,
+  "training_origins": 24,
+  "training_only": "2023 strict validation origins; exploratory retrospective mask development"
+}

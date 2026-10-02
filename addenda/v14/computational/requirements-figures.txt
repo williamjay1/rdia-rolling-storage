@@ -1,0 +1,4 @@
+# Optional Figure 7 rendering dependencies; core requirements remain separate.
+matplotlib==3.11.1
+Pillow==12.3.0
+PyMuPDF==1.28.2

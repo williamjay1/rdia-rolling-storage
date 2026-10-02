@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "policy": "state3_gate",
+  "initial_soc_mwh": 1.8,
+  "origins": 1488,
+  "net_operating_aud": 12424.880890259452,
+  "endpoint_mark_aud": -90.51994660611261,
+  "marked_value_aud": 12334.360943653339,
+  "final_soc_mwh": 0.20000075593428535,
+  "gate_count": 1488,
+  "fallback_count": 255,
+  "fallback_share": 0.17137096774193547,
+  "seconds": 5.858963499980746,
+  "summed_origin_seconds": 5.707348899304634,
+  "max_primary_loss_upper_aud": 1.0000001566368155e-05,
+  "max_primary_gap_aud": 0.0,
+  "maximum_physical_balance_error_mwh": 2.317129698572369e-16,
+  "source": "previously evaluated chronological exploratory month; no significance/noninferiority inference"
+}

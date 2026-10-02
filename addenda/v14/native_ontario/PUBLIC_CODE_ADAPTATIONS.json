@@ -1,0 +1,18 @@
+{
+  "transformations": [
+    {
+      "path": "probe_native_ontario.py",
+      "original_sha256": "466c67112091bae11f5a29b1901c2723feab88638135ecaf50f3d2c438077ebc",
+      "public_sha256": "ae50e3ba33d162bf0d81b0634958b99ee3161d79b8c3c3ef48cd8c2746f1a55f",
+      "changes": "Explicit environment-provided raw/output roots; no numerical optimization or report parser definition changed",
+      "public_adapter_reexecuted": false
+    },
+    {
+      "path": "validate_native_ontario.py",
+      "original_sha256": "c3ff4c0101e5f07c28ec759706a2f0e323397a5b6addb4ca3ddc606959e23209",
+      "public_sha256": "c408ab03c1b581045efa596f2c4975b002f9ffe772bded65f83d1112f0279070",
+      "changes": "Explicit environment-provided raw/output roots; no numerical optimization or report parser definition changed",
+      "public_adapter_reexecuted": false
+    }
+  ]
+}

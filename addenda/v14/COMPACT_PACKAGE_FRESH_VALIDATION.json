@@ -1,0 +1,136 @@
+{
+  "status": "PASS_FRESH_FULL_JANUARY_REPLAYS_AND_TOY",
+  "run_utc": "2026-10-02T04:32:27.217054+00:00",
+  "validation": {
+    "complete_validation_origins_per_training_policy": 17507,
+    "training_indices_and_targets_exact": true,
+    "training_masks_refit": false
+  },
+  "replays": {
+    "inverse_lead": {
+      "origins": 1488,
+      "fields": {
+        "soc_start_mwh": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "soc_end_mwh": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "charge_mw": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "discharge_mw": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "action_mw": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "actual_price": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "net_aud": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        }
+      },
+      "marked_value_aud": 12341.862125379621,
+      "marked_value_exact": true,
+      "fresh_seconds": 7.426105499995174
+    },
+    "static9": {
+      "origins": 1488,
+      "fields": {
+        "soc_start_mwh": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "soc_end_mwh": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "charge_mw": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "discharge_mw": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "action_mw": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "actual_price": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        },
+        "net_aud": {
+          "bitwise_equal": true,
+          "max_abs_difference": 0.0
+        }
+      },
+      "marked_value_aud": 12341.862125379621,
+      "marked_value_exact": true,
+      "fresh_seconds": 4.655391800013604
+    }
+  },
+  "static9_fresh_exact_vs_inverse_lead": {
+    "soc_start_mwh": {
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "soc_end_mwh": {
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "charge_mw": {
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "discharge_mw": {
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "action_mw": {
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "actual_price": {
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "net_aud": {
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    }
+  },
+  "toy": {
+    "status": "PASS_EXECUTED_SYNTHETIC_CONTROLS",
+    "checks": 18,
+    "all_checks_pass": true,
+    "scientific_outputs_exact_to_frozen": true,
+    "ignored_receipt_metadata_keys": [
+      "elapsed_seconds",
+      "sources"
+    ]
+  },
+  "elapsed_seconds": 14.554863099998329,
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.5.1",
+      "pandas": "3.0.5",
+      "pyarrow": "25.0.0",
+      "scipy": "1.18.0"
+    }
+  },
+  "scope": "Exploratory month; floating-point window gate is not a rigorous or cumulative-profit certificate; no independent holdout, public release or raw archive redistribution.",
+  "publication_note": "Executed from the verified compact package before public preparation; no fresh solver rerun claimed for this copied public tree. Scientific source/input/trajectory bytes are matched in copy-verification receipt."
+}

@@ -1,0 +1,22 @@
+--- original/scripts/revision_v14_toy_theory.py
++++ package/scripts/revision_v14_toy_theory.py
+@@ -12,7 +12,7 @@
+ import numpy as np
+ from revision_v5_control_enumerated_policy import EnumeratedSafeLexMPC as MPC
+ 
+-ROOT = Path(r"D:\MLWork\AOOR_ContextualStorage_20260929")
++ROOT = Path(__file__).resolve().parents[1]
+ OUT = ROOT / "results/revision_v14/theory"
+ 
+ 
+--- original/scripts/revision_v5_control_solver.py
++++ package/scripts/revision_v5_control_solver.py
+@@ -16,7 +16,7 @@
+ from scipy.sparse import coo_matrix
+ from scipy.optimize._highspy import _core as hc
+ 
+-ROOT=Path(r"D:\MLWork\AOOR_ContextualStorage_20260929")
++ROOT=Path(__file__).resolve().parents[1]
+ OUT=ROOT/"results"/"revision_v5"/"control"
+ 
+ class LexMPC:

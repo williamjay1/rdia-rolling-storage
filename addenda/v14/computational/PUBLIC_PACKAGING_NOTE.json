@@ -1,0 +1,15 @@
+{
+  "source_compact_manifest_sha256": "ff2d73775aad045659ba62b8bf176d174534df2d8593260b9f9983a80aa26c8b",
+  "source_compact_zip_sha256": "f7e48da55a3aebae31abb37c5c957bbb2600a66eccc28dbce9ead64ba653c2dd",
+  "source_compact_fresh_execution_status": "PASS_FRESH_FULL_JANUARY_REPLAYS_AND_TOY",
+  "public_variant": true,
+  "excluded": "Internal reviewer document and original-workspace packaging builder; no unpublished manuscript or raw source archive supplied",
+  "metadata_adaptations": [
+    "Original source paths normalized to relative names",
+    "Locked-design source-location metadata normalized; all scientific design parameters unchanged",
+    "Public-specific README,licence,data notice,thin verifier and standalone manifest"
+  ],
+  "scientific_modules_and_data_changed": false,
+  "new_solver_execution_during_public_preparation": false,
+  "historical_machine_root_in_diff": "Already-applied path transformation record only; scientific ROOT now resolves from __file__"
+}

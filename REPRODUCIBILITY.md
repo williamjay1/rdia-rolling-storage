@@ -1,6 +1,6 @@
 # Reproducing the released RDIA materials
 
-This guide covers the scientific files actually selected for version 1.0.0 of
+The sections below describe the scientific files selected for frozen version 1.0.0 of
 [rdia-rolling-storage](https://github.com/williamjay1/rdia-rolling-storage).
 It distinguishes checksum verification, fresh numerical execution, statistical
 reconstruction, model refitting and raw-source reconstruction. Unsubmitted
@@ -172,7 +172,7 @@ the reconstruction adapter checks the recorded exact source versions in
 `provenance/ieso_source_versions.json`. It requires both paths to be new:
 
 ```bash
-python scripts/public_ontario.py --raw-root F:/AcademicData/RDIA_Ontario/raw-fresh --output-root D:/MLWork/rdia-ontario-fresh --stage prepare
+python scripts/public_ontario.py --raw-root /path/to/new-official-raw-root --output-root D:/MLWork/rdia-ontario-fresh --stage prepare
 ```
 
 `download` acquires and checks source files; `prepare` also rebuilds inputs;
@@ -267,3 +267,21 @@ oscillation case also passed against preserved references.
 `provenance/v13_action_validation.json` records the executed scope, receipt
 checksums and exact comparisons. These checks are distinct from the complete
 20-replay grid and do not refit models or establish independent external replication.
+
+
+## Separately manifested v14 addendum
+
+The current v14 research title is **Action sufficiency and update risk in rolling storage optimization**. Its compact numerical package is addenda/v14/computational, and resolves paths from its own scripts. It neither uses nor expands the v1.0 manifests. The old full-release manifest retains the frozen attachment's documentation hashes; root explanatory files may subsequently identify v14. Verify the frozen attachment with its own manifest and the v14 subtree with the following independent commands.
+
+```text
+python -B addenda/v14/computational/scripts/verify_manifest.py addenda/v14/computational
+python -B addenda/v14/computational/scripts/reproduce_v14_minimum.py --output D:/MLWork/rdia-v14-fresh
+```
+
+Alternatively, change into addenda/v14/computational and run scripts/verify_manifest.py with `.` and the reproduction wrapper with the same explicit fresh output path. No outputs should be written into this repository or supplied evidence. Use the addendum's pinned requirements and the host storage convention; recorded fresh execution used Windows/Python 3.12.10. Other platforms have not been validated.
+
+The copied evidence covers 18 exploratory NSW1 January 2024 trajectories: nine policies/ablations at initial 0.2/1.8 MWh, each with 1,488 origins. The minimum wrapper freshly solves IL and static9 at initial 0.2 MWh, compares seven trajectory fields and marked value, and runs the 18 synthetic checks. It preserves the locked 24 training indices/targets and supplied masks. The previously executed compact-package receipt is retained under addenda/v14/COMPACT_PACKAGE_FRESH_VALIDATION.json; this public preparation verified copies without claiming another fresh checkout replay or retraining.
+
+The recorded decision is STOP_NEW_COMPRESSION_ALGORITHM. The gate needs full inverse-lead streaming moments and additional solves; the pilot does not establish a live-storage gain. Its reported bound uses floating-point solver incumbents/bounds and concerns a common-state one-window action. It is not interval/rational arithmetic, not a rigorous cumulative-profit certificate, and not evidence of prospective noninferiority or an independent holdout. Resource cost, fallbacks, and failure boundaries retain their exploratory scope.
+
+addenda/v14/native_ontario contains schema-reading code, official source/version metadata, and a price-free scope summary. The four-report schema probe was executed before public preparation; public path adapters were not rerun. No IESO source reports, price-containing parsed files, forecast arrays or Ontario trajectories are supplied. Native clock/horizon and source-retention checks do not establish a completed external optimization test. Explicit external raw/output directories are required to run the optional source probe, and generated price-containing outputs must remain separate from this public tree.

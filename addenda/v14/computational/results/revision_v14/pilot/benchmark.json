@@ -1,0 +1,441 @@
+{
+  "status": "PASS",
+  "cases": 48,
+  "mean_solve_seconds": 0.0019928979187776954,
+  "mean_gate_seconds": 0.0008058958307325762,
+  "cases_detail": [
+    {
+      "origin_index": 0,
+      "stock": 0.2,
+      "solve_seconds": 0.0032831000280566514,
+      "regret_upper_aud": 2.5420574488445024e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0009725000127218664
+    },
+    {
+      "origin_index": 1,
+      "stock": 1.0,
+      "solve_seconds": 0.0014059999957680702,
+      "regret_upper_aud": 0.10113376320065268,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008306999807246029
+    },
+    {
+      "origin_index": 2,
+      "stock": 1.8,
+      "solve_seconds": 0.0014640000008512288,
+      "regret_upper_aud": 1.1817123234104656e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.000821399997221306
+    },
+    {
+      "origin_index": 3,
+      "stock": 0.2,
+      "solve_seconds": 0.001400600012857467,
+      "regret_upper_aud": 3.1517615813593236e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007901999924797565
+    },
+    {
+      "origin_index": 4,
+      "stock": 1.0,
+      "solve_seconds": 0.0012941999884787947,
+      "regret_upper_aud": 2.1548947043138466e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008228000078815967
+    },
+    {
+      "origin_index": 5,
+      "stock": 1.8,
+      "solve_seconds": 0.0018216999887954444,
+      "regret_upper_aud": 0.4675888324761697,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0009425999887753278
+    },
+    {
+      "origin_index": 6,
+      "stock": 0.2,
+      "solve_seconds": 0.0013291999930515885,
+      "regret_upper_aud": 2.6788508677700873e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008169999928213656
+    },
+    {
+      "origin_index": 7,
+      "stock": 1.0,
+      "solve_seconds": 0.0013535000034607947,
+      "regret_upper_aud": 0.9902047256919805,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008001999813131988
+    },
+    {
+      "origin_index": 8,
+      "stock": 1.8,
+      "solve_seconds": 0.0014869000006001443,
+      "regret_upper_aud": 1.3513892741594646e-05,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007398999878205359
+    },
+    {
+      "origin_index": 9,
+      "stock": 0.2,
+      "solve_seconds": 0.0011266000219620764,
+      "regret_upper_aud": 2.830305469852078e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0006997999735176563
+    },
+    {
+      "origin_index": 10,
+      "stock": 1.0,
+      "solve_seconds": 0.001485200016759336,
+      "regret_upper_aud": 6.930666048925559e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0014334000006783754
+    },
+    {
+      "origin_index": 11,
+      "stock": 1.8,
+      "solve_seconds": 0.0015020999999251217,
+      "regret_upper_aud": 5.652163653418029e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008206999918911606
+    },
+    {
+      "origin_index": 12,
+      "stock": 0.2,
+      "solve_seconds": 0.001315899979090318,
+      "regret_upper_aud": 4.017086235068689e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007196000078693032
+    },
+    {
+      "origin_index": 13,
+      "stock": 1.0,
+      "solve_seconds": 0.0011328000109642744,
+      "regret_upper_aud": 5.45962028639002e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0006565999938175082
+    },
+    {
+      "origin_index": 14,
+      "stock": 1.8,
+      "solve_seconds": 0.0014555999950971454,
+      "regret_upper_aud": 4.124663788156567e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007833999989088625
+    },
+    {
+      "origin_index": 15,
+      "stock": 0.2,
+      "solve_seconds": 0.0012151000264566392,
+      "regret_upper_aud": 2.8381562867375576e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008803000091575086
+    },
+    {
+      "origin_index": 16,
+      "stock": 1.0,
+      "solve_seconds": 0.001268399995751679,
+      "regret_upper_aud": 1.9143410634123252,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007088000129442662
+    },
+    {
+      "origin_index": 17,
+      "stock": 1.8,
+      "solve_seconds": 0.0012882000009994954,
+      "regret_upper_aud": 0.41280684389686934,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007783999899402261
+    },
+    {
+      "origin_index": 18,
+      "stock": 0.2,
+      "solve_seconds": 0.0015010999923106283,
+      "regret_upper_aud": 2.8674315356292934e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008788999984972179
+    },
+    {
+      "origin_index": 19,
+      "stock": 1.0,
+      "solve_seconds": 0.0012614000006578863,
+      "regret_upper_aud": 13.34865239095352,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007134000188671052
+    },
+    {
+      "origin_index": 20,
+      "stock": 1.8,
+      "solve_seconds": 0.001145699992775917,
+      "regret_upper_aud": 1.3693781163661167,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0006606999959331006
+    },
+    {
+      "origin_index": 21,
+      "stock": 0.2,
+      "solve_seconds": 0.001112099998863414,
+      "regret_upper_aud": 1.9179082537265113,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0006515999848488718
+    },
+    {
+      "origin_index": 22,
+      "stock": 1.0,
+      "solve_seconds": 0.0013191000034566969,
+      "regret_upper_aud": 0.9422128831478841,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008791000000201166
+    },
+    {
+      "origin_index": 23,
+      "stock": 1.8,
+      "solve_seconds": 0.006078000005800277,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007627000159118325
+    },
+    {
+      "origin_index": 24,
+      "stock": 0.2,
+      "solve_seconds": 0.0012713999894913286,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0006982999911997467
+    },
+    {
+      "origin_index": 25,
+      "stock": 1.0,
+      "solve_seconds": 0.0013129000144544989,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.000675899995258078
+    },
+    {
+      "origin_index": 26,
+      "stock": 1.8,
+      "solve_seconds": 0.006214599998202175,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007411999977193773
+    },
+    {
+      "origin_index": 27,
+      "stock": 0.2,
+      "solve_seconds": 0.0014689999807160348,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008339000050909817
+    },
+    {
+      "origin_index": 28,
+      "stock": 1.0,
+      "solve_seconds": 0.001440699998056516,
+      "regret_upper_aud": 3.2173212267915146,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008006999851204455
+    },
+    {
+      "origin_index": 29,
+      "stock": 1.8,
+      "solve_seconds": 0.0013123000098858029,
+      "regret_upper_aud": 1.6046330108626872,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008479999960400164
+    },
+    {
+      "origin_index": 30,
+      "stock": 0.2,
+      "solve_seconds": 0.0012518000148702413,
+      "regret_upper_aud": 2.791436488929321e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.000729300023522228
+    },
+    {
+      "origin_index": 31,
+      "stock": 1.0,
+      "solve_seconds": 0.0011539000261109322,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.000648700020974502
+    },
+    {
+      "origin_index": 32,
+      "stock": 1.8,
+      "solve_seconds": 0.004757799993967637,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007757999992463738
+    },
+    {
+      "origin_index": 33,
+      "stock": 0.2,
+      "solve_seconds": 0.0012523999903351068,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0006924000044818968
+    },
+    {
+      "origin_index": 34,
+      "stock": 1.0,
+      "solve_seconds": 0.0011944000143557787,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007176999934017658
+    },
+    {
+      "origin_index": 35,
+      "stock": 1.8,
+      "solve_seconds": 0.005349899991415441,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008173999958671629
+    },
+    {
+      "origin_index": 36,
+      "stock": 0.2,
+      "solve_seconds": 0.0014434000186156482,
+      "regret_upper_aud": 1.2059885595429022e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0014680999738629907
+    },
+    {
+      "origin_index": 37,
+      "stock": 1.0,
+      "solve_seconds": 0.0014934999926481396,
+      "regret_upper_aud": 1.3600007687509787e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007231000054161996
+    },
+    {
+      "origin_index": 38,
+      "stock": 1.8,
+      "solve_seconds": 0.005685799987986684,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0009123999916482717
+    },
+    {
+      "origin_index": 39,
+      "stock": 0.2,
+      "solve_seconds": 0.0014241000171750784,
+      "regret_upper_aud": 3.454667876961025e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0009128999954555184
+    },
+    {
+      "origin_index": 40,
+      "stock": 1.0,
+      "solve_seconds": 0.0019016000151168555,
+      "regret_upper_aud": 1.0733214591264186e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.000753100001020357
+    },
+    {
+      "origin_index": 41,
+      "stock": 1.8,
+      "solve_seconds": 0.001205099979415536,
+      "regret_upper_aud": 1.1336958064257487e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0006622000073548406
+    },
+    {
+      "origin_index": 42,
+      "stock": 0.2,
+      "solve_seconds": 0.0013001000043004751,
+      "regret_upper_aud": 1.3000466506364318e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007777999853715301
+    },
+    {
+      "origin_index": 43,
+      "stock": 1.0,
+      "solve_seconds": 0.0013611000031232834,
+      "regret_upper_aud": 1.3834636927990686e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0009292999748140574
+    },
+    {
+      "origin_index": 44,
+      "stock": 1.8,
+      "solve_seconds": 0.005223500018473715,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0008232999825850129
+    },
+    {
+      "origin_index": 45,
+      "stock": 0.2,
+      "solve_seconds": 0.0014310999831650406,
+      "regret_upper_aud": 1.027959899284724e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007385000062640756
+    },
+    {
+      "origin_index": 46,
+      "stock": 1.0,
+      "solve_seconds": 0.0011702000047080219,
+      "regret_upper_aud": 1.020337957096217e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0006550000107381493
+    },
+    {
+      "origin_index": 47,
+      "stock": 1.8,
+      "solve_seconds": 0.004992000001948327,
+      "regret_upper_aud": 1e-06,
+      "reference_primary_gap_aud": 0.0,
+      "fixed_action_gap_aud": 0.0,
+      "gate_seconds": 0.0007832999981474131
+    }
+  ],
+  "estimated_month_seconds_8policies_2stocks": 52.24360563477967
+}

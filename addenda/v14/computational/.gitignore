@@ -1,0 +1,3 @@
+# This small standalone addendum includes its own processed results.
+!results/
+!results/**

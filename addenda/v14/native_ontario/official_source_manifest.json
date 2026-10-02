@@ -1,0 +1,149 @@
+{
+  "scope": "URLs,version byte counts,and hashes only; source files and prices not redistributed",
+  "sources": [
+    {
+      "url": "https://reports-public.ieso.ca/public/PredispHourlyOntarioZonalPrice/",
+      "final_url": "https://reports-public.ieso.ca/public/PredispHourlyOntarioZonalPrice/",
+      "bytes": 238064,
+      "sha256": "edd5d1b5768ffa5761449fdb852657a1dd7dc91dbc052883997190850958ec87",
+      "retrieved_utc": "2026-10-02T04:09:58.801519+00:00",
+      "server_last_modified": null,
+      "source_filename": "PredispHourlyOntarioZonalPrice_index.html"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/public/RealtimeOntarioZonalPrice/",
+      "final_url": "https://reports-public.ieso.ca/public/RealtimeOntarioZonalPrice/",
+      "bytes": 2911764,
+      "sha256": "8e353de3ec9a26b7daa3937d5e95732383957854f0ce3a3e51662765bca93502",
+      "retrieved_utc": "2026-10-02T04:10:04.530057+00:00",
+      "server_last_modified": null,
+      "source_filename": "RealtimeOntarioZonalPrice_index.html"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/docrefs/helpfile/PredispHourlyOntarioZonalPrice_h1.pdf",
+      "final_url": "https://reports-public.ieso.ca/docrefs/helpfile/PredispHourlyOntarioZonalPrice_h1.pdf",
+      "bytes": 140693,
+      "sha256": "0edd1b6a301e260036668a701296da8f005482587e117035729b436611bdc70c",
+      "retrieved_utc": "2026-10-02T04:10:07.705979+00:00",
+      "server_last_modified": "Tue, 29 Apr 2025 19:34:58 GMT",
+      "source_filename": "PredispHourlyOntarioZonalPrice_h1.pdf"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/docrefs/helpfile/RealtimeOntarioZonalPrice_h1.pdf",
+      "final_url": "https://reports-public.ieso.ca/docrefs/helpfile/RealtimeOntarioZonalPrice_h1.pdf",
+      "bytes": 142337,
+      "sha256": "7c87ece60b4bf28bae8c925fbdd1d96aed39768f3205ddaff9bba3b340b86ad1",
+      "retrieved_utc": "2026-10-02T04:10:13.679963+00:00",
+      "server_last_modified": "Tue, 29 Apr 2025 19:35:06 GMT",
+      "source_filename": "RealtimeOntarioZonalPrice_h1.pdf"
+    },
+    {
+      "url": "https://ieso.ca/-/media/Files/IESO/Document-Library/market-renewal/MRP-changes-to-report-site-Quick-Take.pdf",
+      "final_url": "https://ieso.ca/-/media/Files/IESO/Document-Library/market-renewal/MRP-changes-to-report-site-Quick-Take.pdf",
+      "bytes": 311178,
+      "sha256": "19f8799eea2a72e05d7f02aa39158081f3411a4a5610680673ab325c72352eb9",
+      "retrieved_utc": "2026-10-02T04:10:20.400425+00:00",
+      "server_last_modified": null,
+      "source_filename": "MRP_changes_report_site.pdf"
+    },
+    {
+      "url": "https://ieso.ca/Terms-of-Use",
+      "final_url": "https://ieso.ca/Terms-of-Use",
+      "bytes": 49567,
+      "sha256": "214d2b93ddb67e73acfe81ec115aaad89c7d01ce93f44d9d67d68e3a08050d62",
+      "retrieved_utc": "2026-10-02T04:10:21.302592+00:00",
+      "server_last_modified": null,
+      "source_filename": "IESO_website_terms.html"
+    },
+    {
+      "url": "https://ieso.ca/power-data/data-directory",
+      "final_url": "https://ieso.ca/power-data/data-directory",
+      "bytes": 259416,
+      "sha256": "1efc3611410de91dfb3e823abe8bdfa2846c70dbfdb2741a732cd4aeeeb501a0",
+      "retrieved_utc": "2026-10-02T04:10:22.816229+00:00",
+      "server_last_modified": null,
+      "source_filename": "IESO_data_directory.html"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/public/PredispHourlyOntarioZonalPrice/PUB_PredispHourlyOntarioZonalPrice_20260901_v1.xml",
+      "final_url": "https://reports-public.ieso.ca/public/PredispHourlyOntarioZonalPrice/PUB_PredispHourlyOntarioZonalPrice_20260901_v1.xml",
+      "bytes": 5579,
+      "sha256": "d6f3ef45e1cb25c91d92316c8dace553cae35a6b0fa9029415184e109c100a40",
+      "retrieved_utc": "2026-10-02T04:10:25.544185+00:00",
+      "server_last_modified": "Tue, 01 Sep 2026 01:17:20 GMT",
+      "source_filename": "PUB_PredispHourlyOntarioZonalPrice_20260901_v1.xml"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/docrefs/schema/PredispHourlyOntarioZonalPrice_r1.xsd",
+      "final_url": "https://reports-public.ieso.ca/docrefs/schema/PredispHourlyOntarioZonalPrice_r1.xsd",
+      "bytes": 3012,
+      "sha256": "af93804eac2e9c90bebdbfe451bcaa04876c62cca18d63f467d87a345435b769",
+      "retrieved_utc": "2026-10-02T04:10:28.179202+00:00",
+      "server_last_modified": "Tue, 29 Apr 2025 19:37:21 GMT",
+      "source_filename": "PredispHourlyOntarioZonalPrice_schema.xsd"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/public/PredispHourlyOntarioZonalPrice/PUB_PredispHourlyOntarioZonalPrice_20260901_v26.xml",
+      "final_url": "https://reports-public.ieso.ca/public/PredispHourlyOntarioZonalPrice/PUB_PredispHourlyOntarioZonalPrice_20260901_v26.xml",
+      "bytes": 5577,
+      "sha256": "0b7d6d91f62d54213b9b7893fc0c6aaabe2eff72ad43e10414f4b1ed9633eab3",
+      "retrieved_utc": "2026-10-02T04:10:31.014946+00:00",
+      "server_last_modified": "Wed, 02 Sep 2026 03:14:40 GMT",
+      "source_filename": "PUB_PredispHourlyOntarioZonalPrice_20260901_v26.xml"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/public/RealtimeOntarioZonalPrice/PUB_RealtimeOntarioZonalPrice_2026090101_v1.xml",
+      "final_url": "https://reports-public.ieso.ca/public/RealtimeOntarioZonalPrice/PUB_RealtimeOntarioZonalPrice_2026090101_v1.xml",
+      "bytes": 2165,
+      "sha256": "8011b42b887376ba185e85571c810b94176cc3896f440e6d0f944066549e7bcb",
+      "retrieved_utc": "2026-10-02T04:10:33.806616+00:00",
+      "server_last_modified": "Tue, 01 Sep 2026 04:59:33 GMT",
+      "source_filename": "PUB_RealtimeOntarioZonalPrice_2026090101_v1.xml"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/docrefs/schema/RealtimeOntarioZonalPrice_r2.xsd",
+      "final_url": "https://reports-public.ieso.ca/docrefs/schema/RealtimeOntarioZonalPrice_r2.xsd",
+      "bytes": 3226,
+      "sha256": "760ba739f70dfffe8e42726adaea87f2d5586874dff435cde799e2378034643b",
+      "retrieved_utc": "2026-10-02T04:10:35.572150+00:00",
+      "server_last_modified": "Wed, 04 Mar 2026 15:55:42 GMT",
+      "source_filename": "RealtimeOntarioZonalPrice_schema.xsd"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/public/RealtimeOntarioZonalPrice/PUB_RealtimeOntarioZonalPrice_2026090101_v12.xml",
+      "final_url": "https://reports-public.ieso.ca/public/RealtimeOntarioZonalPrice/PUB_RealtimeOntarioZonalPrice_2026090101_v12.xml",
+      "bytes": 2836,
+      "sha256": "3efdbf8e101bf0152053f7f3e863a984e1c6eb1b0f17cb487dd7745461eae62e",
+      "retrieved_utc": "2026-10-02T04:10:37.114900+00:00",
+      "server_last_modified": "Tue, 01 Sep 2026 05:54:38 GMT",
+      "source_filename": "PUB_RealtimeOntarioZonalPrice_2026090101_v12.xml"
+    },
+    {
+      "url": "https://reports-public.ieso.ca/docrefs/schema/Document_r1.xsd",
+      "final_url": "https://reports-public.ieso.ca/docrefs/schema/Document_r1.xsd",
+      "bytes": 3768,
+      "sha256": "e4157f11d14bc4ee2c28099696ca1b5258669a5088ec93484500bd9f7f21a675",
+      "retrieved_utc": "2026-10-02T04:18:18.015853+00:00",
+      "server_last_modified": "Wed, 14 Aug 2024 16:27:15 GMT",
+      "source_filename": "Document_r1.xsd"
+    },
+    {
+      "url": "https://www.ieso.ca/-/media/Files/IESO/Document-Library/training/WB-Interjurisdictional-Energy-Trading.ashx",
+      "final_url": "https://www.ieso.ca/-/media/Files/IESO/Document-Library/training/WB-Interjurisdictional-Energy-Trading.ashx",
+      "bytes": 768764,
+      "sha256": "76e80c7c261f94edaec0effe6ce5b278a8ebcf16d3cb5cf4027ac22eb8cf7445",
+      "retrieved_utc": "2026-10-02T04:18:23.085524+00:00",
+      "server_last_modified": null,
+      "source_filename": "IESO_interjurisdictional_energy_trading_2025.pdf"
+    },
+    {
+      "url": "https://ieso.ca/-/media/Files/IESO/Document-Library/it-release-plan/it-FinalReleasePlan-R550.pdf",
+      "final_url": "https://ieso.ca/-/media/Files/IESO/Document-Library/it-release-plan/it-FinalReleasePlan-R550.pdf",
+      "bytes": 196457,
+      "sha256": "62fc1718a9a6cd61ec6b27463a1d2fee42d366d26355c9ff3b269e76ae2ea054",
+      "retrieved_utc": "2026-10-02T04:18:29.484752+00:00",
+      "server_last_modified": null,
+      "source_filename": "IESO_release_55_final_plan_2026.pdf"
+    }
+  ]
+}

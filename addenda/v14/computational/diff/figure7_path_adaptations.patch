@@ -1,0 +1,33 @@
+--- original/scripts/revision_v14_figure7.py
++++ public/scripts/portable_figure7.py
+@@ -6,9 +6,27 @@
+ from __future__ import annotations
+ import os
+ from pathlib import Path
+-ROOT=Path(r"D:\MLWork\AOOR_ContextualStorage_20260929")
+-OUT=ROOT/'results/revision_v14/figures'
+-os.environ['MPLCONFIGDIR']=str(ROOT/'temp/revision_v14_matplotlib')
++import argparse
++import sys
++sys.dont_write_bytecode=True
++ROOT=Path(__file__).resolve().parents[1]
++
++
++def _fresh_figure_output():
++    parser=argparse.ArgumentParser(description='Render Figure 7 from supplied frozen source data, without rerunning optimization.')
++    parser.add_argument('--output',type=Path,required=True,help='New output directory outside the read-only package; must not already exist.')
++    args=parser.parse_args()
++    out=args.output.resolve()
++    if out==ROOT or ROOT in out.parents or out in ROOT.parents:
++        parser.error('Output must overlap neither the read-only package nor its ancestors.')
++    if out.exists():
++        parser.error('Output must be a new directory that does not already exist.')
++    out.mkdir(parents=True,exist_ok=False)
++    return out
++
++
++OUT=_fresh_figure_output()
++os.environ['MPLCONFIGDIR']=str(OUT/'matplotlib_config')
+ for n in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS']:os.environ[n]='1'
+ import hashlib
+ import json

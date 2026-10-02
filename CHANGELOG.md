@@ -1,5 +1,11 @@
 # Release history
 
+## Unreleased: v14 computational addendum
+
+Current research title: **Action sufficiency and update risk in rolling storage optimization**. Added a separate small package under addenda/v14, without revising v1.0 scientific data, manifests, citation metadata, or Zenodo metadata. It preserves 18 exploratory January 2024 trajectories and shared-state/synthetic diagnostics. Fresh validation performed before this public copy ran two 1,488-origin IL/static9 replays and 18 synthetic checks; the preparation step checks copied bytes and does not claim another solver run.
+
+The pilot stops the proposed compressor because it retains full streaming IL moments and incurs extra solves. The numerical local-window gate does not certify cumulative profits. Native Ontario additions are source/schema-probe code and manifests only; source prices, raw reports, unsubmitted manuscripts and internal assessments are excluded. Root narrative documents identify this addendum; the original v1.0 attachment and its full-release manifest remain frozen. This entry records preparation, not publication or acceptance.
+
 ## 1.0.0 — 2 October 2026
 
 First curated release, prepared for publication as version 1.0.0. Sole author

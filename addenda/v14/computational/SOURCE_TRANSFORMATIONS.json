@@ -1,0 +1,236 @@
+{
+  "transformations": [
+    {
+      "path": "scripts/revision_v14_pilot.py",
+      "original_sha256": "36b87724936717999d7a2b691a77a6857392178766e409bbe075cd6338627035",
+      "packaged_sha256": "36b87724936717999d7a2b691a77a6857392178766e409bbe075cd6338627035",
+      "change": "none; byte-for-byte copy",
+      "scientific_AST_unchanged": true
+    },
+    {
+      "path": "scripts/revision_v14_toy_theory.py",
+      "original_sha256": "ff0c6502702b88b8d58d09609a7fada74cc07d6f1a7ef25efec6f5bfc752f2b8",
+      "packaged_sha256": "a8dbf2a4bff4f62a89278d4b794089248c24177612472c06d0e24900b16fceef",
+      "change": "ROOT path assignment only",
+      "scientific_AST_unchanged": true
+    },
+    {
+      "path": "scripts/revision_v5_control_solver.py",
+      "original_sha256": "ddaa51a7ba42d41db14a1ffc389910e866ef88b4dc5e20977d58c8b85b130317",
+      "packaged_sha256": "abfb87315c06f40248a68a826291258c8bf9770602729ab3e6bea36133fe2010",
+      "change": "ROOT path assignment only",
+      "scientific_AST_unchanged": true
+    },
+    {
+      "path": "scripts/revision_v5_control_safe_policy.py",
+      "original_sha256": "a268c084f5cd0b8125686ef1a6b631ac06f4887205f969298ab9ba9ac307ee23",
+      "packaged_sha256": "a268c084f5cd0b8125686ef1a6b631ac06f4887205f969298ab9ba9ac307ee23",
+      "change": "none; byte-for-byte copy",
+      "scientific_AST_unchanged": true
+    },
+    {
+      "path": "scripts/revision_v5_control_scaled_policy.py",
+      "original_sha256": "5c10e7bcac01a6b024f08f75b29977ca7421fc3be8f761ab222b5d0d713d6399",
+      "packaged_sha256": "5c10e7bcac01a6b024f08f75b29977ca7421fc3be8f761ab222b5d0d713d6399",
+      "change": "none; byte-for-byte copy",
+      "scientific_AST_unchanged": true
+    },
+    {
+      "path": "scripts/revision_v5_control_enumerated_policy.py",
+      "original_sha256": "f482b3d85e39a693537163df99c222f066c606c9ea172ae98d9421057d312fa9",
+      "packaged_sha256": "f482b3d85e39a693537163df99c222f066c606c9ea172ae98d9421057d312fa9",
+      "change": "none; byte-for-byte copy",
+      "scientific_AST_unchanged": true
+    }
+  ],
+  "data_subsets": [
+    {
+      "path": "results/revision_v5/history/NSW1_inputs_aligned.parquet",
+      "source_sha256": "4a0dff010858e5aec8192e11ee410d8b1d296d2e41e523d1fad54e7c69f334e5",
+      "source_bytes": 93449886,
+      "packaged_sha256": "ee2dc23af3935049fdbe2e58312286e888a04c4531d2573cfe6ceffde096d6f5",
+      "packaged_bytes": 10347864,
+      "rows": 112482,
+      "columns": [
+        "region",
+        "target",
+        "phase",
+        "actual_00",
+        "actual_01",
+        "actual_02",
+        "actual_03",
+        "actual_04",
+        "actual_05",
+        "actual_06",
+        "actual_07",
+        "actual_08",
+        "actual_09",
+        "actual_10",
+        "actual_11",
+        "cutoff_minutes",
+        "policy",
+        "query_time",
+        "p_01",
+        "p_02",
+        "p_03",
+        "p_04",
+        "p_05",
+        "p_06",
+        "p_07",
+        "p_08",
+        "p_09",
+        "p_10",
+        "p_11",
+        "p_12"
+      ],
+      "groups": [
+        {
+          "phase": "evaluation",
+          "policy": "current_smooth_a050",
+          "rows": 1488,
+          "first_target": "2024-01-01 00:00:00",
+          "last_target": "2024-01-31 23:30:00"
+        },
+        {
+          "phase": "evaluation",
+          "policy": "full_equal",
+          "rows": 1488,
+          "first_target": "2024-01-01 00:00:00",
+          "last_target": "2024-01-31 23:30:00"
+        },
+        {
+          "phase": "evaluation",
+          "policy": "inverse_lead",
+          "rows": 1488,
+          "first_target": "2024-01-01 00:00:00",
+          "last_target": "2024-01-31 23:30:00"
+        },
+        {
+          "phase": "evaluation",
+          "policy": "raw",
+          "rows": 1488,
+          "first_target": "2024-01-01 00:00:00",
+          "last_target": "2024-01-31 23:30:00"
+        },
+        {
+          "phase": "evaluation",
+          "policy": "sparse_equal",
+          "rows": 1488,
+          "first_target": "2024-01-01 00:00:00",
+          "last_target": "2024-01-31 23:30:00"
+        },
+        {
+          "phase": "validation",
+          "policy": "current_shrink_a025",
+          "rows": 17507,
+          "first_target": "2023-01-01 00:00:00",
+          "last_target": "2023-12-31 17:00:00"
+        },
+        {
+          "phase": "validation",
+          "policy": "current_shrink_a050",
+          "rows": 17507,
+          "first_target": "2023-01-01 00:00:00",
+          "last_target": "2023-12-31 17:00:00"
+        },
+        {
+          "phase": "validation",
+          "policy": "current_smooth_a025",
+          "rows": 17507,
+          "first_target": "2023-01-01 00:00:00",
+          "last_target": "2023-12-31 17:00:00"
+        },
+        {
+          "phase": "validation",
+          "policy": "current_smooth_a050",
+          "rows": 17507,
+          "first_target": "2023-01-01 00:00:00",
+          "last_target": "2023-12-31 17:00:00"
+        },
+        {
+          "phase": "validation",
+          "policy": "inverse_lead",
+          "rows": 17507,
+          "first_target": "2023-01-01 00:00:00",
+          "last_target": "2023-12-31 17:00:00"
+        },
+        {
+          "phase": "validation",
+          "policy": "raw",
+          "rows": 17507,
+          "first_target": "2023-01-01 00:00:00",
+          "last_target": "2023-12-31 17:00:00"
+        }
+      ],
+      "values_and_dtypes_exact_after_lossless_subset_serialization": true,
+      "transformation": "Only cutoff60, designated policies,2023 validation in HISTORY and Jan2024 evaluation; no forecast/actual value modification. BASELINE validation unused by pilot and omitted."
+    },
+    {
+      "path": "results/revision_v5/history/NSW1_baseline_inputs.parquet",
+      "source_sha256": "e26786daaef29a7ac1cdfcbfcb6a7ea1f810fe44ae5196a8f9922047aab39e8c",
+      "source_bytes": 35096957,
+      "packaged_sha256": "f026761edebb6767339f22ff5a5e0cb8404b71e62c4159fb00aadd09d82fa399",
+      "packaged_bytes": 336402,
+      "rows": 4464,
+      "columns": [
+        "region",
+        "target",
+        "phase",
+        "actual_00",
+        "actual_01",
+        "actual_02",
+        "actual_03",
+        "actual_04",
+        "actual_05",
+        "actual_06",
+        "actual_07",
+        "actual_08",
+        "actual_09",
+        "actual_10",
+        "actual_11",
+        "cutoff_minutes",
+        "policy",
+        "query_time",
+        "p_01",
+        "p_02",
+        "p_03",
+        "p_04",
+        "p_05",
+        "p_06",
+        "p_07",
+        "p_08",
+        "p_09",
+        "p_10",
+        "p_11",
+        "p_12"
+      ],
+      "groups": [
+        {
+          "phase": "evaluation",
+          "policy": "current_smooth_a050",
+          "rows": 1488,
+          "first_target": "2024-01-01 00:00:00",
+          "last_target": "2024-01-31 23:30:00"
+        },
+        {
+          "phase": "evaluation",
+          "policy": "raw",
+          "rows": 1488,
+          "first_target": "2024-01-01 00:00:00",
+          "last_target": "2024-01-31 23:30:00"
+        },
+        {
+          "phase": "evaluation",
+          "policy": "sparse_equal",
+          "rows": 1488,
+          "first_target": "2024-01-01 00:00:00",
+          "last_target": "2024-01-31 23:30:00"
+        }
+      ],
+      "values_and_dtypes_exact_after_lossless_subset_serialization": true,
+      "transformation": "Only cutoff60, designated policies,2023 validation in HISTORY and Jan2024 evaluation; no forecast/actual value modification. BASELINE validation unused by pilot and omitted."
+    }
+  ],
+  "only_code_changes": "Two ROOT path assignments; all scientific AST nodes identical. Wrapper only isolates OUT and compares regenerated evidence.",
+  "public_copy_note": "Scientific modules, inputs, masks, trajectories and theory receipt retain the previously verified package bytes. Only public metadata/documentation are adapted; original machine-path diff is retained as a historical record, not executable configuration."
+}

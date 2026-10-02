@@ -1,6 +1,6 @@
 # RDIA for rolling storage optimization
 
-Research software and reproducibility materials for **A protocol for evaluating information representations in rolling storage optimization**. Sole author: **Junjie Zhang**. The manuscript targets *Annals of Operations Research*; this repository does not claim journal acceptance or a DOI.
+Research software and reproducibility materials for the current v14 manuscript, **Action sufficiency and update risk in rolling storage optimization**. The frozen v1.0 release accompanies the earlier title, **A protocol for evaluating information representations in rolling storage optimization**. Sole author: **Junjie Zhang**. The manuscript targets *Annals of Operations Research*; this repository does not claim journal acceptance or a DOI.
 
 Affiliations:
 
@@ -9,7 +9,7 @@ Affiliations:
 
 Contact: <junjiezhang2024@shisu.edu.cn>. ORCID: [0009-0004-8821-4018](https://orcid.org/0009-0004-8821-4018).
 
-Rolling-decision information attribution (RDIA) compares forecast representations against attainable alternatives using three complementary layers: objective-input channel allocation along rolling paths, tolerance-aware action ranges at a common inventory state, and one-time versus sustained branches exposed to subsequent forecast updates. The Australian application uses five regional electricity markets and one implemented storage controller. Local decision-focused learning and Ontario comparisons provide partial boundary checks. Ontario's two forecast arms do not replicate the full Australian three-layer diagnostic design. Results, confidence intervals and resampling tests are conditional on the retained comparator, information clock, controller, selected states/events and observed history; negative or imprecise results are retained.
+The frozen v1.0 study uses rolling-decision information attribution (RDIA) to compare forecast representations against attainable alternatives using three complementary layers: objective-input channel allocation along rolling paths, tolerance-aware action ranges at a common inventory state, and one-time versus sustained branches exposed to subsequent forecast updates. The Australian application uses five regional electricity markets and one implemented storage controller. Local decision-focused learning and Ontario comparisons provide partial boundary checks. Ontario's two forecast arms do not replicate the full Australian three-layer diagnostic design. Results, confidence intervals and resampling tests are conditional on the retained comparator, information clock, controller, selected states/events and observed history; negative or imprecise results are retained.
 
 ## What is released
 
@@ -26,6 +26,14 @@ The appended diagnostics distinguish these scopes:
 - Twenty complete stricter-clock replays, each with 46,741 origins, apply LASTCHANGED+30 minutes before the original T-60 cutoff. The original 2023 current-processing weights are retained. Five-asset S-C* changes sign to -A$3,944.46, while IL-C* remains +A$57,139.02 over 974 nominal days. These are point sensitivity results without new confidence intervals or an observed participant-receipt claim. The completed research runs are distinct from fresh execution through the public adapter. Fresh public-adapter action-range and SA-case checks passed within the fixed-subsample scope recorded in `provenance/v13_action_validation.json`; the complete 20-replay grid was not rerun through that public entry.
 
 Unsubmitted manuscript files, internal review documents, credentials, local machine configuration and raw monthly source archives are excluded. Ontario inputs and trajectories containing IESO source price or forecast columns are also excluded; source links, version checksums and reconstruction code are provided. Source terms apply to data separately from the MIT license for original code.
+
+## v14 computational addendum
+
+The current revision examines action sufficiency and update risk in rolling storage optimization. [addenda/v14](addenda/v14/) supplies a separately manifested compact package with 18 exploratory NSW1 January 2024 closed-loop trajectories, nine policies/ablations at initial 0.2/1.8 MWh, shared-state diagnostics, a locked design and synthetic controls. The pilot records **STOP_NEW_COMPRESSION_ALGORITHM**: the candidate gate retains full inverse-lead streaming moments and adds optimization calls, so it has no established online-storage advantage over exact streaming IL.
+
+The compact package was checked before this public copy: fresh IL and static9 replays each covered 1,488 origins at initial 0.2 MWh; seven trajectory fields and marked values matched exactly, and all 18 synthetic checks passed. The public preparation verifies copied scientific bytes; it does not claim a new checkout-wide replay. The floating-point gate concerns same-state, one-window objective regret and is not a rigorous cumulative-profit certificate. Native Ontario materials contain schema-probe code and version/source manifests without source-price data or an executed external-market replay.
+
+The root v1.0 citation/Zenodo metadata, scientific inputs, and manifests are retained. Its versioned Release attachment remains frozen under the earlier manuscript title. Root explanatory documents are updated to identify the separately scoped v14 work; the old full-release manifest still describes the original v1.0 attachment rather than those subsequently updated documentation bytes. The addendum has its own manifests and is excluded from the v1.0 verification scope.
 
 ## Start here
 

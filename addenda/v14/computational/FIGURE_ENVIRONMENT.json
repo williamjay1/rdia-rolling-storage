@@ -1,0 +1,16 @@
+{
+  "status": "RECORDED_INSTALLED_FIGURE_VERSIONS_NOT_NEW_RENDER",
+  "packages": {
+    "matplotlib": "3.11.1",
+    "Pillow": "12.3.0",
+    "PyMuPDF": "1.28.2"
+  },
+  "font_family": "Arial",
+  "native_vector": [
+    "PDF",
+    "SVG"
+  ],
+  "native_raster_dpi": 1200,
+  "font_portability": "Install Arial or expect different metrics; original layout checks fail if collisions occur.",
+  "source_scope": "Optional figure rendering from saved exploratory evidence, not another experiment or controller replay."
+}
