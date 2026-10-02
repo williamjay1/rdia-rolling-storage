@@ -1,0 +1,25 @@
+{
+  "status": "PASS_EXECUTED_SYNTHETIC_CONTROLS",
+  "empirical_market_result": false,
+  "state_only_sufficiency_counterexample": {
+    "ideal_exact_primary": {
+      "first_discharge_mw": 1.0,
+      "common_next_soc_mwh": 0.8505494505494505,
+      "second_reference_discharge_mw": 1.0,
+      "second_compressed_discharge_mw": 0.18399999999999994,
+      "full_minus_compressed_marked_aud": 18.360000000000003,
+      "analytical_reason": "Both initial stocks can fund first full discharge plus one future full discharge; at next stock the higher forecast future price reserves inventory."
+    },
+    "action_preserving_cover": {
+      "lower_soc_mwh": 1.2989010989010987,
+      "upper_soc_mwh": 1.8,
+      "image_lower_soc_mwh": 0.7494505494505493,
+      "image_upper_soc_mwh": 1.2505494505494505,
+      "image_is_disjoint_from_cover": true,
+      "compression_future_high_price_step": 2,
+      "zero_price_steps_after_peak_never_improve_reward_by_charging_when_terminal_zero": true
+    },
+    "executed_first_action_difference_mw": 1.1102230246251565e-16,
+    "executed_full_minus_compressed_marked_aud": 18.359990000000003
+  }
+}

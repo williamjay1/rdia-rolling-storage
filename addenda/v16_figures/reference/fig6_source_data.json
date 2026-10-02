@@ -1,0 +1,213 @@
+{
+  "source_data": {
+    "panel_a": {
+      "opening_discharge_mw": [
+        1.0,
+        1.0
+      ],
+      "second_discharge_mw": [
+        1.0,
+        0.18399999999999994
+      ],
+      "analytical_common_initial_stock": 1.4,
+      "analytical_common_next_stock": 0.8505494505494505,
+      "analytical_two_origin_loss_aud": 18.360000000000003,
+      "executed_initial_action_difference_mw": 1.1102230246251565e-16,
+      "executed_loss_aud": 18.359990000000003
+    },
+    "panel_b": {
+      "lower_soc_mwh": 1.2989010989010987,
+      "upper_soc_mwh": 1.8,
+      "image_lower_soc_mwh": 0.7494505494505493,
+      "image_upper_soc_mwh": 1.2505494505494505,
+      "image_is_disjoint_from_cover": true,
+      "compression_future_high_price_step": 2,
+      "zero_price_steps_after_peak_never_improve_reward_by_charging_when_terminal_zero": true
+    },
+    "panel_c": [
+      {
+        "directions": 0,
+        "state_dependent": true,
+        "cases": 384,
+        "accepted": 296,
+        "acceptance_percent": 77.08333333333334
+      },
+      {
+        "directions": 3,
+        "state_dependent": false,
+        "cases": 384,
+        "accepted": 292,
+        "acceptance_percent": 76.04166666666666
+      },
+      {
+        "directions": 3,
+        "state_dependent": true,
+        "cases": 384,
+        "accepted": 291,
+        "acceptance_percent": 75.78125
+      },
+      {
+        "directions": 6,
+        "state_dependent": false,
+        "cases": 384,
+        "accepted": 276,
+        "acceptance_percent": 71.875
+      },
+      {
+        "directions": 6,
+        "state_dependent": true,
+        "cases": 384,
+        "accepted": 292,
+        "acceptance_percent": 76.04166666666666
+      },
+      {
+        "directions": 9,
+        "state_dependent": true,
+        "cases": 384,
+        "accepted": 384,
+        "acceptance_percent": 100.0
+      }
+    ],
+    "panel_d": [
+      {
+        "policy": "inverse_lead",
+        "initial_soc_mwh": 0.2,
+        "origins": 1488,
+        "wall_seconds": 4.744727999990573,
+        "wall_ms_per_origin": 3.1886612903162455,
+        "summed_origin_seconds": 4.612291600060416,
+        "marked_value_aud": 12341.86212537962,
+        "regret_vs_il_aud": 0.0,
+        "fallback_share": null
+      },
+      {
+        "policy": "inverse_lead",
+        "initial_soc_mwh": 1.8,
+        "origins": 1488,
+        "wall_seconds": 4.6738425999938045,
+        "wall_ms_per_origin": 3.1410232526840085,
+        "summed_origin_seconds": 4.544928100018296,
+        "marked_value_aud": 12320.054048024347,
+        "regret_vs_il_aud": 0.0,
+        "fallback_share": null
+      },
+      {
+        "policy": "state3_gate",
+        "initial_soc_mwh": 0.2,
+        "origins": 1488,
+        "wall_seconds": 5.9005143999820575,
+        "wall_ms_per_origin": 3.9653994623535334,
+        "summed_origin_seconds": 5.747137699654559,
+        "marked_value_aud": 12356.169066291295,
+        "regret_vs_il_aud": -14.306940911676064,
+        "fallback_share": 0.1700268817204301
+      },
+      {
+        "policy": "state3_gate",
+        "initial_soc_mwh": 1.8,
+        "origins": 1488,
+        "wall_seconds": 5.858963499980746,
+        "wall_ms_per_origin": 3.937475470417168,
+        "summed_origin_seconds": 5.707348899304634,
+        "marked_value_aud": 12334.36094365334,
+        "regret_vs_il_aud": -14.306895628989878,
+        "fallback_share": 0.1713709677419354
+      },
+      {
+        "policy": "global3_gate",
+        "initial_soc_mwh": 0.2,
+        "origins": 1488,
+        "wall_seconds": 7.907654699985869,
+        "wall_ms_per_origin": 5.314284072571149,
+        "summed_origin_seconds": 7.719830500107491,
+        "marked_value_aud": 12357.602405623818,
+        "regret_vs_il_aud": -15.740280244197493,
+        "fallback_share": 0.1653225806451612
+      },
+      {
+        "policy": "global3_gate",
+        "initial_soc_mwh": 1.8,
+        "origins": 1488,
+        "wall_seconds": 7.899607300001662,
+        "wall_ms_per_origin": 5.308875873657031,
+        "summed_origin_seconds": 7.710895100521157,
+        "marked_value_aud": 12335.79428180206,
+        "regret_vs_il_aud": -15.740233777711182,
+        "fallback_share": 0.1666666666666666
+      },
+      {
+        "policy": "state3_no_gate",
+        "initial_soc_mwh": 0.2,
+        "origins": 1488,
+        "wall_seconds": 5.532647800020641,
+        "wall_ms_per_origin": 3.718177284960108,
+        "summed_origin_seconds": 5.357771800307091,
+        "marked_value_aud": 8023.630782474553,
+        "regret_vs_il_aud": 4318.231342905068,
+        "fallback_share": null
+      },
+      {
+        "policy": "state3_no_gate",
+        "initial_soc_mwh": 1.8,
+        "origins": 1488,
+        "wall_seconds": 5.466089800000191,
+        "wall_ms_per_origin": 3.6734474462366875,
+        "summed_origin_seconds": 5.294190800370416,
+        "marked_value_aud": 8006.877695134204,
+        "regret_vs_il_aud": 4313.176352890145,
+        "fallback_share": null
+      }
+    ],
+    "resource": {
+      "counting_unit": "one origin with12 live delivery targets; excludes common keys/allocator overhead symmetrically",
+      "IL_moments_bytes": 192,
+      "state_gate_moments_bytes": 192,
+      "state_gate_masks_minimum_bytes": 9,
+      "global_gate_masks_minimum_bytes": 3,
+      "static_objective_output_bytes": 72,
+      "full_curve_output_bytes": 96,
+      "conclusion": "retention gate cannot reduce reference IL moment storage; additional gate solves measured above",
+      "unmeasured": "transport/production systems and cold archive storage; no maintenance price claimed"
+    },
+    "layout": {
+      "status": "PASS",
+      "checked_text_artists": 52,
+      "minimum_native_text_font_pt": 9.0,
+      "text_text_intersections": [],
+      "text_data_intersections": [],
+      "title_locations": [
+        {
+          "left": "",
+          "center": "",
+          "right": ""
+        },
+        {
+          "left": "",
+          "center": "",
+          "right": ""
+        },
+        {
+          "left": "",
+          "center": "",
+          "right": ""
+        },
+        {
+          "left": "",
+          "center": "",
+          "right": ""
+        }
+      ],
+      "scope": "Visible Text artists versus data Line2D paths and expanded markers; no opaque masks."
+    },
+    "scope": {
+      "panel_ab": "Synthetic exact-primary control; default-controller tolerance separately recorded",
+      "panel_c": "384 common-state cases per evaluated mask group; no iid inference",
+      "panel_d": "Exploratory NSW January 2024; loop timing with precomputed curves, excluding input loading, initialization, and raw-version ingestion/queues",
+      "memory_count": "192 bytes counts numeric moments for a twelve-target unit, not peak RAM or a full-stream bound",
+      "method_decision": "STOP_NEW_COMPRESSION_ALGORITHM"
+    }
+  },
+  "width_mm": 174.0,
+  "height_mm": 151.0,
+  "original_plot_script": "revision_v16_figures_456.py"
+}

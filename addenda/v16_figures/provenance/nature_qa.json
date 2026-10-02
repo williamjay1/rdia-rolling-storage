@@ -1,0 +1,20 @@
+{
+  "repository": "Yuan1z0825/nature-skills",
+  "commit": "84880815fb37317b3766bff2c2abba395b8993c3",
+  "affiliation": "Independent third-party GitHub project; not an official Nature product.",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "scripts/nature_qa_v11/audit_panel_alignment.py",
+      "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76"
+    },
+    {
+      "path": "scripts/nature_qa_v11/audit_figure_collisions.py",
+      "sha256": "841ede7dcaefa3ab11576b5ba52375d1678a71f77d39f553d5464e81b0699283"
+    },
+    {
+      "path": "scripts/nature_qa_v11/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}

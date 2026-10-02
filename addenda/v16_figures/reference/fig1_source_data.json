@@ -1,0 +1,33 @@
+{
+  "source_data": {
+    "clock": {
+      "archive_cutoff_min": -60,
+      "freshness_cutoff_min": -30,
+      "execution_interval_min": [
+        -30,
+        0
+      ],
+      "T": "half-hour delivery end",
+      "trading_periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "continuation_periods": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "receipt_observed": false
+    }
+  },
+  "width_mm": 174.0,
+  "height_mm": 82.0,
+  "original_plot_script": "revision_v16_figures_123.py"
+}

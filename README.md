@@ -41,6 +41,12 @@ The root v1.0 citation/Zenodo metadata, scientific inputs, and manifests are ret
 
 The compact package was freshly extracted and executed before publication: both block lengths used 10,000 statistical draws, six reconstructed CSVs and formal JSON matched exactly, eleven synthetic groups passed, and one full 1,488-action hourly-update IL replay matched cash, inventory and clocks exactly. The wrapper does not reconstruct raw MMS archives, refit forecasting models, rerun the full five-region study or provide independent confirmation. Twenty-four earlier diagnostic CSVs are retained byte for byte with provenance. The original v1.0 release and the v14 addendum remain unchanged; v15 has its own manifest. Unsubmitted manuscript and review files and IESO source prices are excluded.
 
+## v16 figure redrawing addendum
+
+[addenda/v16_figures](addenda/v16_figures/) provides a separately manifested, approximately 235 KiB plotting package for all six current figures. It contains the actual drawing code, minimal frozen processed inputs, source arrays, mixed-data terms and pinned third-party `nature-skills` QA utilities. Native PDF/SVG exports use 174 mm canvases; PNG/TIFF exports are drawn at 1200 dpi. It contains no manuscript, raw provider archive or Ontario/IESO input. Original aggregate results, synthetic controls and AEMO-derived processed values retain their distinct material-class permissions.
+
+The package was actually copied to a fresh Windows research directory and executed locally: all six scientific source arrays matched, and the rebuilt PDFs matched the original text geometry and vector paths exactly. These were frozen-data redraws, not new model, statistical or market experiments; recorded replay timings remain stored observations. Follow the addendum README to install its plotting dependencies and run `python scripts/reproduce_v16_figures.py` from a fresh writable copy with a licensed Arial font installed. Continuous integration verifies every supplied file's manifest hash and file set; it does not redraw figures on an environment without Arial. The root scientific files, citation/DOI metadata and frozen release remain unchanged.
+
 ## Start here
 
 Use Python 3.12 in a virtual environment. The numerical dependency versions in `requirements.txt` were used in the original numerical work. Figure and metadata tools have separate optional dependencies. All new output must go to a fresh directory outside the supplied read-only inputs.

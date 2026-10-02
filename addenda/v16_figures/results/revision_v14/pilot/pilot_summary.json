@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "resource": {
+    "counting_unit": "one origin with12 live delivery targets; excludes common keys/allocator overhead symmetrically",
+    "IL_moments_bytes": 192,
+    "state_gate_moments_bytes": 192,
+    "state_gate_masks_minimum_bytes": 9,
+    "global_gate_masks_minimum_bytes": 3,
+    "static_objective_output_bytes": 72,
+    "full_curve_output_bytes": 96,
+    "conclusion": "retention gate cannot reduce reference IL moment storage; additional gate solves measured above",
+    "unmeasured": "transport/production systems and cold archive storage; no maintenance price claimed"
+  },
+  "stage_decision": "STOP_NEW_COMPRESSION_ALGORITHM"
+}

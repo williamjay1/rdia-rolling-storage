@@ -1,0 +1,150 @@
+{
+  "datasets": [
+    {
+      "path": "results/revision_v5/control/paired_economic_comparisons.csv",
+      "kind": "processed CSV subset",
+      "rows": 15,
+      "columns": [
+        "region",
+        "contrast",
+        "asset_count",
+        "mechanical_aud_per_mw_year",
+        "mechanical_ci_low_aud_per_mw_year",
+        "mechanical_ci_high_aud_per_mw_year",
+        "conditional_daily_ci",
+        "annualization_scope"
+      ],
+      "original_file_sha256": "a0627208c5489bba9f9bfc24ddd0909f3ee2c75335b51464db1bd8ffd22267c7",
+      "subset_sha256": "1d10f594cc1fa2d6ad3d2c1a2c6ad69ff721f540c4acdc71acf8226b25bc7dc4",
+      "numeric_preservation": "Original CSV numeric strings retained, not reformatted or rounded."
+    },
+    {
+      "path": "results/revision_v6/integrated/v6_decomposition_sparse_equal.csv",
+      "kind": "processed CSV subset",
+      "rows": 18,
+      "columns": [
+        "region",
+        "component",
+        "aud_per_nominal_day"
+      ],
+      "original_file_sha256": "6354dbd954a31b956aa72766e00668654a1b6eae3726b55857ca220f4276fc91",
+      "subset_sha256": "67e1f704b66b9422c7fd4aa925b768da099fb7fe29b36fd0ac4e697b5a761ba2",
+      "numeric_preservation": "Original CSV numeric strings retained, not reformatted or rounded."
+    },
+    {
+      "path": "results/revision_v6/integrated/v6_decomposition_inverse_lead.csv",
+      "kind": "processed CSV subset",
+      "rows": 18,
+      "columns": [
+        "region",
+        "component",
+        "aud_per_nominal_day"
+      ],
+      "original_file_sha256": "73da2dd6c9101d5705d32ca994850f80dbca6d37f2065a8596cadef52b030447",
+      "subset_sha256": "c8bf6de01ab325a317b471f5199ba09a16e0cf4b928c24ef69cfa7e125372e86",
+      "numeric_preservation": "Original CSV numeric strings retained, not reformatted or rounded."
+    },
+    {
+      "path": "results/revision_v5/integrated/all_completed_rolling_probes.csv",
+      "kind": "processed CSV subset",
+      "rows": 200,
+      "columns": [
+        "branch",
+        "region",
+        "event_id",
+        "marked_delta_aud"
+      ],
+      "original_file_sha256": "7b26d0444d0c8a13a364eb4eccfaa3b9cbc51234a4362583aa949d7be2633893",
+      "subset_sha256": "6cfb64c835bcd67f4b68553fe099157646e10acd943a76e0ebd08a54d522c125",
+      "numeric_preservation": "Original CSV numeric strings retained, not reformatted or rounded."
+    },
+    {
+      "path": "results/revision_v5/history/SA1_baseline_inputs.parquet",
+      "kind": "processed Parquet subset",
+      "rows": 2,
+      "columns": [
+        "phase",
+        "cutoff_minutes",
+        "target",
+        "policy",
+        "actual_00",
+        "p_01",
+        "p_02",
+        "p_03",
+        "p_04",
+        "p_05",
+        "p_06",
+        "p_07",
+        "p_08",
+        "p_09",
+        "p_10",
+        "p_11",
+        "p_12"
+      ],
+      "original_file_sha256": "b13500af6520aa0414a26d112d4a779caefcf49dd700270e40fc3a5f4c8564c4",
+      "subset_sha256": "c2a9559e8c7e68fe6ddebb6e269b0eadce434603080d13c1f21d5e74eda30277",
+      "numeric_preservation": "Exact typed-column Parquet roundtrip verified."
+    },
+    {
+      "path": "results/revision_v5/events/SA1_sparse_equal_rolling_probe_paths.parquet",
+      "kind": "processed Parquet subset",
+      "rows": 96,
+      "columns": [
+        "event_id",
+        "branch",
+        "step",
+        "actual_price",
+        "net_cash_aud"
+      ],
+      "original_file_sha256": "1ecaf35898ca9bb0bba97bde05df2845b5443a1d3324fd18eab13cda00377d63",
+      "subset_sha256": "d07737963abb219f93a0c652e9bdde589c06ae4ea8a0abe3821ad33690e52b65",
+      "numeric_preservation": "Exact typed-column Parquet roundtrip verified."
+    },
+    {
+      "path": "results/revision_v14/pilot/shared_state_resource_curve.parquet",
+      "kind": "processed Parquet subset",
+      "rows": 2304,
+      "columns": [
+        "budget",
+        "state_dependent",
+        "regret_upper_aud"
+      ],
+      "original_file_sha256": "2f5a2aef04bb11665142f3dc633bfef0d6682d0b1ea4842cecdeda17932acde3",
+      "subset_sha256": "4d038e3d880517a61ab392ecf53a3d254e457ec194573f3ec0e6d6ca56783efc",
+      "numeric_preservation": "Exact typed-column Parquet roundtrip verified."
+    },
+    {
+      "path": "results/revision_v14/pilot/closed_loop_summary.csv",
+      "kind": "processed CSV subset",
+      "rows": 8,
+      "columns": [
+        "policy",
+        "initial_soc_mwh",
+        "origins",
+        "seconds",
+        "summed_origin_seconds",
+        "marked_value_aud",
+        "regret_vs_il_aud",
+        "fallback_share"
+      ],
+      "original_file_sha256": "5d0ae4cb73b4f80c0db203722fc45ff4b26662d6169d19aa2ccbd9bdd39b5106",
+      "subset_sha256": "40bfe63f7f72f59c0d06542f2359e31634d6880f74723414600ae9f292c95f04",
+      "numeric_preservation": "Original CSV numeric strings retained, not reformatted or rounded."
+    },
+    {
+      "path": "results/revision_v14/theory/executed_toy_controls.json",
+      "kind": "synthetic-control JSON subset",
+      "original_file_sha256": "99b339f05ba28e83414e7aa349221911e2d7cffafe511885c1ab598f5f3385ca",
+      "subset_sha256": "ccabc8f402c425a1144d205b25ebe3e8f394132b3953589cefa4dc9cd93d6f81",
+      "scope": "Synthetic mathematical control; not observed market evidence."
+    },
+    {
+      "path": "results/revision_v14/pilot/pilot_summary.json",
+      "kind": "frozen exploratory pilot resource JSON subset",
+      "original_file_sha256": "3f39d528003c031a27c2dcd1d98a86d14c23e5b6593ee3651bec0baedcccd9f8",
+      "subset_sha256": "db31b439feb4fc5af4f7f7a8a70780644f4ab9200a6a44cad4e65d1fc3dd06c2"
+    }
+  ],
+  "scope": "Minimal processed plotting inputs. No raw provider archives or IESO input rows.",
+  "selection": "Subsets are fixed by the already frozen six figures, not selected to improve results."
+}
