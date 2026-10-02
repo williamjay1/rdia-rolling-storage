@@ -1,0 +1,4 @@
+# Optional source/clock/schema probe only; not required for numerical replays.
+requests==2.34.2
+PyMuPDF==1.28.2
+lxml==6.1.1

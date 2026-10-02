@@ -1,3 +1,16 @@
+# Changelog
+
+## 1.1.0 — 2026-10-03
+
+- Consolidates the unchanged core derived data and separately manifested v14,
+  v15 and v16 addenda into one complete code-plus-data attachment.
+- Adds strict full-inventory/fresh-scope verification and a version-aware
+  downloader; updates citation, mixed-source permissions and manual Zenodo guide.
+- Supplies current six vector figures and an optional notice-preserving native
+  Ontario source probe. No new scientific result, full raw-grid rerun or DOI.
+- Preserves v1.0.0 and v1.0.1. The manuscript declaration update only points to
+  the current complete package; methods, figures, tables and numbers are unchanged.
+
 # Release history
 
 ## Unreleased: v15 computational addendum

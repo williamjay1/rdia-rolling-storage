@@ -1,446 +1,9 @@
 {
-  "schema_version": 2,
-  "version": "1.1.0",
-  "created_utc": "2026-10-02T17:24:21.217813+00:00",
-  "scope": "Complete current software/derived-data support: unchanged frozen core and separately manifested v14/v15/v16 addenda; no manuscript, raw archives, IESO source prices or proprietary fonts",
+  "version": "1.0.0",
+  "created_utc": "2026-10-01T18:42:47.720156+00:00",
+  "scope": "Curated research code and selected Australian derived inputs/reference outputs and appended v13 diagnostics; Ontario source-level data excluded",
   "raw_source_archives_included": false,
   "zenodo_doi": null,
-  "core_scientific_manifest_sha256": "e823b3ce48d50589cc80eaab6696a1de10837e00e50d962e226c07184fc0309d",
-  "checkout_omitted_paths": [
-    "results/revision_v13/action/SA1_event178_oscillation_certificate.json",
-    "results/revision_v13/action/delay30/NSW1_delayed_inputs.parquet",
-    "results/revision_v13/action/delay30/QLD1_delayed_inputs.parquet",
-    "results/revision_v13/action/delay30/SA1_delayed_inputs.parquet",
-    "results/revision_v13/action/delay30/TAS1_delayed_inputs.parquet",
-    "results/revision_v13/action/delay30/VIC1_delayed_inputs.parquet",
-    "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/delay30/QLD1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/delay30/SA1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/delay30/TAS1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/delay30/VIC1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/NSW1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/QLD1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/SA1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/TAS1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_cstar_fixed.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_cstar_fixed.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_inverse_lead.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_raw.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_raw.parquet",
-    "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_sparse_equal.json",
-    "results/revision_v13/action/delay30/control/progress/delay30/VIC1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v13/action/delay30/design.json",
-    "results/revision_v13/action/delay30/full_replay_complete.json",
-    "results/revision_v13/action/delay30/independent_raw_value_checks.json",
-    "results/revision_v13/action/delay30/input_reconstruction_complete.json",
-    "results/revision_v13/action/delay30/marked_value_contrasts.csv",
-    "results/revision_v13/action/delay30_information_cutoff_feasibility.csv",
-    "results/revision_v13/action/design.json",
-    "results/revision_v13/action/epsilon_material_subsample_counts.csv",
-    "results/revision_v13/action/epsilon_sensitivity_validation.json",
-    "results/revision_v13/action/epsilon_subsample_ranges.parquet",
-    "results/revision_v13/action/final_execution_audit.json",
-    "results/revision_v13/action/fixed_subsample_plan.csv",
-    "results/revision_v13/action/input_manifest.json",
-    "results/revision_v13/action/layerC_100_start_features.csv",
-    "results/revision_v13/action/layerC_selection_rule.json",
-    "results/revision_v13/action/material_threshold_full_sample.csv",
-    "results/revision_v13/economic/SA_case_source_row_verification.json",
-    "results/revision_v13/economic/annual_exploratory_multiplicity.csv",
-    "results/revision_v13/economic/block_length_inference.csv",
-    "results/revision_v13/economic/branch_start_features_100.csv",
-    "results/revision_v13/economic/break_even_costs.csv",
-    "results/revision_v13/economic/conditional_precision_and_mde.csv",
-    "results/revision_v13/economic/cost_sensitivity.csv",
-    "results/revision_v13/economic/delayed_sale_frequency_by_region.csv",
-    "results/revision_v13/economic/delayed_sale_operational_definition.json",
-    "results/revision_v13/economic/delayed_sale_opportunities_all.csv",
-    "results/revision_v13/economic/execution_receipt.json",
-    "results/revision_v13/economic/illustrative_cost_width_equivalence.csv",
-    "results/revision_v13/economic/methods_and_scope.json",
-    "results/revision_v13/economic/regional_branch_start_ranges.csv",
-    "results/revision_v13/economic/regional_daily_IL_minus_Cstar_pearson.csv",
-    "results/revision_v13/economic/regional_daily_S_minus_Cstar_pearson.csv",
-    "results/revision_v13/economic/regional_daily_cash_descriptives.csv",
-    "results/revision_v13/economic/regional_exploratory_multiplicity.csv",
-    "results/revision_v13/economic/regional_market_and_forecast_descriptives.csv",
-    "results/revision_v13/economic/regional_price_pearson.csv",
-    "results/revision_v13/economic/regional_price_spearman.csv",
-    "results/revision_v13/economic/spo_forecast_error_by_realized_price_band.csv",
-    "results/revision_v13/economic/spo_local_regret_and_cash_by_current_price_band.csv",
-    "results/revision_v13/economic/spo_price_band_definition.json",
-    "results/revision_v5/control/diagnostics/NSW1_raw_inverse_lead_common_state.json",
-    "results/revision_v5/control/diagnostics/NSW1_raw_inverse_lead_common_state.parquet",
-    "results/revision_v5/control/diagnostics/NSW1_raw_sparse_equal_common_state.json",
-    "results/revision_v5/control/diagnostics/NSW1_raw_sparse_equal_common_state.parquet",
-    "results/revision_v5/control/diagnostics/QLD1_raw_inverse_lead_common_state.json",
-    "results/revision_v5/control/diagnostics/QLD1_raw_inverse_lead_common_state.parquet",
-    "results/revision_v5/control/diagnostics/QLD1_raw_sparse_equal_common_state.json",
-    "results/revision_v5/control/diagnostics/QLD1_raw_sparse_equal_common_state.parquet",
-    "results/revision_v5/control/diagnostics/SA1_posthoc_20240923_1900_common_soc.json",
-    "results/revision_v5/control/diagnostics/SA1_raw_inverse_lead_common_state.json",
-    "results/revision_v5/control/diagnostics/SA1_raw_inverse_lead_common_state.parquet",
-    "results/revision_v5/control/diagnostics/SA1_raw_sparse_equal_common_state.json",
-    "results/revision_v5/control/diagnostics/SA1_raw_sparse_equal_common_state.parquet",
-    "results/revision_v5/control/diagnostics/TAS1_raw_inverse_lead_common_state.json",
-    "results/revision_v5/control/diagnostics/TAS1_raw_inverse_lead_common_state.parquet",
-    "results/revision_v5/control/diagnostics/TAS1_raw_sparse_equal_common_state.json",
-    "results/revision_v5/control/diagnostics/TAS1_raw_sparse_equal_common_state.parquet",
-    "results/revision_v5/control/diagnostics/VIC1_raw_inverse_lead_common_state.json",
-    "results/revision_v5/control/diagnostics/VIC1_raw_inverse_lead_common_state.parquet",
-    "results/revision_v5/control/diagnostics/VIC1_raw_sparse_equal_common_state.json",
-    "results/revision_v5/control/diagnostics/VIC1_raw_sparse_equal_common_state.parquet",
-    "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_inverse_lead__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
-    "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_raw__terminal_inverse_lead.parquet",
-    "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
-    "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_raw__terminal_sparse_equal.parquet",
-    "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/NSW1_evaluation_c60_trade_sparse_equal__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_inverse_lead__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
-    "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_raw__terminal_inverse_lead.parquet",
-    "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
-    "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_raw__terminal_sparse_equal.parquet",
-    "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/QLD1_evaluation_c60_trade_sparse_equal__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_inverse_lead__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
-    "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_raw__terminal_inverse_lead.parquet",
-    "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
-    "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_raw__terminal_sparse_equal.parquet",
-    "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/SA1_evaluation_c60_trade_sparse_equal__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_inverse_lead__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
-    "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_raw__terminal_inverse_lead.parquet",
-    "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
-    "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_raw__terminal_sparse_equal.parquet",
-    "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/TAS1_evaluation_c60_trade_sparse_equal__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_inverse_lead__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_inverse_lead__terminal_raw.parquet",
-    "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_raw__terminal_inverse_lead.json",
-    "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_raw__terminal_inverse_lead.parquet",
-    "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_raw__terminal_sparse_equal.json",
-    "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_raw__terminal_sparse_equal.parquet",
-    "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_sparse_equal__terminal_raw.json",
-    "results/revision_v5/control/input_2x2/VIC1_evaluation_c60_trade_sparse_equal__terminal_raw.parquet",
-    "results/revision_v5/control/main/NSW1_current_only_selection.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_walkforward_complete.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_current_walkforward_complete.parquet",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_inverse_lead.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_raw.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_raw.parquet",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_sparse_equal.json",
-    "results/revision_v5/control/main/NSW1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/NSW1_validation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/NSW1_validation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/NSW1_validation_c60_raw.json",
-    "results/revision_v5/control/main/NSW1_validation_c60_raw.parquet",
-    "results/revision_v5/control/main/QLD1_current_only_selection.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_walkforward_complete.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_current_walkforward_complete.parquet",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_inverse_lead.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_raw.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_raw.parquet",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_sparse_equal.json",
-    "results/revision_v5/control/main/QLD1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/QLD1_validation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/QLD1_validation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/QLD1_validation_c60_raw.json",
-    "results/revision_v5/control/main/QLD1_validation_c60_raw.parquet",
-    "results/revision_v5/control/main/SA1_current_only_selection.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_walkforward_complete.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_current_walkforward_complete.parquet",
-    "results/revision_v5/control/main/SA1_evaluation_c60_inverse_lead.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v5/control/main/SA1_evaluation_c60_raw.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_raw.parquet",
-    "results/revision_v5/control/main/SA1_evaluation_c60_sparse_equal.json",
-    "results/revision_v5/control/main/SA1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/SA1_validation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/SA1_validation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/SA1_validation_c60_raw.json",
-    "results/revision_v5/control/main/SA1_validation_c60_raw.parquet",
-    "results/revision_v5/control/main/TAS1_current_only_selection.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_walkforward_complete.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_current_walkforward_complete.parquet",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_inverse_lead.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_raw.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_raw.parquet",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_sparse_equal.json",
-    "results/revision_v5/control/main/TAS1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/TAS1_validation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/TAS1_validation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/TAS1_validation_c60_raw.json",
-    "results/revision_v5/control/main/TAS1_validation_c60_raw.parquet",
-    "results/revision_v5/control/main/VIC1_current_only_selection.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_walkforward_complete.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_current_walkforward_complete.parquet",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_inverse_lead.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_inverse_lead.parquet",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_raw.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_raw.parquet",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_sparse_equal.json",
-    "results/revision_v5/control/main/VIC1_evaluation_c60_sparse_equal.parquet",
-    "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a025.json",
-    "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a025.parquet",
-    "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a050.json",
-    "results/revision_v5/control/main/VIC1_validation_c60_current_shrink_a050.parquet",
-    "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a025.json",
-    "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a025.parquet",
-    "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a050.json",
-    "results/revision_v5/control/main/VIC1_validation_c60_current_smooth_a050.parquet",
-    "results/revision_v5/control/main/VIC1_validation_c60_raw.json",
-    "results/revision_v5/control/main/VIC1_validation_c60_raw.parquet",
-    "results/revision_v5/control/paired_economic_comparisons.csv",
-    "results/revision_v5/events/NSW1_event_definition.json",
-    "results/revision_v5/events/NSW1_event_panel.parquet",
-    "results/revision_v5/events/NSW1_events.csv",
-    "results/revision_v5/events/NSW1_inverse_lead_rolling_probe_complete.json",
-    "results/revision_v5/events/NSW1_inverse_lead_rolling_probe_paths.parquet",
-    "results/revision_v5/events/NSW1_inverse_lead_rolling_probes.csv",
-    "results/revision_v5/events/NSW1_sparse_equal_rolling_probe_complete.json",
-    "results/revision_v5/events/NSW1_sparse_equal_rolling_probe_paths.parquet",
-    "results/revision_v5/events/NSW1_sparse_equal_rolling_probes.csv",
-    "results/revision_v5/events/QLD1_event_definition.json",
-    "results/revision_v5/events/QLD1_event_panel.parquet",
-    "results/revision_v5/events/QLD1_events.csv",
-    "results/revision_v5/events/QLD1_inverse_lead_rolling_probe_complete.json",
-    "results/revision_v5/events/QLD1_inverse_lead_rolling_probe_paths.parquet",
-    "results/revision_v5/events/QLD1_inverse_lead_rolling_probes.csv",
-    "results/revision_v5/events/QLD1_sparse_equal_rolling_probe_complete.json",
-    "results/revision_v5/events/QLD1_sparse_equal_rolling_probe_paths.parquet",
-    "results/revision_v5/events/QLD1_sparse_equal_rolling_probes.csv",
-    "results/revision_v5/events/SA1_event_definition.json",
-    "results/revision_v5/events/SA1_event_panel.parquet",
-    "results/revision_v5/events/SA1_events.csv",
-    "results/revision_v5/events/SA1_inverse_lead_rolling_probe_complete.json",
-    "results/revision_v5/events/SA1_inverse_lead_rolling_probe_paths.parquet",
-    "results/revision_v5/events/SA1_inverse_lead_rolling_probes.csv",
-    "results/revision_v5/events/SA1_sparse_equal_rolling_probe_complete.json",
-    "results/revision_v5/events/SA1_sparse_equal_rolling_probe_paths.parquet",
-    "results/revision_v5/events/SA1_sparse_equal_rolling_probes.csv",
-    "results/revision_v5/events/TAS1_event_definition.json",
-    "results/revision_v5/events/TAS1_event_panel.parquet",
-    "results/revision_v5/events/TAS1_events.csv",
-    "results/revision_v5/events/TAS1_inverse_lead_rolling_probe_complete.json",
-    "results/revision_v5/events/TAS1_inverse_lead_rolling_probe_paths.parquet",
-    "results/revision_v5/events/TAS1_inverse_lead_rolling_probes.csv",
-    "results/revision_v5/events/TAS1_sparse_equal_rolling_probe_complete.json",
-    "results/revision_v5/events/TAS1_sparse_equal_rolling_probe_paths.parquet",
-    "results/revision_v5/events/TAS1_sparse_equal_rolling_probes.csv",
-    "results/revision_v5/events/VIC1_event_definition.json",
-    "results/revision_v5/events/VIC1_event_panel.parquet",
-    "results/revision_v5/events/VIC1_events.csv",
-    "results/revision_v5/events/VIC1_inverse_lead_rolling_probe_complete.json",
-    "results/revision_v5/events/VIC1_inverse_lead_rolling_probe_paths.parquet",
-    "results/revision_v5/events/VIC1_inverse_lead_rolling_probes.csv",
-    "results/revision_v5/events/VIC1_sparse_equal_rolling_probe_complete.json",
-    "results/revision_v5/events/VIC1_sparse_equal_rolling_probe_paths.parquet",
-    "results/revision_v5/events/VIC1_sparse_equal_rolling_probes.csv",
-    "results/revision_v5/history/NSW1_baseline_inputs.parquet",
-    "results/revision_v5/history/NSW1_history_features_aligned.parquet",
-    "results/revision_v5/history/NSW1_inputs_aligned.parquet",
-    "results/revision_v5/history/QLD1_baseline_inputs.parquet",
-    "results/revision_v5/history/QLD1_inputs_aligned.parquet",
-    "results/revision_v5/history/SA1_baseline_inputs.parquet",
-    "results/revision_v5/history/SA1_inputs_aligned.parquet",
-    "results/revision_v5/history/TAS1_baseline_inputs.parquet",
-    "results/revision_v5/history/TAS1_inputs_aligned.parquet",
-    "results/revision_v5/history/VIC1_baseline_inputs.parquet",
-    "results/revision_v5/history/VIC1_inputs_aligned.parquet",
-    "results/revision_v5/history/verified_history_age_counts.csv",
-    "results/revision_v5/history/verified_input_freshness.csv",
-    "results/revision_v5/integrated/aligned_point_forecast_metrics.csv",
-    "results/revision_v5/integrated/all_completed_rolling_probes.csv",
-    "results/revision_v6/integrated/v6_decomposition_inverse_lead.csv",
-    "results/revision_v6/integrated/v6_decomposition_sparse_equal.csv",
-    "results/revision_v7/statistics/arithmetic_validation.json",
-    "results/revision_v7/statistics/daily_contrast_panel.parquet",
-    "results/revision_v7/statistics/daily_operating_cash_panel.parquet",
-    "results/revision_v7/statistics/handoff_manifest.json",
-    "results/revision_v7/statistics/heterogeneity.csv",
-    "results/revision_v7/statistics/independent_crosscheck.json",
-    "results/revision_v7/statistics/independent_crosscheck.py",
-    "results/revision_v7/statistics/market_context.csv",
-    "results/revision_v7/statistics/portfolio_covariance_decomposition.csv",
-    "results/revision_v7/statistics/reality_check.csv",
-    "results/revision_v7/statistics/regime_daily_means.csv",
-    "results/revision_v7/statistics/region_effects.csv",
-    "results/revision_v7/statistics/selection_length_sensitivity.csv",
-    "results/revision_v7/statistics/selection_period_candidates.csv",
-    "results/revision_v7/statistics/selection_period_choices.json",
-    "results/revision_v7/statistics/source_manifest.json",
-    "results/revision_v7/statistics/summary.json",
-    "results/revision_v7/statistics/synchronised_mean_covariance.csv",
-    "results/revision_v7/statistics/table_heterogeneity_compact.csv",
-    "results/revision_v7/statistics/table_reality_check_compact.csv",
-    "results/revision_v7/statistics/table_reality_check_evaluation.csv",
-    "results/revision_v7/statistics/table_selection_length_compact.csv",
-    "results/revision_v8/direct_tests/direct_mean_tests.csv",
-    "results/revision_v8/spo/design_freeze.json",
-    "results/revision_v8/spo/evaluation_analysis_plan.json",
-    "results/revision_v8/spo/evaluation_annual_cash.csv",
-    "results/revision_v8/spo/evaluation_complete.json",
-    "results/revision_v8/spo/evaluation_daily_net_cash.csv",
-    "results/revision_v8/spo/evaluation_local_regret_by_origin.csv",
-    "results/revision_v8/spo/evaluation_policy_summary.csv",
-    "results/revision_v8/spo/handoff_manifest.json",
-    "results/revision_v8/spo/models.npz",
-    "results/revision_v8/spo/oracle_validation.json",
-    "results/revision_v8/spo/paired_daily_bootstrap.csv",
-    "results/revision_v8/spo/ridge_evaluation_forecasts.parquet",
-    "results/revision_v8/spo/ridge_evaluation_report.json",
-    "results/revision_v8/spo/ridge_evaluation_trajectory.parquet",
-    "results/revision_v8/spo/selection_candidates.csv",
-    "results/revision_v8/spo/selection_complete.json",
-    "results/revision_v8/spo/selection_origins.csv",
-    "results/revision_v8/spo/spo_evaluation_forecasts.parquet",
-    "results/revision_v8/spo/spo_evaluation_report.json",
-    "results/revision_v8/spo/spo_evaluation_trajectory.parquet",
-    "results/revision_v8/spo/training_curve.csv",
-    "results/revision_v8/spo/training_objective_diagnostics.json",
-    "results/revision_v8/spo/training_origins.csv",
-    "results/revision_v8/spo/training_script_frozen.py"
-  ],
-  "scientific_results_changed": false,
   "files": [
     {
       "path": ".gitattributes",
@@ -449,8 +12,8 @@
     },
     {
       "path": ".github/workflows/reproducibility.yml",
-      "bytes": 2991,
-      "sha256": "c759583daa5d5b321c4392aaaca744250b52148583882b28adb6c6bd2ed98505"
+      "bytes": 1065,
+      "sha256": "b8d09f7c0174ef10003495c801c6386eff9ca6ed767e161f00eb958389591371"
     },
     {
       "path": ".gitignore",
@@ -459,1123 +22,18 @@
     },
     {
       "path": ".zenodo.json",
-      "bytes": 3302,
-      "sha256": "1aa0f37028582de2a1d2042a29a1198addfb33078a265ca424deee8a4dc41274"
+      "bytes": 3430,
+      "sha256": "df7f838fa23950faaf95ccfec1b0cda9719eb4ec811551e0d72bc451c824cb7d"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4523,
-      "sha256": "56ac1ea5317d7b6dee4a8dd165f939a636c0a8858e587b6d0d3df14c333f77e0"
+      "bytes": 2071,
+      "sha256": "542dcff8c56ac47851253bb4c56ce04d8ce25f67857fcfcf01678cfd0ff03914"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1847,
-      "sha256": "82408a531748e76487fe244e0d099c2f1a4b7effc70789c01189fce913064759"
-    },
-    {
-      "path": "DATA_AVAILABILITY.md",
-      "bytes": 6150,
-      "sha256": "a0ec6267d583e73543b3f6c02c41580e38ed8c6c45f4c33ff1d2a2683f953489"
-    },
-    {
-      "path": "DATA_DICTIONARY.md",
-      "bytes": 16564,
-      "sha256": "7768bc76d7eee0cc2e51fe0ddd3136893a3c17d6fe77b31d963770f1ff82487a"
-    },
-    {
-      "path": "DATA_LICENSE.md",
-      "bytes": 5862,
-      "sha256": "93d6d65fd9b51546826dc6564e2ca1683014ae22f4c1366fd890f92b33562e7e"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1372,
-      "sha256": "f2d2f658693a2c07a65096399ae37d045fc44ae3e13d1e6ef9c9e6b8599271e6"
-    },
-    {
-      "path": "README.md",
-      "bytes": 14108,
-      "sha256": "5a7a3190fa7241badcbd8fa0cbdfb7dfee9efc09cc838ebe2278b8ee09852935"
-    },
-    {
-      "path": "REPRODUCIBILITY.md",
-      "bytes": 23492,
-      "sha256": "7930c2f2b3b67b6f9c5655086af17bd6af25f637163a05fe5eb19d9d41f9fdc0"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 7292,
-      "sha256": "a89c5a33c26369758ecac0d5e7c69908316d38f90e29d566d2db46b57fbad39b"
-    },
-    {
-      "path": "VALIDATION.md",
-      "bytes": 3078,
-      "sha256": "8e93af5346016c702a11aaafe6bf41dc30455a9598a6a402b4d6c9dd0c1f0f72"
-    },
-    {
-      "path": "ZENODO_GUIDE_zh.md",
-      "bytes": 8976,
-      "sha256": "0d857df208e3c01187ed578d0f5c356e26bdba6bba1793b1916d49dc3a595a9e"
-    },
-    {
-      "path": "addenda/v14/COMPACT_PACKAGE_FRESH_VALIDATION.json",
-      "bytes": 3948,
-      "sha256": "8ee28ac79b43bd487054dd55f5b6a88044d1b2b17c9ce5ef4eea592f755a1320"
-    },
-    {
-      "path": "addenda/v14/MANIFEST.json",
-      "bytes": 15381,
-      "sha256": "5d9a6a4e18eb000ecbef41132cdf69f6688f854e14583733cdf27cf65a35477f"
-    },
-    {
-      "path": "addenda/v14/README.md",
-      "bytes": 2027,
-      "sha256": "a7df39da98773425175d92355b49f9d74ccb721b190aeaee0dc8801559aa10b7"
-    },
-    {
-      "path": "addenda/v14/computational/.gitignore",
-      "bytes": 94,
-      "sha256": "1d462b9889de6a1c09ddb51d5ea649ca10fc3494906c8847b72ca5e4de119b4e"
-    },
-    {
-      "path": "addenda/v14/computational/DATA_TERMS.md",
-      "bytes": 893,
-      "sha256": "38af9ba29ccfe74727bf9f1a051391411f19ba6be6f264a0b1f617ef0553dbd7"
-    },
-    {
-      "path": "addenda/v14/computational/ENVIRONMENT.json",
-      "bytes": 265,
-      "sha256": "3ede9976dbefd2ba2b8c5f5a5dd86aac6356b193313fdf2cf0636cfc18d8b374"
-    },
-    {
-      "path": "addenda/v14/computational/FIGURE_CODE_ADAPTATIONS.json",
-      "bytes": 2274,
-      "sha256": "3e7d32c590da9e17cefeedb24bf4f3253d2d6a846b5fa0f2c697ecf1ff889f2c"
-    },
-    {
-      "path": "addenda/v14/computational/FIGURE_ENVIRONMENT.json",
-      "bytes": 523,
-      "sha256": "0a580a308e3e96b60b60f25fa4f155c4464de76b9b276ac6de0f61981d1aaad3"
-    },
-    {
-      "path": "addenda/v14/computational/LICENSE",
-      "bytes": 1372,
-      "sha256": "f2d2f658693a2c07a65096399ae37d045fc44ae3e13d1e6ef9c9e6b8599271e6"
-    },
-    {
-      "path": "addenda/v14/computational/MANIFEST.json",
-      "bytes": 12958,
-      "sha256": "ec3c4b6b34b825727ff79df40d61f54ac955fbc888f6a1592dc4fa0990099b6b"
-    },
-    {
-      "path": "addenda/v14/computational/ORIGINAL_SOURCE_PROVENANCE.json",
-      "bytes": 12113,
-      "sha256": "117654894bf63e01ad89fef4d2a45a79488b641257510efbd43f88e0590c2d7f"
-    },
-    {
-      "path": "addenda/v14/computational/PUBLIC_PACKAGING_NOTE.json",
-      "bytes": 992,
-      "sha256": "0d8305bceeca20813a964bd2c1d70e0def5c05d5222468bd0b979af6852f7fb7"
-    },
-    {
-      "path": "addenda/v14/computational/README.md",
-      "bytes": 5503,
-      "sha256": "1a0c090fd413128c3ef45a00437ad683309f70273eec313c88a0981f0c6f7e24"
-    },
-    {
-      "path": "addenda/v14/computational/SOURCE_TRANSFORMATIONS.json",
-      "bytes": 8207,
-      "sha256": "13820460f4a1887594a3b75c13feb7a918a3f949be298026a22ac968a6f08504"
-    },
-    {
-      "path": "addenda/v14/computational/diff/figure7_path_adaptations.patch",
-      "bytes": 1379,
-      "sha256": "5dd0b61fa735cb465fd3a7551e41a79f38820a199d6547d0ad3bfe72676cf1e3"
-    },
-    {
-      "path": "addenda/v14/computational/diff/source_path_adaptations.patch",
-      "bytes": 732,
-      "sha256": "49c56b0fd50ed60518d4eb3fd4e5ffd33cfd5193fdf444ee3101ee96f56f7f48"
-    },
-    {
-      "path": "addenda/v14/computational/requirements-figures.txt",
-      "bytes": 133,
-      "sha256": "f4adb4fb5d8e15dd57964a98a8486459db39f3eb5b4d160d922b930c50fd75bb"
-    },
-    {
-      "path": "addenda/v14/computational/requirements.txt",
-      "bytes": 61,
-      "sha256": "79c4ebf9dffb36d19989654e4909c4b430c49e2bc9dcd8f2b11a7b3d7b009069"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/benchmark.json",
-      "bytes": 13507,
-      "sha256": "bbb571a29ac00c6a0392945dad5c37551db1348bbb12d44449156ae5e611ad8f"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/closed_loop_summary.csv",
-      "bytes": 6167,
-      "sha256": "5d0ae4cb73b4f80c0db203722fc45ff4b26662d6169d19aa2ccbd9bdd39b5106"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/current_smooth_a050_soc0.2.json",
-      "bytes": 691,
-      "sha256": "45ae494069f01db4b984c1e4b3c16fcb1b3e19dff75517de9e7c42432e5a6319"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/current_smooth_a050_soc0.2.parquet",
-      "bytes": 108155,
-      "sha256": "1c2d57799793f0c8e806da29f6946eb7c7036b3445ab2e4b06357b6ef47a94b6"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/current_smooth_a050_soc1.8.json",
-      "bytes": 692,
-      "sha256": "6f1cff1812c25f91082202bcbbf8308f1f117af9c8b8e9c1d1d5506d032bec88"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/current_smooth_a050_soc1.8.parquet",
-      "bytes": 108293,
-      "sha256": "34ec9da9ed53bb94de7961bff145e9ee2cab91f7bb0ed8af1462c3716124e9ba"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/full_equal_soc0.2.json",
-      "bytes": 684,
-      "sha256": "f7bca68c5be4bd5f25ae7b48b50626373f6b94c471b704fa5f648ffbdc7f2d51"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/full_equal_soc0.2.parquet",
-      "bytes": 109027,
-      "sha256": "b3271c87ca0c2f89e5cd8d75bd523eb4336c521795c0383867a6a5cc6fd7a703"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/full_equal_soc1.8.json",
-      "bytes": 683,
-      "sha256": "18a3bff568f0efcf2ced332765ed3641bdfe3b763c8c00e5c7facde5f81a84e2"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/full_equal_soc1.8.parquet",
-      "bytes": 109027,
-      "sha256": "d1704b0e0f1761c6cc414f9a6a0fab61a649fc988da2abf5a83752311e00bf30"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/global3_gate_soc0.2.json",
-      "bytes": 704,
-      "sha256": "e97e7aafcdb4e68623cfffaecf29416d6ca1d47582c8d92947c6fbe64f85942d"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/global3_gate_soc0.2.parquet",
-      "bytes": 134094,
-      "sha256": "faadc42aa027d7ca8fe3344bf6d65e40f3ebe8eb8d67589f487d68f8d00edd79"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/global3_gate_soc1.8.json",
-      "bytes": 704,
-      "sha256": "ad31795255aef09b4aca0e56f9443dd5df75d1b96990d0052eff3f7cd2a00bed"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/global3_gate_soc1.8.parquet",
-      "bytes": 133995,
-      "sha256": "ecc22677adab4074f26faa6bef33f60fb4366fc185bc36b6311b111648e2ac9f"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/inverse_lead_soc0.2.json",
-      "bytes": 687,
-      "sha256": "86289a964eb5ab24e02d04e5795c985a8ae6a8cd6c1a696c37fe9cb8ea9471f4"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/inverse_lead_soc0.2.parquet",
-      "bytes": 109835,
-      "sha256": "5de3d0d3ee342fd5056ff55df41951f465739cd2090961fa28070eb9506b50ca"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/inverse_lead_soc1.8.json",
-      "bytes": 688,
-      "sha256": "76459c905ce338b63f951de037aa8472989f4ef8d6612072c275a42ff2f2edef"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/inverse_lead_soc1.8.parquet",
-      "bytes": 109643,
-      "sha256": "932308b1e28a12ff7857649913c75a2fed68d95e0aceb02bbb0c721ae68b39ac"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/locked_design.json",
-      "bytes": 4431,
-      "sha256": "5de38c17dec27e43c87904ac3d847b5aa9beb7efbb45dbb6d62904100c872ca3"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/pilot_summary.json",
-      "bytes": 19781,
-      "sha256": "3f39d528003c031a27c2dcd1d98a86d14c23e5b6593ee3651bec0baedcccd9f8"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/raw_soc0.2.json",
-      "bytes": 673,
-      "sha256": "dfeec3bf12a790f7e57b7806a98675ee34b8bb4a5333ca747ba0d5bcfcdf7f79"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/raw_soc0.2.parquet",
-      "bytes": 107240,
-      "sha256": "2cd668916940f7d3f45ef0de6d41119ab7f842928eb0eb31006d1d008e08bf25"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/raw_soc1.8.json",
-      "bytes": 673,
-      "sha256": "fabab6ac1fc5155d7766b1ffc243d94daad97bbc647ed295ee6eee3e215fa04f"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/raw_soc1.8.parquet",
-      "bytes": 107298,
-      "sha256": "5cf4467925a4e820bf2affaf252c05841cf8130090f67c3294c04beaed4eb160"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/shared_state_complete.json",
-      "bytes": 111,
-      "sha256": "f4fae11bfa14011e36996f53f12e3af8af1b31c766c9ca81a8005aa7bc21ebd0"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/shared_state_resource_curve.parquet",
-      "bytes": 57581,
-      "sha256": "2f5a2aef04bb11665142f3dc633bfef0d6682d0b1ea4842cecdeda17932acde3"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/sparse_equal_soc0.2.json",
-      "bytes": 683,
-      "sha256": "07e0a2a635afa69ab0722e16a9875410f3adfa562079a466720a7c73da2918d3"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/sparse_equal_soc0.2.parquet",
-      "bytes": 109069,
-      "sha256": "5aabe5033bb5ac4a0d49475b0232d90c49252eaf855c4f7cdce8d9c0c2d8e752"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/sparse_equal_soc1.8.json",
-      "bytes": 685,
-      "sha256": "81a9d33c6b9d3032518fe900d650bba22501bfc3565e18259bfb37dd8abb41a4"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/sparse_equal_soc1.8.parquet",
-      "bytes": 109152,
-      "sha256": "902cd84aa99c294c700ec8e4e5e02f8f47073b602ee987a92c8307b6a6845e46"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/state3_gate_soc0.2.json",
-      "bytes": 704,
-      "sha256": "1b571abdf1481177e46bc6bb8587819a3c9b479cf4017c23a8b22420b0221114"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/state3_gate_soc0.2.parquet",
-      "bytes": 134400,
-      "sha256": "593bd32ba7738589dedd9fd71c67f8ffd5a570c5313f903a072c685bfe24119b"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/state3_gate_soc1.8.json",
-      "bytes": 705,
-      "sha256": "4c2bcf86e670f6aab0b94393522711406b71013a98899e476e2f17454a0fee4b"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/state3_gate_soc1.8.parquet",
-      "bytes": 134321,
-      "sha256": "ac6f460c349429519c92c3d9b67663ea2aad2da69376c625e43e42cbee8cf145"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/state3_no_gate_soc0.2.json",
-      "bytes": 684,
-      "sha256": "ec1ebd32d48db9b14d8135778d76d785a9a68ae5ab7f3b8f3b2f44f122d5ceaf"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/state3_no_gate_soc0.2.parquet",
-      "bytes": 108487,
-      "sha256": "748d2df1df0a40521e6eb08419a542326b5e0806309f99172086a1276c6fee46"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/state3_no_gate_soc1.8.json",
-      "bytes": 686,
-      "sha256": "24a3579f49e0cb87c5d450d09f7d9a2279d5c9e70d1c7f5bea78df1d75d02353"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/state3_no_gate_soc1.8.parquet",
-      "bytes": 108542,
-      "sha256": "ce6846bdb93d0133b3ae5a729d9d5d5dfee51ba08fb11280a7ea98a352dbfb3d"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/static9_soc0.2.json",
-      "bytes": 683,
-      "sha256": "d8ff3539b67d7dc3d21d5c553bc132fa87ed4be452a72755b8e16ec014e66397"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/static9_soc0.2.parquet",
-      "bytes": 109786,
-      "sha256": "9a1c94abda7175a4ae90710767989340cd638e52c98c502df019ffcf53db3565"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/static9_soc1.8.json",
-      "bytes": 684,
-      "sha256": "94d7d26875c8887f97cce1d85e53a04df931e9ac64fef97201229edbb7f23122"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/static9_soc1.8.parquet",
-      "bytes": 109571,
-      "sha256": "5fe964559e501ca18b556e8f5c2f5979f001353bd451b23f39d181f22b79c9cf"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/pilot/trained_masks.json",
-      "bytes": 8167,
-      "sha256": "6df8dbbf737c634074f12f7b80b14d125cf53f9778bbc6a62d205f40c85ed6b0"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v14/theory/executed_toy_controls.json",
-      "bytes": 47334,
-      "sha256": "99b339f05ba28e83414e7aa349221911e2d7cffafe511885c1ab598f5f3385ca"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v5/history/NSW1_baseline_inputs.parquet",
-      "bytes": 336402,
-      "sha256": "f026761edebb6767339f22ff5a5e0cb8404b71e62c4159fb00aadd09d82fa399"
-    },
-    {
-      "path": "addenda/v14/computational/results/revision_v5/history/NSW1_inputs_aligned.parquet",
-      "bytes": 10347864,
-      "sha256": "ee2dc23af3935049fdbe2e58312286e888a04c4531d2573cfe6ceffde096d6f5"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/portable_figure7.py",
-      "bytes": 16384,
-      "sha256": "d2388bf687baed82956ac2f243cfb4cf789effe4e726d7699360c35d4ca45fc5"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/reproduce_v14_minimum.py",
-      "bytes": 5533,
-      "sha256": "edc012515816b403aabc438c41225c4189392fd5bfc1dd0ec916e10cb56e24b2"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/revision_v14_pilot.py",
-      "bytes": 17957,
-      "sha256": "36b87724936717999d7a2b691a77a6857392178766e409bbe075cd6338627035"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/revision_v14_toy_theory.py",
-      "bytes": 14179,
-      "sha256": "a8dbf2a4bff4f62a89278d4b794089248c24177612472c06d0e24900b16fceef"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/revision_v5_control_enumerated_policy.py",
-      "bytes": 9951,
-      "sha256": "f482b3d85e39a693537163df99c222f066c606c9ea172ae98d9421057d312fa9"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/revision_v5_control_safe_policy.py",
-      "bytes": 4176,
-      "sha256": "a268c084f5cd0b8125686ef1a6b631ac06f4887205f969298ab9ba9ac307ee23"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/revision_v5_control_scaled_policy.py",
-      "bytes": 7828,
-      "sha256": "5c10e7bcac01a6b024f08f75b29977ca7421fc3be8f761ab222b5d0d713d6399"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/revision_v5_control_solver.py",
-      "bytes": 13092,
-      "sha256": "abfb87315c06f40248a68a826291258c8bf9770602729ab3e6bea36133fe2010"
-    },
-    {
-      "path": "addenda/v14/computational/scripts/verify_manifest.py",
-      "bytes": 1412,
-      "sha256": "42f817f450fddf032ced820566278c04ad37a77cb6b72fe02190b46aefbae01c"
-    },
-    {
-      "path": "addenda/v14/native_ontario/PUBLIC_CODE_ADAPTATIONS.json",
-      "bytes": 867,
-      "sha256": "ce7b4cff5d03b68683d69a8f7b8d2e7f2c9968555f867f2c49f13fbc23733746"
-    },
-    {
-      "path": "addenda/v14/native_ontario/README.md",
-      "bytes": 2370,
-      "sha256": "4d70ebe0f705e4e07544481a9c69742164ea4c47bd208226a0b9a2d602370aac"
-    },
-    {
-      "path": "addenda/v14/native_ontario/official_source_manifest.json",
-      "bytes": 8339,
-      "sha256": "cd6839b97cbf1704c452bd4c49ba9df878cf5f0a7442a9e26175165865d4b784"
-    },
-    {
-      "path": "addenda/v14/native_ontario/probe_native_ontario.py",
-      "bytes": 9208,
-      "sha256": "ae50e3ba33d162bf0d81b0634958b99ee3161d79b8c3c3ef48cd8c2746f1a55f"
-    },
-    {
-      "path": "addenda/v14/native_ontario/schema_probe_scope.json",
-      "bytes": 4961,
-      "sha256": "1f208ffb83455414913887e9fdc27bd075af06b2ee65724711b405c3e9874328"
-    },
-    {
-      "path": "addenda/v14/native_ontario/validate_native_ontario.py",
-      "bytes": 8006,
-      "sha256": "c408ab03c1b581045efa596f2c4975b002f9ffe772bded65f83d1112f0279070"
-    },
-    {
-      "path": "addenda/v15/DATA_LICENSE.md",
-      "bytes": 1281,
-      "sha256": "eab2ba6eef4da0f7db288e9f0c6b04a6d1b4529c13b17dfdf09de0ff573c8a50"
-    },
-    {
-      "path": "addenda/v15/FRESH_VERIFICATION.json",
-      "bytes": 2754,
-      "sha256": "ffdc5801f1e5e487dc64819431ae70472645635c45571c208cc038d7620b68b6"
-    },
-    {
-      "path": "addenda/v15/LICENSE",
-      "bytes": 1372,
-      "sha256": "f2d2f658693a2c07a65096399ae37d045fc44ae3e13d1e6ef9c9e6b8599271e6"
-    },
-    {
-      "path": "addenda/v15/MANIFEST.json",
-      "bytes": 18511,
-      "sha256": "232dc6e6f2717edde4044879c6bed77a555f283fd776410ccf61bb4ff446d127"
-    },
-    {
-      "path": "addenda/v15/README.md",
-      "bytes": 4626,
-      "sha256": "97364a707395221d17d9df9e1e7ee2bc3292ffebc3a2962a42258522e2c892c9"
-    },
-    {
-      "path": "addenda/v15/fixtures/parameters/NSW1_baseline_inputs.parquet",
-      "bytes": 313172,
-      "sha256": "3c78d4e264216744309bf39ee791e0905b1b60660255ad1b567b1748b550b9f8"
-    },
-    {
-      "path": "addenda/v15/fixtures/parameters/NSW1_inputs_aligned.parquet",
-      "bytes": 425138,
-      "sha256": "a87d237f007ae82fb89300246132c6ad74d9e80cb4d7d8457e44b2844c0fe137"
-    },
-    {
-      "path": "addenda/v15/fixtures/statistics/daily_operating_cash_panel.parquet",
-      "bytes": 630692,
-      "sha256": "d73683496e241c102308c6b9c0fc89e299e4a63ce122a844aa0ed94c553e2bc3"
-    },
-    {
-      "path": "addenda/v15/fixtures/statistics/panel_totals.json",
-      "bytes": 33378,
-      "sha256": "dbf4f325c535fa9436ecf95f28cf7558cf191582361270ef8a5d5839799374dc"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/baseline__current_smooth_a050.json",
-      "bytes": 1982,
-      "sha256": "544818d9516f8db9b9d689ff51c1c4a402ad1c007d563745b7f426a065b70fd6"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/baseline__current_smooth_a050.parquet",
-      "bytes": 116310,
-      "sha256": "ad23d2cb32ce4e658127c94fe56415ea0d9d6b518460dbe64fd52a998cb70c9b"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/baseline__inverse_lead.json",
-      "bytes": 1977,
-      "sha256": "a76b44095306b423c3744d162d66475126aebb11323fd8f8f2df7f1c644a2960"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/baseline__inverse_lead.parquet",
-      "bytes": 117782,
-      "sha256": "95e333529a5373bbbdadda04b1ccc1c2c2f0bbd78671005720e7a28076d696de"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/baseline__sparse_equal.json",
-      "bytes": 1975,
-      "sha256": "300c46db1b18b8e10b153ce614c18041cb53c30bbae762feb0a7510d9de3d827"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/baseline__sparse_equal.parquet",
-      "bytes": 117272,
-      "sha256": "8b6e7e66f8735a8668ca5490f7a23118cb2d698795537943441fc5c7a138af2e"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/locked_design.json",
-      "bytes": 4256,
-      "sha256": "f6ff3747748ca087b47a76f7e3dc5cd0575eb54826903f91b38b756576c67f1b"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/native_prefix4h_trade2h__current_smooth_a050.json",
-      "bytes": 1997,
-      "sha256": "bd07d194eb50243247d5889ba641e5a2f106cf5b71825dee54a0adec1143c154"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/native_prefix4h_trade2h__current_smooth_a050.parquet",
-      "bytes": 116747,
-      "sha256": "cea52ea7e492023475bd6d9fb2614bb878a39329747c5d76d115bc05c76edcfb"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/native_prefix4h_trade2h__inverse_lead.json",
-      "bytes": 1989,
-      "sha256": "c1b296fda10bd8dd11888e9f22b10bfba2448080908477dfcc42ef486a6a9501"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/native_prefix4h_trade2h__inverse_lead.parquet",
-      "bytes": 117267,
-      "sha256": "38d4454655b141b5dcb1773cfeb262e6a41944b19f2ea28de8b2d0cbc3c7fe4d"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/native_prefix4h_trade2h__sparse_equal.json",
-      "bytes": 1989,
-      "sha256": "a41337c064c10676a87155b732616b39c5899b61dcbedb79843d30c431d3a4d2"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/native_prefix4h_trade2h__sparse_equal.parquet",
-      "bytes": 117209,
-      "sha256": "d8769f4c96b36ca480380fb85f9af445bbe2e7ee046b41e687f04a63a0821e65"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/parameter_grid.csv",
-      "bytes": 2379,
-      "sha256": "06de1f1cfd0dbe1f1f8b09ff7fe075e3e3d433c6080b91247530aca004b1c8fc"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power0.5__current_smooth_a050.json",
-      "bytes": 1982,
-      "sha256": "363deb951d2deb7b2ba21558800ee4a1ee40d55c03a4a1b80390e4c83429c7c6"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power0.5__current_smooth_a050.parquet",
-      "bytes": 119407,
-      "sha256": "47e986e8d665b31c93458711d00c9d48ccbecc006f305d72e508db1d1aed6624"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power0.5__inverse_lead.json",
-      "bytes": 1975,
-      "sha256": "3028d2dfdce5990ecee028ef5c008b8aca9cbf66bf8473bec8da2c986220edf3"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power0.5__inverse_lead.parquet",
-      "bytes": 120504,
-      "sha256": "7103e02610749e7982a343d6aaf1841e5652e284a74a340d3f7e9b2ca6056834"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power0.5__sparse_equal.json",
-      "bytes": 1973,
-      "sha256": "2a13a8ffa77ab7f22da30cd0842a5f31607dfd665a13b07765ea09d329c239dc"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power0.5__sparse_equal.parquet",
-      "bytes": 120635,
-      "sha256": "31b82fd11c9a48c0de2c4d0d3e830ecdb83f89b47d82177ecf36ddc5f82ba8e4"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power2.0__current_smooth_a050.json",
-      "bytes": 1982,
-      "sha256": "73ff39d6336986c50ee8d030f874401d0225c1acd653a5479a0d9a62dbe00927"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power2.0__current_smooth_a050.parquet",
-      "bytes": 114195,
-      "sha256": "e53a27e522dd70ecaa67c28c28e7f966a067a5a7e50219270c1d19a0618bc725"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power2.0__inverse_lead.json",
-      "bytes": 1976,
-      "sha256": "0e8a904413c5007990c6c6c7edeec394a41c91b7115fea35c1bc0915ff56f7e6"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power2.0__inverse_lead.parquet",
-      "bytes": 116139,
-      "sha256": "238a2f5cefb48a3e3f500459e8f83a67a4d475863e2b6f52893aff7ae670da6a"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power2.0__sparse_equal.json",
-      "bytes": 1974,
-      "sha256": "12190df4930f1ef3dc87bf57938ef71d408a1da4634d0e4702cc0f78ee0c5e1a"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/power2.0__sparse_equal.parquet",
-      "bytes": 114912,
-      "sha256": "16b01c1f8d6f0a7f2493a3ef9c754258efad369fc9d892c5f897a04086ae27c7"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/root_accounting_audit.json",
-      "bytes": 6222,
-      "sha256": "ffe260194d2c1d17c6a49f8f438c4063bb496391f0066e74e4629aa1345c7023"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/terminal2.0__current_smooth_a050.json",
-      "bytes": 1984,
-      "sha256": "8921da7ea0480f6051de82212748ab00deccaaa3d27c0bb4a56d78b8503d3b95"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/terminal2.0__current_smooth_a050.parquet",
-      "bytes": 112461,
-      "sha256": "20d60970c1289a6d27bc6a7b0df8856ca13a2e0d2f08227c2a2ca37cf016b64e"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/terminal2.0__inverse_lead.json",
-      "bytes": 1976,
-      "sha256": "27f4602403105f7d6bf12098b67fddc928487394102bcf4fac1df428c4f04a63"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/terminal2.0__inverse_lead.parquet",
-      "bytes": 114520,
-      "sha256": "61cbddd6b51c8f99db9c30dc0572f078f8e7847c10d4eb03ebcf784a2bc0d466"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/terminal2.0__sparse_equal.json",
-      "bytes": 1975,
-      "sha256": "8976afd30167cd528ba1be95fcec9bca7fc88053c45bdd729d399026ee0ec8f7"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/terminal2.0__sparse_equal.parquet",
-      "bytes": 112709,
-      "sha256": "a9d36b0e0286b28d2799460658129fc5de103d4fc7c549fd8a3abe2a94ef021d"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/update60min_execute_two_planned_steps__current_smooth_a050.json",
-      "bytes": 2010,
-      "sha256": "b8894cdd93ddbe3a4881abe0e438ce48c5ac18b51f43be2a54f10dda7b4096cc"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/update60min_execute_two_planned_steps__current_smooth_a050.parquet",
-      "bytes": 96360,
-      "sha256": "d5a59115b9a76329f4a7216d770bd6dbb7d0b6c7fef6ac3c9e5f847ef84dfa8d"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/update60min_execute_two_planned_steps__inverse_lead.json",
-      "bytes": 2006,
-      "sha256": "14c59e9e617293af0cc230b2733c7c2ea3fa1a62995adf73d1fe52c05da15980"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/update60min_execute_two_planned_steps__inverse_lead.parquet",
-      "bytes": 96715,
-      "sha256": "46fad197578c210a3ac802a8681480ceafe5065f2f69c55e262ca0f3ee804a9e"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/update60min_execute_two_planned_steps__sparse_equal.json",
-      "bytes": 2003,
-      "sha256": "6b970631fca3e3f0ab852ec40aa4a772a3ede11c656fa68f15d1e3e67726fe1a"
-    },
-    {
-      "path": "addenda/v15/frozen/parameters/update60min_execute_two_planned_steps__sparse_equal.parquet",
-      "bytes": 96987,
-      "sha256": "dcd1489348dda83a9a01e53de9e6f5dcb3c19d292e443a3fe2f39224d76184df"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/break_even_incremental_budget.csv",
-      "bytes": 1665,
-      "sha256": "db20de73c67641e137abd51370d0c576cf84fdf118126d5777da87aa263dd25b"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/current_selection_probabilities.csv",
-      "bytes": 2742,
-      "sha256": "932de0cab3053286bd61424092d1f24085a51ee9b06dc054d8a59182cb3f0071"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/family_inference.csv",
-      "bytes": 1165,
-      "sha256": "fa925a0e7c54fbfdee31983e766b056305ab80c00c049911b9fda6c433f9ffb6"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/formal_inference.json",
-      "bytes": 23846,
-      "sha256": "1b1e3af263a8d739f6526b3ee7c0cd4e9f17e65c5e05cea6fcc15066dde602fb"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/implementation_checks.json",
-      "bytes": 5254,
-      "sha256": "894062d6048a03fbe613861a9924738655d7aa9f91111eb666c0ae97a3071ecc"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/marked_score_definition.json",
-      "bytes": 2242,
-      "sha256": "1a66ba254b38f6e5f1fbb1df040bbefcbcf83e2e55c8f50687320ba10ca3e513"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/mcs_membership.csv",
-      "bytes": 363,
-      "sha256": "4a68a409cb4ea9f057b00cfabc8de7eb8fe98ed03d49cb84821f2778f3ad773c"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/portfolio_fixed_boundary_marked_daily_scores.parquet",
-      "bytes": 48326,
-      "sha256": "c2db302150662e06dc883ed7587056f81ffaa0bf572ebe9cf55563a61c401657"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/pure_interior_cash_sensitivity.csv",
-      "bytes": 720,
-      "sha256": "d347d651b8cac40694970587e266042a2cd8905f8de8f119c8cfc89c752e9b73"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/selection_sensitivity_distributions.csv",
-      "bytes": 4954,
-      "sha256": "74b520cbf89c5956b7345e97d570b6f6f0248939b04d359da3a28970de34938c"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/selection_uncertainty.json",
-      "bytes": 2092,
-      "sha256": "d24bcfe141e0f688255b8fbbe09152dc36b1fc303e04da413cd45cd643201449"
-    },
-    {
-      "path": "addenda/v15/frozen/statistics/source_panel_audit.json",
-      "bytes": 1703,
-      "sha256": "c723eecfedef39e0f30daa420ae7c687481c6edc3b295b27f5eb2e8b279c52f0"
-    },
-    {
-      "path": "addenda/v15/frozen/theory/executed_validation_v15.json",
-      "bytes": 2759,
-      "sha256": "d1a770723465388829bccb58ab6cd5b011d24478f6beddabd76af544ef67bd7f"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/PROVENANCE.json",
-      "bytes": 6648,
-      "sha256": "f432b66675abb0260efcce5bc7deea99bc931eb9de3ed22dcddb8c7aaa4487ff"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/action__delay30_information_cutoff_feasibility.csv",
-      "bytes": 738,
-      "sha256": "7e1ab3c050fe5f05581d39e135b296d2a3e7da742b73dd10f90f061e75daefc3"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/action__epsilon_material_subsample_counts.csv",
-      "bytes": 7891,
-      "sha256": "71aa308707a0c99b45c5abb729df9f3dc15ad45decbae80ef78eab0b809c405a"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/action__fixed_subsample_plan.csv",
-      "bytes": 16219,
-      "sha256": "f96d74acbce06a1503aff4edcfecc26bea84fb67b374996c9894dd9353352c43"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/action__layerC_100_start_features.csv",
-      "bytes": 20430,
-      "sha256": "48e84adc3db908b5443ea6d25aad3485760440fe3e3cba0ba84325dac719ba8f"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/action__material_threshold_full_sample.csv",
-      "bytes": 3454,
-      "sha256": "3db57199f7295099eada528cae69eba1c3aaef279881d6f92a72fdbd1ea98277"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__annual_exploratory_multiplicity.csv",
-      "bytes": 23315,
-      "sha256": "fd27a03f8baa09303e7b3451d9f50e33a5ba68e503bce69a527cf64187dcead8"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__block_length_inference.csv",
-      "bytes": 6034,
-      "sha256": "2849b038b7ec791ea1d511b8d45080f1690427e6ac9b1be02c906e6d70922bee"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__branch_start_features_100.csv",
-      "bytes": 28218,
-      "sha256": "3b135fb314c5e3ee5775d1f4b03023af45765dbaf877dfcb5eec59c771ab4f9e"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__break_even_costs.csv",
-      "bytes": 3325,
-      "sha256": "f3898ccd03f739b7082bfa588864615e38c8203089f7842dc5a9cda8794b847a"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__conditional_precision_and_mde.csv",
-      "bytes": 6867,
-      "sha256": "287ab4fbc49612d023fe8d8ee231550bb0ffd40e22c84ae1eadb7b83cb5be81a"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__cost_sensitivity.csv",
-      "bytes": 25381,
-      "sha256": "09f4850490acbec58acf1a8d006e192a38af66337b17467d1d4199246cf04131"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__delayed_sale_frequency_by_region.csv",
-      "bytes": 4341,
-      "sha256": "0690e1b16bae23d5dfbecc05ba1ceb8eb95d3e6f850ccc2f9106dd1bf924c186"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__delayed_sale_opportunities_all.csv",
-      "bytes": 3547,
-      "sha256": "b05c2c42493ec4722127fad8efa7348344c850280af636999f33f14cf1cc27a6"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__illustrative_cost_width_equivalence.csv",
-      "bytes": 32906,
-      "sha256": "f06f3b90a39cc603c04b22cec05247c6ba9aa1b09285f0d9efe1201713fdc336"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__regional_branch_start_ranges.csv",
-      "bytes": 677,
-      "sha256": "bcb095751f50bfde51ab7f960effe5413dd44956797351e874de045c22ba47f9"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__regional_daily_IL_minus_Cstar_pearson.csv",
-      "bytes": 369,
-      "sha256": "17608989f2972876e875fca89fb8a8e8806ecaa31145ea02c956d3f4860af3b1"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__regional_daily_S_minus_Cstar_pearson.csv",
-      "bytes": 369,
-      "sha256": "0f714d919078f2ca2a8221ba2805e66b586b3a895d2e49e3c06af10528e2ac73"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__regional_daily_cash_descriptives.csv",
-      "bytes": 1339,
-      "sha256": "f302f0d32c69abfc4190fbe3cf13025e59c4bd09c68289da8da83a31a5e198a7"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__regional_exploratory_multiplicity.csv",
-      "bytes": 5772,
-      "sha256": "24c9488884145aed888d4cf250cc99648ff3b6b28e4cbcd9a59aa15189c02d63"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__regional_market_and_forecast_descriptives.csv",
-      "bytes": 2124,
-      "sha256": "d156dc0ae11682d54616809b01d867a6b0df573a013a00659088e10cf3fa0edb"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__regional_price_pearson.csv",
-      "bytes": 365,
-      "sha256": "dd6a258e8c2356a56850894d030bdf5e198e195fb804e3a9e5402b0ee848cdb5"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__regional_price_spearman.csv",
-      "bytes": 363,
-      "sha256": "12e3fbd735be0a262e79f6a1deef4336c049a5f5cd2923e82d3d6f640db6321d"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__spo_forecast_error_by_realized_price_band.csv",
-      "bytes": 4202,
-      "sha256": "400dcecb1e2b7b4544391d07a3426dac76af8f1812360a6951a3f24fa6569bd6"
-    },
-    {
-      "path": "addenda/v15/legacy_diagnostics/economic__spo_local_regret_and_cash_by_current_price_band.csv",
-      "bytes": 4290,
-      "sha256": "bd1ee0f7de8e64ac1a115c1298c3e7504f115d51f7b9d799b5ee912f4997c0ea"
-    },
-    {
-      "path": "addenda/v15/provenance.json",
-      "bytes": 14475,
-      "sha256": "7056a676929f6309254eddebfa22896605ca74c54aef539d3ca0fcdf7b61fae9"
-    },
-    {
-      "path": "addenda/v15/reproduce_v15.py",
-      "bytes": 5811,
-      "sha256": "804a6c3f0907b017944caa3a99427d09538db9a0c18af16d2ccb48c3581428e9"
-    },
-    {
-      "path": "addenda/v15/requirements.txt",
-      "bytes": 61,
-      "sha256": "79c4ebf9dffb36d19989654e4909c4b430c49e2bc9dcd8f2b11a7b3d7b009069"
-    },
-    {
-      "path": "addenda/v15/scripts/revision_v15_parameter_pilot.py",
-      "bytes": 13739,
-      "sha256": "a52ea0455ca6226becdbfe0d2c2ddcfb06dc9b3fc2418517674fb21cdd3906ba"
-    },
-    {
-      "path": "addenda/v15/scripts/revision_v15_statistics.py",
-      "bytes": 32055,
-      "sha256": "4277d8e73f61a4144b50b055a8b7caf0a9f300a19f973dd7cd1fcadceb88d42f"
-    },
-    {
-      "path": "addenda/v15/scripts/revision_v5_control_enumerated_policy.py",
-      "bytes": 10093,
-      "sha256": "5c7c42e2a509d764b5f17d7b27ae1fd8c308897e696ad241c65ec58183578e71"
-    },
-    {
-      "path": "addenda/v15/scripts/revision_v5_control_safe_policy.py",
-      "bytes": 4246,
-      "sha256": "29a3a1d00743c13b72fae479afd0bee851159f04896e4948bd8281d21422c8f1"
-    },
-    {
-      "path": "addenda/v15/scripts/revision_v5_control_scaled_policy.py",
-      "bytes": 7951,
-      "sha256": "dea6e337f5749c47781690e49f271ae2fd0ec03c115319bf2f4ff519284a9365"
-    },
-    {
-      "path": "addenda/v15/scripts/revision_v5_control_solver.py",
-      "bytes": 13295,
-      "sha256": "7c9cc8c7aa67865099f5750426798e899b2712078391137f7c2346ed3bfa10f3"
-    },
-    {
-      "path": "addenda/v15/scripts/revision_v7_statistics.py",
-      "bytes": 34532,
-      "sha256": "76816abac5f19fc5aaaf8b6348ab3b38f7a6bc65ccec6d656f676fe91cec86a1"
-    },
-    {
-      "path": "addenda/v15/scripts/verify_theory_v15.py",
-      "bytes": 7827,
-      "sha256": "0e8d004a6ca3143dff49ca7faa1cf0efd160f83ba289e18d25b10d593c5d22b0"
-    },
-    {
-      "path": "addenda/v16_figures/DATA_LICENSE.md",
-      "bytes": 1569,
-      "sha256": "dcc59e88b668f372f48ca68a87f5be3c1296044d91e41893bb6aa38c1bc2bc98"
-    },
-    {
-      "path": "addenda/v16_figures/LICENSE",
-      "bytes": 1372,
-      "sha256": "f2d2f658693a2c07a65096399ae37d045fc44ae3e13d1e6ef9c9e6b8599271e6"
-    },
-    {
-      "path": "addenda/v16_figures/README.md",
-      "bytes": 2622,
-      "sha256": "6b1b85cc8775f661706a25d2a20256cda9729b9595276966d75473533859a3c7"
-    },
-    {
-      "path": "addenda/v16_figures/THIRD_PARTY_NOTICES.md",
-      "bytes": 1852,
-      "sha256": "e6470cdf69dde6dcbc5fac4c19f55a25ac5e7694ebb4ca009d8d36f8dec139bb"
-    },
-    {
-      "path": "addenda/v16_figures/figures/revision_v11/figure_4_updating_branches_source.json",
-      "bytes": 9706,
-      "sha256": "eb74f7a33ba45eb08d48508b9c64e84bf2fad81e6630a7ced52dd9be872c6aff"
-    },
-    {
-      "path": "addenda/v16_figures/figures/revision_v11/figure_5_decision_failure_source.json",
-      "bytes": 4081,
-      "sha256": "43e7403590f4039f630f02c29ffdb8f2c83261c6bae8f26e8a2e33c80db118a2"
-    },
-    {
-      "path": "addenda/v16_figures/manifest.json",
-      "bytes": 6524,
-      "sha256": "08a4488dbcbe04d19dd4a253829bb5ea0da2dcba250783edd79717dd6ee47bff"
-    },
-    {
-      "path": "addenda/v16_figures/provenance/nature_qa.json",
-      "bytes": 722,
-      "sha256": "b30366cf3c30c4b7425591a0c90debd0104e5e03b4742c685a945ad4eb8cc8ae"
-    },
-    {
-      "path": "addenda/v16_figures/provenance/processed_data_manifest.json",
-      "bytes": 5895,
-      "sha256": "a13028362d53dc37fb6458e79cca245b66c9c1ea79041a3cd064a50b68e40175"
-    },
-    {
-      "path": "addenda/v16_figures/provenance/runtime.json",
-      "bytes": 301,
-      "sha256": "0c68ae0f23cec2cfbcc6aca226265cd76938a49ee52af59ee8e69571e0f646c1"
-    },
-    {
-      "path": "addenda/v16_figures/reference/fig1_source_data.json",
-      "bytes": 591,
-      "sha256": "53279f35f39c015d0c46ce1ea0d298ffec755b0a01417876167800d608bd69dc"
-    },
-    {
-      "path": "addenda/v16_figures/reference/fig2_source_data.json",
-      "bytes": 2211,
-      "sha256": "9cbd46843e4ec9480d06cf229d7792501b2580e59a1045796aafaad9ea55b270"
-    },
-    {
-      "path": "addenda/v16_figures/reference/fig3_source_data.json",
-      "bytes": 1721,
-      "sha256": "c5f9fc062f9f9df6a46efb1aba4a4be9e05bd3f386d829ebb8c82dc65859c950"
-    },
-    {
-      "path": "addenda/v16_figures/reference/fig4_source_data.json",
-      "bytes": 17585,
-      "sha256": "bf0bccda26f221489a87c7c9d754fe0923edd5a359dbe8d5b37f42e2fb24ff21"
-    },
-    {
-      "path": "addenda/v16_figures/reference/fig5_source_data.json",
-      "bytes": 4716,
-      "sha256": "ad8a835d0c38baf12e1a1d60a0116140bcd2b37bbbe160afb686b6274ce6d653"
-    },
-    {
-      "path": "addenda/v16_figures/reference/fig6_source_data.json",
-      "bytes": 7114,
-      "sha256": "b63f27d24b0533f31475b8935eef0a729d72ecbf8e78d6f964baa32bc2af06a8"
-    },
-    {
-      "path": "addenda/v16_figures/requirements.txt",
-      "bytes": 99,
-      "sha256": "d9f12bfbb0636b6bef3cc248b2ed1390f5d0df5aeb313785b27e055e370f6c7c"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v14/figures/Figure7_source_data.json",
-      "bytes": 5371,
-      "sha256": "e75f17eb97758ccaff42ce37b86d5f7399689c50a8f43f2d95aedab2db7fa44b"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v14/pilot/closed_loop_summary.csv",
-      "bytes": 934,
-      "sha256": "40bfe63f7f72f59c0d06542f2359e31634d6880f74723414600ae9f292c95f04"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v14/pilot/pilot_summary.json",
-      "bytes": 676,
-      "sha256": "db31b439feb4fc5af4f7f7a8a70780644f4ab9200a6a44cad4e65d1fc3dd06c2"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v14/pilot/shared_state_resource_curve.parquet",
-      "bytes": 10938,
-      "sha256": "4d038e3d880517a61ab392ecf53a3d254e457ec194573f3ec0e6d6ca56783efc"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v14/theory/executed_toy_controls.json",
-      "bytes": 1152,
-      "sha256": "ccabc8f402c425a1144d205b25ebe3e8f394132b3953589cefa4dc9cd93d6f81"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v5/control/paired_economic_comparisons.csv",
-      "bytes": 4290,
-      "sha256": "1d10f594cc1fa2d6ad3d2c1a2c6ad69ff721f540c4acdc71acf8226b25bc7dc4"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v5/events/SA1_sparse_equal_rolling_probe_paths.parquet",
-      "bytes": 4774,
-      "sha256": "d07737963abb219f93a0c652e9bdde589c06ae4ea8a0abe3821ad33690e52b65"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v5/history/SA1_baseline_inputs.parquet",
-      "bytes": 9463,
-      "sha256": "c2a9559e8c7e68fe6ddebb6e269b0eadce434603080d13c1f21d5e74eda30277"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v5/integrated/all_completed_rolling_probes.csv",
-      "bytes": 8636,
-      "sha256": "6cfb64c835bcd67f4b68553fe099157646e10acd943a76e0ebd08a54d522c125"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v6/integrated/v6_decomposition_inverse_lead.csv",
-      "bytes": 1023,
-      "sha256": "c8bf6de01ab325a317b471f5199ba09a16e0cf4b928c24ef69cfa7e125372e86"
-    },
-    {
-      "path": "addenda/v16_figures/results/revision_v6/integrated/v6_decomposition_sparse_equal.csv",
-      "bytes": 1023,
-      "sha256": "67e1f704b66b9422c7fd4aa925b768da099fb7fe29b36fd0ac4e697b5a761ba2"
-    },
-    {
-      "path": "addenda/v16_figures/scripts/nature_qa_v11/LICENSE",
-      "bytes": 11357,
-      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
-    },
-    {
-      "path": "addenda/v16_figures/scripts/nature_qa_v11/__init__.py",
-      "bytes": 60,
-      "sha256": "ff36c174d4e7bdfb91966dbb981431e50391e6d84668de6700d9426e96529269"
-    },
-    {
-      "path": "addenda/v16_figures/scripts/nature_qa_v11/audit_figure_collisions.py",
-      "bytes": 27343,
-      "sha256": "841ede7dcaefa3ab11576b5ba52375d1678a71f77d39f553d5464e81b0699283"
-    },
-    {
-      "path": "addenda/v16_figures/scripts/nature_qa_v11/audit_panel_alignment.py",
-      "bytes": 39364,
-      "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76"
-    },
-    {
-      "path": "addenda/v16_figures/scripts/reproduce_v16_figures.py",
-      "bytes": 2802,
-      "sha256": "6c9f4ac3a42dcc7275a49dd0233fbc07c3099e72b04ca2b36b0dfb7260121528"
-    },
-    {
-      "path": "addenda/v16_figures/scripts/revision_v16_figure_style.py",
-      "bytes": 4854,
-      "sha256": "32cc2e6fa59dec912a3a4eea715a6ed73fa4722f05c5daea9f873d18bbbdcb25"
-    },
-    {
-      "path": "addenda/v16_figures/scripts/revision_v16_figures_123.py",
-      "bytes": 13624,
-      "sha256": "e10664147939ea97a52d4fd76bc07ab2b8e8c634eee8da40545b2c5273ad67ae"
-    },
-    {
-      "path": "addenda/v16_figures/scripts/revision_v16_figures_456.py",
-      "bytes": 24121,
-      "sha256": "a37af6485c85f0b139979d5af75d38c374cde5c67938879bfa7c28a6fc5a61fc"
+      "bytes": 1788,
+      "sha256": "b3876601db06f41681d24b4e90a50cad203d457134f9ac2bf1ba1e412006a3f9"
     },
     {
       "path": "configs/public_core.json",
@@ -1591,6 +49,21 @@
       "path": "data_assets/selection.json",
       "bytes": 125506,
       "sha256": "3c6fc31581672e849235ddfdffc1324e835a10befac37839519e8af08840b1ee"
+    },
+    {
+      "path": "DATA_AVAILABILITY.md",
+      "bytes": 5230,
+      "sha256": "aadceb3d96f603799bc46e0918c6a1fb5f231cdc3e598e35b8c3d825b3dad81d"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 16564,
+      "sha256": "7768bc76d7eee0cc2e51fe0ddd3136893a3c17d6fe77b31d963770f1ff82487a"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 5755,
+      "sha256": "8349a11032805647de39ea0c81580bdef0f234b4ad9a9123a99aee073e9d8fa6"
     },
     {
       "path": "figures/revision_v11/figure_1_information_timing.pdf",
@@ -1803,69 +276,9 @@
       "sha256": "a8554c70b936bad621f9d65ad36b9cc9a898f7e618fb6bc7778dbc604c4af079"
     },
     {
-      "path": "figures/v16/README.md",
-      "bytes": 351,
-      "sha256": "f9af421f83f5d25193e732dc7651d12bf7cc7ad8bd7f14563b7278f85f58d566"
-    },
-    {
-      "path": "figures/v16/fig1.pdf",
-      "bytes": 48203,
-      "sha256": "c4f0cb1b8bebe895d6e18f4a9fd6e85a18b7bbecd3a8bcde97c47714b82406fe"
-    },
-    {
-      "path": "figures/v16/fig1.svg",
-      "bytes": 11654,
-      "sha256": "1776873d68a5844d7c58c185271d99f1acbee750ed2df9cd30f711386c541a08"
-    },
-    {
-      "path": "figures/v16/fig2.pdf",
-      "bytes": 40909,
-      "sha256": "a44b5065a6d65007e04fd1dd0ba32fcec0f8b7c01f89ea050c6f9803a1a78285"
-    },
-    {
-      "path": "figures/v16/fig2.svg",
-      "bytes": 22559,
-      "sha256": "006b590d3785a31c59a065077d8864e2e918a8e75bc398f08dbd3b5c9007d345"
-    },
-    {
-      "path": "figures/v16/fig3.pdf",
-      "bytes": 50476,
-      "sha256": "3bbc056db514bcf6954782db2a74e76e9912e5d50e8897ee72498a7168e3a621"
-    },
-    {
-      "path": "figures/v16/fig3.svg",
-      "bytes": 21404,
-      "sha256": "4eb56b2f42436b08a443c4acef18bd887711cdf08b21bad053e99de72e534f9f"
-    },
-    {
-      "path": "figures/v16/fig4.pdf",
-      "bytes": 48822,
-      "sha256": "b7ac85d25ab9ffe54838e99ba9b88d7895afaf5d07152d56391cebd6aaf51bd0"
-    },
-    {
-      "path": "figures/v16/fig4.svg",
-      "bytes": 45985,
-      "sha256": "d0b734adc3bfb4a907fe4a24143535b74a9e219db66eba91e48c76acf2cb76a8"
-    },
-    {
-      "path": "figures/v16/fig5.pdf",
-      "bytes": 52008,
-      "sha256": "f5deb1df6a784e073ccf2235227e3bbdd2a5e4d4a53923243ef9597f405a6dc3"
-    },
-    {
-      "path": "figures/v16/fig5.svg",
-      "bytes": 27659,
-      "sha256": "5f98e55f57c867915d3221cca449de8b41c34da68447e0bc25bc7caded09454c"
-    },
-    {
-      "path": "figures/v16/fig6.pdf",
-      "bytes": 53821,
-      "sha256": "e77ac7cc1e7bc37740d050b98bdcbdb06519cb82b12d4a834b46b2a8d0a6781a"
-    },
-    {
-      "path": "figures/v16/fig6.svg",
-      "bytes": 31641,
-      "sha256": "7a093217cead86b25ec072b04105669709ea08a5fb41873e2be5c6e546f9bcd7"
+      "path": "LICENSE",
+      "bytes": 1372,
+      "sha256": "f2d2f658693a2c07a65096399ae37d045fc44ae3e13d1e6ef9c9e6b8599271e6"
     },
     {
       "path": "package_manifest.json",
@@ -1881,11 +294,6 @@
       "path": "provenance/figure_ontario_publication_changes.json",
       "bytes": 17103,
       "sha256": "e5c1518889fca04ca0d8fe409baf3c6e60a986c7645022544ec7a09c0c7f63d4"
-    },
-    {
-      "path": "provenance/frozen_v1.0.0_release_manifest.json",
-      "bytes": 118225,
-      "sha256": "059eab5c2cdefd2a89ccf94eac30a07e9ef15c753efac2bab1b9b94d34d188be"
     },
     {
       "path": "provenance/ieso_source_versions.json",
@@ -1933,49 +341,24 @@
       "sha256": "a303f1425a3e8c067c7d43714e3b6d8fdea1e1d53e7b6aae533b1492cfed9ed8"
     },
     {
+      "path": "README.md",
+      "bytes": 8262,
+      "sha256": "6d25f284701d4baf4db3aa3d6c3c9fdc2f93542d1f1bc223bd972c74481e7270"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 17104,
+      "sha256": "e7137d773d250bdf030dff12930e556bcd09626ac99dc73813bd241e7fe0c1bf"
+    },
+    {
       "path": "requirements-figures.txt",
       "bytes": 84,
       "sha256": "8b7836ac8bc699882fc4f28c686d1a0feaf4e0eb6c17e2f0831f6b7a9fa7ce2b"
     },
     {
-      "path": "requirements-native.txt",
-      "bytes": 124,
-      "sha256": "4c03986afefdf720771baa0d32defe8dd3268c441a7cd7ea11bb231e3970df9a"
-    },
-    {
       "path": "requirements.txt",
       "bytes": 271,
       "sha256": "c1b4fd8cbc53a35052d5486268e0546d21d5e7efa5619d1979345cc299ed483b"
-    },
-    {
-      "path": "results/revision_v13/action/SA1_event178_oscillation_certificate.json",
-      "bytes": 6290,
-      "sha256": "4ef771fd9199bf4e295a2652e647914ec102a895d70b9c279929fb827157bebc"
-    },
-    {
-      "path": "results/revision_v13/action/delay30/NSW1_delayed_inputs.parquet",
-      "bytes": 18773909,
-      "sha256": "8233c09422220ae01bfea4064e236a8b8bf0f1d67214a43022bd4054ee584cd3"
-    },
-    {
-      "path": "results/revision_v13/action/delay30/QLD1_delayed_inputs.parquet",
-      "bytes": 18818117,
-      "sha256": "60349555655dea24e35553069615820972abc049e66722c1307a1b85627d5057"
-    },
-    {
-      "path": "results/revision_v13/action/delay30/SA1_delayed_inputs.parquet",
-      "bytes": 19680488,
-      "sha256": "921ad1c37768a0ed64467676486ae75987a495fbac5c8f13308860bbea7c6bee"
-    },
-    {
-      "path": "results/revision_v13/action/delay30/TAS1_delayed_inputs.parquet",
-      "bytes": 18297432,
-      "sha256": "6c62f745988d9997367b0f82cd76c13f44f16fdcf74ceef806a79ae81739eb50"
-    },
-    {
-      "path": "results/revision_v13/action/delay30/VIC1_delayed_inputs.parquet",
-      "bytes": 19015611,
-      "sha256": "bbd71d598814ae1cd42aa12acb9da325c729421d349f63fa2c34995d6ba3396f"
     },
     {
       "path": "results/revision_v13/action/delay30/control/delay30/NSW1_evaluation_c60_cstar_fixed.json",
@@ -2403,6 +786,31 @@
       "sha256": "8200323f8a2f9fc19281b5b74a88cddb615b918290a6590d3a682936a8c7bde2"
     },
     {
+      "path": "results/revision_v13/action/delay30/NSW1_delayed_inputs.parquet",
+      "bytes": 18773909,
+      "sha256": "8233c09422220ae01bfea4064e236a8b8bf0f1d67214a43022bd4054ee584cd3"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/QLD1_delayed_inputs.parquet",
+      "bytes": 18818117,
+      "sha256": "60349555655dea24e35553069615820972abc049e66722c1307a1b85627d5057"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/SA1_delayed_inputs.parquet",
+      "bytes": 19680488,
+      "sha256": "921ad1c37768a0ed64467676486ae75987a495fbac5c8f13308860bbea7c6bee"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/TAS1_delayed_inputs.parquet",
+      "bytes": 18297432,
+      "sha256": "6c62f745988d9997367b0f82cd76c13f44f16fdcf74ceef806a79ae81739eb50"
+    },
+    {
+      "path": "results/revision_v13/action/delay30/VIC1_delayed_inputs.parquet",
+      "bytes": 19015611,
+      "sha256": "bbd71d598814ae1cd42aa12acb9da325c729421d349f63fa2c34995d6ba3396f"
+    },
+    {
       "path": "results/revision_v13/action/delay30_information_cutoff_feasibility.csv",
       "bytes": 738,
       "sha256": "7e1ab3c050fe5f05581d39e135b296d2a3e7da742b73dd10f90f061e75daefc3"
@@ -2458,9 +866,9 @@
       "sha256": "3db57199f7295099eada528cae69eba1c3aaef279881d6f92a72fdbd1ea98277"
     },
     {
-      "path": "results/revision_v13/economic/SA_case_source_row_verification.json",
-      "bytes": 1319,
-      "sha256": "062f15ce705fe968f6b51bf2d9beed85f3523c46072e27dff1c60bf10bad4cbf"
+      "path": "results/revision_v13/action/SA1_event178_oscillation_certificate.json",
+      "bytes": 6290,
+      "sha256": "4ef771fd9199bf4e295a2652e647914ec102a895d70b9c279929fb827157bebc"
     },
     {
       "path": "results/revision_v13/economic/annual_exploratory_multiplicity.csv",
@@ -2528,6 +936,11 @@
       "sha256": "bcb095751f50bfde51ab7f960effe5413dd44956797351e874de045c22ba47f9"
     },
     {
+      "path": "results/revision_v13/economic/regional_daily_cash_descriptives.csv",
+      "bytes": 1339,
+      "sha256": "f302f0d32c69abfc4190fbe3cf13025e59c4bd09c68289da8da83a31a5e198a7"
+    },
+    {
       "path": "results/revision_v13/economic/regional_daily_IL_minus_Cstar_pearson.csv",
       "bytes": 369,
       "sha256": "17608989f2972876e875fca89fb8a8e8806ecaa31145ea02c956d3f4860af3b1"
@@ -2536,11 +949,6 @@
       "path": "results/revision_v13/economic/regional_daily_S_minus_Cstar_pearson.csv",
       "bytes": 369,
       "sha256": "0f714d919078f2ca2a8221ba2805e66b586b3a895d2e49e3c06af10528e2ac73"
-    },
-    {
-      "path": "results/revision_v13/economic/regional_daily_cash_descriptives.csv",
-      "bytes": 1339,
-      "sha256": "f302f0d32c69abfc4190fbe3cf13025e59c4bd09c68289da8da83a31a5e198a7"
     },
     {
       "path": "results/revision_v13/economic/regional_exploratory_multiplicity.csv",
@@ -2561,6 +969,11 @@
       "path": "results/revision_v13/economic/regional_price_spearman.csv",
       "bytes": 363,
       "sha256": "12e3fbd735be0a262e79f6a1deef4336c049a5f5cd2923e82d3d6f640db6321d"
+    },
+    {
+      "path": "results/revision_v13/economic/SA_case_source_row_verification.json",
+      "bytes": 1319,
+      "sha256": "062f15ce705fe968f6b51bf2d9beed85f3523c46072e27dff1c60bf10bad4cbf"
     },
     {
       "path": "results/revision_v13/economic/spo_forecast_error_by_realized_price_band.csv",
@@ -3833,16 +2246,6 @@
       "sha256": "672efdba56ca7e3beefd150a6aa16ab166d9a52d8559fd16837ffd9ac1c3704f"
     },
     {
-      "path": "results/revision_v5/history/VIC1_baseline_inputs.parquet",
-      "bytes": 35529375,
-      "sha256": "bc5d9b7da26fb003cb1a19f5b5327554e5fb0a8cb641c2f4a8ded280d53fdcfa"
-    },
-    {
-      "path": "results/revision_v5/history/VIC1_inputs_aligned.parquet",
-      "bytes": 94690892,
-      "sha256": "a2317ddecafc6366a399724c78f9bdaaa5d9ee080ff9178881d3822245ec7d04"
-    },
-    {
       "path": "results/revision_v5/history/verified_history_age_counts.csv",
       "bytes": 8944,
       "sha256": "4e1157956ae19db8dcdd9beb2aae7c554242f03810ba621186d971caacf97eb8"
@@ -3851,6 +2254,16 @@
       "path": "results/revision_v5/history/verified_input_freshness.csv",
       "bytes": 561,
       "sha256": "61049e021e5b3433009bb5eb54ff529c51637b2c8e9bdaf629feeadb8dba71f7"
+    },
+    {
+      "path": "results/revision_v5/history/VIC1_baseline_inputs.parquet",
+      "bytes": 35529375,
+      "sha256": "bc5d9b7da26fb003cb1a19f5b5327554e5fb0a8cb641c2f4a8ded280d53fdcfa"
+    },
+    {
+      "path": "results/revision_v5/history/VIC1_inputs_aligned.parquet",
+      "bytes": 94690892,
+      "sha256": "a2317ddecafc6366a399724c78f9bdaaa5d9ee080ff9178881d3822245ec7d04"
     },
     {
       "path": "results/revision_v5/integrated/aligned_point_forecast_metrics.csv",
@@ -4114,13 +2527,8 @@
     },
     {
       "path": "scripts/download_release.py",
-      "bytes": 4817,
-      "sha256": "bf4c7369d2a58774a1c3aa75bc87dcc371c2cd03aefac0a9dcb68f0e1b644ff0"
-    },
-    {
-      "path": "scripts/nature_qa_v11/LICENSE",
-      "bytes": 11357,
-      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      "bytes": 3937,
+      "sha256": "e0396f3f18b94d3efa7c6ccf198e231c677f38774bbfec7129b06798017c9023"
     },
     {
       "path": "scripts/nature_qa_v11/audit_figure_collisions.py",
@@ -4136,6 +2544,11 @@
       "path": "scripts/nature_qa_v11/audit_pdf_text.py",
       "bytes": 5545,
       "sha256": "11b8f3ec50bc13e2bd8561eeb7cd204307f4ce5a70ac57fa24c809ce1b9c252c"
+    },
+    {
+      "path": "scripts/nature_qa_v11/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     {
       "path": "scripts/nature_qa_v11/validate_figure.py",
@@ -4166,11 +2579,6 @@
       "path": "scripts/public_reproduce.py",
       "bytes": 18701,
       "sha256": "3ee305c09e8a67201b483c4a398f78a571b34c2a34e41e5c9314994a6de8356c"
-    },
-    {
-      "path": "scripts/rebuild_native_ontario.py",
-      "bytes": 9770,
-      "sha256": "7b8e703df275013da5423cac71cabc0cce1a3180c7c203a321e2f374d8c32f8a"
     },
     {
       "path": "scripts/revision_v11_figures.py",
@@ -4303,11 +2711,6 @@
       "sha256": "96908272eac7f1b62dacc08f6f89e9f0b2a5930924e15f14bf5e6b919852d558"
     },
     {
-      "path": "scripts/verify_release_bundle.py",
-      "bytes": 20614,
-      "sha256": "b09fa8e92ab940dfe342a9b07439c1b6f2595a48515767795870ff9387dc0675"
-    },
-    {
       "path": "summaries/australia/absorption_ratio_uncertainty.csv",
       "bytes": 1057,
       "sha256": "2d97f65437a11257ddd4f7dc1b2f342202258ccd72eda3475467530ff9384f51"
@@ -4421,6 +2824,21 @@
       "path": "tests/fixtures/source_receipt.json",
       "bytes": 952,
       "sha256": "f584f17cc27d3e540ab40df94cecfa85ad71a58e45857302a144fa85fad1e6a9"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 6551,
+      "sha256": "90ac55e9058974a76d8d83ed7ffb06e2f61d36e660772b176eb76a114a4c1389"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3078,
+      "sha256": "8e93af5346016c702a11aaafe6bf41dc30455a9598a6a402b4d6c9dd0c1f0f72"
+    },
+    {
+      "path": "ZENODO_GUIDE_zh.md",
+      "bytes": 7931,
+      "sha256": "8fcb0b43c7a684121a0d49ed6a630e36c3ac0b19aced51044061bb41fb18e586"
     }
   ]
 }

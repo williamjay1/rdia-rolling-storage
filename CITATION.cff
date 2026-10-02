@@ -3,7 +3,7 @@ message: >-
   Please cite this version of the research software. A Zenodo version DOI
   will be added after the author deposits the release; no DOI is claimed now.
 type: software
-title: "RDIA: Research software for information representations in rolling storage optimization"
+title: "Research software and derived data for action sufficiency and update risk in rolling storage optimization"
 authors:
   - family-names: Zhang
     given-names: Junjie
@@ -13,8 +13,8 @@ authors:
       Shanghai International Studies University, Shanghai 201620, China
     email: junjiezhang2024@shisu.edu.cn
     orcid: https://orcid.org/0009-0004-8821-4018
-version: 1.0.0
-date-released: 2026-10-02
+version: 1.1.0
+date-released: 2026-10-03
 repository-code: https://github.com/williamjay1/rdia-rolling-storage
 url: https://github.com/williamjay1/rdia-rolling-storage
 license: MIT
@@ -26,13 +26,13 @@ keywords:
   - decision-focused learning
   - reproducibility
 abstract: >-
-  Research software and derived-data reproduction materials for a three-layer
-  rolling-decision information attribution protocol, evaluated in Australian
-  storage arbitrage with local learning and partial Ontario comparator/replay
-  checks. Core v10 scientific outputs and v11 figure design are distinguished
-  from supplementary diagnostics added during the v13 revision, including
-  20 completed stricter-clock replays reported as point sensitivity without
-  new confidence intervals. Inference is
-  conditional on retained programs and observed history; scoped internal fresh
-  execution is not independent external replication of the whole study.
-  Original software is MIT licensed; third-party data retain separate terms.
+  Complete research-support software and mixed-license derived data for action
+  sufficiency and update risk in rolling storage optimization. The package
+  combines unchanged core Australian inputs and reference outputs with
+  separately manifested v14 pilot, v15 statistics/theory/parameter checks and
+  v16 six-figure redrawing code. It retains the failed-compression boundary,
+  exploratory design and conditional inference. Fresh limited package checks
+  do not establish independent external replication of the entire study.
+  Original code is MIT licensed; source data and copied QA code retain separate
+  provider/third-party terms. IESO source prices and proprietary fonts are not
+  redistributed. The author will add the actual Zenodo version DOI after deposit.

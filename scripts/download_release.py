@@ -6,9 +6,7 @@ code-plus-derived-data attachment, not GitHub's automatically generated source Z
 import argparse, hashlib, json, os, re, stat, urllib.request, zipfile
 from pathlib import Path, PurePosixPath
 
-VERSION='1.0.0'
-ARCHIVE=f'rdia-rolling-storage-v{VERSION}.zip'
-BASE=f'https://github.com/williamjay1/rdia-rolling-storage/releases/download/v{VERSION}/'
+DEFAULT_VERSION='1.1.0'
 
 def sha(path):
     h=hashlib.sha256()
@@ -17,7 +15,7 @@ def sha(path):
     return h.hexdigest()
 
 def fetch(url,path,maximum):
-    request=urllib.request.Request(url,headers={'User-Agent':'RDIA-reproducibility/1.0'})
+    request=urllib.request.Request(url,headers={'User-Agent':'RDIA-reproducibility/1.1'})
     total=0
     with urllib.request.urlopen(request,timeout=60) as r,path.open('xb') as f:
         while True:
@@ -30,16 +28,19 @@ def fetch(url,path,maximum):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--output-root',type=Path,required=True)
+    p.add_argument('--version',default=DEFAULT_VERSION,help='Complete release version, e.g. 1.1.0 or the preserved 1.0.0; figure-only tags have no data attachment.')
     a=p.parse_args();out=a.output_root.resolve();repo=Path(__file__).resolve().parents[1]
+    if not re.fullmatch(r'[0-9]+\.[0-9]+\.[0-9]+',a.version):p.error('Use an actual numeric release version without a v prefix.')
+    archive_name=f'rdia-rolling-storage-v{a.version}.zip'
+    base=f'https://github.com/williamjay1/rdia-rolling-storage/releases/download/v{a.version}/'
     if out.exists():p.error('Use a new directory; existing data are never overwritten.')
     if out==repo or out.is_relative_to(repo) or repo.is_relative_to(out):p.error('Download directory must not overlap the source repository.')
-    if os.name=='nt' and out.drive.upper()!='D:':p.error('Use D: for the author Windows host computation/download copy.')
     out.mkdir(parents=True,exist_ok=False)
-    checks=out/'SHA256SUMS';archive=out/ARCHIVE
-    fetch(BASE+'SHA256SUMS',checks,128*1024)
+    checks=out/'SHA256SUMS';archive=out/archive_name
+    fetch(base+'SHA256SUMS',checks,128*1024)
     rows={name:checksum for checksum,name in re.findall(r'^([0-9a-f]{64})\s+\*?([^\r\n]+)$',checks.read_text(encoding='utf-8'),re.M)}
-    if ARCHIVE not in rows:raise RuntimeError('Release checksum file does not identify the complete archive.')
-    fetch(BASE+ARCHIVE,archive,2*1024**3)
+    if archive_name not in rows:raise RuntimeError('Release checksum file does not identify the complete archive.')
+    fetch(base+archive_name,archive,2*1024**3)
     digest=sha(archive)
     if digest!=rows[ARCHIVE]:raise RuntimeError('Archive checksum mismatch; no extraction attempted.')
     package=out/'package';package.mkdir()
@@ -55,11 +56,18 @@ def main():
         if z.testzip() is not None:raise RuntimeError('ZIP CRC integrity failed.')
         z.extractall(package)
     manifest=json.loads((package/'release_manifest.json').read_text(encoding='utf-8'))
+    if manifest.get('version')!=a.version:raise RuntimeError('Extracted package version differs from the requested Release.')
+    declared=[row['path'] for row in manifest['files']]
+    if len(declared)!=len(set(declared)):raise RuntimeError('Duplicate manifest path.')
+    actual={path.relative_to(package).as_posix() for path in package.rglob('*') if path.is_file()}
+    if actual!=set(declared)|{'release_manifest.json'}:raise RuntimeError('Undeclared or missing file in the complete archive.')
     for row in manifest['files']:
         path=(package/row['path']).resolve()
         if not path.is_relative_to(package) or not path.is_file():raise RuntimeError('Manifest path is missing or escapes the package.')
         if path.stat().st_size!=row['bytes'] or sha(path)!=row['sha256']:raise RuntimeError(f'Extracted file differs: {row["path"]}')
-    receipt={'archive':ARCHIVE,'archive_sha256':digest,'extracted_files_verified':len(manifest['files']),
+    receipt={'status':'PASS_COMPLETE_PUBLISHED_ARCHIVE_VERIFIED','version':a.version,
+             'archive':archive_name,'archive_sha256':digest,'extracted_files_verified':len(manifest['files']),
+             'release_manifest_sha256':sha(package/'release_manifest.json'),
              'package_root':str(package),'solver_execution':False,'model_refitting':False,'raw_source_reconstruction':False}
     (out/'download_verification.json').write_text(json.dumps(receipt,indent=2),encoding='utf-8')
     print(json.dumps(receipt,indent=2))

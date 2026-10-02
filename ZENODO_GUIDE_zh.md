@@ -1,5 +1,21 @@
 # 将完整公开版本上传 Zenodo，并取得 DOI
 
+## 当前推荐归档版本：v1.1.0
+
+请下载 https://github.com/williamjay1/rdia-rolling-storage/releases/tag/v1.1.0
+中的 **rdia-rolling-storage-v1.1.0.zip** 和 **SHA256SUMS**，由你本人上传
+Zenodo。这个完整包已合并核心澳大利亚派生数据和 v14/v15/v16 增补；
+v1.0.1 只有绘图代码标签，不能替代完整数据包。不要选择 GitHub 自动生成的
+Source code ZIP 作为完整复现数据。包内 release_manifest.json 是当前文件
+清单，CITATION.cff 与 .zenodo.json 均对应软件 v1.1.0。软件标题与当前论文
+主线一致，但软件 DOI 与论文 DOI 是不同对象。
+
+上传 ZIP 与校验文件，作者填 Junjie Zhang，核对下文的单位、ORCID、混合许可
+和官方来源；发布后把实际版本 DOI 与记录链接发回，以便回填论文和 CFF。
+已有 DOI 若对应更早记录，使用 Zenodo 的新版本功能，不修改已存文件假冒
+同一版本。本次仅整理 GitHub 公开版本，没有替你登录或创建 Zenodo DOI。
+
+
 唯一作者：**Junjie Zhang**；两项单位均为 **Shanghai International Studies University**，分别为 **Shanghai Academy of Global Governance and Area Studies**、**School of Economics and Finance**，Shanghai 201620, China。邮箱：<junjiezhang2024@shisu.edu.cn>；作者已提供 ORCID：[0009-0004-8821-4018](https://orcid.org/0009-0004-8821-4018)。公开仓库为 <https://github.com/williamjay1/rdia-rolling-storage>。本指南不创建 Zenodo 记录、不预造 DOI；由作者登录自己的 Zenodo 账户完成发布。
 
 ## 推荐：手动上传完整 Release 包

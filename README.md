@@ -1,6 +1,6 @@
 # RDIA for rolling storage optimization
 
-Research software and reproducibility materials for the current v14 manuscript, **Action sufficiency and update risk in rolling storage optimization**. The frozen v1.0 release accompanies the earlier title, **A protocol for evaluating information representations in rolling storage optimization**. Sole author: **Junjie Zhang**. The manuscript targets *Annals of Operations Research*; this repository does not claim journal acceptance or a DOI.
+Research software and reproducibility materials for **Action sufficiency and update risk in rolling storage optimization**. The current complete software/data version is **1.1.0**. The frozen v1.0 release accompanies the earlier title, **A protocol for evaluating information representations in rolling storage optimization**. Sole author: **Junjie Zhang**. The manuscript targets *Annals of Operations Research*; this repository does not claim journal acceptance or a DOI.
 
 Affiliations:
 
@@ -13,7 +13,7 @@ The frozen v1.0 study uses rolling-decision information attribution (RDIA) to co
 
 ## What is released
 
-The repository contains scientific code, a small real-data test fixture, machine-readable result summaries, seven original figure exports, attribution notices, data descriptions and reproduction instructions. Large, derived AEMO inputs and reference trajectories are supplied as a checksummed GitHub Release attachment rather than Git LFS pointers. The complete attachment, `rdia-rolling-storage-v1.0.0.zip`, combines code and data so it can be uploaded manually to Zenodo with `SHA256SUMS`.
+The current complete release is **v1.1.0**: `rdia-rolling-storage-v1.1.0.zip` combines scientific code, the real-data fixture, large derived AEMO inputs/reference trajectories, result summaries and separately scoped v14–v16 addenda. It includes six current native vector figure exports; seven legacy exports are retained as earlier-version evidence. `release_manifest.json` covers every supplied file except itself, and `SHA256SUMS` identifies the ZIP. Download the full Release attachment for a complete manual Zenodo deposit; GitHub Source code ZIP omits release-only data. The earlier v1.0.0 full attachment and v1.0.1 figure-code tag remain unchanged.
 
 The core Australian numerical inputs and outcomes preserve the v10 scientific freeze; v11 supplies the figure design. The v13 revision adds separately identified supplementary diagnostics on numerical/material-action thresholds, branch-start selection and a worked objective-oscillation certificate. These additions do not represent a new prospective evaluation or a rerun of the whole frozen study. The finalized release manifest identifies the diagnostic code and outputs actually included in this version. The additive action and delay selection is declared separately in `provenance/v13_action_files.json`, preserving the core scientific manifest.
 
@@ -33,7 +33,7 @@ The current revision examines action sufficiency and update risk in rolling stor
 
 The compact package was checked before this public copy: fresh IL and static9 replays each covered 1,488 origins at initial 0.2 MWh; seven trajectory fields and marked values matched exactly, and all 18 synthetic checks passed. The public preparation verifies copied scientific bytes; it does not claim a new checkout-wide replay. The floating-point gate concerns same-state, one-window objective regret and is not a rigorous cumulative-profit certificate. Native Ontario materials contain schema-probe code and version/source manifests without source-price data or an executed external-market replay.
 
-The root v1.0 citation/Zenodo metadata, scientific inputs, and manifests are retained. Its versioned Release attachment remains frozen under the earlier manuscript title. Root explanatory documents are updated to identify the separately scoped v14 work; the old full-release manifest still describes the original v1.0 attachment rather than those subsequently updated documentation bytes. The addendum has its own manifests and is excluded from the v1.0 verification scope.
+The original v1.0 Release attachment remains frozen under the earlier title. Its total manifest is also retained at `provenance/frozen_v1.0.0_release_manifest.json`. The new v1.1.0 total manifest includes this addendum while preserving its independent scientific manifest and the original 330-file core manifest. Root citation/Zenodo metadata now describe v1.1.0.
 
 ## v15 computational addendum
 
@@ -45,7 +45,27 @@ The compact package was freshly extracted and executed before publication: both 
 
 [addenda/v16_figures](addenda/v16_figures/) provides a separately manifested, approximately 235 KiB plotting package for all six current figures. It contains the actual drawing code, minimal frozen processed inputs, source arrays, mixed-data terms and pinned third-party `nature-skills` QA utilities. Native PDF/SVG exports use 174 mm canvases; PNG/TIFF exports are drawn at 1200 dpi. It contains no manuscript, raw provider archive or Ontario/IESO input. Original aggregate results, synthetic controls and AEMO-derived processed values retain their distinct material-class permissions.
 
-The package was actually copied to a fresh Windows research directory and executed locally: all six scientific source arrays matched, and the rebuilt PDFs matched the original text geometry and vector paths exactly. These were frozen-data redraws, not new model, statistical or market experiments; recorded replay timings remain stored observations. Follow the addendum README to install its plotting dependencies and run `python scripts/reproduce_v16_figures.py` from a fresh writable copy with a licensed Arial font installed. Continuous integration verifies every supplied file's manifest hash and file set; it does not redraw figures on an environment without Arial. The root scientific files, citation/DOI metadata and frozen release remain unchanged.
+The package was actually copied to a fresh Windows research directory and executed locally: all six scientific source arrays matched, and the rebuilt PDFs matched the original text geometry and vector paths exactly. These were frozen-data redraws, not new model, statistical or market experiments; recorded replay timings remain stored observations. Follow the addendum README to install its plotting dependencies and run `python scripts/reproduce_v16_figures.py` from a fresh writable copy with a licensed Arial font installed. Continuous integration verifies every supplied file's manifest hash and file set; it does not redraw figures on an environment without Arial. The original scientific files and frozen old Release remain unchanged. The v1.1.0 complete attachment includes this plotting addendum and its six current vector exports; root citation metadata identify v1.1.0 without a DOI.
+
+## Complete v1.1.0 package verification
+
+Download the full attachment, extract into a fresh writable copy, then verify
+the complete inventory before execution:
+
+```console
+python -B scripts/verify_release_bundle.py --check-only
+python -B scripts/verify_release_bundle.py --execute --figures --output-root /absolute/path/to/new-rdia-output
+```
+
+The second command executes the declared small core replay/oracle, v14 two-path
+pilot and synthetic controls, v15 statistics/theory/one-parameter replay and
+optional six-figure redraw. It preserves inputs and puts all output outside the
+payload. Install the pinned numerical and plotting requirements first; figure
+redrawing requires a licensed installed Arial font. Use a new D-drive output
+on the author's Windows host. A Git-only checkout is incomplete: `--checkout`
+reports the exact declared omitted large files and exits 3, rather than claiming
+a complete release. Old machine-specific scripts are retained scientific source;
+use the documented public adapters rather than invoking their old local paths.
 
 ## Start here
 
